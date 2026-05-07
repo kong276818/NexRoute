@@ -28,27 +28,27 @@ By decomposing queries along both axes, NexRoute identifies the **nexus point** 
 
 ## 🏗️ Architecture
 
-Query Input
-                         │
-          ┌──────────────▼──────────────┐
-          │       Dual-Axis Router       │
-          │                             │
-          │  ┌──────────┐ ┌──────────┐  │
-          │  │  Domain  │ │Function  │  │
-          │  │  Router  │ │  Router  │  │
-          │  └────┬─────┘ └────┬─────┘  │
-          │       │  Nexus     │        │
-          │       └─────┬──────┘        │
-          └─────────────▼───────────────┘
-                        │
-      ┌─────────────────▼─────────────────┐
-      │         Expert Selection           │
-      │                                   │
-      │  [MED-LoRA] [LAW-LoRA] [STEM-LoRA]│
-      │  [SOC-LoRA] [CROSS-LoRA]          │
-      └─────────────────┬─────────────────┘
-                        │
-                   Final Response
+```
+                        Query Input
+                             │
+              ┌──────────────▼──────────────┐
+              │       Dual-Axis Router       │
+              │                             │
+              │  ┌──────────┐ ┌──────────┐  │
+              │  │  Domain  │ │Function  │  │
+              │  │  Router  │ │  Router  │  │
+              │  └────┬─────┘ └────┬─────┘  │
+              │            Nexus            │
+              │       └─────┬──────┘        │
+              └─────────────▼───────────────┘
+                            │
+          ┌─────────────────▼─────────────────┐
+          │         Expert Selection           │
+          │  [MED] [LAW] [STEM] [SOC] [CROSS] │
+          └─────────────────┬─────────────────┘
+                            │
+                       Final Response
+```
 
 
 ### Key Components
