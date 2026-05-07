@@ -1,6 +1,3 @@
-# NexRoute
-NexRoute routes each query through two axes — domain (MED/LAW/STEM/SOC) and function type (WHAT/HOW/WHY) — to adaptively select LoRA-based experts in cross-domain large language models.
-
 # NexRoute 🧭
 
 > **NexRoute: A Dual-Axis Nexus Routing Framework for Adaptive Expert Selection in Cross-Domain Large Language Models**
@@ -50,7 +47,6 @@ By decomposing queries along both axes, NexRoute identifies the **nexus point** 
                        Final Response
 ```
 
-
 ### Key Components
 
 - **Domain Router**: Classifies queries into domain categories using a lightweight classifier head on top of the frozen base model
@@ -61,6 +57,8 @@ By decomposing queries along both axes, NexRoute identifies the **nexus point** 
 ---
 
 ## 📂 Repository Structure
+
+```
 NexRoute/
 ├── data/
 │   ├── preprocess.py          # Dataset preprocessing & func_type labeling
@@ -77,6 +75,7 @@ NexRoute/
 ├── inference.py               # Single query inference
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
