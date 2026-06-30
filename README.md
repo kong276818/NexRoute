@@ -22,7 +22,7 @@ Unlike conventional single-axis routing methods that only consider domain catego
 By decomposing queries along both axes, NexRoute identifies the **nexus point** — the intersection of domain knowledge and functional intent — to activate the most appropriate LoRA-based expert module.
 
 ---
-
+''
 ## 🏗️ Architecture
 
 ```
