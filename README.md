@@ -5,7 +5,6 @@
 [![Paper](https://img.shields.io/badge/Paper-Neurocomputing%20(Under%20Submission)-blue)]()
 [![Base Model](https://img.shields.io/badge/Base%20Model-Qwen2.5--7B--Instruct-orange)](https://huggingface.co/Qwen)
 [![Router](https://img.shields.io/badge/Router-DeBERTa--large-purple)](https://huggingface.co/microsoft/deberta-large)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
 
@@ -317,6 +316,7 @@ python src/inference.py \
 
 ---
 
-## License
+## Copyright
 
-MIT License — © 2026 Junyoung Kong, Konkuk University, Seoul, Republic of Korea
+© 2026 Junyoung Kong, Konkuk University, Seoul, Republic of Korea. All rights reserved.  
+Unauthorized use, reproduction, or distribution of this code or manuscript is prohibited.
