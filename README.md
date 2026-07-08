@@ -2,7 +2,7 @@
 
 > **NexRoute: A Dual-Axis Nexus Routing Framework for Adaptive Expert Selection in Cross-Domain Large Language Models**
 
-[![Paper](https://img.shields.io/badge/Paper-Information%20Sciences%20(Under%20Review)-blue)]()
+[![Paper](https://img.shields.io/badge/Paper-Neurocomputing%20(Under%20Submission)-blue)]()
 [![Base Model](https://img.shields.io/badge/Base%20Model-Qwen2.5--7B--Instruct-orange)](https://huggingface.co/Qwen)
 [![Router](https://img.shields.io/badge/Router-DeBERTa--large-purple)](https://huggingface.co/microsoft/deberta-large)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -151,7 +151,7 @@ Removing the Function Axis (V02) and Partitioned Retrieval (V01) produce the lar
 ```
 NexRoute/
 ├── paper/
-│   └── main_final.tex              # LaTeX manuscript (Information Sciences submission)
+│   └── main_final.tex              # LaTeX manuscript (Neurocomputing submission)
 │
 ├── src/                            # Core pipeline
 │   ├── pipeline.py                 # End-to-end NexRoute pipeline
@@ -300,9 +300,9 @@ python src/inference.py \
   title   = {NexRoute: A Dual-Axis Nexus Routing Framework for Adaptive
              Expert Selection in Cross-Domain Large Language Models},
   author  = {Kong, Junyoung and Ha, Youngguk},
-  journal = {Information Sciences},
+  journal = {Neurocomputing},
   year    = {2026},
-  note    = {Under Review}
+  note    = {Under Submission}
 }
 ```
 
