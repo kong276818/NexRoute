@@ -1,0 +1,910 @@
+{
+  "mode": "lora_only",
+  "domain": "LAW",
+  "data": "MMLU",
+  "n": 100,
+  "accuracy": 0.69,
+  "routing_accuracy": null,
+  "results": [
+    {
+      "q": "Which is the least accurate description of legal positivism?",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A defendant went to a party at his friend's house. While he was there, the defen",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A large man with menacing tattoos all over his face and bald head followed close",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "One day, while riding his motorcycle through a residential area, a man hit and i",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A defendant and his co-conspirator were arrested and charged with robbery and co",
+      "answer": "B",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "On May 10, 1955, a rancher, owner of a 300-acre cattle ranch in Texas, conveyed ",
+      "answer": "C",
+      "predicted": "A",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Osgood is the record owner of Desertacre, a 100- acre tract of farmland in Calif",
+      "answer": "C",
+      "predicted": "B",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Water Works had a long-standing policy of offering employees $100 for suggestion",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A ceramics studio contracted with an artist to produce cups and saucers designed",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A school hired a senior citizen to act as a crossing guard at a crosswalk locate",
+      "answer": "C",
+      "predicted": "A",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A detective received information from an informant, who had given reliable infor",
+      "answer": "B",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "The board of a state university has adopted the following rule concerning reside",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A state labor code provided that no employer in the state shall knowingly employ",
+      "answer": "D",
+      "predicted": "C",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Police received information from a reliable informant that a defendant would be ",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A passenger on a subway car placed her pocketbook on the seat next to her and be",
+      "answer": "A",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A grantor executed a deed by which he conveyed his apartment building for a cons",
+      "answer": "D",
+      "predicted": "B",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A buyer signed a contract to purchase a tract of land from a developer. The cont",
+      "answer": "D",
+      "predicted": "B",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A husband and wife were about to leave on vacation for one month. They thought i",
+      "answer": "B",
+      "predicted": "C",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Hart’s analysis of law distinguishes between",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A certified airline pilot owned a single-engine Cessna plane. One afternoon, the",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A federal statute authorizes a federal agency to issue rules requiring that stat",
+      "answer": "C",
+      "predicted": "A",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A waitress sued her former employer, a restaurant, under Title VII in federal co",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A home security protection company provided protection services to property owne",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "What is the value of the Resolutions of the UN General Assembly in terms as a 's",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Suzy, a member of the sandbaggers, is mad about the general state of affairs and",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "James makes a written offer to Fred for the sale of land for $100,000. In this o",
+      "answer": "B",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A year ago, a very wealthy man died in a car accident. A woman, whose mother wor",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A patient underwent heart bypass surgery at a hospital. Members of the patient's",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "For which of the following preliminary questions of fact will the trial court ju",
+      "answer": "C",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A state enacted a statute that authorized the payment of state funds to any priv",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A shopkeeper is the owner of a vacant lot in fee simple absolute (the record tit",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "On his 21st birthday, a son enlisted in the army. As he was about to leave for e",
+      "answer": "A",
+      "predicted": "B",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A homeowner, his daughter, and his sister are the owners of three contiguous lot",
+      "answer": "C",
+      "predicted": "A",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A longshoreman fell to his death through an open hatch on the deck of a ship. Th",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A seller contracted to manufacture 1,000 toasters for a buyer for a specified pr",
+      "answer": "A",
+      "predicted": "C",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "In 1993, a landowner had good record title toa vineyard in fee simple absolute. ",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A man sued a manufacturer of video and home theater equipment after his home the",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Evidence at Congressional hearings has indicated that thousands of elderly citiz",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A traffic accident occurred at a road intersection. A motorcycle, a car, and a t",
+      "answer": "C",
+      "predicted": "B",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "The ________ School of jurisprudence believes that the law is an aggregate of so",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Alice owned Greyacre, a one-acre piece of property, in fee simple. Alice sold th",
+      "answer": "B",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Robert makes the following statement while negotiating the sale of his car, 'Thi",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A woman is the fee simple owner of a 1,000-acre tract of land. Half of the tract",
+      "answer": "B",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A businessperson sent his employee, an administrative assistant to represent him",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A president of a small computer company decided to expand his operation. On beha",
+      "answer": "B",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A purse snatcher ran up to a woman, grabbed her purse and ran off. There was a w",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Why does communitarianism resemble Aristotle's philosophy more than Kant's?",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A man was out taking a walk one evening when he realized that he needed to use a",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "What is the meaning of functional recognition?",
+      "answer": "C",
+      "predicted": "A",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A law student contacted a tutor about the possibility of hiring the tutor to hel",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Mort bought a property with a small rental home on it. The next door neighbor, T",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A farmer raked up some leaves on his property, put them into a metal barrel, and",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A construction contractor brought a breach of contract claim in federal court ag",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A buyer sent an e-mail to a retailer of camping supplies inquiring about the pos",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "What kind of damages put the nonbreaching party into as good a position as if th",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A driver has been charged with leaving the scene of an accident. The driver alle",
+      "answer": "D",
+      "predicted": "A",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "During a custody dispute, a court granted the request of the defendant and appoi",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A landowner, advancing in age, realizes that he is no longer able to farm his 1,",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A state built a casino and issued bonds to finance its construction. On five occ",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A landowner sold and conveyed a parcel of land to the buyer by a deed containing",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Voters in a city passed a referendum legalizing gambling in a certain section of",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Is recognition of governments prevalent in contemporary international practice?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A woman was driving home after attending a concert. While talking on her cellpho",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A woman owned land in fee simple absolute. The woman conveyed the land to a frie",
+      "answer": "B",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A state-funded military institute accepts only male students. The college-level ",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A pregnant woman was sitting on her front porch watching her husband mow the law",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A state in which several popular ski resorts are located has enacted a law requi",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A defendant was wearing a black leather jacket when he entered a deli for lunch.",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A widower was the owner in fee of a 10-acre quarry. On August 1, the widower han",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "During a Senate debate, members discussed how to punish a particular senator for",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Which statement best describes Tom Regan's 'sentimental anthropomorphicism' in s",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Who says that “Social Contract is not a historical fact but a hypothetical const",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A wife was divorced from her husband. The wife and the husband had a daughter wh",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Because of a sudden and unanticipated severe shortage of heating fuel, the Presi",
+      "answer": "B",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Are States under any obligation when they conduct negotiations?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Denise Developer found a near-perfect piece of property zoned commercial in the ",
+      "answer": "D",
+      "predicted": "C",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A farmer has a large field where he grows corn. He hires a crop-duster to spray ",
+      "answer": "A",
+      "predicted": "C",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A customer at a fish market was leaving the store after purchasing an assortment",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A state assemblyman made a visit to a foreign country. To protest U. S. foreign ",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A state passed Public Health Law 2122(a), which provides for exemption from immu",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A man owned a piece of land with a run-down log cabin on it. He lost interest in",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A hardware store had a public pay telephone attached to the outside wall of its ",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A prisoner was serving a life sentence in a state prison as a result of his conv",
+      "answer": "D",
+      "predicted": "A",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A man is suing a store for damages for injuries allegedly suffered when a can of",
+      "answer": "B",
+      "predicted": "C",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "What is the main reason why many Critical Race Theorists are hostile to concepts",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A defendant was charged with murder. The killing took place on February 1. At th",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Where do we find the 'general principles of law recognized by civilized nations'",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "One evening, a defendant set fire to an occupied house. As a result of the blaze",
+      "answer": "B",
+      "predicted": "C",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "At 10:00p. m. onNovember 14, a driver was operating his automobile along Main St",
+      "answer": "A",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A chemical company's plant was located in a residential community. The manufactu",
+      "answer": "B",
+      "predicted": "D",
+      "correct": false,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Robert Nozick's proposes the formula r x H as a guide to determine the appropria",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A father conveyed a parcel of real estate to his three daughters by a warranty d",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A pet store owner opened a store in a new town. She was not aware that the city ",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A partnership purchased five acres of unimproved land for purposes of residentia",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "The owner of a drug store hired an independent contractor to renovate the store.",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "After learning that a new housing development was about to be built, a developer",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A landlord was the owner of a two-story dwelling house and leased it completely ",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "Which is a 'rock' under the UN Convention of the Law of the Sea (UNCLOS)?",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A manufacturer sued a buyer in federal court for failing to make timely payments",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    },
+    {
+      "q": "A candidate for governor hired a production company to shoot a series of commerc",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "LAW",
+      "true_domain": "LAW",
+      "func": "N/A"
+    }
+  ]
+}

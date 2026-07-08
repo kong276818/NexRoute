@@ -1,0 +1,41 @@
+{
+  "query": "A patient suffered from severe hepatotoxicity after being prescribed Drug X for weight loss. The doctor obtained a general treatment consent form but did not specifically warn about liver damage, as weight loss is an off-label use for Drug X. Why might the physician be held legally liable despite the signed consent form?",
+  "gold": "The physician may be held liable despite the consent form because informed consent requires specific disclosure of known risks, especially for off-label use. A general consent form does not cover risks unique to non-approved indications. Since hepatotoxicity is a known risk of Drug X and the off-label use for weight loss was the physician's decision, the duty to warn about liver damage specifically falls on the prescribing doctor. Failure to disclose this risk breaches the standard of care and establishes proximate causation between the omission and the patient's injury.",
+  "results": {
+    "Naive RAG 7B": {
+      "relevance": 5.0,
+      "coherence": 5.0,
+      "factuality": 4.0,
+      "domain_expertise": 4.0,
+      "average": 4.5
+    },
+    "Adaptive RAG 7B": {
+      "relevance": 4.0,
+      "coherence": 5.0,
+      "factuality": 4.0,
+      "domain_expertise": 4.0,
+      "average": 4.25
+    },
+    "HyDE 7B": {
+      "relevance": 4.0,
+      "coherence": 3.0,
+      "factuality": 4.0,
+      "domain_expertise": 4.0,
+      "average": 3.75
+    },
+    "CRAG 7B": {
+      "relevance": 5.0,
+      "coherence": 4.0,
+      "factuality": 5.0,
+      "domain_expertise": 3.0,
+      "average": 4.25
+    },
+    "NexRoute 7B": {
+      "relevance": 5.0,
+      "coherence": 5.0,
+      "factuality": 4.0,
+      "domain_expertise": 5.0,
+      "average": 4.75
+    }
+  }
+}

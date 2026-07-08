@@ -1,0 +1,30 @@
+{
+  "v1_original": {
+    "metrics": {
+      "rouge_l": 19.19792121676017,
+      "bleu4": 2.771036402748124,
+      "bertscore": -4.9672335386276245
+    },
+    "predictions": [
+      "All holdings:\n0: holding that the nlra regulations precedent and reasoning and statutes.",
+      "Internal citations must cite all sources in full citations must include citations, authorities, cases, and text. All holdings: holding that a a we you determine whether a plaintiff has been on unjust enrichment or on a breachality on the part of the defendant?\n\nAll holdings:\n0:holding that a cause of action for unjust enrichment is an equitable remedy\n\n1: holding that a cause of action for unjust enrichment is an equitable remedy and therefore may not be maintained against a government agency\n\n2: holding that a cause of action for unjust enrichment is an equitable remedy and therefore may not be maintained against a state agency\n\n3: holding that a cause of action for unjust enrichment is an equitable remedy and therefore may not be maintained against a federal agency\n\n4: holding that a cause of action for unjust enrichment is an equitable remedy and therefore may not be maintained against a federal agency",
+      "The correct holding is option 0: holding that the burden of proving that the debtor did not receive the full amount of the settlement proceeds is on the trustee\n\nAll holdings:\n0: holding that the burden of proving that the debtor did not receive the full amount of the settlement proceeds is on the trustee\n1: holding that the burden of proving that the debtor did not receive the full amount of the settlement proceeds is on the debtor\n2: holding that the burden of proving that the debtor did not receive the full amount of the settlement proceeds is on the debtor\n3: holding that the burden of proving that the debtor did not receive the full amount of the settlement proceeds is on the debtor\n4: holding that the burden of proving that the debtor did not receive the full amount of the settlement proceeds is on the trustee",
+      "holding that a police officer who is evaluating whether the on the and common sense not just the facts of this particular case.\n\nAll holdings that a police officer evidence be insufficient to support a reasonable me the fact that the a red bandanna in a high a a intersection where gang and in the0030 hours\n\nAll holdings that the circumstances supporting a reasonable basis for a stop include a Hispanic male juvenile wearing gang attire and large baggy clothes at an intersection where there had been recent robberies and the juvenile was walking alone at an unusual hour of approximately 135 am",
+      "holding that a defendant's waiver consent to be effective there must be an affirmative showing that the defendant requires a defendant to be present at a in occur present for a defendant to validablyly waive his present a valid waiver of the right to be present at a bench trial hearing? quoting to the holding?\n\nAll holdings:\n0:holding that a defendant may waive the right to be present at a bench conference if the defendant is given notice of the time and place of the conference and the defendant consents to its holding in defendants absence\n\n1: holding that a defendant may waive the right to be present at a bench conference if the defendant is given notice of the time and place of the conference and the defendant consents to its holding in defendants absence\n\n2: holding that a defendant may waive the right to be present at a bench conference if the defendant is given notice of the time and place of the conference and the defendant consents to its holding in defendants absence\n\n3: holding that a defendant may waive the right to be present at a bench conference if the defendant is given notice of the time and place of the conference and the defendant consents to its holding in defendants absence\n\n4: holding that a defendant may waive the right to be present at a bench conference if the defendant is"
+    ]
+  },
+  "v2_retrained": {
+    "metrics": {
+      "rouge_l": 14.991003395130098,
+      "bleu4": 3.5186088851387036,
+      "bertscore": 11.427794396877289
+    },
+    "predictions": [
+      "of law that has been established through various.",
+      ". system. In the context where a plaintiff\n the principles and precedents, and statutes.",
+      "In the context of an exemption claim, the legal implications of the trustee objector's burden of proof differ significantly between scenarios involving a settlement agreement without specific damage allocations and those where the objector must demonstrate both factual insufficiency and intentional deception by the debtor. In the former case, the objector bears the heavy burden of proving that the facts do not support the claimed exemption, which can be challenging given the need for clear and convincing evidence to overcome the presumption of validity afforded to the debtor’s claims under applicable law. Conversely, when the objector must also prove that the debtor knowingly deceived the trustee and creditors, the standard shifts to one requiring a higher degree of proof, often necessitating direct evidence of fraudulent intent or misconduct, thereby imposing a more stringent threshold for successful objection and potentially leading to more rigorous scrutiny of the debtor’s actions and statements during the exemption process.",
+      "ic system. The Hispanic attorney. Answer accurately based on legal standards, not personal opinion.",
+      ". system. The defendant. Answer accurately based on the principle of law."
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "all_cross_rate": 4.3,
+  "tp_cross_rate": 4.0,
+  "fp_cross_rate": 5.6,
+  "n_fp": 30,
+  "n_tp": 89,
+  "kb_case_A": 3.4,
+  "kb_case_D_cross": 5.7,
+  "pearson_r": -0.064,
+  "pearson_p": 0.4875,
+  "primary_cause": "\ubcf5\ud569\uc801 \uc694\uc778 (\uba85\ud655\ud55c \ub2e8\uc77c \uc6d0\uc778 \uc5c6\uc74c)"
+}

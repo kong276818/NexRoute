@@ -1,0 +1,5 @@
+benchmark,system,n,rouge_l,bertscore,bleu4,routing_acc
+LAW,NaiveRAG-7B,100,14.28,50.83,1.32,
+LAW,NexRoute-7B,100,10.28,46.81,0.46,39.0
+MED,NaiveRAG-7B,100,15.69,57.92,3.13,
+MED,NexRoute-7B,100,15.15,56.38,1.93,36.0

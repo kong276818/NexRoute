@@ -1,0 +1,2102 @@
+[
+  {
+    "domain": "CROSS",
+    "instruction": "According to retributivist theories of punishment, those who break the law should be punished because",
+    "output": "The correct answer is B: they deserve it.\n\nChoices:\nA: doing so will benefit society.\nB: they deserve it.\nC: punishment will give them an opportunity to correct their behavior.\nD: lawbreakers unconsciously desire to be punished.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The view according to which wars are always (or at least nearly always) morally wrong is known as",
+    "output": "The correct answer is B: antiwar pacifism.\n\nChoices:\nA: just war theory.\nB: antiwar pacifism.\nC: moral nihilism.\nD: jus ad bellum.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",
+    "output": "The correct answer is A: Intrusive, Artificial, Consumerism, Insecurity, Social Stereotypes\n\nChoices:\nA: Intrusive, Artificial, Consumerism, Insecurity, Social Stereotypes\nB: Intrusive, Artificial, De-materialism, Security, Happiness\nC: Intrusive, Real, Consumerism, Insecurity, Happiness\nD: Intrusive, Real, De-materialism, Security, Social stereotypes",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The egg can be fertilized until about _______ after ovulation.",
+    "output": "The correct answer is B: 24 hours\n\nChoices:\nA: 6 hours\nB: 24 hours\nC: 72 hours\nD: 1 week",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Why, according to Gill, does Leon Kass think the notion of being \"better off dead\" is incoherent?",
+    "output": "The correct answer is A: because dead people no longer exist, and thus cannot benefit from choosing to die.\n\nChoices:\nA: because dead people no longer exist, and thus cannot benefit from choosing to die.\nB: because some things (e.g., long-term torture) are worse than death.\nC: because there has yet to be a satisfactory philosophical explanation of why death is bad.\nD: because death is, by definition, undesirable.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following conditions is a peroxisomal disorder?",
+    "output": "The correct answer is D: Zellweger syndrome\n\nChoices:\nA: Acute intermittent porphyria\nB: Maple syrup urine disease\nC: Medium chain acyl-CoA dehydrogenase deficiency\nD: Zellweger syndrome",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "________ reasoning is considered by many to be prevalent within society and particularly within businesses, where it is often referred to in the form of a ___________.",
+    "output": "The correct answer is A: Consequentialist, Cost-benefit analysis\n\nChoices:\nA: Consequentialist, Cost-benefit analysis\nB: Rationalised, Annual audit\nC: Consequentialist, Annual audit\nD: Rationalised, Cost-benefit analysis",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The most common form of cosmopolitanism is _____ cosmopolitanism, according to which those in a position to do so have an obligation to assist those in need because of poverty and to promote basic human rights.",
+    "output": "The correct answer is A: moral\n\nChoices:\nA: moral\nB: political\nC: cultural\nD: economic",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is an example of a virtue?",
+    "output": "The correct answer is D: courage\n\nChoices:\nA: pleasure\nB: hunger\nC: desire\nD: courage",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The Anglo-American model being considered the best model in light of the recession in the late 2000s.",
+    "output": "The correct answer is A: 1,2,3\n\nChoices:\nA: 1,2,3\nB: 1,3,4\nC: 2,3,4\nD: 1,2,3,4",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The successful anti-cancer HPV vaccine consists of:",
+    "output": "The correct answer is A: Live virus attenuated by specific mutagenesis\n\nChoices:\nA: Live virus attenuated by specific mutagenesis\nB: Whole virus chemically inactivated vaccine\nC: Self-assemble of virus L1 protein into VLP\nD: Sub unit chemically inactivated vaccine",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The follicular phase is to the __________ as the luteal phase is to the secretory phase.",
+    "output": "The correct answer is C: proliferative\n\nChoices:\nA: postovulatory\nB: menstrual\nC: proliferative\nD: myometrial",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following disorders is not suitable for population carrier screening?",
+    "output": "The correct answer is B: Oculocutaneous albinism\n\nChoices:\nA: Cystic fibrosis\nB: Oculocutaneous albinism\nC: Sickle cell disease\nD: Tay-Sachs disease",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "One of the messages Nathanson believes we can send by abolishing the death penalty is that",
+    "output": "The correct answer is C: we should have respect for the dignity of human beings.\n\nChoices:\nA: criminals deserve inhumane treatment.\nB: killing in self-defense is never morally justified.\nC: we should have respect for the dignity of human beings.\nD: murderers should be killed by the state.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Philippa Foot explains the moral relevance of the killing/letting die distinction by appealing to",
+    "output": "The correct answer is C: both A and B\n\nChoices:\nA: rights of noninterference.\nB: rights to goods and services.\nC: both A and B\nD: neither A nor B",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Is the provision of security policy against terrorism a problematic pursuit?",
+    "output": "The correct answer is C: All of these options.\n\nChoices:\nA: Although trends suggest that terrorism shows little sign of abating there is some positive indication that international cooperation between countries will play an increasingly important role in collaboration with indigenous intelligence agencies. A meaningful international definition of terrorism would provide a useful framework for responding to the spectre of terrorism.\nB: Responding to terrorism solely in its manifest form (the war on terror and crime approaches) holds little potential for eradicating terrorism in the long-term. It is clear that terrorism will remain a security threat for years to come unless the root causes are addressed. Countermeasures will prove fruitless (or a perpetual fight) unless nascent discontent is addressed before it is radicalized.\nC: All of these options.\nD: A concern with counter-terrorism efforts is the potential consequences on civil liberties. The greatest danger comes when governments regard the battle against terrorism as warfare because most democratic countries permit greater restrictions on the rights of individuals during wartime. As a consequence, viewing the struggle as 'war' tends to have connotations with the idea that temporary personal curtailment may be a necessity for long-term victory.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "_______, where actors are convinced that their actions harms nobody, _______ where actors argue that their norm violation is an attempt to realize higher-order values and ________ , where actors argue they are owed something, are all strategies for justifying or denying unethical behaviour.",
+    "output": "The correct answer is C: Denial of injury, Appeal to higher loyalties, Metaphor of the ledger\n\nChoices:\nA: Appeal to higher loyalties, Denial of injury, Metaphor of the ledger\nB: Appeal to higher loyalties, Metaphor of the ledger, Denial of injury\nC: Denial of injury, Appeal to higher loyalties, Metaphor of the ledger\nD: Denial of injury, Metaphor of the ledger, Appeal to higher loyalties,",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "A “benefit” of research may accrue:",
+    "output": "The correct answer is D: All of the above\n\nChoices:\nA: To the participant\nB: To his/her family\nC: To society\nD: All of the above",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Sinnott-Armstrong, the fact your government morally ought to do something",
+    "output": "The correct answer is B: does not prove that you ought to do it.\n\nChoices:\nA: does not prove that government officials ought to promote it.\nB: does not prove that you ought to do it.\nC: proves that you ought not to do it.\nD: proves that you ought to do it, too.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In what ways does gender shape the conceptualization of nationhood and conflict?",
+    "output": "The correct answer is A: Although often missing from the traditional literature on war and security, women frequently serve the purposes of nationalise causes, with nationalism often presented in highly gendered and female terms, where women are symbols of statehood.\n\nChoices:\nA: Although often missing from the traditional literature on war and security, women frequently serve the purposes of nationalise causes, with nationalism often presented in highly gendered and female terms, where women are symbols of statehood.\nB: A sense of national identity can be developed through a variety of shared experiences, including war. The glorification of iconic national figures such as political leaders is not noticeably gendered and men and women generally perform the same types of roles within the public realm.\nC: Measures of national pride and success are biased towards the glorification of female attributes such as the ability to bear children. The restriction of women to the domestic sphere creates a sense of national identity that is founded on a celebration of home life, feminine strength, and maternal characteristics.\nD: When thinking about national identity, violence, physical strength, aggression, and the ability to use force are attributed as feminine characteristics. The male identity is imagined as being one of domesticity, nurturing, care, and child rearing.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "There were no new cases of Ebola virus in the United States from January 1, 1997 through January 1, 1998. Which of the following epidemiologic terms does this statement describe?",
+    "output": "The correct answer is C: Lifetime prevalence\n\nChoices:\nA: Incidence\nB: Lifetime expectancy\nC: Lifetime prevalence\nD: Period prevalence",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Normal adult haemoglobin (Hb A) consists of:",
+    "output": "The correct answer is A: two α (alpha) and two β (beta) chains.\n\nChoices:\nA: two α (alpha) and two β (beta) chains.\nB: two α and two γ (gamma) chains.\nC: two α and two δ (delta) chains.\nD: four γ chains.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The question of whether the killing/letting die distinction is morally relevant can be posed by asking whether we are equally to blame for allowing people in Third World countries to starve as we would be for",
+    "output": "The correct answer is A: killing them by sending poisoned food.\n\nChoices:\nA: killing them by sending poisoned food.\nB: refusing to give them the money they need to purchase food.\nC: withholding medicine that they need to survive.\nD: depriving them of knowledge they need to produce food.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of these statements is accurate concerning the norms of swinging?",
+    "output": "The correct answer is D:  Most swingers also tend to have tolerant attitudes towards various forms of \"exotic\" sexuality.\n\nChoices:\nA: Male and female homosexual acts are common and widely accepted.\nB: It is expected that couples will engage in sex with the same partners on several occasions.\nC: The combination of two men with one woman is the typical introduction to swinging.\nD:  Most swingers also tend to have tolerant attitudes towards various forms of \"exotic\" sexuality.",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Walzer, \"in the absence of political support, terrorism may indeed be the one available strategy, but it is hard to see how its evils can then be excused\" because",
+    "output": "The correct answer is A: the absence of political support implies that the terrorists do not represent the weak.\n\nChoices:\nA: the absence of political support implies that the terrorists do not represent the weak.\nB: terrorism can never be the only available strategy.\nC: evils, by definition, cannot be excused.\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Mill, the only things desirable as ends are",
+    "output": "The correct answer is C: pleasure and freedom from pain.\n\nChoices:\nA: virtuous character traits.\nB: satisfactions of prima facie duties.\nC: pleasure and freedom from pain.\nD: satisfactions of the categorical imperative.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Corresponding to the theoretical aim of moral theory is the principle of",
+    "output": "The correct answer is A: explanatory power.\n\nChoices:\nA: explanatory power.\nB: parsimony.\nC: practical guidance.\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In what ways might a society be threatened?",
+    "output": "The correct answer is B: Threats to societal security exist when a society regards its collective identity as being under question. Such circumstances include the suppression of expression and interference with a society's ability to reproduce itself across generations.\n\nChoices:\nA: Societies are threatened when their linguistic heritage and traditions are under attack. The inability to use and develop traditional language signifies the destruction of a society.\nB: Threats to societal security exist when a society regards its collective identity as being under question. Such circumstances include the suppression of expression and interference with a society's ability to reproduce itself across generations.\nC: Military threats to societies in the form of external aggression, mainly through de-population policies with the intent of preventing collective identities from being reproduced over generations.\nD: Migratory influxes into a host receiving state results in a shift in the composition of the population resulting in horizontal competition or vertical competition. This is not an outright threat to survival but part of wider uncontrollable processes of evolutionary identity.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "A stakeholder orientation includes all of the following activities except:",
+    "output": "The correct answer is D: Minimizing The Influence Of Stakeholder Information On The Firm\n\nChoices:\nA: Generating Data About Stakeholder Groups\nB: Assessing The Firm's Effects On Stakeholder Groups\nC: Distributing Stakeholder Information Throughout The Firm\nD: Minimizing The Influence Of Stakeholder Information On The Firm",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following disorders does not show X-linked inheritance?",
+    "output": "The correct answer is B: Tay-Sachs disease\n\nChoices:\nA: Duchenne muscular dystrophy\nB: Tay-Sachs disease\nC: Haemophilia A\nD: Haemophilia B",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Reiman raises objections to the arguments presented by",
+    "output": "The correct answer is D: van den Haag.\n\nChoices:\nA: Nathanson.\nB: Kant.\nC: abolitionists.\nD: van den Haag.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Familial hypercholesterolaemia is caused by mutations in the gene which encodes what?",
+    "output": "The correct answer is D: Low density lipoprotein receptor\n\nChoices:\nA: High density lipoprotein\nB: HMG-CoA reductase\nC: Low density lipoprotein\nD: Low density lipoprotein receptor",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Axl Tulip has a thin clear discharge coming from his penis and mild discomfort when he urinates. He is most likely suffering from _______ and should be treated with ________.",
+    "output": "The correct answer is D: chlamydia tetracycline\n\nChoices:\nA: gonorrhea penicillin\nB: gonorrhea tetracycline\nC: chlamydia penicillin\nD: chlamydia tetracycline",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Judaism regards sexuality as",
+    "output": "The correct answer is C: a gift from God\n\nChoices:\nA: inherently evil\nB: God's afterthought and has become an aberration\nC: a gift from God\nD: primarily a biological function",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What has been the effect of chemical weapons on international society?",
+    "output": "The correct answer is D: While the CWC has been ratified by the majority of international society, some nations with a large chemical capability at their disposal have yet to enter into the treaty. However, to some analysts the destructive military potential would be limited, having a moderate effect on a well-equipped army in conventional warfare. Chemical arsenal essentially falls under the category of the \"poor mans\" weaponry, being simplistic and inexpensive whilst having limited military utility. However, the concern remains of the prospective impact a terrorist chemical attack could have on civilian populations.\n\nChoices:\nA: The Chemical Weapons Convention (CWC) prohibited the possession or deployment of chemical weapons; however it failed to implement stipulations that would require signatories to declare their existing stocks of chemical weapons, to identify facilities that were once involved in chemical production, or to announce when their existing stocks would be destroyed.\nB: The CWC made some important developments regarding the use and possession of chemical weapons and the destruction of existing stockpiles. However, the treaty failed to establish an independent body empowered with the capacity to check treaty compliance. Lack of supra-state authority has undermined the ability to enforce those developments. Given the anarchical nature of international society it may be in the national security interest to retain stocks.\nC: Chemical weapons continue to exert a determining influence on international society. As early as the 1970s military strategists were convinced of the deterrence effects chemical weapons could have, comparable to the second strike survival logic of nuclear deterrence. The preferences of strategists resulted in continued manufacture and stockpiling of weapons creating an international crisis of stability.\nD: While the CWC has been ratified by the majority of international society, some nations with a large chemical capability at their disposal have yet to enter into the treaty. However, to some analysts the destructive military potential would be limited, having a moderate effect on a well-equipped army in conventional warfare. Chemical arsenal essentially falls under the category of the \"poor mans\" weaponry, being simplistic and inexpensive whilst having limited military utility. However, the concern remains of the prospective impact a terrorist chemical attack could have on civilian populations.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following are Schelling's necessary conditions for compellence success?",
+    "output": "The correct answer is B: Conveyed threat must be sufficient so as to make non-compliance unbearable; threat must be credible; adversary must be given sufficient time to comply with demand; coercer must assure adversary that compliance will not lead to future demands; conflict must not be perceived as a zero-sum game.\n\nChoices:\nA: The coercer must not unduly threaten the adversary; threat must be credible; adversary must recognise the legitimacy of coercer's demands; coercer must assure adversary that compliance will not lead to future demands; conflict must not be perceived as a zero-sum game.\nB: Conveyed threat must be sufficient so as to make non-compliance unbearable; threat must be credible; adversary must be given sufficient time to comply with demand; coercer must assure adversary that compliance will not lead to future demands; conflict must not be perceived as a zero-sum game.\nC: Conveyed threat must be sufficient so as to make non-compliance unbearable; threat must be credible; adversary must be given sufficient time to comply with demand; coercer must not use fear to coerce the adversary.\nD: Conveyed threat must be sufficient so as to make non-compliance unbearable; threat must not include military intervention; adversary must be given sufficient time to comply with demand; coercer must assure adversary that compliance will not lead to future demands; conflict must not be perceived as a zero-sum game.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Sinnott-Armstrong is most interested in examining issues about the moral obligations of",
+    "output": "The correct answer is A: individuals.\n\nChoices:\nA: individuals.\nB: societies.\nC: governments.\nD: families.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Reiman could be described as a(n)",
+    "output": "The correct answer is C: abolitionist\n\nChoices:\nA: consequentialist\nB: believer in the principle of equality\nC: abolitionist\nD: retentionist",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Little argues that the norms governing the moral permission of abortion are",
+    "output": "The correct answer is C: a complex matter of the mother's personal integrity and her ideals about motherhood and creation.\n\nChoices:\nA: impersonal and categorical.\nB: merely a matter of the mother's preferences.\nC: a complex matter of the mother's personal integrity and her ideals about motherhood and creation.\nD: none of the above.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "How are herpes infections controlled?",
+    "output": "The correct answer is A: Chemotherapy\n\nChoices:\nA: Chemotherapy\nB: Vaccines\nC: Hygiene and social distancing\nD: No method",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Considering 'offensive' and 'defensive realism', which of these statements is not correct?",
+    "output": "The correct answer is C: Both defensive realism and offensive realism regard power and competition as a means by which security can be achieved for the state.\n\nChoices:\nA: Offensive realism defines the international system as an environment in which states seek to achieve security through the acquisition of power.\nB: Defensive realism regards cooperation as the way in which states can achieve security.\nC: Both defensive realism and offensive realism regard power and competition as a means by which security can be achieved for the state.\nD: Offensive realism theorizes that states will pursue hegemony where possible.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is not an objection Pence gives to the argument that SCNT is not best for the child?",
+    "output": "The correct answer is D: If people's prejudicial attitudes do not change, then we should not allow SCNT.\n\nChoices:\nA: The argument assumes genetic determinism or genetic reductionism.\nB: The expectations people will place on SCNT individuals could be no worse than normal expectations of children created sexually.\nC: People's prejudicial attitudes are likely to change.\nD: If people's prejudicial attitudes do not change, then we should not allow SCNT.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "It is unlikely that a 'cure' of HIV is possible with current drugs because:",
+    "output": "The correct answer is B: They do not penetrate to cells\n\nChoices:\nA: Even in combination current drugs do not completely block viral replication\nB: They do not penetrate to cells\nC: They cannot block viral transcription from integrated viral DNA\nD: They cannot penetrate to the CNS",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What does Milton Friedman believe to be the sole responsibility of business?",
+    "output": "The correct answer is A: The only social responsibility of business is to its shareholders\n\nChoices:\nA: The only social responsibility of business is to its shareholders\nB: Managers should act in ways that balance the interest of society and shareholders\nC: The primary responsibility organizations have is to its employees\nD: The primary responsibility organizations have is to its stakeholders",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In the context of military security, which of the following is not an obvious benefit of adopting a 'critical' theoretical approach?",
+    "output": "The correct answer is B: Critical analysis of military security will draw attention back to traditional conceptions of the state-centric paradigm which have been neglected in recent years, with states favouring human security and other non-traditional approaches instead.\n\nChoices:\nA: A more critical approach to military security studies will allow the inclusion or adoption of non-realist paradigms, such as social constructivism.\nB: Critical analysis of military security will draw attention back to traditional conceptions of the state-centric paradigm which have been neglected in recent years, with states favouring human security and other non-traditional approaches instead.\nC: By implementing a critical analysis we can recognise that traditional conceptions of military security are no longer always salient and may need to be reconsidered.\nD: A critical approach would recognise the changing ontology of security in the real world. Such changes are evident in the new ways in which war has been conducted in the 20th and 21st century.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Valls, a just cause for political violence is usually",
+    "output": "The correct answer is A: defensive.\n\nChoices:\nA: defensive.\nB: offensive.\nC: territorial.\nD: economically motivated.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Healthy eating, particularly relating to sugar and salt consumption, food and packaging waste and supply chain CO2 emissions are all business ethics issues facing the ________.",
+    "output": "The correct answer is A: Supermarket industry\n\nChoices:\nA: Supermarket industry\nB: Chemicals industry\nC: Construction industry\nD: Information and mobile technology industry",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following statements does not characterise our understanding of disease pandemics within the contemporary international political system?",
+    "output": "The correct answer is D: The existing mechanisms for monitoring and treating infectious disease within the international system are capable of effectively containing pandemic outbreaks.\n\nChoices:\nA: Infectious disease transcends international borders and, to some extent, divisions of class, gender, education and wealth.\nB: Whilst pandemics present a direct risk to national security, they also have the potential to undermine wider international stability.\nC: Like terrorism, pandemics present a set of threats and risks that are diverse yet interconnected.\nD: The existing mechanisms for monitoring and treating infectious disease within the international system are capable of effectively containing pandemic outbreaks.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Ross, when our duties conflict with each other we should",
+    "output": "The correct answer is B: use moral judgment to determine which duty should be obeyed.\n\nChoices:\nA: not do anything because duties cannot actually conflict with each other.\nB: use moral judgment to determine which duty should be obeyed.\nC: consult authorities instead of relying on our own judgment.\nD: wait until the conflict ceases on its own.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What are Fission Nuclear Weapons?",
+    "output": "The correct answer is D: Gun-type devices are of rugged design using two sub-critical masses fired down a barrel at very high velocities with a high probability of producing a reaction. Implosion devices are more complex, requiring the assembling of shaped charges to compress the fissile material to critical tolerances, and are detonated with more than split-second timing.\n\nChoices:\nA: Fission nuclear weapons are gun-type devices that require a relatively small amount of fissile uranium-235 material to produce a comparatively large explosion because mass and energy becomes interchangeable in the barrel. Implosion devices however are unable to sustain the reaction; the neutron generator is unable to set off the interchange being destroyed in the explosion.\nB: Implosion fissure devices are constructed with relative ease because unlike the gun-type fissure device it uses high-explosive shaped lenses to compress the fissile material to critical tolerance. Detonation is highly volatile with a high potential of \"going critical\".\nC: Fissile weapons are produced by the rapid rearrangement of hydrogen, oxygen, carbon and nitrogen in a chamber, striking each other at high velocities the friction sparking a chemical explosion.\nD: Gun-type devices are of rugged design using two sub-critical masses fired down a barrel at very high velocities with a high probability of producing a reaction. Implosion devices are more complex, requiring the assembling of shaped charges to compress the fissile material to critical tolerances, and are detonated with more than split-second timing.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Is the weak state security dilemma an inescapable condition?",
+    "output": "The correct answer is B: The problems of weak state insecurity have taken a low priority on the international agenda and solutions have not moved beyond the context of liberal multi-party democracy and free market capitalism. The problem thus far is that no one case of enforced neo-liberalism, either through conditionalities, regime change, peace-building, has succeeded in transforming a weak state into a strong state.\n\nChoices:\nA: The Global War on Terror has had a positive effect on the state-building project. The fight against terrorism has redirected international attention and resources towards eradicating insecurities as part of the recognition of the multilevel factors facilitating the emergence of terrorism. Specifically this involves the controlling of the proliferation of arms.\nB: The problems of weak state insecurity have taken a low priority on the international agenda and solutions have not moved beyond the context of liberal multi-party democracy and free market capitalism. The problem thus far is that no one case of enforced neo-liberalism, either through conditionalities, regime change, peace-building, has succeeded in transforming a weak state into a strong state.\nC: The failure of liberal reform has highlighted the increasing viability of the option of alternative forms of political organization beyond the state. Sub-state organizations are a practical solution to dealing with regions with endemic problems of weapons and poverty, whilst regional organization is a sustainable structural form in Africa and Latin America.\nD: Weak states have embarked on a protracted and difficult process to attain effective status. Long term security strategies have resulted in the adoption of measures to counteract the worst of the effects including the establishment of multi parties, economic liberalization and membership of the international community.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Marcia Baron argues that the artificiality of ticking bomb cases is problematic because",
+    "output": "The correct answer is A: the artificial assumptions are, in fact, empirical claims that are central to the debate.\n\nChoices:\nA: the artificial assumptions are, in fact, empirical claims that are central to the debate.\nB: all artificial thought experiments are philosophically useless.\nC: it leads us to believe that torture is always permissible.\nD: all of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which is true with regard to voyeurs?",
+    "output": "The correct answer is D: They typically want to observe strangers' activities.\n\nChoices:\nA: They are generally middle-aged.\nB: They are usually dangerous.\nC: They typically want to view friends' sexual behaviours.\nD: They typically want to observe strangers' activities.",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In which of these wars did the overwhelming technological superiority of one side lead to rapid defeat of its enemy?",
+    "output": "The correct answer is D: 1991 Gulf War.\n\nChoices:\nA: Vietnam War.\nB: Second World War.\nC: First World War.\nD: 1991 Gulf War.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Reiman, van den Haag's argument leads to the conclusion that",
+    "output": "The correct answer is C: we should institute death by torture.\n\nChoices:\nA: we should refrain from imposing the death penalty.\nB: the refusal to execute criminals has a civilizing effect.\nC: we should institute death by torture.\nD: murder is wrong.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following areas is not covered by the principles enshrined in the UN Global Compact?",
+    "output": "The correct answer is C: Commercial performance\n\nChoices:\nA: Human rights\nB: Labour\nC: Commercial performance\nD: Anti-corruption",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following are frequently cited criticisms of HM?",
+    "output": "The correct answer is B: HM too often accuses capitalism of acting solely in self-serving ways, and explains everything in terms of class struggle, to the detriment of wider analysis. Some versions of HM claim to have uncovered objective laws of history which are widely disputed in their accuracy.\n\nChoices:\nA: HM pays insufficient attention to the role of the labourer, instead focusing on the capitalist as the source of power and most important actor. HM can also allude to capitalist power structures, to the detriment of supporting the human security of workers.\nB: HM too often accuses capitalism of acting solely in self-serving ways, and explains everything in terms of class struggle, to the detriment of wider analysis. Some versions of HM claim to have uncovered objective laws of history which are widely disputed in their accuracy.\nC: HM is inevitably reductionist and oversimplifies the complexities of capitalism, recognising only its negative aspects and harmful effects.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The degree to which corporate decisions, policies, activities and impacts are acknowledged and made visible to relevant stakeholders is known as ________",
+    "output": "The correct answer is B: Corporate Transparency\n\nChoices:\nA: Corporate Opaqueness\nB: Corporate Transparency\nC: Corporate Openness\nD: Corporate Visibility",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Randomization of study subjects in a clinical trial is most helpful for controlling for which of the following?",
+    "output": "The correct answer is A: Placebo effect\n\nChoices:\nA: Placebo effect\nB: Recall bias\nC: Non-compliance\nD: Effect modification (interaction)",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The treatment of hepatitis C has been revolutionised most recently by which of the following?",
+    "output": "The correct answer is A: The use of interferon\n\nChoices:\nA: The use of interferon\nB: A new vaccine\nC: Monoclonal antibodies\nD: Direct-acting Antivirals such as daclatasvir and sofosbuvir",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Kass the fact that people (like him) feel repugnance at the thought of human reproductive cloning",
+    "output": "The correct answer is D: is a sign that something is wrong with reproductive cloning.\n\nChoices:\nA: shows conclusively that reproductive cloning is always wrong.\nB: shows conclusively that reproductive cloning is sometimes wrong.\nC: has nothing to do with the morality of cloning.\nD: is a sign that something is wrong with reproductive cloning.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In support of her thesis that global social institutions violate the rights of the world's poor, Ashford argues that",
+    "output": "The correct answer is D: all of the above\n\nChoices:\nA: illicit cash flow to tax havens from rich countries exceeds aid to the world's poor.\nB: the implementation of neoliberal economic policies have had at mixed and at worse adverse impacts of the economic and social rights of the world's poor.\nC: that wealthy nations press their political and economic advantages to secure unfair trade agreements with poor countries.\nD: all of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "How has HM developed during and since the Cold War?",
+    "output": "The correct answer is C: The negativity attached to HM during the Cold War restricted the prominence of HM at this time, excluding it from mainstream security studies. Following this, the broadening of the security studies agenda has lead to increasing inclusion of HM as an area for study.\n\nChoices:\nA: During the post Cold War period there has grown an increasingly disparity between the analytical framework of security studies and HM, sidelining the latter and excluding it from mainstream study.\nB: Following the popularity of HM during the Cold War it has enjoyed a gradual inclusion into security dialogue and is now considered one of the main paradigms within security studies.\nC: The negativity attached to HM during the Cold War restricted the prominence of HM at this time, excluding it from mainstream security studies. Following this, the broadening of the security studies agenda has lead to increasing inclusion of HM as an area for study.\nD: HM was developed as an approach to security studies following the Cold War and has flourished in the proceeding security environment. It has also enjoyed reputable success thanks to its affiliation with prominent actors during the Cold War.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Macedo describes his position on immigration as politically",
+    "output": "The correct answer is A: liberal.\n\nChoices:\nA: liberal.\nB: conservative.\nC: evangelical.\nD: neutral.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In the context of globalization, how can we best define the term 'development'?",
+    "output": "The correct answer is C: Development is a means to address the inequalities that accompany neoliberal globalization. In this context, development refers to the ability of a population or community to effectively utilize resources and increase efficiency in production and distribution, promoting the more equitable distribution of income within society.\n\nChoices:\nA: The term development refers to the human condition in which there is freedom from fear and want; there are sufficient resources to sustain life and this life can exist in a state free from the threat, or perceived threat, of sudden interruption.\nB: To be considered as developed, a nation must have achieved certain economic and political status within the global state system; the criterion for what constitutes a 'developed' state is thus defined by those requirements of interaction in this system.\nC: Development is a means to address the inequalities that accompany neoliberal globalization. In this context, development refers to the ability of a population or community to effectively utilize resources and increase efficiency in production and distribution, promoting the more equitable distribution of income within society.\nD: Development of a community refers to the ideological and ethical value systems to which its population subscribes. In the globalised international system this refers to the adoption of western liberal democratic ideology and free market economics.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Mutations that cause achondroplasia exert an effect which can be classified as:",
+    "output": "The correct answer is B: gain-of-function.\n\nChoices:\nA: dominant negative.\nB: gain-of-function.\nC: haploinsufficiency.\nD: loss-of-function.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following characteristics are generally consistent with date rape?",
+    "output": "The correct answer is C: sexually motivated\n\nChoices:\nA: use of excessive force\nB: premeditated\nC: sexually motivated\nD: involves use of a weapon",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In meiosis, recombination occurs in:",
+    "output": "The correct answer is B: Prophase I.\n\nChoices:\nA: Metaphase I.\nB: Prophase I.\nC: Metaphase II.\nD: Prophase II.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In a condition such as schizophrenia the recurrence risk will be greatest for which of the following relatives of an affected individual?",
+    "output": "The correct answer is A: Brother\n\nChoices:\nA: Brother\nB: Nephew\nC: Grandchild\nD: Aunt",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Security studies can be interpreted as an imperial field of knowledge in which of the following ways?",
+    "output": "The correct answer is D: All of these options.\n\nChoices:\nA: Security studies emerged in relation to the interests of the USA and Britain following the Second World War.\nB: Security studies adopts a perspective which postcolonial scholars refer to as 'the colonizer's view of the world'.\nC: Security studies was originally defined by the power of the USA and Britain at a time when they actively supported colonial and imperial relations in the global south.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Assuming that the level of glucose is low, a mutation in the repressor of the lac operon in E. coli, preventing binding of the repressor to the operator, should result in:",
+    "output": "The correct answer is A: constitutive expression of the lac operon genes\n\nChoices:\nA: constitutive expression of the lac operon genes\nB: lack of expression or reduced expression of the lac operon genes under all circumstances\nC: expression of the genes only when lactose is present\nD: expression of the genes only when lactose is absent",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "_______ such as bitcoin are becoming increasingly mainstream and have a whole host of associated ethical implications, for example, they are______ and more ______. However, they have also been used to engage in _______.",
+    "output": "The correct answer is C: Cryptocurrencies, Cheap, Secure, Financial crime\n\nChoices:\nA: Cryptocurrencies, Expensive, Secure, Financial Crime\nB: Traditional currency, Cheap, Unsecure, Charitable giving\nC: Cryptocurrencies, Cheap, Secure, Financial crime\nD: Traditional currency, Expensive, Unsecure, Charitable giving",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The pattern of inheritance shown by malignant hyperthermia (hyperpyrexia) is:",
+    "output": "The correct answer is A: autosomal dominant.\n\nChoices:\nA: autosomal dominant.\nB: autosomal recessive.\nC: X-linked dominant.\nD: X-linked recessive.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Audi proposed that we expand Ross's list of prima facie duties to include",
+    "output": "The correct answer is D: all of the above\n\nChoices:\nA: veracity.\nB: enhancement and preservation of freedom.\nC: respectfulness.\nD: all of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "How does the preoccupation with human rights affect the human rights orientated school of liberalism?",
+    "output": "The correct answer is D: All of these options.\n\nChoices:\nA: Modern human rights oriented liberalism is concerned with self-determination.\nB: Human rights orientated liberalism will advocate separatism where conflict and bloodshed seem inevitable without it.\nC: Human rights orientated liberalism is particularly focused on persons subject to economic, sexual, gender, religious, and political persecution, discrimination, or deprivation.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In what ways did game theory and deterrence theory mark an intellectual development in the 'golden age' of security studies?",
+    "output": "The correct answer is B: The progressive research programs produced theories that actually formed their own reality of abstractions, the world of, 'secure second strike capability', 'extended deterrence' and 'escalation dominance'.\n\nChoices:\nA: Deterrence theory and game theory became highly influential within the academic world and gained centrality politically because the nature of the object allowed for a high degree of normative theorization which was accompanied by a mood of technological pessimism that fostered an ethos of critique.\nB: The progressive research programs produced theories that actually formed their own reality of abstractions, the world of, 'secure second strike capability', 'extended deterrence' and 'escalation dominance'.\nC: Game theory and deterrence theory as an intellectual development resulted in the trade-off between policy relevance/utility and theoretical abstraction/sophistication.\nD: None of the above. The influence of deterrence theory was illusory. The build-up of nuclear weapons and first strike orientated policy was driven by the internal logic of maximizing firepower. Theory served as the smokescreen that belied the intent.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What are the themes that make post-structuralism a different field of study and why is it criticized?",
+    "output": "The correct answer is A: One of the founding assumptions of Critical Security Studies is that theories about the world constitute that world and thus that theory, including security theory, has political effects. The consequence is that theory is the product of the system, and that analyses of the agent of security and the referent object is produced by its own practices.\n\nChoices:\nA: One of the founding assumptions of Critical Security Studies is that theories about the world constitute that world and thus that theory, including security theory, has political effects. The consequence is that theory is the product of the system, and that analyses of the agent of security and the referent object is produced by its own practices.\nB: Central to the political and critical nature of post-structural literature is the idea of fostering an ethos of democracy and an ethos of critique which is finite and attainable. It is to this end that we must strive, but one that can only be met under the conditions prescribed, that of true democracy.\nC: A central notion of critique is to provide an answer to the problem of what it means to be critical. This invariably raises the question of revealing the interest behind knowledge claims with the goal of social change, what is accepted as the end of theory: that the practical and contextual understandings inform to whom knowledge claims serve.\nD: Poststructuralism accepts the form and foundations for knowledge claims that dominate the security studies debate. This has brought it into confrontation with the critical studies community, having little to contribute to the understanding of the ways in which knowledge is constructed.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "It's 3:00 A.M. You are male. You awaken to urinate. Standing at the commode you are in extreme agony. Your penis feels as if it is on fire. You notice a yellowish discharge coming out of your penis after you finish urinating. Your moans have awakened your significant other. She comes running into the bathroom and asks you what is wrong. You tell her you probably have:",
+    "output": "The correct answer is D: gonorrhea\n\nChoices:\nA: genital herpes\nB: AIDS\nC: syphilis\nD: gonorrhea",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is realism?",
+    "output": "The correct answer is A: Realism is a set of approaches to Security Studies that focuses on states, and tries to determine which strategy a state should adopt to achieve security and other goals.\n\nChoices:\nA: Realism is a set of approaches to Security Studies that focuses on states, and tries to determine which strategy a state should adopt to achieve security and other goals.\nB: Realism is the broad term that can be applied to any traditional approach to Security Studies.\nC: Realism is a set of approaches that encompasses any security threat that involves the military.\nD: Realism is defined by the belief that the behaviour of states constructs the international arena and that this behaviour is established through the internal environment of the state.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The ISO 26000 standard on ________ is emblematic of a number of trends emerging within the shared global governance space. Specifically, these trends concern, more deliberation and ________, greater focus on the _______ rather than outcomes and more _______ rather than specific norms.",
+    "output": "The correct answer is A: Social responsibility, Collaboration, Process, Frameworks\n\nChoices:\nA: Social responsibility, Collaboration, Process, Frameworks\nB: Social responsibility, Individualism, Process, Legislation\nC: Environmental responsibility, Individualism, Inputs, Frameworks\nD: Environmental responsibility, Collaboration, Inputs, Legislation",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Antivirals can be used prophylactically or therapeutically in persons in which of the following circumstances?",
+    "output": "The correct answer is C: Used for the obese\n\nChoices:\nA: If administered within 4 days of clinical signs\nB: If used within 48 hours of first clinical signs\nC: Used for the obese\nD: Used in children under the age of 2 years where high virus spread is noted",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "PreP is an effective strategy for reducing the incidence of HIV in:",
+    "output": "The correct answer is B: Drug users\n\nChoices:\nA: Women\nB: Drug users\nC: Pregnant women\nD: a. and b. above",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The two principles that deal with questions of values are:",
+    "output": "The correct answer is A: religion and ethics\n\nChoices:\nA: religion and ethics\nB: faith and science\nC: legal and ethics\nD: legal and religion",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "MERS has four special characteristics and here we have one exception - which is it?",
+    "output": "The correct answer is C: Reservoir in bats\n\nChoices:\nA: Spread by faecal oral route\nB: Aerosol droplet transmission\nC: Reservoir in bats\nD: A conduit to humans via camels",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is the role of non-governmental organisations (NGOs) in the global defence trade?",
+    "output": "The correct answer is C: Non-governmental groups have played a significant and effective role in developing arms control measures in recent years.\n\nChoices:\nA: Non-governmental organisations are the primary actors in modern arms control measures.\nB: Non-governmental agencies are unable to access the resources and information needed to develop effective policy or action on arms control.\nC: Non-governmental groups have played a significant and effective role in developing arms control measures in recent years.\nD: There is a serious lack of involvement by non-governmental actors in controlling the global defence trade.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "To say that the consequentialist account of right action is a maximizing conception is to say that, according to the account,",
+    "output": "The correct answer is B: we ought to perform that action the consequences of which will have at least as much overall value as any of the alternative actions.\n\nChoices:\nA: we are obligated to convince as many people as possible to accept consequentialism.\nB: we ought to perform that action the consequences of which will have at least as much overall value as any of the alternative actions.\nC: we are to perform that action the consequences of which will have the least overall value compared to any of the alternative actions.\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Danny and Sandy are coworkers. Sandy sees Danny in the break room and says \"Hey Stud! Nice buns! Wanna do it?\" This would be considered harrassment if:",
+    "output": "The correct answer is D: both A and B\n\nChoices:\nA: Sandy is Danny's supervisor\nB: Danny has previously told Sandy that he does not appreciate her advances\nC: Danny responds with \"Sure baby your office or mine?\"\nD: both A and B",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Nathanson supports which of the following kinds of retributivism?",
+    "output": "The correct answer is B: proportional\n\nChoices:\nA: preventive\nB: proportional\nC: equality\nD: retaliatory",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "A case-control study is conducted to assess the association between alcohol consumption and lung cancer patients with lung cancer and 100 controls are asked about their past alcohol consumption. According to the study results, alcohol consumption is strongly associated with lung cancer (OR = 2.5). The researchers then divide the study subjects into two groups: smokers and non-smokers. Subsequent statistical analysis does not reveal any association between alcohol consumption and lung cancer within either group. The scenario described is an example of which of the following?",
+    "output": "The correct answer is B: Confounding\n\nChoices:\nA: Observer bias\nB: Confounding\nC: Placebo effect\nD: Nonresponse bias",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Callahan cites the Oregon Death with Dignity Legal Defense and the Education Center's finding that \"after four full years .. there have been no missteps, abuses or coercive tendencies\" regarding laws permitting euthanasia. In response he argues that",
+    "output": "The correct answer is A: they can't know this to be true without an anonymous survey.\n\nChoices:\nA: they can't know this to be true without an anonymous survey.\nB: other studies have found contrary results.\nC: even if the finding is true, it is irrelevant to the moral status of euthanasia.\nD: the findings are suspect because the study was performed by advocates of euthanasia.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In accordance with the theory of justice proposed by John Rawls, Stephen Macedo argues,\"We must consider the justifiability of policies from the standpoint of the _____ well-off among our fellow citizens.\"",
+    "output": "The correct answer is B: least\n\nChoices:\nA: most\nB: least\nC: historically\nD: permanently",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In his definition of terrorism, Valls defines \"violence\" as",
+    "output": "The correct answer is B: including bodily harm to persons and the destruction of property.\n\nChoices:\nA: including only bodily harm to persons.\nB: including bodily harm to persons and the destruction of property.\nC: including only the destruction of property.\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Carruthers, whenever someone is required to act in a certain way toward an animal for the sake of the animal, what explains that fact are facts about",
+    "output": "The correct answer is B: the wider effects on human beings.\n\nChoices:\nA: the animal.\nB: the wider effects on human beings.\nC: both A and B\nD: neither A nor B",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is the cause of delay in HIV testing among the Latino population?",
+    "output": "The correct answer is D: All of the above\n\nChoices:\nA: Stigma attached to the disease\nB: Machismo\nC: Drug abuse\nD: All of the above",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Viruses of different families have varied geometric structures. Which of the following is true?",
+    "output": "The correct answer is A: Virus nucleocapsids are either icosahedral or helical\n\nChoices:\nA: Virus nucleocapsids are either icosahedral or helical\nB: All viruses have a lipid bilayer\nC: The nucleic acid is commonly linear\nD: All viruses have the same basic geometry",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to a study by Sprecher, Barbee, and Schwartz (1995), women were more likely than men to have ________ following their first act of intercourse.",
+    "output": "The correct answer is C: experienced guilt\n\nChoices:\nA: felt glad\nB: felt fear\nC: experienced guilt\nD: experienced regret",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Timmons suggests that many people believe in moral relativism because",
+    "output": "The correct answer is D: All of the above.\n\nChoices:\nA: They believe in tolerating differences.\nB: They are sensitive to the descriptive fact of widespread moral disagreement.\nC: They realize that some ethical claims seem true in some contexts but not in others.\nD: All of the above.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Hardin, the \"ratchet effect\" refers to the fact that",
+    "output": "The correct answer is D: the use of a world food bank to feed the hungry leads to an escalating series of emergency situations.\n\nChoices:\nA: overpopulation does not affect the number of people who are poor.\nB: overpopulation leads to creation of food banks that help curb poverty rates.\nC: world hunger and poverty leads to recognition of rights not to be hungry.\nD: the use of a world food bank to feed the hungry leads to an escalating series of emergency situations.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following might be considered part of the 'deepening and broadening' of security?",
+    "output": "The correct answer is D: All of these options.\n\nChoices:\nA: The nexus between identity and security.\nB: War, the military, and the sovereign state.\nC: Environmental changes.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "_________ such as the ________ in the United States is a key factor in driving ethical business practices.",
+    "output": "The correct answer is A: Legislation, Sarbanes-Oxley Act\n\nChoices:\nA: Legislation, Sarbanes-Oxley Act\nB: Internal company policy, Unethical corporate practices act\nC: Internal company policy, Sarbanes-Oxley Act\nD: Legislation, Unethical corporate practices act",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following security sectors are intrinsically linked with energy security?",
+    "output": "The correct answer is D: All of these options.\n\nChoices:\nA: Economic and development security.\nB: Regime and international security.\nC: Environmental and human security.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is essential for diagnosis of arenavirus infection?",
+    "output": "The correct answer is C: RT PCR kit\n\nChoices:\nA: Clinical history of recent travel and living in endemic area\nB: Cell culture laboratory (laboratory IV)\nC: RT PCR kit\nD: Immuno test",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In what ways can the different relationship between US and European security studies be explained?",
+    "output": "The correct answer is D: All of these options.\n\nChoices:\nA: The different relationship to the concept of security: in Europe the debate has stayed as part of politico-self-reflection of the scholar who 'does security;' whereas in the US, the question of the concept of security is seen at the most a necessary 'define your' terms' operation.\nB: The different relationship to the exact form of knowledge that is valued. The US is more rationalist, Europe the more reflectivist. In the US security studies debate hypothesis is typically examined as cause-effect relationships, tied into general debates and with measurement of ideational variables.\nC: In the US major competing explanations emphasized, on the one hand, the US's liberal hegemony, and, on the other hand, the purely power based stability of presumed unipolarity in which balancing becomes impossible.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is an example of a virtue?",
+    "output": "The correct answer is D: all of the above\n\nChoices:\nA: honesty\nB: courage\nC: kindness\nD: all of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In what ways might international measures be employed? Are they a help or a hindrance?",
+    "output": "The correct answer is B: A great deal of international diplomacy has involved attempts to define terrorism so that all countries could take steps to eradicate it. However, these efforts have largely faltered: countries often support or sympathize with dissidents who use violence against repressive governments; governments in developing countries have wanted to avoid anti-colonial struggles being labelled as terrorism; and countries want to retain a degree of flexibility regarding extradition and punishment of political dissidents.\n\nChoices:\nA: Diplomacy cannot achieve agreements among small groups of nations where global agreements have failed. Global endorsement is required to legitimize the process, providing greater cooperation, agreements and great power backing. Failure to attain global consensus on what terrorism is will result in disparities between states' counterterrorism methods which will severely reduce the scope of employing multi-level measures in a consistent and cohesive fashion, and may afford some terrorist groups the opportunity to seek refuge in states whose domestic laws are weaker.\nB: A great deal of international diplomacy has involved attempts to define terrorism so that all countries could take steps to eradicate it. However, these efforts have largely faltered: countries often support or sympathize with dissidents who use violence against repressive governments; governments in developing countries have wanted to avoid anti-colonial struggles being labelled as terrorism; and countries want to retain a degree of flexibility regarding extradition and punishment of political dissidents.\nC: Intelligence agencies are highly centralized, organized structures that operate at a maximum functional level within their domestic context. There is no reason to presume that collaboration would enhance their ability to contribute to the prevention of terrorism. The multi-agency approach would also broaden the scope for potential errors, miscommunication, and intelligence failures.\nD: Multi-partner initiatives to support the reforms necessary for the prevention of terrorism have proved ineffective. Sanctions against countries that provide a territorial base for terrorism may be misplaced, having negligible effects on the terrorist organizations themselves.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is the market vision of transnational organized crime?",
+    "output": "The correct answer is D: Market analysts claim that organized crime is highly disorganized, and resembles more a market for illicit goods and services than an organization. Proponents of this view minimize the threat posed by organized criminals to states and societies.\n\nChoices:\nA: Market place scholars argue that transnational crime operates like a capitalist marketplace in its scope and extensity of operations. Criminal organizations are thus very resilient to law enforcement efforts by virtue of their sheer size. Of comparative difference is the development of highly sophisticated networks of collaboration between criminal groups that has enabled them to survive under the conditions of the competitive logic of the marketplace.\nB: Market analysts argue that the criminal alliances create organizations with a high level of wealth and power that far underestimates what government and official estimates attribute to them. Within this perspective the threat to the licit economy is vastly increased.\nC: Market analysts believe that white-collar and corporate crimes contribute significantly to undermining the licit market. Those organized crime groups are more prone to use violence and corruption than ordinary criminal groups as a result of the extent of profits invested in their activities.\nD: Market analysts claim that organized crime is highly disorganized, and resembles more a market for illicit goods and services than an organization. Proponents of this view minimize the threat posed by organized criminals to states and societies.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The proportion of babies that have an abnormality identifiable at birth is _____.",
+    "output": "The correct answer is B: 1 in 40\n\nChoices:\nA: 1 in 10\nB: 1 in 40\nC: 1 in 100\nD: 1 in 500",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is not a purported limitation of the liberalist approach?",
+    "output": "The correct answer is C: A failure to address the importance of a wide range of actors in the decision-making processes of the international system.\n\nChoices:\nA: Liberalism poses great difficulty in defining when the use of force would be justified or necessary.\nB: Liberalism is often internally inconsistent, limiting its applicability for use as a guide.\nC: A failure to address the importance of a wide range of actors in the decision-making processes of the international system.\nD: Liberalist influence merely reflects Western dominance, potentially undermining its relevance in the future.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which statement best describes Booth's attitude toward constructivism and post-structuralism within Critical Security Studies?",
+    "output": "The correct answer is A: Post-structuralism provides no basis for political action, being a dangerous mix of faux radicalism, relativism and obscurantism, whilst constructivism is an orientation to world politics rather than a specific political theory.\n\nChoices:\nA: Post-structuralism provides no basis for political action, being a dangerous mix of faux radicalism, relativism and obscurantism, whilst constructivism is an orientation to world politics rather than a specific political theory.\nB: Constructivism offers a number of specific political theories applicable to Critical Security Studies but all of these lack the tenability required in security studies. Post-structuralist theories similarly lack the durability desired by CSS scholars.\nC: Post-structuralism and constructivism are ill-defined theories that are better described as political orientations, applicable in vague terms but lacking the substance required by scholars in contemporary security studies.\nD: Constructivism is too dangerous a mix of political ideologies, combining elements of radicalism and relativism. Post-structuralism is more of an orientation to world politics rather than a specific and applicable political theory.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Sociobiologists believe that there are more males than females with paraphilias because:",
+    "output": "The correct answer is B: evolutionary selection has favored the development of males who respond to novel sexual stimuli\n\nChoices:\nA: paraphilias guarantee survival of the species\nB: evolutionary selection has favored the development of males who respond to novel sexual stimuli\nC: of left brain/right brain differences between the genders\nD: male brains are better developed than are female brains",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is Pence's main objective in his article \"Will Cloning Harm People?\"",
+    "output": "The correct answer is B: to object to consequentialist arguments against cloning\n\nChoices:\nA: to use consequentialist arguments to show that cloning is immoral\nB: to object to consequentialist arguments against cloning\nC: to use Kant's humanity formulation to show that cloning is immoral\nD: to use Kant's humanity formulation to show that cloning is morally acceptable",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is the referent object in contemporary cyber-security?",
+    "output": "The correct answer is B: Critical Information Infrastructures\n\nChoices:\nA: Digitalised sensitive information\nB: Critical Information Infrastructures\nC: Government IT systems\nD: Telecommunication networks",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In the context of energy security and the production of oil, which of the following does not define the term 'stability'?",
+    "output": "The correct answer is C: The promotion of human security and the affiliated environmental security as a priority within oil-producing states.\n\nChoices:\nA: The absence of challenges to the regime of oil-producing states.\nB: A political and economic situation in which the status quo of production, exportation and supply is maintained.\nC: The promotion of human security and the affiliated environmental security as a priority within oil-producing states.\nD: The security of regimes deemed 'friendly' by North American, European, and international oil company interests.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which approach or perspective dominates post-Cold War Security Studies?",
+    "output": "The correct answer is C: The re-addressing of past practice as a possible cause of insecurity.\n\nChoices:\nA: An examination of the social processes by which groups of people construct something as a threat.\nB: A agenda for peace; peacekeeping, peace-making and conflict prevention as priorities for avoiding military confrontations.\nC: The re-addressing of past practice as a possible cause of insecurity.\nD: The strategy for state security that is preoccupied with creating and maintaining a distribution of power in the system, beneficial in terms of maintaining security and stability.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In response to the argument that embryos are not persons because they lack certain rights that all persons have (such as the right to life), Lee and George argue that",
+    "output": "The correct answer is A: the right to life belongs to a human being at all times that he or she exists.\n\nChoices:\nA: the right to life belongs to a human being at all times that he or she exists.\nB: the right to life belongs to all living creatures, human or not.\nC: not all persons have the right to life-for example, a murderer has given up his or her right to life through his or her actions\nD: all of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The main difference between \"actual act principles\" (like the harm principle) and \"internal principles\" (like the universalizability principle) is that",
+    "output": "The correct answer is A: internal principles focus on the agent's motives for acting.\n\nChoices:\nA: internal principles focus on the agent's motives for acting.\nB: internal principles focus only on the immediate effects of an action.\nC: actual act principles focus on the agent's actual motives for acting.\nD: actual act principles concern how we ought to think about other people.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "How can we define the role of the state in achieving human security?",
+    "output": "The correct answer is D: All of these options.\n\nChoices:\nA: The state is the most prominent threat in terms of committing violent acts against humans, thus directly threatening human security.\nB: The state has the greatest material resources and power with which to secure the human referent object.\nC: In the short term it is unhelpful to adopt a hands-off states and policy approach, as there are many current crises in which people need immediate relief from atrocities.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "It is currently estimated that there are ______ human protein-coding genes although this estimate may be reduced over time.",
+    "output": "The correct answer is B: 19,000–20,000\n\nChoices:\nA: 10,000–15,000\nB: 19,000–20,000\nC: 29,000–30,000\nD: 100,000",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following approaches to psychotherapy focuses only the problem behaviour and how to modify it?",
+    "output": "The correct answer is A: Behaviour modification\n\nChoices:\nA: Behaviour modification\nB: psychoanalytic\nC: sociological\nD: evolutionary",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In response to the objection that it would be wrong to prohibit the manufacture and sale of fatty foods and tobacco products, de Marneffe argues that",
+    "output": "The correct answer is B: there is nothing wrong with limiting people's access to products that are harmful to them.\n\nChoices:\nA: fatty foods and tobacco products are not actually harmful.\nB: there is nothing wrong with limiting people's access to products that are harmful to them.\nC: the benefits of prohibiting these products would not outweigh the costs.\nD: all of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In terms of cyber-security, what is meant by 'resilience' and why is it important?",
+    "output": "The correct answer is D: Resilience refers to the ability of IT systems to recover from attack.\n\nChoices:\nA: Resilience refers to the ability of an IT system to identify and defend against a cyber-security threat.\nB: The only way to build a truly resilient IT system is to ensure that it can repel all types of threat and remain and avoid attack.\nC: Resilience in an IT system refers to its ability to function when there are no threats to its security.\nD: Resilience refers to the ability of IT systems to recover from attack.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In Rachels's thought experiment with Smith and Jones, Jones's action (i.e., his watching the child, who slipped accidentally, drowned in the tub) is supposed to be an example of",
+    "output": "The correct answer is B: letting die.\n\nChoices:\nA: killing.\nB: letting die.\nC: assisted suicide.\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following theories will approach the morality of abortion by considering how much overall intrinsic value is likely to be brought about by abortion?",
+    "output": "The correct answer is B: consequentialist theory\n\nChoices:\nA: virtue ethics\nB: consequentialist theory\nC: Kantian ethics\nD: natural law theory",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Kant refers to the special worth or value of persons as",
+    "output": "The correct answer is D: dignity.\n\nChoices:\nA: virtue.\nB: beauty.\nC: praiseworthiness.\nD: dignity.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is not a tumour suppressor gene?",
+    "output": "The correct answer is D: RET\n\nChoices:\nA: APC\nB: NF1\nC: RB1\nD: RET",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "With which of the following relatives is an individual most likely to share a common HLA haplotype?",
+    "output": "The correct answer is C: Sister\n\nChoices:\nA: Father\nB: Mother\nC: Sister\nD: Son",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Why do so many feminist scholars regard the exclusion of women from the military sphere or from armed combat as important?",
+    "output": "The correct answer is D: All of these options.\n\nChoices:\nA: Veterans of armed conflict may be rewarded by gaining powerful offices, often in political positions and in state institutions.\nB: Participation in military activity is often regarded as a sign of strength, patriotism and courage.\nC: The foundations for decisions not to allow female participation are commonly based on arbitrary and discriminatory rationale that can limit women's participation in civil society in other ways.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In response to Sandel's argument about the relationship between genetic enhancement and parent-child relationships, Kamm argues that",
+    "output": "The correct answer is C: Sandel's reasoning does not rule out the use of moderate, worthwhile genetic transformation.\n\nChoices:\nA: genetic transformation will actually strengthen the bond between parent and child.\nB: children are too young to understand the implications of genetic enhancement.\nC: Sandel's reasoning does not rule out the use of moderate, worthwhile genetic transformation.\nD: the use of training and appliances as a way of transforming gifts is not, as Sandel argues, morally permissible.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following best describes the 'subaltern' in postcolonialism?",
+    "output": "The correct answer is C: The subaltern refers to populations that are marginalised or outside of the hegemonic power structure.\n\nChoices:\nA: Subaltern refers to those who are located geographically within the southern hemisphere.\nB: The subaltern is a term applied to a specific group of scholars from the global south.\nC: The subaltern refers to populations that are marginalised or outside of the hegemonic power structure.\nD: The subaltern refers to the subcontinent of India.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is removed when a male is circumcised?",
+    "output": "The correct answer is D: prepuce\n\nChoices:\nA: sunna\nB: corpus spongiosum\nC: septum\nD: prepuce",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Bill is a successful ad executive for a computer company. He is 32 married and the father of two children. When Bill's wife is not home he puts on her satin stockings garter belt bra skirt blouse and red stilettos. While dressing he becomes sexually excited and proceeds to masturbate. Which of the following descriptions best fits Bill?",
+    "output": "The correct answer is D: transvestite\n\nChoices:\nA: female impersonator\nB: drag queen\nC: transsexual\nD: transvestite",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Sociobiologists assume that the central function of sex is:",
+    "output": "The correct answer is B: reproduction\n\nChoices:\nA: pleasure\nB: reproduction\nC: to maintain the double standard\nD: to relieve tension",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which statement best describes the liberalist attitude towards international organisations?",
+    "output": "The correct answer is A: Liberalism holds that international organisations can enhance national and international security. It advocates the inclusion of non-governmental organisations and other actors to encourage cooperation and build communities.\n\nChoices:\nA: Liberalism holds that international organisations can enhance national and international security. It advocates the inclusion of non-governmental organisations and other actors to encourage cooperation and build communities.\nB: The liberalist advocacy of cooperation as enhancing security is undermined by the failure of international organisations such as the league of nations in preventing global conflicts.\nC: Under liberalism's different schools of thought, there is a general consensus that the involvement of international organisations in the political system ultimately undermines security by disempowering the state as a unitary actor.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Lukianoff and Haidt argue that trigger warnings involve which kind of pathological thinking?",
+    "output": "The correct answer is B: blaming\n\nChoices:\nA: fortune-telling\nB: blaming\nC: dichotomous thinking\nD: resentment",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Hardin, the fundamental error of \"sharing ethics\" is that",
+    "output": "The correct answer is C: it would lead to a \"tragedy of the commons.\"\n\nChoices:\nA: it is anti-Christian.\nB: it would require a stronger system of taxation for the affluent.\nC: it would lead to a \"tragedy of the commons.\"\nD: all of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "How are new polyomaviruses detailed",
+    "output": "The correct answer is A: Shot gun sequencing\n\nChoices:\nA: Shot gun sequencing\nB: Cultivation in human neural cells\nC: Deep pyro sequencing (NGS)\nD: Monoclonal antibody techniques",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Mill argues on that even a false opinion should not be censored because",
+    "output": "The correct answer is B: you don't really know the true view unless you can explain why false views are false.\n\nChoices:\nA: no one actually knows anything.\nB: you don't really know the true view unless you can explain why false views are false.\nC: you don't really know whether or not anything is false.\nD: All of the above.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "An investigator suspects that acetaminophen use during the first trimester of pregnancy can cause neural tube defects. She estimates the risk of neural tube defect in the general population is 1:1,000. Which of the following is the best study design to investigate the hypothesis?",
+    "output": "The correct answer is D: Ecologic Study\n\nChoices:\nA: Cohort study\nB: Case-control study\nC: Clinical trial\nD: Ecologic Study",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The risk of perinatal transmission of HIV-1 infection during breast feeding is increased due to:",
+    "output": "The correct answer is C: Both a and b\n\nChoices:\nA: Mixed feeding\nB: Very early introduction of solids\nC: Both a and b\nD: None of them",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following capacities does Carruther's assume that animals lack?",
+    "output": "The correct answer is C: the capacity for rational agency\n\nChoices:\nA: the capacity for suffering\nB: the capacity for practical reasoning\nC: the capacity for rational agency\nD: the capacity for conscious experience",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Leber's hereditary optic atrophy is caused by a mutation in:",
+    "output": "The correct answer is D: mitochondrial DNA.\n\nChoices:\nA: chromosome 12.\nB: chromosome 18.\nC: chromosome 21.\nD: mitochondrial DNA.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What differences emerged with regard to theorizing on both sides of the Atlantic?",
+    "output": "The correct answer is C: The different forms of knowledge relate to a conflicting conception of the relationship to policy: the problem-solving tradition in US political science vs. the critical studies in Europe.\n\nChoices:\nA: From a US perspective, it is common to regard the main voice of security to be external. The question of what should or what should not count as security issues and how to conceptualize security.\nB: The European school is based on a hegemonic form of knowledge. Knowledge is conceived as the understanding of causal mechanisms in relation to the material on which they act.\nC: The different forms of knowledge relate to a conflicting conception of the relationship to policy: the problem-solving tradition in US political science vs. the critical studies in Europe.\nD: Theorizing has parallel theoretical forms of knowledge based on empirically substantiated cause-and-effect relationships.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In contrast to Garrett Hardin's approach, the Confucian model rejects coercion because",
+    "output": "The correct answer is B: it affirms the autonomy of individuals apart from others.\n\nChoices:\nA: the costs of eliminating a collective action problem are not irrelevant to its solution\nB: it affirms the autonomy of individuals apart from others.\nC: it cannot lead to real social change, which involves changes of mind as well as action\nD: The Confucian model actually accepts coercion.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Macedo, we have special obligations to our fellow citizens arising from",
+    "output": "The correct answer is C: membership in a legitimate self-governing community.\n\nChoices:\nA: our relationships to noncitizens.\nB: consequentialist duties to promote the greatest good for the greatest number.\nC: membership in a legitimate self-governing community.\nD: nothing; we do not have special obligations to fellow citizens.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What, according to Singer, is the only defensible boundary of concern for the interests of others?",
+    "output": "The correct answer is C: sentience\n\nChoices:\nA: intelligence\nB: rationality\nC: sentience\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Papadaki thinks that in cases where partners in a relationship mutually deny each other's humanity that",
+    "output": "The correct answer is C: there is no straightforward answer to the question of whether or not sexual objectification occurs.\n\nChoices:\nA: sexual objectification occurs.\nB: sexual objectification does not occur.\nC: there is no straightforward answer to the question of whether or not sexual objectification occurs.\nD: the context of the relationship will determine whether or not sexual objectification occurred.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Marquis, which of the following are benefits of his position on abortion?",
+    "output": "The correct answer is A: It gets around problems with personhood accounts such as how to account for infanticide being wrong.\n\nChoices:\nA: It gets around problems with personhood accounts such as how to account for infanticide being wrong.\nB: It provides a plausible analysis of personhood.\nC: both of the above\nD: neither of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In ethics, the terms \"right\" and \"wrong\" are used primarily to evaluate the morality of",
+    "output": "The correct answer is B: actions.\n\nChoices:\nA: persons.\nB: actions.\nC: consequences.\nD: concrete objects.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Mitchell et al (1997) ______, the perceived ability of a stakeholder to influence organisational action, ________ whether the organisation perceives the stakeholder's actions as desirable, proper and appropriate and ________, the immediacy of attention the stakeholder claims require, determine stakeholder ________.",
+    "output": "The correct answer is C: Power, Legitimacy, Urgency, Salience\n\nChoices:\nA: Power, Legitimacy, Salience Urgency\nB: Legitimacy, Urgency, Salience, Power\nC: Power, Legitimacy, Urgency, Salience\nD: Salience, Power, Urgency, Legitimacy",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "We are attracted to a person who is similar to us in attitudes because:",
+    "output": "The correct answer is D: all of the above\n\nChoices:\nA: we get positive reinforcement from that person agreeing with us\nB: the other person's agreement bolsters our sense of rightness\nC: we anticipate positive interactions with that person\nD: all of the above",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In all of her relationships Helen is typically uncomfortable feeling close to another person or having that person feel close to her. According to attachment theory Helen would best be described as:",
+    "output": "The correct answer is B: an avoidant lover\n\nChoices:\nA: a secure lover\nB: an avoidant lover\nC: an anxious-ambivalent lover\nD: a passionate lover",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to McGregor, the expressive harm of rape",
+    "output": "The correct answer is B: does not need to be intentionally inflicted.\n\nChoices:\nA: needs to be intentionally inflicted.\nB: does not need to be intentionally inflicted.\nC: Both A and B\nD: None of the above.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following statements is the odd one out?",
+    "output": "The correct answer is C: Engagement of military forces to expel certain social groups from within a state.\n\nChoices:\nA: Institutions that facilitate the reproduction of cultural values, such as churches and schools, can be used to control and strengthen those cultural values.\nB: Political-nationalist strategies can be employed by the state to boost nationalist interests.\nC: Engagement of military forces to expel certain social groups from within a state.\nD: Secession allows a societal group to withdraw from a larger entity where it may be under threat from dilution or destruction.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In a global context, many companies have significant ______ power due to their ability to threaten governments, in the face of ________ with relocation to other territories, which Beck (1998) describes as 'corporate power of _______.",
+    "output": "The correct answer is B: Political, Undesirable regulation, Transnational withdrawal\n\nChoices:\nA: Economic, Commercial competition, Social sanction\nB: Political, Undesirable regulation, Transnational withdrawal\nC: Social, Commercial competition, Social sanction\nD: Social, Undesirable regulation, Transnational withdrawal",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The so-called BRIC countries (Brazil, Russia, India and _______) tend to follow a __________ approach to corporate governance. However, recently this has tended to move towards more _______-based mechanisms.",
+    "output": "The correct answer is D: China, Relationship, Market\n\nChoices:\nA: Canada, Market, Relationship\nB: China, Market, Relationship\nC: Canada, Relationship, Market\nD: China, Relationship, Market",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Christopher Heath Wellman defends the position that",
+    "output": "The correct answer is D: nation-states have a presumptive right to close their borders to all potential immigrants.\n\nChoices:\nA: anti-egalitarianism is compatible with liberal cosmopolitanism.\nB: closing borders to all potential immigrations is an inherently racist social policy.\nC: nation-states have an obligation to open their borders to the least well-off potential immigrants.\nD: nation-states have a presumptive right to close their borders to all potential immigrants.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The chance of acquiring HIV infection from factor VIII in the United States in 2011 is 0% primarily because:",
+    "output": "The correct answer is C: Factor VIII is made synthetically\n\nChoices:\nA: All donors for factor VIII are screened\nB: Factor VIII is subject to detergent “washing” prior to release\nC: Factor VIII is made synthetically\nD: Factor VIII is important from countries with no reported HIV",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "How is endometriosis generally treated?",
+    "output": "The correct answer is C: hormones\n\nChoices:\nA: antiprosaglandin drugs\nB: prostaglandin drugs\nC: hormones\nD: aspirin",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Predatory pricing.",
+    "output": "The correct answer is D: 1,4\n\nChoices:\nA: 1,2,4\nB: 1,2,3,4\nC: 1,2\nD: 1,4",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Mill thinks that each person desires",
+    "output": "The correct answer is C: his or her own happiness.\n\nChoices:\nA: to do his or her duty.\nB: to be virtuous.\nC: his or her own happiness.\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "You are a homosexual male: Last night, you were tempted by lusty, swarthy Jacques (the king of fraternity row) to join him at the local dairy bar for a tall cool glass of milk. You also briefly considered studying for this test, but Jacques won out. In Freudian terms, which of the following was dominant?",
+    "output": "The correct answer is A: the id\n\nChoices:\nA: the id\nB: the ego\nC: the superego\nD: the Oedipus complex",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following statements is the odd one out?",
+    "output": "The correct answer is C: Societal groups are constituted by social interaction.\n\nChoices:\nA: Societal groups have a right to survive.\nB: Societal groups have their own reality.\nC: Societal groups are constituted by social interaction.\nD: Societal groups are multiple-identity units.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Most new mutations appear to be",
+    "output": "The correct answer is B: neutral or deleterious\n\nChoices:\nA: beneficial\nB: neutral or deleterious\nC: present in homozygotes rather than heterozygotes\nD: detectable using allozyme studies (protein electrophoresis)",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following phrases is not likely to indicate legitimacy in the new terminology of RMA?",
+    "output": "The correct answer is B: Indiscriminate attack.\n\nChoices:\nA: Surgical strike.\nB: Indiscriminate attack.\nC: Smart bomb.\nD: Precision target.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The proportion of genes shared by first cousins is on average ___.",
+    "output": "The correct answer is C: 1.0/8\n\nChoices:\nA: 1.0/2\nB: 1.0/4\nC: 1.0/8\nD: 1.0/16",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Lukianoff and Haidt argue that the disinvitation of certain speakers",
+    "output": "The correct answer is B: will only serve to promote intellectual homogeneity on college and universities.\n\nChoices:\nA: is an example of mental filtering.\nB: will only serve to promote intellectual homogeneity on college and universities.\nC: will encourage students to disregard positive aspects of a person's history.\nD: All of the above.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Sarah Fine's \"internal critique\" of Wellman's argument targets his claim that",
+    "output": "The correct answer is B: freedom of association implies that a legitimate state has a presumptive right to exclude anyone from its territory.\n\nChoices:\nA: we have an absolute right to freedom of association (i.e., one that cannot be outweighed by anything else).\nB: freedom of association implies that a legitimate state has a presumptive right to exclude anyone from its territory.\nC: immigration is harmful to low-income Americans.\nD: egalitarianism is a Marxist doctrine.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "As part of the Women’s Health Study, researchers investigated the role of systemic inflammation in predicting cardiovascular disease in women (N Engl J Med. 2002;347[20]:1557-1565). Researchers used a prospective study design with a large sample size. Blood levels of C-reactive protein (CRP) were measured at baseline and women were followed for an average of 8 years. The following table shows the relative risk estimates of cardiovascular event (heart attack or stroke) within 5 years by quintile of CRP level for the 30,000 women. The first quintile is used as the reference category.  1 0.49 mg/dL Relative Risk Number of women  1.0 6000  2 >0.49-1.08 mg/dL 1.8 6000  Quintile of CRP Level 3 >1.08-2.09 mg/dL 2.3 6000  4 >2.09-4.19 mg/dL 3.2 6000  5 >4.19 mg/dL 4.5 6000  Based on the relative risk data above, one can conclude:",
+    "output": "The correct answer is A: There is no risk of heart attack/stroke for women with CRP levels in the first quintile.\n\nChoices:\nA: There is no risk of heart attack/stroke for women with CRP levels in the first quintile.\nB: Decreasing CRP level appears to increase the risk of heart attack/stroke.\nC: Increasing CRP level appears to increase the risk of heart attack/stroke.\nD: There appears to be no association between CRP levels and heart attack/stroke.",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The purpose of a double-blind or double-masked study is to:",
+    "output": "The correct answer is B: Reduce the effects of sampling variation\n\nChoices:\nA: Achieve comparability of treated and untreated subjects\nB: Reduce the effects of sampling variation\nC: Avoid observer and subject bias\nD: Avoid observer bias and sampling variation",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In what ways has the concept of environmental security been contested?",
+    "output": "The correct answer is A: Analysis of environmental security is understood as the integrity of the whole ecological system whose primary threat is human activity. However, it radically challenges security thinking in that it demands a shift in the reason for action from national security interest to the welfare of the entire social-ecological system of the planet.\n\nChoices:\nA: Analysis of environmental security is understood as the integrity of the whole ecological system whose primary threat is human activity. However, it radically challenges security thinking in that it demands a shift in the reason for action from national security interest to the welfare of the entire social-ecological system of the planet.\nB: Environmental security contends that the principle threat to the ecological integrity is human activity and therefore humans can be secured to the extent that welfare is protected at the domestic level. The reason for action is to be found in individual and national interests.\nC: The crossover of common insecurity issue areas is unlikely because not all problems are truly global. Not all states are equally responsible for environmental problems, nor is there such a thing as equality of risk. Systemic interdependence is unlikely to manage those security areas.\nD: The ecological security and human security approaches to environmental security do not challenge the security community to consider alternative objects of security. Ecological security displays continuity with major interpretations of security, which typically centralize the security of the state.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Sinnott-Armstrong, if we cannot find any moral principle to back up our intuition that wasteful driving (of the sort mentioned in his article) is wrong, then",
+    "output": "The correct answer is C: we do not know whether wasteful driving is wrong.\n\nChoices:\nA: we know that wasteful driving is morally permissible.\nB: we know that particularism is true.\nC: we do not know whether wasteful driving is wrong.\nD: we know that wasteful driving is not wrong.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In what ways does the idea of 'victim' impact on the way in which gender security is regarded?",
+    "output": "The correct answer is A: Woman as 'victim' is, and continues to be, an important narrative of war stories. In 1990 an estimated 90% of war casualties were civilian, the majority women and children. Reports that women are the primary casualties of war has contributed to the enduring perception that women are dependent on men for protection, and that men are responsible for sacrificing their own well bring for the protection of women and the state (often confused with one another through propaganda and imagery).\n\nChoices:\nA: Woman as 'victim' is, and continues to be, an important narrative of war stories. In 1990 an estimated 90% of war casualties were civilian, the majority women and children. Reports that women are the primary casualties of war has contributed to the enduring perception that women are dependent on men for protection, and that men are responsible for sacrificing their own well bring for the protection of women and the state (often confused with one another through propaganda and imagery).\nB: The role of men as intrinsically heroic has been marginalized as the traumas of war, desertion, and conscription become more apparent. When imagining victims, there is no longer a gender divide. Instead, there is a growing perception that those who fight are courageous and heroic, whilst those who do not take on female characteristics.\nC: Increasing awareness regarding the barbaric nature of warfare and the problems of trauma in war has led to a reversal in the belief that the idea of war is a natural place for males. In contemporary societies across the globe, men are regarded as the victims of gender stereotypes that coerce them into violent behaviour as 'protectors' or aggressors on behalf of the state.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In adulthood, exhibitionists",
+    "output": "The correct answer is B: are unassertive\n\nChoices:\nA: are typically psychiatrically disturbed\nB: are unassertive\nC: have excellent social skills\nD: have fulfilling sex lives",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which statement best describes commercial liberalism?",
+    "output": "The correct answer is C: Commercial liberalism is probably the oldest faction of liberalism; advocating free trade as the free movement of goods and capital, it purports that the most rapid and efficient production of wealth occurs when governments do not restrict the economic activity of private actors and the free market.\n\nChoices:\nA: Commercial liberalism is the newest and most important faction of liberalism; it advocates socialist economic principles in order to address inequalities in the distribution of wealth that threaten societal and regime security.\nB: Commercial liberalism is based on the idea that free-trade directly undermines the power of the state, and argues that the market should be regulated where possible by state actors. One flaw of commercial liberalism is that it reduces cooperation and can thus increase conflict between states.\nC: Commercial liberalism is probably the oldest faction of liberalism; advocating free trade as the free movement of goods and capital, it purports that the most rapid and efficient production of wealth occurs when governments do not restrict the economic activity of private actors and the free market.\nD: Commercial liberalism advocates the restraint of private enterprise and non-governmental activity in the economic sphere, arguing that interference will hinder economic prosperity.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Mike and Carol have been married for 5 years. Recently Mike has found that although he wants to have sex with Carol he has trouble getting aroused. However he does not have trouble getting aroused when he sees his secretary at work. Which of the following describe(s) Mike's dysfunction?",
+    "output": "The correct answer is B: Mike suffers from erectile dysfunction.\n\nChoices:\nA: Mike suffers from a global dysfunction.\nB: Mike suffers from erectile dysfunction.\nC: Mike suffers from lubrication inhibition.\nD: Mike must be having an affair with his secretary.",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "De Marneffe explains that we might call someone a drug addict to show that",
+    "output": "The correct answer is C: it is a mistake to suppose that drug use, even heavy drug use, is not autonomous.\n\nChoices:\nA: it is a mistake to suppose that drug use is sometimes evidence of low self-control.\nB: drug addiction is a problem that drug legalization cannot address.\nC: it is a mistake to suppose that drug use, even heavy drug use, is not autonomous.\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Why do emerging viruses like Zika and Ebola continue to plague us?",
+    "output": "The correct answer is B: We disturb forests where they quietly exist as a zoonosis\n\nChoices:\nA: These viruses mutate and hence emerge\nB: We disturb forests where they quietly exist as a zoonosis\nC: Mosquitoes are the main culprit to encourage virus spread\nD: The viruses can be halted by new vaccines",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The pattern of inheritance shown by glucose-6-phosphate dehydrogenase (G6PD) deficiency is:",
+    "output": "The correct answer is D: X-linked recessive.\n\nChoices:\nA: autosomal dominant.\nB: autosomal recessive.\nC: X-linked dominant.\nD: X-linked recessive.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What problems has the post-Cold War security literature revealed on women, war, development, and security?",
+    "output": "The correct answer is A: Technological advancements have to some extent rendered the battlefield gender-neutral. 'Virtual' warfare has resolved the historical tension between the citizen and the state security apparatus; if actual combat could be avoided then male and female soldiers could wage war on equal terms. However, technological advancement remains unequal and so the gender situation is different in different contexts, depending on development and security issues.\n\nChoices:\nA: Technological advancements have to some extent rendered the battlefield gender-neutral. 'Virtual' warfare has resolved the historical tension between the citizen and the state security apparatus; if actual combat could be avoided then male and female soldiers could wage war on equal terms. However, technological advancement remains unequal and so the gender situation is different in different contexts, depending on development and security issues.\nB: The technological capacity to wage war with minimal civilian costs has abolished the threat of physical and biological gender victimization. The contemporary gender divide is structured on 'soft' issues associated with socio-economic hardship.\nC: Conflict in warfare and the gender divide between men and women is centred on the historical contract between the individual and the state. The 'right to fight' debate has equal meaning and saliency across the globe, and is universally applicable in all situations.\nD: Nuclear armaments and the threat of mass destruction have rendered the battlefield gender neutral in terms of its destructive capabilities. Whilst historically conventional warfare was conducted on the battlefield in which women were particularly vulnerable to violence, and post-conflict sexual violence, these threats no longer exist.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Cohen, if I promise to give you a dollar, then",
+    "output": "The correct answer is C: both A and B\n\nChoices:\nA: you have a right to my dollar.\nB: I am obligated to give you my dollar.\nC: both A and B\nD: neither A nor B",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Confucian the model of persons,",
+    "output": "The correct answer is A: we learn to be persons through familial relations and by learning from other's example.\n\nChoices:\nA: we learn to be persons through familial relations and by learning from other's example.\nB: we are persons because we have immortal, individual souls.\nC: we learn to be persons by slowing developing rational capacities.\nD: all of the above.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The extent to which an individual believes they can control their life is determined by their __________.",
+    "output": "The correct answer is D: Locus of control\n\nChoices:\nA: Moral imagination\nB: Personal integrity\nC: Cognitive moral development\nD: Locus of control",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "When a woman thinks that she probably is a lesbian, she is at the:",
+    "output": "The correct answer is B: tolerance stage\n\nChoices:\nA: pride stage\nB: tolerance stage\nC: acceptance stage\nD: confusion stage",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Singer claims that the best way to avoid loss of equality of opportunity through the genetic supermarket is to",
+    "output": "The correct answer is B: provide genetic enhancement to those at the bottom and limit it to those at the top.\n\nChoices:\nA: provide genetic enhancement to those at the top and limit it to those at the bottom.\nB: provide genetic enhancement to those at the bottom and limit it to those at the top.\nC: distinguish intrinsic from positional goods.\nD: enact a global ban on genetic enhancement.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following best describes what is meant by security in the contemporary world, according to the field of Security Studies?",
+    "output": "The correct answer is D: None of the above\n\nChoices:\nA: 'A nation is secure to the extent to which it is not in danger of having to sacrifice core values if it wishes to avoid war, and is able, if challenged, to maintain them by victory in such a war.' Lippman, W.\nB: 'Security itself is a relative freedom from war, coupled with a relatively high expectation that defeat will not be a consequence of any war that should occur.' Bellamy, M.\nC: 'Emancipation is the freeing of people (as individuals and groups) from the physical and human constraints which stop them carrying out what they would freely choose to do . . . Security and emancipation are two sides of the same coin. Emancipation, not power or order, produces true security. Emancipation, theoretically, is security.' Booth, K.\nD: None of the above",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Kant, all imperatives are expressed by the word",
+    "output": "The correct answer is B: \"ought.\"\n\nChoices:\nA: \"want.\"\nB: \"ought.\"\nC: \"will.\"\nD: \"may.\"",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is the relationship between culture and social constructivism?",
+    "output": "The correct answer is D: Culture is commonly regarded as a set of practices that give meaning to shared experiences and actions; it can impact on how states see security and is crucial in constructing the values and rules that inform identity.\n\nChoices:\nA: All of the below.\nB: Culture is the product of shared identity and interaction, although it is important in understanding the dynamics of social identity, its wider reference to security studies is largely disputed.\nC: Social constructivism does not regard culture as being an important feature to study, instead focusing on individualistic aspects of identity such as personal interests and ambition.\nD: Culture is commonly regarded as a set of practices that give meaning to shared experiences and actions; it can impact on how states see security and is crucial in constructing the values and rules that inform identity.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "A baby born with pulmonary hypoplasia secondary to oligohydramnios caused by renal agenesis would be classified as having:",
+    "output": "The correct answer is C: a sequence.\n\nChoices:\nA: an association.\nB: a dysplasia.\nC: a sequence.\nD: a syndrome.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Sandel's case against moral engineering can best be considered",
+    "output": "The correct answer is C: a virtue ethics approach.\n\nChoices:\nA: a Kantian approach.\nB: an application of the ethics of prima facie duty.\nC: a virtue ethics approach.\nD: a natural law theory approach.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is not an assertion made in the realist case against humanitarian inventions?",
+    "output": "The correct answer is D: Humanitarian intervention prioritises the human as the referent object of security, undermining the state-centric approach of realism.\n\nChoices:\nA: Armed force should only ever be used in the national interest and that humanitarian intervention is therefore imprudent.\nB: Foreign intervention reduces the proportion of wars that end in outright victory, it leaves behind an unstable peace that is likely to reignite.\nC: Foreign intervention tends to prolong wars; it is inappropriate and does not work.\nD: Humanitarian intervention prioritises the human as the referent object of security, undermining the state-centric approach of realism.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is the main clinical picture of hepatitis A?",
+    "output": "The correct answer is C: Jaundice and abdominal discomfort\n\nChoices:\nA: Rash\nB: Limb paralysis\nC: Jaundice and abdominal discomfort\nD: Upper respiratory tract infection",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Can environmental changes be reconciled with national security interests?",
+    "output": "The correct answer is B: Environmental changes can undermine national security in many ways; including weakening the economic base that determines military capacity. So if the natural capital base of an economy erodes than so does the long-term capacity of its armed forces. Any developments however, will be 'human' in impact.\n\nChoices:\nA: Environmental challenges to economic growth, such as natural resource management and employment, leads to diversification and research which may in the long-term result in technological advancements that bolster military programs.\nB: Environmental changes can undermine national security in many ways; including weakening the economic base that determines military capacity. So if the natural capital base of an economy erodes than so does the long-term capacity of its armed forces. Any developments however, will be 'human' in impact.\nC: The environmental problems encountered by countries are principally internal. External threats remain within a country's control: external military threats will remain unchanged and a primary concern.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Leopold most likely describes the \"land pyramid\" to",
+    "output": "The correct answer is B: provide a description of a mechanism that \"we can see, feel, understand, love, or otherwise have faith in.\"\n\nChoices:\nA: argue that nature is not inherently normative.\nB: provide a description of a mechanism that \"we can see, feel, understand, love, or otherwise have faith in.\"\nC: give a detailed description of how plants absorb energy from the sun.\nD: argue that even the noneconomic parts of the \"biotic clock\" have economic value.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "If an autosomal recessive disorder which shows Hardy-Weinberg equilibrium has an incidence of 1 in 6400 then the frequency of carriers is approximately _______.",
+    "output": "The correct answer is B: 1 in 40\n\nChoices:\nA: 1 in 20\nB: 1 in 40\nC: 1 in 80\nD: 1 in 160",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The risk for miscarriage associated with amniocentesis is approximately ____.",
+    "output": "The correct answer is C: 1 in 100 to 1 in 200\n\nChoices:\nA: 1 in 10\nB: 1 in 50\nC: 1 in 100 to 1 in 200\nD: 1 in 1000",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is not an advantage of cooperation between states?",
+    "output": "The correct answer is D: Cooperation between states eradicates the propensity for states to cheat on agreements such as arms control or disarmament deals.\n\nChoices:\nA: Potential for arms control and unilateral restraint.\nB: Improvement of political relationships between states.\nC: To appear cooperative is to appear as a 'security seeker', thus encouraging further cooperation from neighbour states.\nD: Cooperation between states eradicates the propensity for states to cheat on agreements such as arms control or disarmament deals.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In Singer's understanding, the principle of the equality of human beings is",
+    "output": "The correct answer is D: a prescription of how we should treat humans.\n\nChoices:\nA: a description of an alleged actual equality among humans.\nB: a description of an alleged actual inequality among humans.\nC: a prescription of how we should treat nonhuman animals.\nD: a prescription of how we should treat humans.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is the relationship between historical materialism and the global justice movement?",
+    "output": "The correct answer is D: Historical materialism can concern both human rights and economic rights. It has been an important part of anti-globalisation and alternative-globalisation movements, including the Occupy protests.\n\nChoices:\nA: Historical materialism as a paradigm is opposed to the broad goals of the global justice movement, which advocates an expansion of neo-liberalism in the aftermath of the global financial crisis.\nB: Historical materialism has an established history of supporting global justice and opposing inequality; during the Cold War it was the basis of opposition to repressive communist states.\nC: Historical materialism does not provide any unique perspective on capitalism, and is more concerned with the history of capitalist trade than with exploitation or alienation of populations in the system.\nD: Historical materialism can concern both human rights and economic rights. It has been an important part of anti-globalisation and alternative-globalisation movements, including the Occupy protests.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Thomson's appeal to the vices of callousness and self-centeredness relates to what kind of approach to abortion?",
+    "output": "The correct answer is C: virtue ethics approach\n\nChoices:\nA: deontological approach\nB: Kantian approach\nC: virtue ethics approach\nD: consequentalist approach",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Aristotle claims that a state of character arises from the repetition of similar",
+    "output": "The correct answer is C: activities.\n\nChoices:\nA: beliefs.\nB: relationships.\nC: activities.\nD: opinions.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "To what extent and to what effect has the environment been securitized?",
+    "output": "The correct answer is C: The environment has been 'securitized' in the sense that environmental security has been used to make them matters of 'high politics'. This has to some degree raised the profile of critical issues among policymakers and agencies so that the environment can be considered an issue of security. But whilst the issue has been broadened there has been little change in policy and action in terms of the referent object of environmental security.\n\nChoices:\nA: The securitization of environmental security concerns has raised the profile of environmental security issues among both foreign and domestic security policymakers and agencies. It is now uniformly recognized that environmental change can be considered as an issue of high security politics.\nB: Environmental security has led to a 'trading off' of military security for environmental security with the allocation of resources committed to solving environmental problems. A particular emphasis has been placed on environmental change as the cause of violent conflict and addressing environmental threats from other factors than domestic causes.\nC: The environment has been 'securitized' in the sense that environmental security has been used to make them matters of 'high politics'. This has to some degree raised the profile of critical issues among policymakers and agencies so that the environment can be considered an issue of security. But whilst the issue has been broadened there has been little change in policy and action in terms of the referent object of environmental security.\nD: The national security perspective on environmental issues has undermined the utility of the concept of environmental security. The militarization of environmental problems has decreased the ability of policymakers to 'capture' the critical nature of environmental problems and the environmental dimensions to social vulnerability. The reconciliation of environmental security with national security, and global levels of international change cannot be made without trading in the security interests of the state.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "______ has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to different environmental conditions during development (West-Eberhard, 1989).",
+    "output": "The correct answer is C: Developmental plasticity\n\nChoices:\nA: Fetal plasticity\nB: The fetal origins hypothesis\nC: Developmental plasticity\nD: Environmental plasticity",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "With respect to the issue of world hunger and poverty, Arthur points out that Singer ignores",
+    "output": "The correct answer is C: the principles of rights and desert.\n\nChoices:\nA: the principles of equality and harm.\nB: the principles of the right and the good.\nC: the principles of rights and desert.\nD: the principles of ability to help and desires.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What does Pence think is an appropriate standard for the safety of SCNT before it should be allowed?",
+    "output": "The correct answer is C: SCNT should be allowed when it falls within the range of risks that is accepted by ordinary people in sexual reproduction.\n\nChoices:\nA: There should be no standards for safety.\nB: SCNT should not be allowed unless a healthy baby could be guaranteed.\nC: SCNT should be allowed when it falls within the range of risks that is accepted by ordinary people in sexual reproduction.\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "A pimp can be best described as",
+    "output": "The correct answer is A: ...a male companion-master of a prostitute\n\nChoices:\nA: ...a male companion-master of a prostitute\nB: ...a gigolo who works with a street walker\nC: ...an experienced male prostitute\nD: ...an escort to a female prostitute",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "From 1988 to 1990 among heterosexuals in the US, the number of unmarried adults aged 20 to 45 who report having multiple partners has:",
+    "output": "The correct answer is A: declined for both men and women\n\nChoices:\nA: declined for both men and women\nB: declined for men, but not for women\nC: declined for women, but not for men\nD: declined for men, and remained the same for women",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following events can be regarded as contributing to the emergence of environmental security during the 1960s and 1970s?",
+    "output": "The correct answer is D: All of these options.\n\nChoices:\nA: From the 1970s a number of scholars attempted to critique orthodox security discourse and practices, highlighting their inability to manage environmental risks to national and international security.\nB: There became a growing recognition that environmental changes do not merely pose risks to ecosystems - they also pose risks to human well-being.\nC: A shared environmental consciousness emerged in developing countries.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The view that moral considerations do not apply to war is known as",
+    "output": "The correct answer is D: moral nihilism.\n\nChoices:\nA: jus ad bellum.\nB: antiwar pacifism.\nC: just war theory.\nD: moral nihilism.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is the usual direction of 'knowledge' in a cell?",
+    "output": "The correct answer is C: From DNA to RNA to protein\n\nChoices:\nA: From protein to DNA\nB: From DNA to DNA\nC: From DNA to RNA to protein\nD: Random",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What are the specific elements of a comprehensive national defence trade control system?",
+    "output": "The correct answer is D: All of these options.\n\nChoices:\nA: Governments should include in their arms trade rules, laws, penalties for their violation.\nB: Governments should ensure that weapons producers mark their defence items with a unique marking.\nC: Government police and military forces should establish appropriate weapons stockpile security measures and national authorities should collect and destroy old, outdated, and excess weaponry.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Callahan discusses the Dutch Commission on Euthanasia in 1990 to show that",
+    "output": "The correct answer is C: both A and B\n\nChoices:\nA: laws permitting euthanasia can and have been abused.\nB: doctors who perform euthanasia may not report doing so.\nC: both A and B\nD: neither A nor B",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "It has been argued by Braun and Chyba (2004) that indigenous nuclear programs are making proliferation safeguards obsolete. In what ways, if any, can a case be made to support this argument?",
+    "output": "The correct answer is D: All of these options.\n\nChoices:\nA: WMD may provide the means to offset inferiority in conventional armaments compared to regional or superpower rivals. Possession of WMD may act as a deterrence to stronger opponents against potential threat, or be used to defeat their adversaries if engaged in combat. WMD capabilities may also be developed to gain automatic status and diplomatic influence amongst the international community.\nB: Although there are fears posed by WMD proliferation that terrorists may gain the capacity to develop weapons, it would remain very difficult to construct even a primitive gun-type nuclear weapon. However, whilst nuclear capabilities may be elusive, international or domestic terrorist networks may have the resources to construct and use chemical, biological, and radiological weapons.\nC: WMD vary vastly in terms of their availability, lethality, and destructive potential and the ease with which they can be manufactured. This means that the potential threats posed by each type of weapon are different. High yield, lightweight nuclear weapons use cutting-edge technology, whilst some chemical and biological weapons have been available for a long time. What separates WMD from conventional weapons is the potential to cause high level destruction. Because of the psychological fear possession can generate, WMD will remain highly desirable as a political weapon.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The most common chromosome abnormality in first trimester spontaneous miscarriages is:",
+    "output": "The correct answer is A: trisomy.\n\nChoices:\nA: trisomy.\nB: monosomy.\nC: triploidy.\nD: tetrasomy.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which is a major characteristic of the bunyavirus family?",
+    "output": "The correct answer is A: Amplify by persistent infection of midgets, mosquitoes, sand flies, ticks\n\nChoices:\nA: Amplify by persistent infection of midgets, mosquitoes, sand flies, ticks\nB: Predominantly mosquito borne\nC: Genetic recombination or reassortment\nD: Spread to humans via bites of mice and rats",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The current testing policy of the Centers for Disease Control and the World Health Organization is:",
+    "output": "The correct answer is B: “Opt-out”\n\nChoices:\nA: “Opt-in”\nB: “Opt-out”\nC: Mandatory testing of prisoners\nD: Mandatory testing of high-risk groups",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Many virus infections result in immune pathology, this is caused predominantly by which of the following?",
+    "output": "The correct answer is A: A cytokine storm\n\nChoices:\nA: A cytokine storm\nB: Antibody mediated reactions\nC: A response of killer T cells (CD-8)\nD: A decline in function of the immune system",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is not a correct definition?",
+    "output": "The correct answer is D: Objective security: when a matter is objectively considered a security issue, regardless of interpretation.\n\nChoices:\nA: Acting subjects: who or what is acting to produce security or insecurity.\nB: Substantive content: what being secure looks like and what conditions must exist for us to be able to say we are secure.\nC: Referent object: whom or what we act to make secure.\nD: Objective security: when a matter is objectively considered a security issue, regardless of interpretation.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following sexual variations is probably the most dangerous?",
+    "output": "The correct answer is B: asphyxiophilia\n\nChoices:\nA: troilism\nB: asphyxiophilia\nC: zoophilia\nD: necrophilia",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In what ways did strategic circumstances have an effect on environmental security perspectives?",
+    "output": "The correct answer is A: The end of the Cold War created the space for security policy and security studies to be re-considered in light of growing environmental consciousness underlined by multilateralism in policy action.\n\nChoices:\nA: The end of the Cold War created the space for security policy and security studies to be re-considered in light of growing environmental consciousness underlined by multilateralism in policy action.\nB: In 1973 the Organization of Petroleum Exporting Countries (OPEC) restricted oil supplies which underlined the industrial capacity of the military leaving a profound psychological impact requiring that security be linked to national interests: the securing of energy deals and the environment became related to military capability diplomacy.\nC: Ideologically driven military security was replaced by a need to preserve territorial integrity in wake of the collapse of communism. Military security was a high priority given the threat of spill-over. The environment remained a peripheral concern to the security institutions occupied with the new security environment post-Cold War.\nD: The end of the Cold War order created the intellectual space for the broadening of security issues beyond Cold War military mentalities. Research among political and environmental scientists discussed ways in which new security issues could be addressed. The plethora of publications produced, however, had little effect on policy.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is the rubella syndrome?",
+    "output": "The correct answer is B: The teratogenic lesions of cataracts, deafness, mental retardation and microcephaly in the foetus\n\nChoices:\nA: A description of the 3 day rash of German measles\nB: The teratogenic lesions of cataracts, deafness, mental retardation and microcephaly in the foetus\nC: Combination of rash and post infection encephalitis\nD: Side effects of the MMR vaccine",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Wellman argues that insisting on unlimited property rights commits one to",
+    "output": "The correct answer is D: anarchy.\n\nChoices:\nA: deontological theory.\nB: egalitarianism.\nC: consequentialism.\nD: anarchy.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Rachels believes that active euthanasia is better than passive euthanasia in cases where",
+    "output": "The correct answer is A: the patient will suffer more if he or she is allowed to die, compared to how much he or she would suffer if the physician actively ended his or her life.\n\nChoices:\nA: the patient will suffer more if he or she is allowed to die, compared to how much he or she would suffer if the physician actively ended his or her life.\nB: the patient will suffer less if he or she is allowed to die, compared to how much he or she would suffer if the physician actively ended his or her life.\nC: the patient clearly states that he or she would prefer to live as long as possible.\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following teenagers have the highest pregnancy rates?",
+    "output": "The correct answer is A: U.S.\n\nChoices:\nA: U.S.\nB: Canadian\nC: Swedish\nD: French",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is a common criticism of the human security concept?",
+    "output": "The correct answer is D: All of these options.\n\nChoices:\nA: Human security is neo-colonial.\nB: Human security promotes global capitalism.\nC: Human security is too broad.\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Lukianoff and Haidt, institutionalizing vindictive protectiveness will",
+    "output": "The correct answer is C: harm their ability to learn.\n\nChoices:\nA: encourage students to think pathologically.\nB: ill-prepare them for the workforce.\nC: harm their ability to learn.\nD: all of the above.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Managers and directors have a fiduciary responsibility to protect the investment of shareholders.",
+    "output": "The correct answer is A: 1,3,4\n\nChoices:\nA: 1,3,4\nB: 1,2,3,\nC: 1,2,4\nD: 2,3,4",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Aquinas, the first precept of natural law is",
+    "output": "The correct answer is A: \"good is to be done, evil to be avoided.\"\n\nChoices:\nA: \"good is to be done, evil to be avoided.\"\nB: \"one ought to do what one will.\"\nC: \"one ought to do only what can be done without contradiction.\"\nD: \"pleasure is to be sought, pain to be avoided.\"",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In his objection to \"the second prong of the libertarian case for open borders,\" Wellman responds to the objection that he is essentially denying that we have a right to freedom of movement. Which of the following is part of his response?",
+    "output": "The correct answer is C: He would argue that some rights are not absolute (e.g., the right to marriage doesn't allow you to marry an unwilling partner).\n\nChoices:\nA: He would say this begs the question because the immigration question is identical to the freedom-of-movement question.\nB: He would present an argument showing that there is actually no right to freedom of movement.\nC: He would argue that some rights are not absolute (e.g., the right to marriage doesn't allow you to marry an unwilling partner).\nD: He would use deontological premises to deductively conclude that unjust public policies are morally objectionable.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Corvino considers the following argument: Homosexuals are \"born that way\"; therefore, homosexual activity is good and natural. Corvino claims that this argument is unsound. Why?",
+    "output": "The correct answer is B: It assumes that all innate desires are good ones.\n\nChoices:\nA: It ignores the possibility that homosexuality is a lifestyle choice.\nB: It assumes that all innate desires are good ones.\nC: It is equivalent to recognizing that homosexuality is unusual.\nD: None of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "John considers what Mary has done and thinks to himself, Mary did the right thing. This thought is primarily a judgment about",
+    "output": "The correct answer is B: an action Mary performed.\n\nChoices:\nA: Mary's upbringing.\nB: an action Mary performed.\nC: Mary's moral character.\nD: what John thinks he would have done.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is not a chromosome instability syndrome?",
+    "output": "The correct answer is A: Klinefelter syndrome\n\nChoices:\nA: Klinefelter syndrome\nB: Ataxia telangiectasia\nC: Fanconi anaemia\nD: Bloom syndrome",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following drugs inhibit herpes viruses?",
+    "output": "The correct answer is D: Azidothymidine\n\nChoices:\nA: Amantadine\nB: Acyclovir\nC: Oseltamivir\nD: Azidothymidine",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following statements best describes the orientation of military security within the traditional conception of security studies?",
+    "output": "The correct answer is D: Military security is the central concern of strategic studies; and strategic studies are a subset of security studies. Military security is one of the central concerns of security studies, and security studies is a subset of international relations.\n\nChoices:\nA: Strategic studies are the central concern of international relations, within strategic studies, the subset of security studies focuses on military security.\nB: Military security is a central concern within international relations and dominates the scholarship. Within international relations, strategic studies form a subset of academic interest, within which security studies feature occasionally.\nC: Strategic studies are best conceptualized as a subset of international relations, and within strategic studies, military security is one of the dominant concerns. Security studies are a subset of strategic studies.\nD: Military security is the central concern of strategic studies; and strategic studies are a subset of security studies. Military security is one of the central concerns of security studies, and security studies is a subset of international relations.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "One objection to care ethics is thatit seems to imply that we areresponsible for our attitudes, even though they seem not to be under our voluntary control. Collins responds by arguing that",
+    "output": "The correct answer is B: we can often bring ourselves to have attitudes of care indirectly\n\nChoices:\nA: caring attitudes are not moral attitudes at all.\nB: we can often bring ourselves to have attitudes of care indirectly\nC: when we fail to have attitudes of care this means that no caring attitudes were required of us towards some person\nD: Collins agrees with the objection.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "How many people globally are currently infected with hepatitis B?",
+    "output": "The correct answer is A: 350 million\n\nChoices:\nA: 350 million\nB: 2 billion\nC: 100,000\nD: 1 million",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the three following organisational characteristics of small businesses tend to characterise their engagement with business related issues?",
+    "output": "The correct answer is C: Informal relationships, owner and family member influence on the organisation, lack of organisational resources\n\nChoices:\nA: Size and complexity, owner and family member influence on the organisation, shareholder and stakeholder power\nB: Lack of organisational resources, size and complexity, owner and family member influence\nC: Informal relationships, owner and family member influence on the organisation, lack of organisational resources\nD: Bureaucratic and formal organisational structure, lack of organisational resources, conflicts of interest",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The Old Testament presents the view that sexuality is",
+    "output": "The correct answer is D: a and b\n\nChoices:\nA: fundamentally positive\nB: to be considered in light of its social consequences\nC: comparable to other biological functions\nD: a and b",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The need to head off negative publicity.",
+    "output": "The correct answer is C: 1,2,3\n\nChoices:\nA: 1,3,4\nB: 2,3,4\nC: 1,2,3\nD: 1,2,3,4",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Marfan syndrome is caused by mutations in the gene which encodes _______.",
+    "output": "The correct answer is D: Fibrillin\n\nChoices:\nA: Collagen\nB: Dystrophin\nC: Elastin\nD: Fibrillin",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is an unusual feature of the replication cycle in coronaviruses?",
+    "output": "The correct answer is B: They take advantage of recombination with the long RNA genome\n\nChoices:\nA: The RNAs all terminate in a common 3´ and produce nested set transcripts\nB: They take advantage of recombination with the long RNA genome\nC: They are not highly mutable\nD: They use capped cellular mRNA's",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Miss Jones has been concerned about her health lately. She has noticed some itching and skin irritation around her genitals. Given her promiscuous sexual history she suspects that she has contracted:",
+    "output": "The correct answer is D: pubic lice\n\nChoices:\nA: chlamydia\nB: genital warts\nC: gonorrhea\nD: pubic lice",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The placenta does all of the following except:",
+    "output": "The correct answer is C: supplies blood to the fetus\n\nChoices:\nA: supplies oxygen to the fetus\nB: supplies nutrients to the fetus\nC: supplies blood to the fetus\nD: secretes hormones",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Aristotle defines virtue as",
+    "output": "The correct answer is B: a disposition to avoid extremes in feeling and action.\n\nChoices:\nA: the ability to control one's anger.\nB: a disposition to avoid extremes in feeling and action.\nC: intellectual knowledge.\nD: the capacity to ascertain what God would desire.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "______ the workplace involves empowering employees through, for example, 'job enrichment' where employees are given a larger scope for deciding how to organize their work or 'job enlargement' where employees are given a wider range of tasks to do.",
+    "output": "The correct answer is D: Rehumanizing\n\nChoices:\nA: Re-invigorating\nB: Re-flourishing\nC: Revitalizing\nD: Rehumanizing",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "AIDS activism in the U.S. resulted in:",
+    "output": "The correct answer is D: All of the above\n\nChoices:\nA: Food and Drug Administration reforms\nB: Easier access to investigational drugs\nC: Changes in the way medicine was practiced in the U.S.\nD: All of the above",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The normal human chromosome diploid number is:",
+    "output": "The correct answer is C: 46\n\nChoices:\nA: 23\nB: 24\nC: 46\nD: 48",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Altman, a viewpoint-biased speech restriction should be troubling to whom?",
+    "output": "The correct answer is A: those who value a strong right to privacy\n\nChoices:\nA: those who value a strong right to privacy\nB: those who value strong protections for freedom of speech\nC: those who don't value strong protection for freedom of speech\nD: those who value equal educational opportunity",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What seems to be the case when the folk saying \"opposites attract\" (i.e., dissimilar attitudes tend to cause liking) when it is considered in light of current research?",
+    "output": "The correct answer is A: It does not seem to be true.\n\nChoices:\nA: It does not seem to be true.\nB: It seems to be true for heterosexuals but not for homosexuals.\nC: It seems to be true for homosexuals but not for heterosexuals.\nD: It seems to be true for women but not for men",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Pogge argues that even though we cannot be held responsible for the wrongful acts that others did long ago, we can be held responsible for",
+    "output": "The correct answer is B: failing to address those wrongs as if they were our own.\n\nChoices:\nA: claiming the benefits gained by those wrongs.\nB: failing to address those wrongs as if they were our own.\nC: whether or not we respect other persons\nD: all of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "How significant are dealings in illicit arms as part of the global defence trade?",
+    "output": "The correct answer is A: Although the bulk of defence trade is legal, we know that a certain amount is illicit and involves transfers on the black and grey markets.\n\nChoices:\nA: Although the bulk of defence trade is legal, we know that a certain amount is illicit and involves transfers on the black and grey markets.\nB: The global defence market is too tightly regulated and controlled to allow illicit arms trade to any significant degree.\nC: We do not have enough evidence or knowledge on illegal arms trading to assess whether it takes place on a significant scale.\nD: There is a clear distinction between those weapons that are legally procured and those that are illicitly procured.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Advocates of care ethics argue that",
+    "output": "The correct answer is B: that traditional moral theories have difficulty explaining the rightness or wrongness of attitudes.\n\nChoices:\nA: care ethics is an important development of virtue ethics.\nB: that traditional moral theories have difficulty explaining the rightness or wrongness of attitudes.\nC: that the only important more concepts are care and compassion.\nD: that we should think about welfare and happiness in terms of sympathy.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Mill, censoring speech that is possibly true",
+    "output": "The correct answer is C: is tantamount to asserting that you are infallible.\n\nChoices:\nA: violates human dignity.\nB: fails a prima facie duty of honesty.\nC: is tantamount to asserting that you are infallible.\nD: is a risk worth taking of the speech is dangerous enough.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Where are arenaviruses predominately located in the world?",
+    "output": "The correct answer is A: SE Asia\n\nChoices:\nA: SE Asia\nB: Russia\nC: Africa and S. America\nD: N. America",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Lukianoff and Haidt postulate that social media",
+    "output": "The correct answer is B: has helped to combat the rise of vindictive protectiveness.\n\nChoices:\nA: has contributed to the rise of vindictive protectiveness.\nB: has helped to combat the rise of vindictive protectiveness.\nC: shifted the balance of power between students and professors.\nD: Both A and C",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "When may an issue fail to become securitized?",
+    "output": "The correct answer is C: When the securitizing actor is not granted the special right to implement extraordinary measure.\n\nChoices:\nA: When the general public is not convinced of the legitimacy of the proposed threat.\nB: When, following the discursive element of the process, extraordinary measures are not implemented.\nC: When the securitizing actor is not granted the special right to implement extraordinary measure.\nD: When the audience are convinced via the speech act or the securitizing actor but fail to grant that actor the special rights requested in order to address the proposed threat.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Nathanson proposes a form of retributivism that requires all of the following except",
+    "output": "The correct answer is D: the death penalty for the most serious crimes.\n\nChoices:\nA: a list of crimes ranked according to their seriousness.\nB: a scale of punishments that correspond to the seriousness of certain crimes.\nC: treating criminals humanely.\nD: the death penalty for the most serious crimes.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The most common cystic fibrosis mutation consists of:",
+    "output": "The correct answer is A: a deletion.\n\nChoices:\nA: a deletion.\nB: a duplication.\nC: a substitution.\nD: an insertion.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Sandel believes that the use of genetic enhancement is inherently wrong because",
+    "output": "The correct answer is D: none of the above\n\nChoices:\nA: its use would be unsafe.\nB: its use would be unfair.\nC: both of the above\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Critics of speech codes adopted in the 1980s and early 1990s argued that these codes violated which of the following principles?",
+    "output": "The correct answer is B: freedom of the press\n\nChoices:\nA: freedom of speech\nB: freedom of the press\nC: right to bear arms\nD: right to privacy",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The goal of cognitive-behavioral therapy is to",
+    "output": "The correct answer is A: build grit.\n\nChoices:\nA: build grit.\nB: minimize distorted thinking.\nC: reward good behavior.\nD: achieve stoic wisdom.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The principle of proportionality requires that",
+    "output": "The correct answer is B: punishments must be in proportion to the crime.\n\nChoices:\nA: murderers receive the death penalty.\nB: punishments must be in proportion to the crime.\nC: we should do to the wrongdoer the same kind of action done to the victim.\nD: punishments must be equal to the crime.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Persons with liberal attitudes about premarital sex are likely to:",
+    "output": "The correct answer is A: have liberal attitudes about extramarital sex\n\nChoices:\nA: have liberal attitudes about extramarital sex\nB: engage in accidental extramarital sexual activity\nC: engage in open swinging\nD: all of the above",
+    "context": "[Subject: human_sexuality]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "On West's account, women who engage in undesired sex because of actual or felt dependence on their partner may experience injury to their sense of autonomy because",
+    "output": "The correct answer is A: they have neglected to take whatever steps would lead to their self-sustenance.\n\nChoices:\nA: they have neglected to take whatever steps would lead to their self-sustenance.\nB: they are dominated by their partners insofar as they are not free to do as they please.\nC: they are actually coerced into having sex.\nD: none of the above.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In a survey of 10,000 IV drug users in town A, 1,000 turn out to be infected with hepatitis follow-up, 100 patients with hepatitis C infection die. Also during follow-up, 100 IV drug users acquire hepatitis C. Which of the following is the best estimate of the annual incidence of hepatitis C infection in IV drug users in town A?",
+    "output": "The correct answer is B: 1,100/10,000\n\nChoices:\nA: 1,000/10,000\nB: 1,100/10,000\nC: 100/10,000\nD: 100/9,000",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is the most special characteristic of the adaptive immune system?",
+    "output": "The correct answer is D: Clonal expansion of pre-existing antibodies and/or T cells\n\nChoices:\nA: Antibodies\nB: T cells\nC: Memory T cells\nD: Clonal expansion of pre-existing antibodies and/or T cells",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In response to Sandel's \"social justice\" argument, Kamm argues that",
+    "output": "The correct answer is D: all of the above\n\nChoices:\nA: even if we were able to enhance ourselves or others, we would not thereby be obligated to do so.\nB: there is a difference between (i) choosing that one have a certain trait and (ii) being responsible for bearing the costs of that choice.\nC: having the option to enhance will lead to fewer instances of people who require the assistance of others.\nD: all of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "In Carruther's view, the justification for moral criticism for things that we do (or don't to do) to an animal derives from",
+    "output": "The correct answer is C: the bad qualities of character that our actions evince.\n\nChoices:\nA: the animal's direct moral standing.\nB: the animals capacity for suffering.\nC: the bad qualities of character that our actions evince.\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Suppose Nathan argues that while neither nonhuman nor nonsentient beings have direct moral standing, we still ought to have a certain noninstrumental regard for the environment because failing to do so involves a deficiency in one's moral character. Nathan is most likely applying what moral theory?",
+    "output": "The correct answer is A: virtue ethics\n\nChoices:\nA: virtue ethics\nB: consequentialism\nC: Kantian theory\nD: an ethics of prima facie duty",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which member of the paramyxovirus family can cause very serious croup?",
+    "output": "The correct answer is B: Meta pneumo virus\n\nChoices:\nA: Measles\nB: Meta pneumo virus\nC: Hendra\nD: Respiratory syncytial virus (RSV)",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following best describes Gill's response to Kass's argument that the notion of being \"better off dead\" is incoherent?",
+    "output": "The correct answer is B: Even if the notion is incoherent, there's nothing incoherent about preferring to be dead.\n\nChoices:\nA: Nonexistent people can still benefit from some things.\nB: Even if the notion is incoherent, there's nothing incoherent about preferring to be dead.\nC: Not suffering is always better than suffering.\nD: Kass unjustifiably assumes that dying implies no longer existing.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What would be the frequency of AABBCC individuals from a mating of two AaBbCc individuals?",
+    "output": "The correct answer is A: 1.0/64\n\nChoices:\nA: 1.0/64\nB: 1.0/32\nC: 1.0/128\nD: 1.0/256",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What does SCNT stand for, as used in the discussion on cloning?",
+    "output": "The correct answer is C: somatic cell nuclear transfer\n\nChoices:\nA: skin cell nuclear transfer\nB: stem cell nuclear transmission\nC: somatic cell nuclear transfer\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is the odd one out?",
+    "output": "The correct answer is D: Vectors of economic incentives.\n\nChoices:\nA: Institutional constraints and resource constraints.\nB: Information and time horizon.\nC: Goals.\nD: Vectors of economic incentives.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Gill, the moral value of autonomy mostly consists in",
+    "output": "The correct answer is C: the ability to make important life decision on the basis of our deepest values.\n\nChoices:\nA: the ability to act and choose while free from distress.\nB: the ability to choose to end one's own life.\nC: the ability to make important life decision on the basis of our deepest values.\nD: the duty to not interfere with the free choices of others.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Managers are entrusted to run the company in the best interest of ________. Specifically, they have a duty to act for the benefit of the company, as well as a duty of ________ and of _______.",
+    "output": "The correct answer is A: Shareholders, Care and Skill, Diligence\n\nChoices:\nA: Shareholders, Care and Skill, Diligence\nB: Stakeholder, Care and Skill, Diligence\nC: Shareholders, Self-interest, Diligence\nD: Stakeholders, Care and skill, Self-interest",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The doctrine of double effect is so named because it concerns",
+    "output": "The correct answer is B: cases in which performing an action would have at least one good effect and one bad effect.\n\nChoices:\nA: actions that are composites of simpler actions.\nB: cases in which performing an action would have at least one good effect and one bad effect.\nC: cases in which an action would have at least two good effects or two bad effects.\nD: cases in which two actions of the same type are performed at the same time.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "“Test and treat” depends on:",
+    "output": "The correct answer is D: All of the above\n\nChoices:\nA: The proportion of infected persons willing to be tested\nB: The willingness of persons testing HIV positive to begin treatment\nC: The availability of resources for persons testing HIV positive\nD: All of the above",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is a feature of consequentialist moral theory?",
+    "output": "The correct answer is D: all of the above\n\nChoices:\nA: It is a value-based theory.\nB: It involves the idea of alternative actions open to the agent.\nC: It is a strongly impartialist moral theory.\nD: all of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is the future of WMD?",
+    "output": "The correct answer is D: WMD terrorism poses a security threat that is not easily met by today's policy community or military establishments. The second strike rule is virtually obsolete because of the difficulty of locating such groups and deterrence is an unviable strategy given that objective of attacks are frequently politically, ideologically or religiously motivated.\n\nChoices:\nA: The viability of the CWC and BCW providing a concrete basis in international law to prevent the proliferation of chemical and biological weapons is dubious. The Proliferation Security Initiative to prevent the illicit trade in materials relating to chemical and nuclear weapons is an equally piecemeal pursuit. Whilst they may serve some utility as a framework for diplomatic exchanges, they are essentially toothless bodies lacking the political will to establish an authority with the powers to police the control and use of these weapons.\nB: The International Non-proliferation Regime has been rendered effectively defunct in the post-Cold War climate. State actors seeking to develop their own weapons capabilities have de-stabilized norms governing the use and control of WMD. This has been evidenced by severe splits in the body following the 1998 Indian and Pakistani nuclear testing and the withdrawal of great power support following the US Senate's decision not to ratify the Comprehensive Test Ban Treaty.\nC: Contemporary concern has been pacified by the fact that WMD threat has greatly diminished with the end of the Cold War. A number of deployed Soviet (Russian) and strategic warheads and US tactical nuclear weapons have been withdrawn from service thereby removing the threat of total war by massive nuclear exchange.\nD: WMD terrorism poses a security threat that is not easily met by today's policy community or military establishments. The second strike rule is virtually obsolete because of the difficulty of locating such groups and deterrence is an unviable strategy given that objective of attacks are frequently politically, ideologically or religiously motivated.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Businesses engage in social accounting due to demands from _________, in order to identify ________, to improve ___________ and to encourage _________ and ___________",
+    "output": "The correct answer is A: Stakeholders, Risks, Stakeholder management, Accountability, Transparency\n\nChoices:\nA: Stakeholders, Risks, Stakeholder management, Accountability, Transparency\nB: Stakeholders, Accountability, Transparency, Risks, Stakeholder Management\nC: Stakeholders, Accountability, Risks, Stakeholders, Stakeholder Management\nD: Stakeholders, Stakeholder Management, Transparency, Risks, Accountability",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following diagnostic techniques is of no value for the diagnosis of neural tube defects?",
+    "output": "The correct answer is B: Chorion villus sampling (CVS)\n\nChoices:\nA: Amniocentesis\nB: Chorion villus sampling (CVS)\nC: Maternal serum screening\nD: Ultrasonography",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "They are too irrational and uncodified.",
+    "output": "The correct answer is B: 1,3\n\nChoices:\nA: 3,4\nB: 1,3\nC: 2,3\nD: 4,1",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "A(n) __________ is a ________, __________ framework which goes beyond linear functions, operations and transactions to produce a certain commodity or product",
+    "output": "The correct answer is B: Global production network, Dynamic, Relational\n\nChoices:\nA: International supply chain, Static, Disconnected\nB: Global production network, Dynamic, Relational\nC: International supply chain, Dynamic, Disconnected\nD: Global production network, Static, Relational",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "When considering economic tools for security policy, which of the following is the odd one out?",
+    "output": "The correct answer is A: Withdrawal of economic trade rights with the domestic market.\n\nChoices:\nA: Withdrawal of economic trade rights with the domestic market.\nB: Export controls protecting technological advantage and further foreign policy objectives.\nC: Control of munitions and arms sales.\nD: Import restrictions to protect a domestic market from foreign goods.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "What is the enlightened self-interest model of CSR?",
+    "output": "The correct answer is C: That it is in an organization's own best interest to act in an ethical way\n\nChoices:\nA: That it is in an organization's own best interest to put itself first rather than its ethics\nB: That it is in an organization's best interest to consider what a shareholder would want\nC: That it is in an organization's own best interest to act in an ethical way\nD: That it is in an organization's own best interest to follow the legislation and abide by the law",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is a feature of X-linked dominant inheritance?",
+    "output": "The correct answer is D: Transmitted by males only to females\n\nChoices:\nA: Parental consanguinity\nB: Male to male transmission\nC: Transmission only by females\nD: Transmitted by males only to females",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The mutational mechanism in δβ-thalassaemia consists of:",
+    "output": "The correct answer is A: a deletion.\n\nChoices:\nA: a deletion.\nB: a duplication.\nC: an insertion.\nD: a point mutation.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Better access to certain markets, differentiation of products, and the sale of pollution-control technology are ways in which better environmental performance can:",
+    "output": "The correct answer is A: Increase Revenue\n\nChoices:\nA: Increase Revenue\nB: Increase Costs\nC: Decrease Revenue\nD: Decrease Costs",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is not an objection that Kass makes against cloning?",
+    "output": "The correct answer is C: It will produce harmful biological mutations as clones produce further clones.\n\nChoices:\nA: It constitutes unethical experimentation.\nB: It threatens identity and individuality.\nC: It will produce harmful biological mutations as clones produce further clones.\nD: It perverts our values concerning parenthood and the raising of children.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "According to Gardiner, which of the following is an important implication of the fact that carbon dioxide is a long-lived greenhouse gas?",
+    "output": "The correct answer is D: all of the above\n\nChoices:\nA: That climate change is a resilient phenomenon.\nB: That the impacts of climate change are seriously back-loaded.\nC: That climate change is a substantially deferred phenomenon.\nD: all of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "A special feature of adaptive immunity is:",
+    "output": "The correct answer is B: Ability to distinguish self and non self\n\nChoices:\nA: Speed of response to a foreign protein\nB: Ability to distinguish self and non self\nC: Ability to distinguish viruses and bacteria\nD: Short memory",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Kant's moral theory is a version of",
+    "output": "The correct answer is D: none of the above\n\nChoices:\nA: consequentialism.\nB: virtue ethics.\nC: utilitarianism.\nD: none of the above",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "How do biological differences affect the roles that men and women must perform for the state?",
+    "output": "The correct answer is D: Gender roles are a social construct; the values that we attribute to masculinity or femininity, such as strength or care-giving, are the product of shared social ideals rather than innate biological properties. Men and women are equally able to care effectively for children or to conduct violent and aggressive behaviour. However, social constructs of gender roles are pervasive, and women are likely to be victims of gender-based violence in conflict whilst men are more likely to be involved as perpetrators of violence.\n\nChoices:\nA: Biology determines the female body as weak, ensuring that men continue to dominate state security apparatus in order to protect them. Women are aware of practical biological differences, and by accepting them they allow men to act as their protectors and care-givers. In return, women must act as protectors and care-givers to those less capable than themselves, their children, infants, the elderly, and the infirm.\nB: The most intimate of human activities for women are more important than the demands of the political and religious male dominated elite. Biology determines, and woman's intimate choice exerts, that the considerable responsibility of reproducing a state's population becomes the duty of women alone.\nC: Indiscriminate warfare is gender neutral and in contemporary conflicts there is no gender difference in levels of risk or duty. Men are just as likely to become victims of mass rape (as in the Democratic Republic of Congo or Balkans conflict) as women, and women are equally likely to be conscripted or coerced into military service.\nD: Gender roles are a social construct; the values that we attribute to masculinity or femininity, such as strength or care-giving, are the product of shared social ideals rather than innate biological properties. Men and women are equally able to care effectively for children or to conduct violent and aggressive behaviour. However, social constructs of gender roles are pervasive, and women are likely to be victims of gender-based violence in conflict whilst men are more likely to be involved as perpetrators of violence.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Businesses have _____ within society and have the potential to provide a ____ to society while ____ has the potential to inflict enormous harm on individuals, communities and the environment.",
+    "output": "The correct answer is D: Huge power, Major contribution, Business malpractice\n\nChoices:\nA: Little power, Small contribution, Business malpractice\nB: Little power, Major contribution, Corporate social responsibility\nC: Huge power, Small contribution, Corporate social responsibility\nD: Huge power, Major contribution, Business malpractice",
+    "context": "[Subject: business_ethics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Newborn infants in countries with limited access to safe water and low levels of education should be:",
+    "output": "The correct answer is B: Exclusively breast fed for six months\n\nChoices:\nA: Exclusively formula fed for six months\nB: Exclusively breast fed for six months\nC: Should receive both breast milk and other foods as tolerated in the first 6\nD: months",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "The prevalence of HIV among Latino-Americans compared to other ethic groups in the U.S. is:",
+    "output": "The correct answer is B: Higher than all other ethnic groups except African-Americans\n\nChoices:\nA: Highest\nB: Higher than all other ethnic groups except African-Americans\nC: Higher than in all other ethnic groups except African-Americans and\nD: Native Americans",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "Which of the following is an example of a duty that corresponds to a right to goods and service?",
+    "output": "The correct answer is A: John's duty to return to Mary that car that he borrowed from her\n\nChoices:\nA: John's duty to return to Mary that car that he borrowed from her\nB: John's duty to allow Mary to pursue goals that she values\nC: John's duty to not harm Mary\nD: John's duty to not commit suicide",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "How can the origins of weak state insecurity be explained?",
+    "output": "The correct answer is C: The contemporary state-building condition is constrained by the shortened time-frame operating within the established guidelines of international norms, a particular problematic rule of which is sovereignty. Thus, unlike some European entities which could not complete the state-building process and were absorbed into more viable units, weak states will remain quasi entities.\n\nChoices:\nA: Weak state insecurity in a historical framework of analysis represents an abnormal state in the long term state-building process. Bloody and violent conflict between social forces is not consistent with the presence of the centralizing force with the capacity to attain monopoly of control over violence.\nB: The utility of explaining weak state insecurity with a comparison to the historical conditions of state consolidation in Europe does not stand in the contemporary context of global society because of the pervasion of international norms to prevent violent conflict from manifesting in the consolidation process.\nC: The contemporary state-building condition is constrained by the shortened time-frame operating within the established guidelines of international norms, a particular problematic rule of which is sovereignty. Thus, unlike some European entities which could not complete the state-building process and were absorbed into more viable units, weak states will remain quasi entities.\nD: Weak state insecurity originated from the denial of sovereignty as the norm and the corresponding extension of the right to inviolability of statehood. Without protection under international laws the possibility of its national status being revoked and its territory being subsumed into another state threatens the consolidation of the state-building process.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "An oocyte is",
+    "output": "The correct answer is A: an unfertilized egg.\n\nChoices:\nA: an unfertilized egg.\nB: the nucleus that is implanted into the ovum during SCNT.\nC: the nucleus that removed from the ovum during SCNT.\nD: an undifferentiated stem cell that can be used in treating various medical conditions.",
+    "context": "[Subject: moral_disputes]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "CROSS",
+    "instruction": "To what extent is TNC linked with terrorism, and in what ways?",
+    "output": "The correct answer is C: There is increasing evidence over the convergence of terrorism and transnational crime, but there is no consensus about whether this phenomenon is a long-term strategic alliance or episodic \"marriages of convenience\".\n\nChoices:\nA: There is growing evidence of direct partnerships between terrorist groups and transnational criminal organization resulting from the end of the Cold War and the need to secure new forms of financial sponsorship. For most terrorist groups criminal activity has been amongst the most important sources of funds with the diffusion of terrorist networks globally operating in correlation to the diffusion of illicit market activities.\nB: The nexus between terrorist groups and criminal organizations are generally a temporary aberration. Differential long-term strategic goals meant that levels of cooperation were generally tactical temporary alliances that would have little pervasive effects.\nC: There is increasing evidence over the convergence of terrorism and transnational crime, but there is no consensus about whether this phenomenon is a long-term strategic alliance or episodic \"marriages of convenience\".\nD: All of these options.",
+    "context": "[Subject: security_studies]",
+    "func_type": "OTHER"
+  }
+]

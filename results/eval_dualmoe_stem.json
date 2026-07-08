@@ -1,0 +1,909 @@
+{
+  "mode": "dualmoe",
+  "domain": "STEM",
+  "n": 100,
+  "accuracy": 0.94,
+  "routing_accuracy": 0.96,
+  "results": [
+    {
+      "q": "A bat starts its life similarly to a",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Why does Earth have the strongest magnetic field among the terrestrial worlds?",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "which of these does a spinning motion?",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "HOW"
+    },
+    {
+      "q": "Which of the following would push water out of its body to evade an orca?",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "which of these would be most ideal for plant root growth?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "a retailer gets an order of aluminum delivered weekly. Where is the aluminum lik",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which would block the most sunlight?",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "What requires nutrients for survival?",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Tiny pips may be found inside of this food that is a breakfast treat.",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which is the least massive?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "An incandescent light bulb requires a filament to",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "How many divisions of particular weather patterns and hours of daylight is a yea",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Some animals use a liquid coming from their skin to adjust to",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "The animals that never migrate never do so because they were born",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Parents genes will determine the rabbits",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "What constitutes a frog's diet?",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "At what time would a person feel the most heat outside?",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Endangered pandas are sometimes",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Some animals are housed",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "the lunar surface contains",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which of these is a place where a human might live?",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "If a field is planted with something that will be sold later in the refrigerated",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Melting of polar icecaps will",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Eagles eat",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "which of these individuals would be more healthy?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "A planet rotating causes cycles of day and night on that planet, like on",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which is true about flashlights?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "I can use a microscope to",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which of these are essential to people who commute to work in an automobile?",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "SOC",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "The gravitational pull of the sun causes what phenomenon?",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHY"
+    },
+    {
+      "q": "Which of the following changes shape of an object?",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "What are the source of fruit?",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "A balance can measure the weight of",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Fog is formed by water vapor condensing in what?",
+      "answer": "C",
+      "predicted": "B",
+      "correct": false,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "How does refraction affect the look of things",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Robotics would have great difficulty in existing if these had yet to be invented",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "If you are feeling cold, its a good idea to go for a run or even a brisk walk be",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Precipitation sometimes leads to",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Birds are a vehicle for spreading the seeds of what?",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Knowing what to do without ever being taught is known as",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Why would philanthropists donate special straws to help poor countries?",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "This white object is visible due to being close to earth",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which of the following is not true?",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "MED",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "A flashlight works because the batteries inside of it produce chemical energy th",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "CO2 is released into the air when sugar eaters",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which of these most closely resembles how clouds come into being?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Prolonged sweating in hot weather means",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "When certain things are shoved together enough, the earth will tremble and shake",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "What produce pollen and seeds?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "If a body has nutriment running through all of it, then the thing responsible fo",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "what does a cactus do with water",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "Which is not a similarity between Saturn and Jupiter's atmospheres?",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "You can easily scratch a windshield with",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Cooking a burger on a grill does what to the burger?",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "One computer in a lab is programmed to back up data at the turn of the minute ev",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "What contributes to prey animals being able to survive predators long enough to ",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "The skeletal system",
+      "answer": "D",
+      "predicted": "A",
+      "correct": false,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which of these energy sources generates the least amount of pollution?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "Which of these can you use as much as you'd like of without diminishing it at al",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "A blue colored item will only reflect",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "What can humans hide from weather in?",
+      "answer": "B",
+      "predicted": "A",
+      "correct": false,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which requires respiration to use energy?",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "When a lake receives too much rain it will",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "So many environments receive large amounts of rain, though an exception is",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "A person could get in trouble for doing what in a protected environment?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "how does an animal know to perform certain crucial life actions before exposure ",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which of the following is more accurate?",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "SOC",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "Sweat is produced",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "There are several stages in the way that water cycles, and all are accurate asid",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Food is a source of energy for what?",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Echo is when sound reflects off of what?",
+      "answer": "B",
+      "predicted": "A",
+      "correct": false,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "rocks often contain large amounts of",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "What will become magnetic in an electromagnet if the battery becomes active?",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "How can we see that the coloration of fur is an inherited characteristic?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "HOW"
+    },
+    {
+      "q": "Pulse rate increases",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Every single bit of growth and life on earth is connected to the power of",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "What is a stopwatch used for?",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "A large mill in the area has led to streams and rivers being filled with",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Glasses help you",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which habit is healthiest for humans?",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which of the following does not contain oxygen?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "A person wants to find chloroplasts in great amounts, so they check",
+      "answer": "C",
+      "predicted": "A",
+      "correct": false,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Why are there more deer when there's a lot of rain?",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Where would jumping be the hardest?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Melissa is creating a new product to quench people's thirst. She thinks it will ",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Disregarding nuclear holocausts, how many suns will be in the sunset?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "What might make a more musical sound",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Extinction is the term for an organism which..?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "A painted turtle will have natural coloring, but a turtle that has been painted ",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which of these would absorb more sunlight",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "What do steam and ice have in common?",
+      "answer": "A",
+      "predicted": "A",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "Certain species of which type of animal gives live birth?",
+      "answer": "A",
+      "predicted": "B",
+      "correct": false,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "Which is likely to still be in water after treatment?",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "How many minutes are in a 24 hour day?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "The planet that contains many ecosystems is sequentially _________ from the cent",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "A person wants to take a a mode of transportation out that has two wheels so the",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "why would a mouse run away from a cat?",
+      "answer": "B",
+      "predicted": "B",
+      "correct": true,
+      "routed_domain": "SOC",
+      "true_domain": "STEM",
+      "func": "WHY"
+    },
+    {
+      "q": "Which is likely to boil?",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "WHAT"
+    },
+    {
+      "q": "What do animals do if their habitat cannot support them?",
+      "answer": "C",
+      "predicted": "C",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    },
+    {
+      "q": "An object of mass m1 experiences a linear, elastic collision with a stationary o",
+      "answer": "D",
+      "predicted": "D",
+      "correct": true,
+      "routed_domain": "STEM",
+      "true_domain": "STEM",
+      "func": "OTHER"
+    }
+  ]
+}

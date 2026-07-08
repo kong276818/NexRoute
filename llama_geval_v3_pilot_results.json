@@ -1,0 +1,1013 @@
+{
+  "pilot_results": {
+    "Naive RAG 7B": {
+      "samples": [
+        {
+          "query": "What does Socrates' assertion that 'the unexamined life is not worth living' imp",
+          "response_len": 1243,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. It correctly integrates scientific understanding and personal ethics, demonstrating a strong grasp of the subject matter.",
+              "logic_reasoning": "The response presents a well-structured and coherent argument, logically connecting the importance of individual introspection to the development of personal ethics based on scientific understanding. The reasoning is clear and justified, with each step building upon the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. It offers a nuanced understanding of ethics, integrating empirical scientific insights and philosophical questioning, making it a valuable and informative answer.",
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. It correctly integrates scientific understanding and personal ethics, demonstrating a strong"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. The explanation of how scientific understanding and personal ethics should be intertwined is also consistent with established domain knowledge.",
+              "logic_reasoning": "The response constructs a coherent and well-structured argument, logically connecting the importance of individual introspection to the development of personal ethics based on scientific understanding. The reasoning is clear and every step is justified, making it easy to follow.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. The explanation is concise and focused, with no unnecessary tangents or padding, making it a useful and informative answer.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. The explanation of how scientific understanding and personal ethics should be intertwined is"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications for individual introspection and societal norms. It correctly integrates scientific understanding and personal ethics, demonstrating a strong grasp of the subject matter.",
+              "logic_reasoning": "The response constructs a clear and coherent argument, logically connecting the importance of individual introspection to the development of personal ethics based on scientific understanding. The reasoning is well-structured and free of significant gaps.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. It is focused and concise, with no unnecessary tangents or padding, making it a highly useful answer.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications for individual introspection and societal norms. It correctly integrates scientific understanding and personal ethics, demonstrating a stron"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "Compare the legal and social implications of the British response to the Cawnpor",
+          "response_len": 1667,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of the historical context and the British colonial governance model, accurately describing the monopoly of violence and racial hierarchy. The use of technical terms and concepts is precise, reflecting a high level of domain expertise.",
+              "logic_reasoning": "The response constructs a clear and coherent causal chain, effectively connecting the British response to the Cawnpore massacres to the imposition of direct rule over India. The reasoning is well-structured, with each step logically justified and supported by the historical context.",
+              "utility_reasoning": "The response directly addresses the query intent, providing a focused and relevant analysis of the British response to the Cawnpore massacres and its implications for the imposition of direct rule over India. The answer is concise and free of unnecessary tangents, making it highly useful for understanding the topic.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of the historical context and the British colonial governance model, accurately describing the monopoly of violence and racial hierarchy. The use of technical terms an"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "How might the integration of advanced genetic engineering techniques in agricult",
+          "response_len": 1901,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and distribution. The use of technical terms and concepts is accurate, and the discussion of potential benefits and drawbacks is well-informed.",
+              "logic_reasoning": "The response presents a clear and logical chain of reasoning, connecting the integration of genetic engineering techniques to their potential effects on nutritional diversity and distribution. The discussion is well-structured and easy to follow, with each point building on the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. The discussion is focused and concise, with no unnecessary tangents or padding. The response provides a nuanced and balanced view of the topic, highlighting both the potential benefits and drawbacks of genetic engineering techniques.",
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and distribution. The use of technical terms and concepts is accurate, and the d"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and food distribution. It accurately highlights the benefits and drawbacks of these technologies, including their effects on crop yields, micronutrient deficiencies, and socioeconomic disparities.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, connecting the integration of genetic engineering techniques to their potential effects on nutritional diversity and food distribution. The argument is well-structured, with each point building on the previous one to create a coherent narrative.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. It offers a nuanced discussion of the potential benefits and drawbacks of genetic engineering techniques, making it a useful resource for policymakers, researchers, and other stakeholders.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and food distribution. It accurately highlights the benefits and drawbacks of th"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "WHAT social and medical factors contribute to the least frequent phase of retire",
+          "response_len": 1820,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately identifies socio-economic factors, social engagement, healthcare access, and cultural context as contributors to the least frequent phase of retirement disenchantment. It also correctly emphasizes the importance of robust social support networks and good physical health, aligning with established domain knowledge.",
+              "logic_reasoning": "The response constructs a coherent causal chain, explaining how socio-economic stability, social engagement, and access to healthcare services can mitigate retirement disenchantment. The reasoning is well-structured, with each point logically building upon the previous one to form a comprehensive explanation.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information about the social and medical factors contributing to the least frequent phase of retirement disenchantment. The answer is focused and concise, with no unnecessary tangents or padding.",
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately identifies socio-economic factors, social engagement, healthcare access, and cultural context as contributors to the least frequent phase of retirement disenchantment. It also correctly emphas"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately identifies socio-economic factors, social engagement, access to healthcare, and cultural context as contributors to the least frequent phase of retirement disenchantment. It demonstrates a strong understanding of established domain knowledge, using technical terms and concepts correctly.",
+              "logic_reasoning": "The response constructs a coherent causal chain connecting premises to conclusions, explaining how various factors contribute to reduced disenchantment. The reasoning is well-structured, with each point logically building upon the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information. It offers a comprehensive analysis of the factors contributing to the least frequent phase of retirement disenchantment, making it a useful resource for understanding the topic.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately identifies socio-economic factors, social engagement, access to healthcare, and cultural context as contributors to the least frequent phase of retirement disenchantment. It demonstrates a str"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "How might the integration of advanced neuroimaging techniques and sociocultural ",
+          "response_len": 1858,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately integrates advanced neuroimaging techniques and sociocultural factors in patient care, demonstrating a strong understanding of the domain. The explanation of how neuroimaging technologies can "
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of advanced neuroimaging techniques and sociocultural factors in patient care, accurately explaining how these elements can improve MS diagnosis and treatment. The technical terms and concepts are used correctly, showcasing a high level of domain expertise.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, effectively connecting the integration of neuroimaging techniques and sociocultural factors to improved patient care and reduced healthcare disparities. The explanation is well-structured and easy to follow.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information on how the integration of advanced neuroimaging techniques and sociocultural factors can improve MS diagnosis and treatment. The answer is focused and concise, with no unnecessary tangents or padding.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of advanced neuroimaging techniques and sociocultural factors in patient care, accurately explaining how these elements can improve MS diagnosis and treatment. The tec"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        }
+      ],
+      "summary": {
+        "n_samples": 5,
+        "avg_mean": 9.0,
+        "avg_std": 0.0,
+        "avg_ci95_half": 0.0,
+        "avg_ci95": "[9.000, 9.000]",
+        "domain_accuracy_mean": 9.0,
+        "domain_accuracy_std": 0.0,
+        "logic_mean": 9.0,
+        "logic_std": 0.0,
+        "utility_mean": 9.0,
+        "utility_std": 0.0
+      }
+    },
+    "Adaptive RAG 7B": {
+      "samples": [
+        {
+          "query": "What does Socrates' assertion that 'the unexamined life is not worth living' imp",
+          "response_len": 1453,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications on the relationship between individual introspection and societal norms. It correctly uses domain concepts, such as the importance of self-reflection and critical thinking in shaping one's ethical framework.",
+              "logic_reasoning": "The response constructs a coherent and well-structured argument, logically connecting the importance of individual introspection to the development of personal ethics based on scientific understanding. The reasoning is clear and justified, with a tight causal chain.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. It is focused and concise, with no unnecessary tangents or padding, making it a highly useful answer to the question.",
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications on the relationship between individual introspection and societal norms. It correctly uses domain concepts, such as the importance of self-r"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. It correctly integrates the concept of scientific understanding into the discussion of personal ethics, demonstrating a strong grasp of the subject matter.",
+              "logic_reasoning": "The response presents a well-structured argument, logically connecting the importance of self-reflection to the development of a personal ethical framework. It effectively uses transitional phrases to guide the reader through the reasoning process, making the causal chain clear and coherent.",
+              "utility_reasoning": "The response directly addresses the query, providing a thoughtful and relevant exploration of Socrates' assertion in the context of modern society. It offers actionable insights into the importance of balancing societal norms with individual critical inquiry, making it a useful and relevant answer.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. It correctly integrates the concept of scientific understanding into the discussion of perso"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. It correctly integrates the concept of scientific understanding into the development of personal ethics, demonstrating a strong grasp of the subject matter.",
+              "logic_reasoning": "The response constructs a coherent and well-structured argument, logically connecting the importance of self-examination to the development of a personal ethical framework. The reasoning is clear and justified, with each step building upon the previous one to form a solid conclusion.",
+              "utility_reasoning": "The response directly addresses the query intent, providing a precise and relevant explanation of Socrates' assertion and its implications. The answer is focused and concise, with no unnecessary tangents or padding, making it highly useful for understanding the topic.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. It correctly integrates the concept of scientific understanding into the development of pers"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "Compare the legal and social implications of the British response to the Cawnpor",
+          "response_len": 1665,
+          "runs": [
+            {
+              "domain_accuracy": 8.0,
+              "logic": 8.0,
+              "utility": 7.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of the British response to the Cawnpore massacres, accurately referencing the Government of India Act 1858 and the concept of the monopoly of violence. However, there are minor imprecisions in the explanation of the racial hierarchy and its implications.",
+              "logic_reasoning": "The response constructs a clear causal chain connecting the British response to the Cawnpore massacres, the racial hierarchy, and the imposition of direct rule over India. The reasoning is well-structured, but there are minor gaps in the explanation of how the British authorities' actions were influenced by their perceived racial superiority.",
+              "utility_reasoning": "The response directly addresses the query intent and provides relevant information, but could be more concise. Some sentences are wordy and could be condensed without losing meaning.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of the British response to the Cawnpore massacres, accurately referencing the Government of India Act 1858 and the concept of the monopoly of violence. However, there "
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 8.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 8.0,
+            "logic_std": 0.0,
+            "utility_mean": 7.0,
+            "utility_std": 0.0,
+            "avg_mean": 7.667,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "How might the integration of advanced genetic engineering techniques in agricult",
+          "response_len": 1920,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and distribution. The explanation of how genetic engineering can enhance crop yields, resistance to diseases, and nutritional content is accurate and consistent with established domain knowledge.",
+              "logic_reasoning": "The response constructs a coherent and well-structured argument, clearly outlining the potential benefits and drawbacks of integrating advanced genetic engineering techniques in agriculture. The reasoning is logical and easy to follow, with a clear causal chain connecting premises to conclusions.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. The answer is focused and concise, with no unnecessary tangents or padding. The response also highlights the need for careful regulation and policy-making to ensure equitable distribution of benefits.",
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and distribution. The explanation of how genetic engineering can enhance crop yi"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and distribution. The explanation of how genetic engineering can enhance crop yields, introduce beneficial traits, and potentially reduce genetic diversity is accurate and consistent with established domain knowledge.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, effectively connecting the premises to the conclusions. The discussion of both the benefits and drawbacks of genetic engineering in agriculture is well-structured and coherent, with each point logically building upon the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. The discussion is focused and concise, with no unnecessary tangents or padding, making it a useful and informative answer to the question.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and distribution. The explanation of how genetic engineering can enhance crop yi"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of genetic engineering techniques in agriculture and their potential impact on nutritional diversity and distribution. The use of technical terms and concepts is accurate, and the discussion of potential benefits and drawbacks is well-informed.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, connecting the integration of genetic engineering techniques to potential outcomes for nutritional diversity and distribution. The discussion is well-structured and easy to follow, with each point building on the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. The discussion is focused and concise, with no unnecessary tangents or padding. The response provides a clear and nuanced understanding of the potential impacts of genetic engineering on nutritional diversity and distribution.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of genetic engineering techniques in agriculture and their potential impact on nutritional diversity and distribution. The use of technical terms and concepts is accur"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "WHAT social and medical factors contribute to the least frequent phase of retire",
+          "response_len": 1886,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately identifies socioeconomic factors, social support networks, and access to healthcare as contributing to the least frequent phase of retirement disenchantment. The explanation is consistent with established knowledge on the topic, demonstrating a strong understanding of the domain.",
+              "logic_reasoning": "The response constructs a clear and coherent causal chain, connecting socioeconomic factors, social support, and access to healthcare to the outcome of retirement disenchantment. The reasoning is well-structured, with each point logically building upon the previous one to form a comprehensive explanation.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information that can be applied to understand the factors contributing to the least frequent phase of retirement disenchantment. The answer is focused and concise, with no unnecessary tangents or padding.",
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately identifies socioeconomic factors, social support networks, and access to healthcare as contributing to the least frequent phase of retirement disenchantment. The explanation is consistent with"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of the factors contributing to retirement disenchantment, accurately highlighting the importance of social support networks, physical health, socioeconomic conditions,"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately identifies the social and medical factors contributing to the least frequent phase of retirement disenchantment among elderly individuals, including robust social support networks, good physical health, socioeconomic factors, and access to quality healthcare services. The response demonstrates a strong understanding of established domain knowledge, using technical terms and",
+              "logic_reasoning": "The response constructs a clear and coherent causal chain connecting the identified factors to the outcome of reduced retirement disenchantment. The reasoning is well-structured, with each point logically building upon the previous one to create a comprehensive explanation.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information that is concise and focused. The answer is well-organized and easy to follow, making it a useful resource for understanding the factors that contribute to reduced retirement disenchantment.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately identifies the social and medical factors contributing to the least frequent phase of retirement disenchantment among elderly individuals, including robust social support networks, good physic"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "How might the integration of advanced neuroimaging techniques and sociocultural ",
+          "response_len": 1878,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong command of domain-specific knowledge, accurately describing the role of advanced neuroimaging techniques and sociocultural factors in patient care for multiple sclerosis. Technical terms and concepts are used correctly, and the explanation is consistent with established domain knowledge.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, effectively connecting the integration of neuroimaging techniques and sociocultural factors to improved diagnosis and treatment of MS. The explanation is well-structured, and each step logically follows from the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information on how the integration of advanced neuroimaging techniques and sociocultural factors can improve patient care for MS. The answer is focused and concise, with no unnecessary tangents or padding.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong command of domain-specific knowledge, accurately describing the role of advanced neuroimaging techniques and sociocultural factors in patient care for multiple sclerosis. Technical "
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong command of domain-specific knowledge, accurately describing the role of advanced neuroimaging techniques and sociocultural factors in MS diagnosis and treatment. Technical terms and concepts are used correctly, showcasing a high level of domain expertise.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, effectively connecting the integration of neuroimaging and sociocultural factors to improved MS diagnosis and treatment outcomes. The explanation is well-structured and easy to follow, with each point building upon the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information that effectively answers the question. The answer is focused and concise, with no unnecessary tangents or padding, making it highly useful for the reader.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong command of domain-specific knowledge, accurately describing the role of advanced neuroimaging techniques and sociocultural factors in MS diagnosis and treatment. Technical terms and"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        }
+      ],
+      "summary": {
+        "n_samples": 5,
+        "avg_mean": 8.733,
+        "avg_std": 0.596,
+        "avg_ci95_half": 0.74,
+        "avg_ci95": "[7.993, 9.474]",
+        "domain_accuracy_mean": 8.8,
+        "domain_accuracy_std": 0.447,
+        "logic_mean": 8.8,
+        "logic_std": 0.447,
+        "utility_mean": 8.6,
+        "utility_std": 0.894
+      }
+    },
+    "HyDE 7B": {
+      "samples": [
+        {
+          "query": "What does Socrates' assertion that 'the unexamined life is not worth living' imp",
+          "response_len": 1387,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. It also correctly integrates the concept of scientific understanding in the context of personal ethics, demonstrating a strong grasp of the subject matter.",
+              "logic_reasoning": "The response presents a well-structured argument, logically connecting the importance of individual introspection to the development of personal ethics grounded in scientific understanding. The reasoning is clear and coherent, with each step building upon the previous one to form a solid conclusion.",
+              "utility_reasoning": "The response directly addresses the query, providing a detailed and relevant explanation that offers actionable insights into the relationship between individual introspection, societal norms, and scientific understanding in the context of personal ethics. The information is concise and focused, with no unnecessary tangents.",
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. It also correctly integrates the concept of scientific understanding in the context of perso"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. It correctly integrates the concept of scientific understanding into the discussion of personal ethics, demonstrating a solid grasp of the subject matter.",
+              "logic_reasoning": "The response presents a well-structured argument, logically connecting the importance of individual introspection to the development of personal ethics grounded in scientific understanding. The reasoning is coherent and effectively supports the conclusion.",
+              "utility_reasoning": "The response directly addresses the query, providing a clear and relevant explanation of Socrates' assertion and its implications. The information is actionable and relevant, offering insights into the importance of introspection in shaping personal ethics.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. It correctly integrates the concept of scientific understanding into the discussion of perso"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications for individual introspection and societal norms. It correctly integrates scientific understanding and personal ethics, demonstrating a strong grasp of the subject matter.",
+              "logic_reasoning": "The response constructs a clear and coherent argument, logically connecting the importance of individual introspection to the development of personal ethics and the role of scientific understanding. The reasoning is well-structured and easy to follow.",
+              "utility_reasoning": "The response directly addresses the query intent, providing a clear and concise explanation of Socrates' assertion and its implications. The information is actionable and relevant, making it useful for understanding the relationship between individual introspection and societal norms.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications for individual introspection and societal norms. It correctly integrates scientific understanding and personal ethics, demonstrating a stron"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "Compare the legal and social implications of the British response to the Cawnpor",
+          "response_len": 1389,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately captures the historical context of the Cawnpore massacres and the British response, including the imposition of direct rule over India. The use of terms such as 'monopoly of violence' and 'racial hierarchy' is correct and consistent with established domain knowledge.",
+              "logic_reasoning": "The response constructs a clear and coherent causal chain connecting the British response to the Cawnpore massacres to the imposition of direct rule over India. The reasoning is well-structured, and each step logically follows from the previous one, demonstrating a tight causal chain.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. The answer is focused and concise, with no unnecessary tangents or padding, making it a highly useful response.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately captures the historical context of the Cawnpore massacres and the British response, including the imposition of direct rule over India. The use of terms such as 'monopoly of violence' and 'rac"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "How might the integration of advanced genetic engineering techniques in agricult",
+          "response_len": 1740,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and food distribution. It accurately highlights the benefits, such as enhanced crop yields and increased bioavailability of essential vitamins and minerals, as well as the challenges, including socioeconomic disparities and potential environmental impacts.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, connecting the integration of genetic engineering techniques to their potential effects on nutritional diversity and distribution. The argument is well-structured, with each point building upon the previous one to create a cohesive narrative.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. It offers a nuanced discussion of the potential benefits and challenges of genetic engineering in agriculture, making it a useful and informative answer for those seeking to understand the topic.",
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and food distribution. It accurately highlights the benefits, such as enhanced c"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and food distribution. It accurately highlights the benefits of enhanced crop yields and micronutrient content, as well as the challenges of socioeconomic disparities and resistance to GM crops.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, connecting the integration of genetic engineering techniques to their potential impacts on nutritional diversity and distribution. The argument is well-structured and coherent, with each point building on the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. It highlights the need for careful regulation and policy-making to ensure equitable distribution of benefits, making it a useful and practical answer.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and food distribution. It accurately highlights the benefits of enhanced crop yi"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of genetic engineering techniques and their potential impact on nutritional diversity and food distribution. The explanation of how genetic engineering can enhance crop yields and nutritional content is accurate, and the discussion of potential challenges such as socioeconomic disparities and resistance to GM crops is well-informed.",
+              "logic_reasoning": "The response presents a clear and logical argument, connecting the integration of genetic engineering techniques in agriculture to its potential effects on nutritional diversity and distribution. The reasoning is well-structured, and the author effectively addresses potential counterarguments and complexities.",
+              "utility_reasoning": "The response directly addresses the query and provides actionable, relevant information. The author offers a nuanced discussion of the benefits and challenges of genetic engineering, making the response useful for understanding the complex issues surrounding this topic.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of genetic engineering techniques and their potential impact on nutritional diversity and food distribution. The explanation of how genetic engineering can enhance cro"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "WHAT social and medical factors contribute to the least frequent phase of retire",
+          "response_len": 1727,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a comprehensive understanding of the social and medical factors contributing to retirement disenchantment, accurately referencing the importance of socioeconomic status, social networks, physical health, and access to healthcare services. The response also correctly acknowledges the impact of chronic conditions and cultural expectations on retirement satisfaction.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, effectively connecting the various social and medical factors to the experience of retirement disenchantment. The explanation is well-structured, with each point building upon the previous one to create a cohesive narrative.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information that effectively answers the question. The response is concise and focused, with no unnecessary tangents or padding, making it a highly useful and relevant answer.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a comprehensive understanding of the social and medical factors contributing to retirement disenchantment, accurately referencing the importance of socioeconomic status, social networks, phy"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately identifies various social and medical factors contributing to the least frequent phase of retirement disenchantment among elderly individuals, including socioeconomic status, social networks, physical health, and access to healthcare services. The response demonstrates a thorough understanding of established domain knowledge, with no apparent factual errors or misuse of tec",
+              "logic_reasoning": "The response constructs a clear and coherent explanatory chain connecting the identified factors to the outcome of minimizing disenchantment during retirement. The reasoning is well-structured, with each point logically building upon the previous one to form a comprehensive argument.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information that can be applied to understand the factors contributing to the least frequent phase of retirement disenchantment. The answer is focused and concise, with no unnecessary tangents or padding.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately identifies various social and medical factors contributing to the least frequent phase of retirement disenchantment among elderly individuals, including socioeconomic status, social networks, "
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "How might the integration of advanced neuroimaging techniques and sociocultural ",
+          "response_len": 1888,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of the domain, accurately incorporating advanced neuroimaging techniques and sociocultural factors in the diagnosis and treatment of multiple sclerosis (MS). The usage"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong command of domain-specific knowledge, accurately describing the role of neuroimaging techniques and sociocultural factors in MS diagnosis and treatment. Technical terms and concepts are used correctly, and the response is consistent with established domain knowledge.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, effectively connecting the integration of neuroimaging and sociocultural factors to improved patient care and outcomes. The explanation is well-structured, and each step in the argument is justified.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information on how the integration of advanced neuroimaging techniques and sociocultural factors can improve MS diagnosis and treatment in diverse populations. The answer is focused and concise, with no unnecessary tangents or padding.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong command of domain-specific knowledge, accurately describing the role of neuroimaging techniques and sociocultural factors in MS diagnosis and treatment. Technical terms and concepts"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        }
+      ],
+      "summary": {
+        "n_samples": 5,
+        "avg_mean": 9.0,
+        "avg_std": 0.0,
+        "avg_ci95_half": 0.0,
+        "avg_ci95": "[9.000, 9.000]",
+        "domain_accuracy_mean": 9.0,
+        "domain_accuracy_std": 0.0,
+        "logic_mean": 9.0,
+        "logic_std": 0.0,
+        "utility_mean": 9.0,
+        "utility_std": 0.0
+      }
+    },
+    "CRAG 7B": {
+      "samples": [
+        {
+          "query": "What does Socrates' assertion that 'the unexamined life is not worth living' imp",
+          "response_len": 1752,
+          "runs": [],
+          "aggregate": {}
+        },
+        {
+          "query": "Compare the legal and social implications of the British response to the Cawnpor",
+          "response_len": 1636,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong grasp of the historical context and the implications of the British response to the Cawnpore Massacre. The explanation of the racial hierarchy and the monopoly of violence is accurate and consistent with established domain knowledge.",
+              "logic_reasoning": "The response constructs a clear and coherent causal chain, effectively connecting the British response to the Cawnpore Massacre to the imposition of direct rule over India. The reasoning is well-structured and logical, with each step building upon the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent and provides relevant information, effectively analyzing the legal and social implications of the British response. The answer is concise and focused, with no unnecessary tangents or padding.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong grasp of the historical context and the implications of the British response to the Cawnpore Massacre. The explanation of the racial hierarchy and the monopoly of violence is accura"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response is factually correct and consistent with established domain knowledge, accurately describing the British response to the Cawnpore massacres and its implications. Technical terms and concepts, such as the Government of India Act 1858 and martial law, are used correctly.",
+              "logic_reasoning": "The response constructs a coherent causal chain connecting the British authorities' monopoly of violence and racial hierarchy to the imposition of direct rule over India. The reasoning is well-structured, with each step logically justified and supported by historical context.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information about the legal and social implications of the British response to the Cawnpore massacres. The answer is focused and concise, with no unnecessary tangents or wasted content.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response is factually correct and consistent with established domain knowledge, accurately describing the British response to the Cawnpore massacres and its implications. Technical terms and concepts, such as the"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "How might the integration of advanced genetic engineering techniques in agricult",
+          "response_len": 1859,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong command of domain-specific knowledge, accurately describing the potential benefits and drawbacks of integrating advanced genetic engineering techniques in agriculture. The use of specific examples, such as Golden Rice, adds depth and credibility to the response.",
+              "logic_reasoning": "The response presents a clear and well-structured argument, effectively weighing the potential benefits and drawbacks of genetic engineering in agriculture. The logical flow is coherent, and the author provides evidence to support their claims, making the response convincing and persuasive.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information that is both informative and thought-provoking. The author's use of specific examples and nuanced analysis makes the response highly relevant and useful for understanding the potential impact of genetic engineering on nutritional diversity and distribution.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong command of domain-specific knowledge, accurately describing the potential benefits and drawbacks of integrating advanced genetic engineering techniques in agriculture. The use of sp"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "WHAT social and medical factors contribute to the least frequent phase of retire",
+          "response_len": 1832,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 8.0,
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a comprehensive understanding of the factors contributing to the least frequent phase of retirement disenchantment among elderly individuals, accurately incorporating concepts such as socio-"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 8.0,
+            "utility_std": 0.0,
+            "avg_mean": 8.667,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "How might the integration of advanced neuroimaging techniques and sociocultural ",
+          "response_len": 1935,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong command of domain-specific knowledge, accurately describing the role of advanced neuroimaging techniques and sociocultural factors in improving MS diagnosis and treatment. Technical terms and concepts are used correctly, and the information is consistent with established domain knowledge.",
+              "logic_reasoning": "The response presents a well-structured and coherent argument, effectively connecting the integration of neuroimaging techniques and sociocultural factors to improved patient care and outcomes. The reasoning is clear and logical, with each step building upon the previous one to form a convincing narrative.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information that is focused on improving MS diagnosis and treatment in diverse populations. The answer is concise and free of unnecessary tangents, making it a valuable resource for the intended audience.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong command of domain-specific knowledge, accurately describing the role of advanced neuroimaging techniques and sociocultural factors in improving MS diagnosis and treatment. Technical"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong command of domain-specific knowledge, accurately describing the role of advanced neuroimaging techniques and sociocultural factors in MS diagnosis and treatment. Technical terms and concepts are used correctly, and the response is consistent with established domain knowledge.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, effectively connecting the integration of neuroimaging and sociocultural factors to improved patient care and outcomes. The explanation is well-structured and easy to follow, with each point building upon the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information that is concise and focused. The answer is well-suited to inform healthcare providers about the importance of integrating neuroimaging and sociocultural factors in MS diagnosis and treatment.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong command of domain-specific knowledge, accurately describing the role of advanced neuroimaging techniques and sociocultural factors in MS diagnosis and treatment. Technical terms and"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        }
+      ],
+      "summary": {
+        "n_samples": 4,
+        "avg_mean": 8.917,
+        "avg_std": 0.167,
+        "avg_ci95_half": 0.265,
+        "avg_ci95": "[8.652, 9.182]",
+        "domain_accuracy_mean": 9.0,
+        "domain_accuracy_std": 0.0,
+        "logic_mean": 9.0,
+        "logic_std": 0.0,
+        "utility_mean": 8.75,
+        "utility_std": 0.5
+      }
+    },
+    "NexRoute 7B": {
+      "samples": [
+        {
+          "query": "What does Socrates' assertion that 'the unexamined life is not worth living' imp",
+          "response_len": 1003,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications on the relationship between individual introspection and societal norms. It correctly uses domain concepts, such as the importance of self-examination in shaping one's ethical framework.",
+              "logic_reasoning": "The response constructs a coherent causal chain connecting Socrates' assertion to its implications on personal ethics and societal norms. The reasoning is well-structured, and the author provides a clear explanation of how individual introspection can influence broader societal norms and scientific understanding.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. It offers a nuanced discussion of the relationship between individual introspection and societal norms, highlighting the importance of balancing personal discovery with community consensus.",
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications on the relationship between individual introspection and societal norms. It correctly uses domain concepts, such as the importance of self-e"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. The usage of terms like 'ethical framework', 'scientific understanding', and 'personal ethics' demonstrates a strong grasp of domain concepts.",
+              "logic_reasoning": "The response constructs a coherent chain of reasoning, connecting Socrates' assertion to the importance of individual introspection, and then to its impact on societal norms and scientific understanding. The argument is well-structured and easy to follow, with each step logically building upon the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. It not only explains the implications of Socrates' assertion but also touches upon the challenges of balancing personal discovery with community consensus, making it a comprehensive and useful answer.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications on individual introspection and societal norms. The usage of terms like 'ethical framework', 'scientific understanding', and 'personal ethic"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately interprets Socrates' assertion and its implications for individual introspection and societal norms. It correctly integrates concepts from ethics, philosophy, and scientific understanding, demonstrating a strong grasp of the subject matter.",
+              "logic_reasoning": "The response constructs a clear and coherent argument, logically connecting the importance of individual introspection to its impact on personal ethics and societal norms. The reasoning is well-structured and free of major gaps or fallacies.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. It offers a nuanced exploration of the relationship between individual introspection and societal norms, making it a valuable contribution to the discussion.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately interprets Socrates' assertion and its implications for individual introspection and societal norms. It correctly integrates concepts from ethics, philosophy, and scientific understanding, dem"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "Compare the legal and social implications of the British response to the Cawnpor",
+          "response_len": 568,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 8.0,
+              "utility": 9.0,
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately describes the British response to the Cawnpore massacres in 1857 and its implications on the imposition of direct rule over India. The usage of terms such as 'monopoly of violence' and 'racial"
+            },
+            {
+              "domain_accuracy": 8.0,
+              "logic": 8.0,
+              "utility": 7.0,
+              "domain_accuracy_reasoning": "The response demonstrates a good understanding of the historical context and the British response to the Cawnpore massacres in 1857. However, there are minor inaccuracies and vague usage of terms such as 'racial superiority观念' which could be more precisely defined.",
+              "logic_reasoning": "The response constructs a coherent causal chain connecting the British authorities' monopoly of violence and the prevailing racial hierarchy to the imposition of direct rule over India. However, there are minor gaps in reasoning, such as the lack of explicit explanation of how the British authorities' actions contributed to the imposition of direct rule.",
+              "utility_reasoning": "The response directly addresses the query intent and provides relevant information, but could be more concise and focused. Some sentences, such as the last one, seem to be slightly off-topic or repetitive.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a good understanding of the historical context and the British response to the Cawnpore massacres in 1857. However, there are minor inaccuracies and vague usage of terms such as 'racial supe"
+            },
+            {
+              "domain_accuracy": 8.0,
+              "logic": 8.0,
+              "utility": 7.0,
+              "domain_accuracy_reasoning": "The response accurately captures the historical context of the Cawnpore massacres and the British response, correctly identifying the role of racial hierarchy and the monopoly of violence in shaping their actions. However, there are minor imprecisions in the explanation of the imposition of direct rule.",
+              "logic_reasoning": "The response constructs a coherent causal chain connecting the British response to the Cawnpore massacres, the racial hierarchy, and the imposition of direct rule. The reasoning is well-structured, but there are minor gaps in the explanation of how these factors contributed to the imposition of direct rule.",
+              "utility_reasoning": "The response directly addresses the query intent and provides relevant information, but there are some minor digressions in the explanation of the social implications of the British response. The response could be more concise and focused.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately captures the historical context of the Cawnpore massacres and the British response, correctly identifying the role of racial hierarchy and the monopoly of violence in shaping their actions. Ho"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 8.333,
+            "domain_accuracy_std": 0.577,
+            "logic_mean": 8.0,
+            "logic_std": 0.0,
+            "utility_mean": 7.667,
+            "utility_std": 1.155,
+            "avg_mean": 8.0,
+            "avg_std": 0.577
+          }
+        },
+        {
+          "query": "How might the integration of advanced genetic engineering techniques in agricult",
+          "response_len": 962,
+          "runs": [
+            {
+              "domain_accuracy": 8.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and distribution. However, there are minor imprecisions in the explanation of potential environmental impacts and the need for robust regulatory frameworks.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, connecting the integration of genetic engineering techniques to their potential effects on nutritional diversity and distribution. The argument is well-structured and easy to follow, with each point building on the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent and provides relevant information on the potential impacts of genetic engineering on nutritional diversity and distribution. The answer is concise and focused, with no unnecessary tangents or padding.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and distribution. However, there are minor imprecisions in the explanation of po"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and distribution. However, it could benefit from more nuanced discussion of the potential environmental impacts and the complexities of regulatory frameworks.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, connecting the integration of genetic engineering techniques to their potential effects on nutritional diversity and distribution. The discussion of ethical and social concerns adds depth to the analysis.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable information on the potential impacts of genetic engineering on nutritional diversity and distribution. The discussion of regulatory frameworks and equity in access to genetically modified foods is particularly relevant.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of genetic engineering techniques and their potential impacts on nutritional diversity and distribution. However, it could benefit from more nuanced discussion of the "
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 8.5,
+            "domain_accuracy_std": 0.707,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 8.833,
+            "avg_std": 0.236
+          }
+        },
+        {
+          "query": "WHAT social and medical factors contribute to the least frequent phase of retire",
+          "response_len": 732,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately identifies social and medical factors contributing to retirement disenchantment, including the importance of social support networks and physical health. The explanation is consistent with established domain knowledge, and technical terms are used correctly.",
+              "logic_reasoning": "The response constructs a coherent causal chain connecting the identified factors to the outcome of retirement disenchantment. The reasoning is well-structured, and the explanation is easy to follow, with a clear distinction between factors contributing to higher and lower rates of disenchantment.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. The answer is focused and concise, with no unnecessary tangents or padding, making it easy to understand and apply the information.",
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately identifies social and medical factors contributing to retirement disenchantment, including the importance of social support networks and physical health. The explanation is consistent with est"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately identifies social and medical factors contributing to retirement disenchantment, including the role of social support networks, physical health, and mental health conditions. The terminology and concepts used are consistent with established domain knowledge.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, explaining how various factors can contribute to retirement disenchantment and how robust social connections and good health can mitigate these challenges. The explanation is well-structured and easy to follow.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information that can be used to understand and potentially address retirement disenchantment. The answer is concise and focused, with no unnecessary tangents or padding.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately identifies social and medical factors contributing to retirement disenchantment, including the role of social support networks, physical health, and mental health conditions. The terminology a"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately identifies the social and medical factors contributing to retirement disenchantment, including the importance of social support networks and good physical health. The explanation is consistent with established domain knowledge and technical terms are used correctly.",
+              "logic_reasoning": "The response constructs a clear and coherent causal chain, explaining how social and medical factors can contribute to retirement disenchantment. The reasoning is well-structured and easy to follow, with each point logically connected to the next.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. The explanation is concise and focused, with no unnecessary tangents or padding, making it a useful and practical answer.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately identifies the social and medical factors contributing to retirement disenchantment, including the importance of social support networks and good physical health. The explanation is consistent"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        },
+        {
+          "query": "How might the integration of advanced neuroimaging techniques and sociocultural ",
+          "response_len": 966,
+          "runs": [
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response accurately integrates advanced neuroimaging techniques and sociocultural factors in patient care, demonstrating a clear understanding of the domain. Technical terms and concepts, such as MRI and PET scans, are used correctly to support the argument.",
+              "logic_reasoning": "The response constructs a coherent causal chain, explaining how the integration of neuroimaging techniques and sociocultural factors can lead to more accurate diagnoses and effective treatment plans. The reasoning is well-structured, with each step logically connected to the next.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information on how to improve the diagnosis and treatment of MS in diverse populations. The answer is concise and focused, with no unnecessary tangents or padding.",
+              "seed": 42,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response accurately integrates advanced neuroimaging techniques and sociocultural factors in patient care, demonstrating a clear understanding of the domain. Technical terms and concepts, such as MRI and PET scan"
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of neuroimaging techniques and sociocultural factors in patient care, accurately describing how these elements can improve MS diagnosis and treatment. Technical terms and concepts are used correctly, showcasing a good grasp of domain knowledge.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, effectively connecting the integration of neuroimaging and sociocultural factors to improved MS diagnosis and treatment. The explanation is well-structured and easy to follow, with each step building upon the previous one.",
+              "utility_reasoning": "The response directly addresses the query intent, providing actionable and relevant information on how the integration of advanced neuroimaging techniques and sociocultural factors can improve MS diagnosis and treatment. The answer is concise and focused, with no unnecessary tangents or padding.",
+              "seed": 43,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of neuroimaging techniques and sociocultural factors in patient care, accurately describing how these elements can improve MS diagnosis and treatment. Technical terms "
+            },
+            {
+              "domain_accuracy": 9.0,
+              "logic": 9.0,
+              "utility": 9.0,
+              "domain_accuracy_reasoning": "The response demonstrates a strong understanding of the integration of advanced neuroimaging techniques and sociocultural factors in patient care for multiple sclerosis (MS). The technical terms and concepts, such as MRI and PET scans, are used correctly and in context.",
+              "logic_reasoning": "The response constructs a clear and logical chain of reasoning, connecting the use of neuroimaging techniques and sociocultural awareness to improved diagnosis and treatment of MS. The explanation is well-structured and easy to follow.",
+              "utility_reasoning": "The response directly addresses the query intent and provides actionable, relevant information. The answer is focused and concise, with no unnecessary tangents or padding, making it a useful and practical response.",
+              "seed": 44,
+              "raw_preview": "{\n  \"domain_accuracy_reasoning\": \"The response demonstrates a strong understanding of the integration of advanced neuroimaging techniques and sociocultural factors in patient care for multiple sclerosis (MS). The technical terms and concepts, such as"
+            }
+          ],
+          "aggregate": {
+            "domain_accuracy_mean": 9.0,
+            "domain_accuracy_std": 0.0,
+            "logic_mean": 9.0,
+            "logic_std": 0.0,
+            "utility_mean": 9.0,
+            "utility_std": 0.0,
+            "avg_mean": 9.0,
+            "avg_std": 0.0
+          }
+        }
+      ],
+      "summary": {
+        "n_samples": 5,
+        "avg_mean": 8.767,
+        "avg_std": 0.435,
+        "avg_ci95_half": 0.54,
+        "avg_ci95": "[8.227, 9.306]",
+        "domain_accuracy_mean": 8.767,
+        "domain_accuracy_std": 0.325,
+        "logic_mean": 8.8,
+        "logic_std": 0.447,
+        "utility_mean": 8.733,
+        "utility_std": 0.596
+      }
+    }
+  },
+  "meta": {
+    "mode": "pilot",
+    "n_per_model": 5,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "temperature": 0.3,
+    "max_new_tokens": 200,
+    "criteria": [
+      "domain_accuracy",
+      "logic",
+      "utility"
+    ],
+    "scale": "1-10 integer",
+    "sec_per_call": 26.41,
+    "est_full_run_hours": 22.0
+  }
+}

@@ -1,0 +1,1118 @@
+{
+  "_meta": {
+    "lora_dir": "/home/sclab/moe_model/lora_weights_7b_v3",
+    "lora_law_md5": "76dd9971745d626f8d44466e4120808f",
+    "router": "BERT (router_multilabel.pt)",
+    "base_model": "Qwen/Qwen2.5-7B-Instruct",
+    "domain": "CROSS",
+    "n": 100,
+    "scaffold": "removed (Domain-Only baseline)"
+  },
+  "Domain-Only (Function masked)": {
+    "rouge_l": 32.82,
+    "bertscore": 90.43,
+    "n": 100,
+    "errors": 0
+  },
+  "NexRoute 7B (Full Dual-Axis)": {
+    "rouge_l": 29.51,
+    "bertscore": 89.44,
+    "n": 100,
+    "source": "Table 3 (eval_results_7b_v3_500.json, before_law_fix)"
+  },
+  "delta": {
+    "rouge_l": -3.31,
+    "bertscore": -0.99
+  },
+  "raw_predictions": [
+    {
+      "id": 0,
+      "query": "What does Socrates' assertion that 'the unexamined life is not worth living' imply about the relationship between individual introspection and societal norms, especially in the context of developing personal ethics based on scientific understanding?",
+      "gold_answer": "Socrates' assertion emphasizes the importance of individual introspection over blind adherence to societal norms, suggesting that a person's ethical framework should be grounded in thoughtful consideration rather than conformity. This implies that scientific understanding and personal ethics should be intertwined, where individuals critically examine their actions and beliefs to foster a more rational and morally sound society.",
+      "pred_answer": "Socrates' assertion implies that individual introspection is crucial for developing a well-rounded understanding of one's own existence and ethical framework, which in turn influences societal norms and the development of a scientifically informed moral compass.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 1,
+      "query": "Compare the legal and social implications of the British response to the Cawnpore massacres in 1857, considering how the British authorities' monopoly of violence and the perceived racial hierarchy influenced their actions and decisions. How did these factors contribute to the imposition of direct rule over India?",
+      "gold_answer": "The British response to the Cawnpore massacres in 1857 reinforced the legal and social constructs of racial hierarchy and the authority's monopoly of violence, leading to the imposition of direct rule over India. This response was rooted in the belief that the colonized could not be treated as equals and that force was necessary to maintain order and control.",
+      "pred_answer": "The British authorities' monopoly of violence and the perceived racial hierarchy significantly influenced their response to the Cawnpore massacre. The British viewed themselves as superior and believed they had a divine right to govern, which led to the imposition of direct rule over India. This also contributed to the harsh punishments meted out to the Indians involved in the massacre, reflecting the broader social and legal structures that upheld British supremacy and control over India.",
+      "domains": [
+        "LAW",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 2,
+      "query": "How might the integration of advanced genetic engineering techniques in agriculture impact the nutritional diversity and distribution of food resources in society?",
+      "gold_answer": "The integration of advanced genetic engineering techniques in agriculture could significantly influence the nutritional diversity and distribution of food resources in society. On one hand, these technologies can enhance crop yields and resistance to diseases, potentially increasing the availability of certain nutrients. However, on the other hand, they might lead to a homogenization of crop types, reducing genetic diversity and the variety of available nutrients. Additionally, the distribution of genetically engineered crops may be uneven, leading to disparities in access to diverse and nutritious foods among different socioeconomic groups. This scenario highlights the need for careful regulation and policy-making to ensure that the benefits of genetic engineering are equitably distributed and do not exacerbate existing nutritional inequalities.",
+      "pred_answer": "The integration of advanced genetic engineering techniques in agriculture could significantly impact the nutritional diversity and distribution of food resources in society. On one hand, these technologies may enable the creation of crops with enhanced nutritional content or resistance to pests and diseases, potentially increasing overall food security and nutritional diversity. However, there is also a risk that such technologies could lead to a homogenization of crop varieties, reducing genetic diversity and making food systems more vulnerable to widespread threats like climate change or disease outbreaks. Additionally, the adoption of these technologies may exacerb existing inequalities in access to food and agricultural resources, as developed nations and large corporations might dominate the development and deployment of genetically engineered seeds, leaving smaller farmers and developing countries behind. This could further widen the gap between those who have access to modern agricultural technologies and those who do not, thereby affecting the equitable distribution of food resources globally.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 3,
+      "query": "WHAT social and medical factors contribute to the least frequent phase of retirement disenchantment among elderly individuals?",
+      "gold_answer": "The least frequent phase of retirement disenchantment among elderly individuals is often attributed to a combination of robust social support networks and good physical health, which can mitigate the psychological challenges of adjusting to retirement life.",
+      "pred_answer": "The least frequent phase of retirement disenchantment among elderly individuals is associated with better physical health, higher socioeconomic status, and stronger social support networks. These factors can contribute to a more positive outlook and adaptation to retirement, reducing feelings of disenchantment.",
+      "domains": [
+        "SOC",
+        "MED"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 4,
+      "query": "How might the integration of advanced neuroimaging techniques and sociocultural factors in patient care improve the diagnosis and treatment of multiple sclerosis (MS) in diverse populations?",
+      "gold_answer": "The integration of advanced neuroimaging techniques and sociocultural factors in patient care can significantly improve the diagnosis and treatment of MS in diverse populations by providing more accurate assessments of disease progression and response to therapy. Neuroimaging can detect early signs of MS that may not be apparent through clinical examination alone, while considering sociocultural factors ensures that patient-specific needs and barriers to care are addressed, leading to more personalized and effective treatment plans.",
+      "pred_answer": "The integration of advanced neuroimaging techniques and sociocultural factors in patient care can significantly improve the diagnosis and treatment of multiple sclerosis (MS) in diverse populations by providing more accurate assessments of neurological damage, identifying specific areas affected, and tailoring treatments to meet the unique needs and cultural backgrounds of patients. Neuroimaging tools like MRI can help visualize the extent of demyelination and structural changes in the brain, while considering sociocultural factors such as access to healthcare, socioeconomic status, and cultural beliefs about MS can inform more holistic and effective treatment plans. This approach ensures that patients receive personalized care that respects their individual circumstances and enhances overall quality of life.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 5,
+      "query": "Compare the concept of an anointed leader in religious contexts with the role of a CEO in modern business organizations, considering their origins, responsibilities, and the mechanisms through which they gain authority and influence.",
+      "gold_answer": "Both the concept of an anointed leader in religious contexts and the role of a CEO in modern business organizations share historical roots of leadership and authority. In religious traditions, such as Judaism, the term 'mashiach' refers to the anointed one, symbolizing a leader chosen by divine will, often associated with messianic expectations. Similarly, CEOs in business are often seen as leaders chosen by stakeholders to guide and manage organizations effectively. However, while the anointed leader's authority is rooted in spiritual and divine endorsement, a CEO's authority is based on contractual agreements and performance in the business environment. Both roles involve gaining and maintaining influence through various mechanisms, such as vision setting, decision-making, and interpersonal relationships, but operate within distinct frameworks of governance and accountability.",
+      "pred_answer": "The concept of an anointed leader in religious contexts and the role of a CEO in modern business organizations share striking similarities in their origins, responsibilities, and the mechanisms through which they gain authority and influence. Both roles emerge from traditions deeply rooted in the need for guidance and direction in complex environments—religious traditions often anoint leaders through divine selection or significant spiritual experiences, paralleling how CEOs ascend to their positions through a combination of proven leadership skills, strategic vision, and often often hold advanced degrees or extensive experience in relevant fields, thus both anointing and selection processes underscore the importance of trust and respect among followers or stakeholders. Their responsibilities also overlap significantly; an anointed leader guides moral and ethical conduct, fosters community cohesion, and provides spiritual direction, mirroring the CEO’s duties in setting strategic directions, ensuring organizational health, and driving performance while maintaining a vision that resonates with all stakeholders, thereby highlighting the critical role these figures play in shaping the collective identity and future trajectory of their respective communities or enterprises.",
+      "domains": [
+        "SOC"
+      ],
+      "is_cross": false
+    },
+    {
+      "id": 6,
+      "query": "WHAT societal and scientific factors could lead to an increase in the prevalence of a chronic disease within a community, assuming no changes in incidence rates?",
+      "gold_answer": "An increase in the prevalence of a chronic disease within a community could be attributed to both scientific and societal factors such as improved medical treatments extending patient survival times (scientific) and lifestyle changes (societal) that may increase the likelihood of developing the disease or its complications, such as poor diet and lack of exercise.",
+      "pred_answer": "Societal factors such as increased life expectancy leading to more prolonged exposure to risk factors for chronic diseases, along with scientific advancements in diagnosis and treatment that improve survival rates, can contribute to the observed increase in the prevalence of chronic diseases like primary biliary cholangitis without changes in incidence rates.",
+      "domains": [
+        "SOC",
+        "MED"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 7,
+      "query": "Why might the implementation of artificial urethral sphincters in treating iatrogenic male incontinence be influenced by both technological advancements and social factors post-prostate surgery?",
+      "gold_answer": "The implementation of artificial urethral sphincters in treating iatrogenic male incontinence is influenced by both technological advancements and social factors post-prostate surgery because improvements in surgical techniques and materials have made AUS devices more reliable and effective, while societal attitudes towards men's health and the stigma associated with incontinence can impact patient willingness to undergo invasive procedures and healthcare providers' recommendations.",
+      "pred_answer": "The implementation of artificial urethral sphincters in treating iatrogenic male incontinence may be influenced by both technological advancements and social factors such as patient preferences, healthcare provider practices, and societal attitudes towards such interventions. Technologically, improvements in surgical techniques and materials have made these devices more effective and reliable. Socially, patients' willingness to undergo such procedures, healthcare providers' comfort with performing them, and the broader acceptance of these technologies in society can all play significant roles.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 8,
+      "query": "WHAT are the sociocultural factors that influence the effectiveness of vitamin E as an antioxidant in diverse populations, and how do these factors interact with the biochemical mechanisms of vitamin E's action?",
+      "gold_answer": "Sociocultural factors such as diet, lifestyle, and socioeconomic status can significantly impact the effectiveness of vitamin E as an antioxidant. For example, individuals with higher socioeconomic status may have access to a wider variety of foods rich in vitamin E, while those with lower status might have limited access. Additionally, cultural practices around food consumption and health beliefs can also play a role. These factors interact with the biochemical mechanisms of vitamin E, such as its ability to form stable radicals and reduce them back to active forms through reactions with other antioxidants like vitamin C or glutathione, thereby affecting overall antioxidant efficacy.",
+      "pred_answer": "Sociocultural factors such as diet, lifestyle, and socioeconomic status can influence the intake and absorption of vitamin E, which in turn affects its effectiveness as an antioxidant. These factors interact with the biochemical mechanisms of vitamin E's action, such as its role in lipid peroxidation and immune function, to determine overall health outcomes across different populations.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 9,
+      "query": "Compare the methodologies of a longitudinal study in behavioral science and a longitudinal survey in sociology, discussing their respective strengths and limitations in evaluating long-term trends and causality.",
+      "gold_answer": "Both a longitudinal study in behavioral science and a longitudinal survey in sociology aim to track changes over time, but they differ in their focus and methodology. A longitudinal study in behavioral science typically involves in-depth, qualitative observations and experiments to understand the development of behaviors over time, offering rich, detailed insights but with potential limitations in generalizability due to its resource-intensive nature. In contrast, a longitudinal survey in sociology relies on repeated measurements of variables through surveys, providing broader coverage and statistical power to identify correlations and trends, yet it may lack the depth to explore underlying mechanisms driving observed changes. The choice between these methodologies depends on the specific research questions and the balance between depth and breadth required for the evaluation of long-term trends and causality.",
+      "pred_answer": "A longitudinal study in behavioral science typically involves observing the same group of individuals over an extended period to track changes in behavior and mental states, allowing for the examination of developmental patterns and the identification of potential causal factors. This method provides rich, detailed data but may suffer from issues such as participant dropout and the challenge of controlling external variables. In contrast, a longitudinal survey in sociology often involves repeated measurements of the same variables across different points in time, which can help in understanding societal changes and trends. Surveys offer a broader sample size and easier data collection, but they may not capture individual-level changes or complex interactions as effectively as behavioral studies. Both methods are crucial for evaluating long-term trends and causality, yet they complement each other by providing different perspectives and insights into human behavior and social dynamics.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 10,
+      "query": "Why might the mTOR pathway be a critical target for both medical interventions and social policy in managing chronic diseases like diabetes, and what are the potential implications for public health strategies?",
+      "gold_answer": "The mTOR pathway is a critical target for both medical interventions and social policy in managing chronic diseases like diabetes because it plays a central role in cellular metabolism, growth, and survival. By inhibiting mTOR, treatments can help reduce inflammation, oxidative stress, and insulin resistance, which are key factors in diabetes. Socially, understanding and leveraging mTOR could lead to more effective public health strategies by promoting lifestyle changes and targeted interventions. This could have significant implications for reducing the burden of chronic diseases on healthcare systems and improving overall public health outcomes.",
+      "pred_answer": "The mTOR pathway is a critical target for both medical interventions and social policy in managing chronic diseases such as diabetes due to its role in regulating cell growth, proliferation, and survival. By targeting this pathway, new drugs can potentially reduce insulin resistance and improve glucose metabolism, which are key factors in diabetes management. From a social policy perspective, promoting such treatments could lead to better public health outcomes, reduced healthcare costs, and improved quality of life for patients. However, there may also be concerns about the equitable access to these advanced treatments and the need for comprehensive support systems to ensure they are effective at a population level.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 11,
+      "query": "How might the production of chylomicrons in the exogenous lipoprotein pathway be influenced by socioeconomic factors and their relationship to cardiovascular disease risk in a population?",
+      "gold_answer": "The production of chylomicrons in the exogenous lipoprotein pathway can be significantly influenced by socioeconomic factors such as diet quality, physical activity levels, and access to healthcare. These factors can affect the intake and absorption of dietary fats, which are crucial for chylomicron formation. Additionally, socioeconomic status may impact the prevalence of conditions like obesity and diabetes, which can also influence lipid metabolism and cardiovascular disease risk. Understanding these relationships is important for developing targeted public health interventions aimed at reducing cardiovascular disease risk through lifestyle modifications and improving access to healthy foods and medical care.",
+      "pred_answer": "The production of chylomicrons in the exogenous lipoprotein pathway can be influenced by socioeconomic factors such as diet quality, access to healthcare, and overall lifestyle, which in turn can impact cardiovascular disease risk in a population. Socioeconomic status (SES) often correlates with dietary habits; for instance, individuals from lower SES backgrounds may have less access to healthy foods, leading to a higher intake of saturated fats and sugars, thus increasing the synthesis of chylomicrons and potentially raising the risk of cardiovascular diseases. Additionally, SES can affect access to medical care and preventive services, influencing how effectively individuals manage conditions related to high cholesterol levels and lipid metabolism.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 12,
+      "query": "Compare the role of fear and reason in political mobilization as described in Maximilien Robespierre's speech with the principles of psychological manipulation and ethical persuasion in modern advertising. In what ways do these two domains use fear and reason to influence their respective audiences?",
+      "gold_answer": "Both Robespierre and advertisers use fear and reason to influence their audiences, but they differ in their intent and methodology. Robespierre employs fear as a tool of terror to unify the populace against common enemies and maintain control, while advertising often uses fear to highlight the consequences of inaction or poor decisions to encourage purchases or behaviors. Reason, on the other hand, is used by Robespierre to appeal to rationality and justify policies, whereas advertisers use ethical persuasion to build trust and positive associations with their products.",
+      "pred_answer": "Both domains utilize fear and reason to influence their audiences, but they employ different strategies. In Robespierre's speech, fear is used to create a sense of urgency and unity among citizens, while in modern advertising, fear is often used to create anxiety about not meeting societal norms or missing out on something, which then prompts consumers to take action. However, ethical persuasion in advertising aims to inform and guide consumers towards making informed decisions, whereas Robespierre's use of fear is more about instilling a sense of necessity and compliance.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 13,
+      "query": "Why did the Multicenter Randomized CLinical trial of Endovascular treatment for Acute ischemic stroke in the Netherlands (MR CLEAN) demonstrate better outcomes with endovascular treatment compared to medical therapy, and how does this finding reflect broader sociocultural factors influencing healthcare practices?",
+      "gold_answer": "The MR CLEAN study demonstrated better outcomes with endovascular treatment compared to medical therapy for acute ischemic stroke due to the rapid revascularization achieved through mechanical thrombectomy, which improves blood flow to the brain more effectively than standard medical management alone. Socioculturally, this finding reflects a shift towards more aggressive and technology-driven approaches in stroke care, driven by advancements in medical science and the increasing emphasis on reducing disability and improving patient outcomes in society.",
+      "pred_answer": "The MR CLEAN trial demonstrated better outcomes with endovascular treatment due to its high success rate in restoring blood flow to the affected area, which can lead to improved patient recovery and reduced long-term complications. This finding reflects broader sociocultural factors such as increased trust in advanced medical technologies, the prioritization of aggressive interventions in acute care settings, and the influence of healthcare policies that support the adoption of new treatments.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 14,
+      "query": "Why did the Chinese, despite inventing gunpowder, fail to lead in the innovation of gunpowder weaponry, considering both the technological potential of gunpowder and the social and military context of their adversaries?",
+      "gold_answer": "The Chinese focused on developing weapons better suited to their immediate military needs, which were primarily against mobile steppe nomads, rather than investing in the further development of gunpowder weapons, which were less effective against these foes. This strategic decision was based on a thorough understanding of the effectiveness of different military technologies in their specific socio-military context.",
+      "pred_answer": "The Chinese failed to lead in the innovation of gunpowder weaponry due to a combination of factors including the limited application of gunpowder in their society compared to their adversaries, the lack of a strong centralized authority to promote and standardize its use, and the absence of a pressing need for such weapons given their dominant position in East Asia. This contrasts with European powers who faced more frequent conflicts and had a greater incentive to develop and refine gunpowder-based technologies.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 15,
+      "query": "What combination of factors could lead to the most effective diagnosis of arenavirus infection, considering both the availability of advanced medical technology and the impact of public health policies?",
+      "gold_answer": "Effective diagnosis of arenavirus infection would require the integration of advanced medical technology such as RT PCR kits, which are crucial for accurate detection of the virus, alongside robust public health policies that ensure widespread access to these technologies, appropriate screening protocols, and public awareness campaigns to identify and report potential cases early.",
+      "pred_answer": "The combination of advanced medical technology and effective public health policies significantly enhances the accuracy and speed of diagnosing arenavirus infections. Advanced technologies such as real-time reverse transcription polymerase chain reaction (RT-PCR) allow for rapid detection of viral RNA, providing early and precise diagnosis. Concurrently, robust public health policies ensure widespread access to testing facilities, educate populations about the virus and its symptoms, and facilitate timely reporting and containment measures, thereby reducing the spread and improving patient outcomes.",
+      "domains": [
+        "STEM"
+      ],
+      "is_cross": false
+    },
+    {
+      "id": 16,
+      "query": "Why is it crucial for a comprehensive national defence trade control system to integrate both legal frameworks and technological tracking measures, and how do these components complement each other in ensuring effective arms trade regulation?",
+      "gold_answer": "Both legal frameworks and technological tracking measures are essential for a comprehensive national defence trade control system as they provide a robust framework for compliance and enforcement, while also offering real-time monitoring and data accuracy. Legal frameworks ensure that all parties adhere to international and national standards, impose penalties for violations, and facilitate international cooperation. Technological tracking measures, such as unique marking systems and electronic databases, enhance transparency, traceability, and accountability, thereby deterring illicit activities and facilitating the collection of data for analysis and improvement of policies.",
+      "pred_answer": "Integrating both legal frameworks and technological tracking measures in a comprehensive national defence trade control system is crucial because they complement each other in ensuring effective arms trade regulation. Legal frameworks provide the necessary regulations and penalties for compliance, while technological tracking measures offer real-time monitoring and data analysis to enforce these regulations. Together, they create a robust system that not only sets standards but also enforces them through advanced technology, thereby enhancing overall security and compliance.",
+      "domains": [
+        "LAW",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 17,
+      "query": "Compare the role of tumour suppressor genes in oncology with their impact on socioeconomic disparities in healthcare access. Discuss how the presence or absence of these genes can influence both the biological mechanisms of cancer development and the socio-economic factors affecting patient outcomes and treatment efficacy.",
+      "gold_answer": "Tumour suppressor genes play a critical role in preventing uncontrolled cell growth and division, thereby reducing the risk of cancer. However, their presence or absence can also highlight significant disparities in healthcare access and treatment outcomes, particularly in terms of socioeconomic status. For example, individuals from lower socioeconomic backgrounds may have less access to genetic testing, preventive care, and advanced treatments, which can exacerbate the impact of tumour suppressor gene mutations on their health outcomes. Conversely, those with better access to healthcare might receive earlier diagnosis and more effective treatment, potentially mitigating the adverse effects of these genetic mutations.",
+      "pred_answer": "The presence or absence of tumor suppressor genes plays a critical role in oncology by influencing the biological mechanisms of cancer development. Tumor suppressor genes, such as TP53, BRCA1/2, and RB1, function to regulate cell growth and division, prevent uncontrolled proliferation, and initiate apoptosis (programmed cell death) when necessary. Their dysfunction can lead to unregulated cell growth, contributing to the formation of tumors and the progression of cancer. On the other hand, the impact of these genes on socioeconomic disparities in healthcare access is multifaceted. Patients who inherit mutations in tumor suppressor genes may face higher medical costs due to the need for more frequent screenings, specialized treatments, and ongoing monitoring. Additionally, socio-economic status can affect a patient's ability to afford these services, leading to disparities in diagnosis and treatment timelines. Furthermore, the availability of advanced genetic testing and personalized medicine can exacerb these inequalities, as wealthier individuals may have better access to these technologies, while those from lower-income backgrounds may not. Understanding the interplay between the biological implications of tumor suppressor genes and their socio-economic impacts is crucial for developing equitable healthcare policies and improving patient outcomes.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 18,
+      "query": "How might the legal system and societal norms in Sri Lanka influence the predominant form of Buddhism practiced there, specifically regarding the Theravada tradition?",
+      "gold_answer": "The legal system and societal norms in Sri Lanka have historically supported the Theravada tradition as the dominant form of Buddhism due to its alignment with local cultural practices and traditional governance structures, which emphasize community and family values central to Theravada beliefs.",
+      "pred_answer": "The legal system and societal norms in Sri Lanka could significantly influence the predominant form of Buddhism, particularly the Theravada tradition, by shaping the cultural and legal frameworks that support religious practices. In Sri Lanka, where Theravada Buddhism is dominant, the legal recognition of religious institutions and the social acceptance of Buddhist values can reinforce the Theravada tradition. For instance, laws protecting religious freedom and the establishment of Buddhist institutions can promote the spread and preservation of Theravada Buddhism. Additionally, societal norms that value and respect traditional religious practices may contribute to the continued prevalence of Theravada Buddhism.",
+      "domains": [
+        "LAW",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 19,
+      "query": "How do dipeptidyl peptidase-4 (DPP-4) inhibitors like vildagliptin, sitagliptin, saxagliptin, alogliptin, linagliptin, and dutogliptin function in managing type-2 diabetes, and what are the sociocultural factors that influence their adoption and prescription patterns among healthcare providers?",
+      "gold_answer": "DPP-4 inhibitors work by inhibiting the activity of dipeptidyl peptidase-4, an enzyme that degrades incretin hormones such as glucagon-like peptide-1 (GLP-1). By reducing DPP-4 activity, these drugs increase the levels of GLP-1 in the body, which in turn stimulates insulin secretion and suppresses glucagon release, leading to better glucose control in patients with type-2 diabetes. Sociocultural factors influencing their adoption and prescription patterns can include healthcare provider preferences, patient adherence, insurance coverage, and public awareness campaigns about the benefits of these medications.",
+      "pred_answer": "Dipeptidyl peptidase-4 (DPP-4) inhibitors like vildagliptin, sitagliptin, saxagliptin, alogliptin, linagliptin, and dutogliptin work by inhibiting the activity of DPP-4 enzymes, thereby increasing the levels of incretin hormones such as glucagon-like peptide-1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP). These increased hormone levels enhance insulin secretion and reduce glucagon release, leading to better glucose control. Sociocultural factors influencing their adoption and prescription patterns include healthcare provider preferences, patient compliance, insurance coverage, and public awareness campaigns about the benefits of these drugs in managing type-2 diabetes.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 20,
+      "query": "What mechanism does the use of experimental autoimmune encephalomyelitis (EAE) as a model for studying multiple sclerosis (MS) reflect in terms of cross-disciplinary research between science and sociology?",
+      "gold_answer": "The use of EAE as a model for studying MS reflects a cross-disciplinary mechanism where scientific research on animal models (stemming from STEM domain) is applied to understand human diseases, while simultaneously considering the social implications and ethical considerations related to animal testing and translational medicine (stemming from the SOC domain). This approach highlights how advancements in STEM can inform societal discussions on health policy and ethics, and vice versa, fostering a collaborative environment where both fields can influence each other's methodologies and outcomes.",
+      "pred_answer": "The use of EAE as a model for MS reflects the integration of scientific research methods with sociological understandings of disease perception and public health policies. It highlights how scientific advancements in understanding neurological conditions can inform broader societal discussions about health, stigma, and policy-making related to MS.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 21,
+      "query": "Compare the socio-economic impacts of the decline of the Roman Empire as described by Edward Gibbon with the technological advancements and societal changes during the Industrial Revolution in the 18th and 19th centuries. How do the two periods differ in terms of the causes of decline and the resulting shifts in economic activities and social structures?",
+      "gold_answer": "While the decline of the Roman Empire was attributed to internal factors such as corruption, overextension, and barbarian invasions, the Industrial Revolution saw external and internal forces leading to significant socio-economic changes including the rise of factories, urbanization, and shifts in labor dynamics. Both periods experienced fundamental changes in economic activities, but the nature and scale of these changes differed significantly.",
+      "pred_answer": "The socio-economic impacts of the decline of the Roman Empire, as described by Edward Gibbon, were primarily due to internal corruption, moral decay, and external military pressures, leading to a shift from agricultural and trade-based economies to more feudal and localized systems. In contrast, the Industrial Revolution brought about rapid technological advancements and mechanization, transforming economies from agrarian to industrial, and causing significant social changes such as urbanization and the rise of the working class. The decline of the Roman Empire was marked by a loss of military discipline and civic virtue, while the Industrial Revolution saw the emergence of new forms of labor organization and the development of new industries and technologies.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 22,
+      "query": "Why might the concept of an 'empire of liberty' have resonated with early American settlers in terms of both their sociopolitical ideals and emerging technological advancements in communication and transportation during the late 18th century?",
+      "gold_answer": "The concept of an 'empire of liberty' resonated with early American settlers as it aligned with their sociopolitical ideals of freedom and democracy while also leveraging the emerging technological advancements in communication and transportation to spread these ideals and unify the newly formed nation across vast distances.",
+      "pred_answer": "The concept of an 'empire of liberty' resonated with early American settlers as it aligned with their sociopolitical ideals of freedom and democracy while also reflecting the rapid advancements in communication (such as the development of the telegraph) and transportation (like the improvement of roads and the introduction of steam-powered ships), which facilitated the expansion and unity of the young nation.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 23,
+      "query": "What are the implications of the typical body composition of a normal weight young adult man on his physical performance and societal expectations in terms of health and fitness standards?",
+      "gold_answer": "The typical body composition of a normal weight young adult man, with fat at 17%, fat-free mass at 83%, intracellular fluid at 40%, and extracellular fluid at 20%, can influence his physical performance by providing necessary energy stores and supporting physiological functions. In terms of societal expectations, these metrics often align with general health and fitness standards, potentially affecting how he is perceived in society and his self-perception regarding health and fitness.",
+      "pred_answer": "The typical body composition of a normal weight young adult man often aligns with societal expectations of health and fitness standards, thereby influencing both his physical performance and the broader cultural perceptions of masculinity and capability. This alignment suggests that such an individual is likely to meet the commonly held benchmarks for physical fitness, which can enhance his confidence and opportunities in various aspects of life, including employment, sports, and social interactions, where physical prowess is often valued. Conversely, deviating from this norm—whether through excess weight or underweight conditions—can lead to social stigma and potential barriers to participation in activities deemed essential for maintaining or achieving a healthy lifestyle, thus highlighting the significant role that body composition plays in shaping individual experiences and societal norms around health and fitness.",
+      "domains": [
+        "SOC"
+      ],
+      "is_cross": false
+    },
+    {
+      "id": 24,
+      "query": "Compare the legal and social treatment of foreign travelers and diplomats in the Mongol Empire during the 13th century with that in the Roman Empire under Emperor Julian, considering how these practices reflect the broader legal systems and social integration policies of each society.",
+      "gold_answer": "The Mongol Empire and the Roman Empire under Emperor Julian treated foreign travelers and diplomats with varying degrees of assimilation and integration, reflecting distinct legal and social approaches. In the Mongol Empire, there was a tendency towards assimilation, where foreign visitors like Marco Polo were integrated into the local culture and given high status within the court, while in the Roman Empire, under Julian, there was a more cautious approach to integrating foreigners, with a focus on maintaining Roman cultural and legal standards, though some foreign customs were sometimes tolerated.",
+      "pred_answer": "The Mongol Empire and the Roman Empire under Emperor Julian both exhibited distinct approaches to the legal and social treatment of foreign travelers and diplomats, reflecting their respective legal systems and social integration policies. In the Mongol Empire, the legal status of foreign travelers and diplomats was relatively flexible, allowing them to enter and leave the empire without significant restrictions, and they were treated as guests rather than subjects of the law. This approach was part of a broader policy of integration and accommodation, where foreigners were seen as valuable contributors to the empire's economy and culture. In contrast, the Roman Empire under Emperor Julian took a more stringent approach, imposing legal restrictions on the movements of foreign travelers and requiring them to provide guarantees before entering the empire. This reflected a more cautious and controlled approach to foreign presence, emphasizing security and order over integration. These differences highlight how the legal and social treatment of foreigners can vary significantly between societies, influenced by their cultural values, economic needs, and political goals.",
+      "domains": [
+        "LAW",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 25,
+      "query": "How do the Digambara Jaina group's semi-renunciation practices and their unique leadership roles for women reflect and influence contemporary sociological and scientific understandings of gender roles and spiritual development?",
+      "gold_answer": "The Digambara Jaina group's semi-renunciation practices and their unique leadership roles for women challenge traditional gender roles by allowing women to lead spiritually without complete renunciation, which can be seen as a form of gender equality in a religious context. This reflects a more progressive view on gender roles and spiritual development, influencing contemporary sociological theories on gender dynamics within religions and scientific studies on the psychological benefits of semi-retreat and leadership in spiritual contexts.",
+      "pred_answer": "The Digambara Jaina group's semi-renunciation practices and their unique leadership roles for women reflect and influence contemporary sociological and scientific understandings of gender roles and spiritual development by challenging traditional notions of gendered roles and highlighting the potential for women to lead and contribute spiritually, regardless of societal expectations. This can influence modern discussions on gender equality and the importance of diverse perspectives in religious and spiritual contexts.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 26,
+      "query": "In the context of Martin Luther's critique of the Catholic Church in his address to the nobility, compare how the concept of the 'second wall' as described by Luther aligns with the sociological and legal implications of religious authority and textual interpretation during the Reformation period.",
+      "gold_answer": "Luther criticizes the Catholic Church's claim to exclusive authority over the interpretation of biblical texts, which aligns with both the sociological tension between religious and secular authorities and the legal challenges to ecclesiastical power during the Reformation. This 'second wall' reflects the sociological shift towards individual interpretation of scripture and the legal resistance against centralized religious authority.",
+      "pred_answer": "Luther's 'second wall' concept aligns with the sociological and legal implications of religious authority and textual interpretation during the Reformation by challenging the notion of a hierarchical and authoritative church structure (the first wall) and emphasizing the direct relationship between individuals and God through scripture (the second wall). This idea reflects a shift towards a more democratic and accessible form of religious practice, where the authority of texts overcomes the need for intermediaries like priests or bishops, thus fostering a sense of personal responsibility and direct engagement with divine teachings.",
+      "domains": [
+        "LAW",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 27,
+      "query": "Compare the genetic mechanism of Muenke syndrome, caused by a mutation in FGFR3, with its socio-economic impact on affected families, including access to healthcare and educational resources.",
+      "gold_answer": "Muenke syndrome, caused by a mutation in FGFR3, results in craniosynostosis and affects bone development, while socio-economically, affected families may face challenges such as limited access to specialized medical care, financial strain, and educational disparities for children with craniofacial differences. The genetic mutation directly impacts the biological process of bone formation, whereas the socio-economic factors influence the quality of life, treatment options, and social integration of affected individuals and their families.",
+      "pred_answer": "Muenke syndrome, caused by a mutation in the FGFR3 gene, exemplifies how genetic conditions can intersect with socio-economic factors to profoundly impact affected families. On the genetic level, the FGFR3 mutation leads to a shortened fibroblast growth factor receptor 3 protein, which results in craniosynostosis, a condition where the sutures of the skull close prematurely, leading to abnormal head shape and potential neurological complications. This genetic mutation directly influences the physical development and health outcomes of affected individuals. Socio-economically, families dealing with Muenke syndrome often face significant challenges. They may require ongoing medical care, which can be costly and not fully covered by insurance, especially in regions with limited healthcare resources. Additionally, parents might need to take more time off work to manage their child’s condition, potentially affecting their income and financial stability. Moreover, children with Muenke syndrome might experience delays in cognitive and motor skills development due to associated health issues, necessitating specialized educational interventions that can be expensive and not universally accessible, thereby highlighting the complex interplay between genetic predispositions and socio-economic realities faced by affected families.",
+      "domains": [
+        "SOC"
+      ],
+      "is_cross": false
+    },
+    {
+      "id": 28,
+      "query": "What societal and legal factors contributed to Britain imposing new taxes on their American colonies during the 18th century?",
+      "gold_answer": "The imposition of new taxes was influenced by both the rising costs of war with France and the desire to assert British authority over the colonies, reflecting broader sociopolitical tensions between the mother country and its American territories.",
+      "pred_answer": "The imposition of new taxes on American colonies by Britain in the 18th century was driven by a combination of societal and legal factors, including the growing financial burden of maintaining the British Empire and the desire to assert greater control over its colonies. As the costs of imperial expansion and military engagements abroad increased, Britain sought additional revenue sources, which led to the passage of acts like the Stamp Act and Townshend Acts, aiming to tax colonial goods and activities directly. These actions not only strained the economic resources of the colonists but also challenged their sense of autonomy and contributed significantly to the tensions that eventually culminated in the American Revolution.",
+      "domains": [
+        "SOC"
+      ],
+      "is_cross": false
+    },
+    {
+      "id": 29,
+      "query": "Why might a combination of orteronel and prednisone be more effective than a placebo and prednisone in treating metastatic castration-resistant prostate cancer, considering both the pharmacological mechanism and patient social support factors?",
+      "gold_answer": "Orteronel, as a nonsteroidal, reversible, selective 17,20-lyase inhibitor, works by inhibiting the enzyme 17,20-lyase, which is involved in androgen synthesis. This inhibition leads to a decrease in androgen levels, which can inhibit tumor growth in castration-resistant prostate cancer. On the other hand, prednisone acts as a corticosteroid that may have anti-inflammatory effects and synergize with orteronel to further reduce androgen levels. Social support factors, such as access to healthcare, adherence to treatment regimens, and psychological well-being, can also play crucial roles in improving patient outcomes and compliance with the combined therapy, making it more effective than a placebo and prednisone alone.",
+      "pred_answer": "Orteronel works by inhibiting the enzyme CYP1B1, which leads to the accumulation of 2aurin, thereby suppressing the growth of cancer cells. Prednisone, on the other hand, provides some benefits but may not be sufficient alone due to the resistance mechanisms in castration-resistant prostate cancer. The combination of orteronel and prednisone can provide synergistic effects, enhancing the anti-tumor activity. Additionally, social support and patient compliance can significantly impact treatment outcomes, making the combination therapy more effective than a placebo and prednisone alone.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 30,
+      "query": "How might the cellular localization of the protein Opa1 in the mitochondrial intermembrane space influence both the structural integrity of mitochondria and the socioeconomic impact of dominant optic atrophy in communities?",
+      "gold_answer": "The cellular localization of Opa1 in the mitochondrial intermembrane space plays a critical role in maintaining mitochondrial structure and function. Mutations in the OPA1 gene can disrupt this localization, leading to mitochondrial fragmentation and dysfunction, which can contribute to the development of dominant optic atrophy. This condition can have significant socioeconomic impacts on affected individuals and their families, including reduced quality of life, increased healthcare costs, and potential labor market disadvantages. Understanding the molecular mechanisms underlying Opa1's function could inform new therapeutic strategies and support policies aimed at mitigating the socioeconomic burdens of such genetic disorders.",
+      "pred_answer": "The localization of Opa1 in the mitochondrial intermembrane space is crucial for maintaining the structural integrity of mitochondria by facilitating the fusion of mitochondrial membranes. This, in turn, can affect the socioeconomic impact of dominant optic atrophy (DOA) as it influences the quality of life for affected individuals, their ability to work, and the overall burden on healthcare systems and families. Understanding this can lead to better support systems and policies for those affected by DOA.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 31,
+      "query": "In what ways does the environmental security agenda reflect the complex interplay between environmental changes and societal stability, particularly concerning the risk of conflict in transitioning versus stable states?",
+      "gold_answer": "The environmental security agenda highlights how environmental changes, such as resource scarcity and climate impacts, can contribute to the risk of conflict, especially in states undergoing significant economic and political transitions. While these changes are not the primary cause of war, they can exacerbate existing social and economic tensions, leading to increased instability and conflict. Conversely, strong, stable states are less likely to experience internal violent conflicts due to their capacity to manage environmental challenges and maintain social cohesion.",
+      "pred_answer": "The environmental security agenda reflects the complex interplay between environmental changes and societal stability, particularly concerning the risk of conflict in transitioning versus stable states, by highlighting how persistent environmental challenges can exacerbate existing social tensions and vulnerabilities, potentially leading to conflicts within or between states as they populations compete for limited resources or as governments struggle to manage environmental degradation effectively, thereby illustrating the critical link between environmental sustainability and societal security.",
+      "domains": [
+        "SOC"
+      ],
+      "is_cross": false
+    },
+    {
+      "id": 32,
+      "query": "What does the concept of moral luck in philosophical discourse illustrate about the intersection between legal and social perspectives on individual responsibility?",
+      "gold_answer": "Moral luck in philosophical discourse illustrates how legal and social perspectives on individual responsibility can be inconsistent, as the self may be held responsible for outcomes beyond their control, leading to tensions between the legal system's focus on individual actions and societal views that consider broader contextual factors.",
+      "pred_answer": "Moral luck highlights how external factors beyond an individual's control can significantly influence their actions and outcomes, challenging traditional notions of individual responsibility. This concept bridges legal and social perspectives by emphasizing that societal structures and circumstances play crucial roles in shaping behavior, thus questioning simplistic views of personal accountability.",
+      "domains": [
+        "LAW",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 33,
+      "query": "WHAT societal and scientific factors contribute to the challenge of accurately determining the minimum protein requirement based on adaptive metabolic demands?",
+      "gold_answer": "Societally, the variability in individual responses to protein intake and the lack of standardized protocols can pose challenges. Scientifically, the adaptive metabolic demand introduces complexity, as it necessitates re-evaluating the accuracy of nitrogen balance studies, which may underestimate protein utilization efficiency.",
+      "pred_answer": "Societally, there may be varying standards and methodologies used across different cultures and scientific communities, leading to inconsistencies in data collection and interpretation. Scientifically, the adaptive metabolic demands can vary greatly depending on individual genetics, lifestyle, and environmental factors, making it challenging to establish a universal minimum protein requirement. Additionally, the measurement of metabolic demands itself can be complex and subject to error, further complicating the determination.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 34,
+      "query": "Compare the genetic and environmental factors influencing the development of type 1 diabetes with those of type 2 diabetes, and discuss how these differences might impact public health policies and patient education strategies.",
+      "gold_answer": "Type 1 diabetes is often influenced by genetic factors and autoimmune responses, while type 2 diabetes is more associated with environmental factors such as lifestyle and obesity. These differences suggest that public health policies should focus on genetic screening and early intervention for type 1 diabetes, while for type 2 diabetes, emphasis should be placed on promoting healthy lifestyles and preventing obesity. Patient education strategies should also be tailored to address the unique risk factors of each type of diabetes.",
+      "pred_answer": "Type 1 diabetes is primarily influenced by genetic factors, such as HLA genotype, while type 2 diabetes has a more complex etiology involving both genetic predispositions and environmental factors like diet, lifestyle, and obesity. Public health policies should focus on promoting healthy lifestyles to prevent type 2 diabetes, while also providing genetic counseling and screening for high-risk populations to manage type 1 diabetes effectively. Patient education strategies should emphasize the importance of lifestyle changes for type 2 diabetes management and the need for lifelong insulin therapy for type 1 diabetes.",
+      "domains": [
+        "MED",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 35,
+      "query": "How might the author of the passage constructively appeal to Queen Victoria’s sense of justice and social responsibility, considering both legal and sociological perspectives?",
+      "gold_answer": "The author might argue that prohibiting opium in one’s own country but allowing its export to another country is a form of legal hypocrisy, while also appealing to Queen Victoria’s sense of social responsibility to prevent harm to the Chinese people, who are portrayed as innocent victims.",
+      "pred_answer": "The author could argue that recognizing the widow's claim aligns with both legal principles of justice and sociological understandings of social responsibility. Legally, it would demonstrate a commitment to upholding constitutional rights and ensuring fair treatment, while sociologically, it would reflect a society's obligation to address the consequences of arbitrary government actions and support its citizens. By doing so, the author would appeal to Queen Victoria's sense of justice and her role as a leader who prioritizes the well-being of her subjects.",
+      "domains": [
+        "LAW",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 36,
+      "query": "Compare the geopolitical implications of the Truman Doctrine as a legal and scientific policy instrument, discussing how it influenced international law and the emerging field of international relations studies.",
+      "gold_answer": "The Truman Doctrine had significant legal implications by establishing a precedent for US intervention in foreign conflicts under the guise of containment against communism, which influenced subsequent international legal frameworks such as the United Nations Charter and the laws of armed conflict. Scientifically, it marked the beginning of a new era in international relations studies, shifting the focus from traditional balance-of-power theories to a more geographically and ideologically driven approach, which has been studied extensively in fields like geopolitics and international security studies.",
+      "pred_answer": "The Truman Doctrine, as a legal and scientific policy instrument, had significant geopolitical implications. Legally, it set a precedent for U.S. foreign policy by establishing a framework for intervention and support in countries facing communist influence, thus shaping international law and the role of the United States in global affairs. Scientifically, the doctrine contributed to the emerging field of international relations studies by providing a case study on the dynamics of superpower rivalry and the use of economic aid as a tool for political influence. This dual approach highlighted the intersection between legal and scientific paradigms in understanding and shaping international relations.",
+      "domains": [
+        "LAW",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 37,
+      "query": "How does the process of socialization, which involves the act of getting individuals to behave in ways that are acceptable to a group, relate to the mechanisms of behavior modification in technology-based interventions designed to improve public health outcomes?",
+      "gold_answer": "Socialization is a fundamental process through which individuals learn the norms, values, and behaviors expected within a group, which can be leveraged in technology-based interventions to modify behaviors for improving public health outcomes. For instance, digital health platforms can use gamification, social media integration, and personalized feedback to mimic the socialization process, encouraging users to adopt healthy behaviors that align with community standards and expectations.",
+      "pred_answer": "Socialization through technology-based interventions can involve mechanisms such as gamification, where users are incentivized to adopt healthy behaviors through rewards and positive reinforcement. These interventions leverage the understanding that individuals are more likely to engage in behaviors that align with group norms and expectations, thus promoting healthier lifestyles and improving public health outcomes.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 38,
+      "query": "WHAT are the key factors that influence the integration of artificial intelligence in healthcare settings, and how do they relate to the philosophical concept of empathy as described by David Hume?",
+      "gold_answer": "The integration of artificial intelligence in healthcare settings is influenced by technical feasibility, ethical considerations, patient trust, and regulatory frameworks. These factors can be related to the philosophical concept of empathy as described by David Hume, which emphasizes the role of emotional connections and understanding in moral judgments. In healthcare, empathy plays a crucial role in building trust between patients and providers, which is essential for the successful implementation of AI systems. Ethical guidelines and regulations also require that AI systems be designed with considerations for patient well-being and privacy, aligning with the empathetic approach to moral reasoning.",
+      "pred_answer": "The integration of artificial intelligence (AI) in healthcare settings is profoundly influenced by several key factors, including the ethical considerations surrounding patient privacy and consent, the technical challenges of ensuring accurate data collection and analysis, and the socio-cultural dynamics of trust between patients and AI systems. These elements resonate deeply with the philosophical concept of empathy as articulated by David Hume, who emphasized the importance of understanding others' perspectives and feelings in moral decision-making. By fostering a sense of empathy towards patients' needs and concerns, AI developers can design more ethical and user-friendly healthcare technologies, thereby enhancing patient care and trust in AI-assisted medical practices.",
+      "domains": [
+        "SOC"
+      ],
+      "is_cross": false
+    },
+    {
+      "id": 39,
+      "query": "Why might the targeting of proprotein convertase subtilisin/kexin type 9 by Evolocumab be considered both a scientific advancement and a sociopolitical challenge in the context of cardiovascular disease management?",
+      "gold_answer": "Evolocumab's targeting of proprotein convertase subtilisin/kexin type 9 represents a scientific advancement because it offers a novel mechanism for lowering LDL cholesterol, which is crucial for reducing cardiovascular disease risk. However, it presents a sociopolitical challenge due to its cost, potential access disparities among different socioeconomic groups, and the need for ongoing monitoring and regulation to ensure safe and effective use.",
+      "pred_answer": "The targeting of proprotein convertase subtilisin/kexin type 9 (PCSK9) by Evolocumab represents a significant scientific advancement due to its efficacy in lowering low-density lipoprotein cholesterol levels, which can reduce the risk of cardiovascular events. However, it also poses a sociopolitical challenge because of the high cost of such treatments, which may lead to disparities in access to treatment and raise questions about healthcare equity and insurance coverage.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 40,
+      "query": "How might the ethical obligations of a patient in a medical emergency be reconciled with the legal rights of a community member when a doctor faces a dilemma similar to the violinist case, and what social implications could arise from such a decision?",
+      "gold_answer": "In a medical emergency, the doctor's ethical obligation to save the patient's life may conflict with the community member's legal right to their body. However, the doctor should prioritize the patient's well-being, but it is important to consider the social implications of this decision, such as the potential for setting a precedent that could affect future cases and the trust between the community and healthcare providers.",
+      "pred_answer": "In a scenario where a doctor must choose between continuing treatment for a critically ill patient and addressing a disturbance caused by a loud violin performance in a hospital corridor, the ethical obligations of the doctor to provide care for the patient are paramount but must be balanced against the potential social implications of interrupting the performance. Legally, the community member has the right to enjoy public spaces without undue disturbance, yet ethically, the doctor's duty to save lives takes precedence. The decision to prioritize the patient’s immediate life-saving needs over the community member's temporary inconvenience underscores the moral imperative to protect human life, even if it means temporarily infringing upon another individual's rights. Such actions highlight the complex interplay between individual rights and communal responsibilities, potentially setting precedents for how healthcare providers navigate similar ethical dilemmas in the future.",
+      "domains": [
+        "SOC"
+      ],
+      "is_cross": false
+    },
+    {
+      "id": 41,
+      "query": "Compare the role of the light-harvesting pigment-protein complex of Photosystem II in plant photosynthesis with its potential impact on global food security and economic stability in developing countries.",
+      "gold_answer": "The light-harvesting pigment-protein complex of Photosystem II (LHCII) plays a critical role in capturing light energy for photosynthesis, which is essential for plant growth and productivity. In terms of global food security and economic stability in developing countries, improving the efficiency of LHCII could lead to higher crop yields and better nutrition, reducing hunger and poverty. However, the economic benefits are not uniform; developed countries might benefit more from advanced biotechnological applications, while developing nations might see more immediate improvements through traditional agricultural practices and local innovations.",
+      "pred_answer": "The light-harvesting pigment-protein complex of Photosystem II plays a critical role in capturing light energy for photosynthesis, which is essential for plant growth and development. This, in turn, affects global food security as plants provide the primary source of food for humans and animals. In developing countries, where agricultural productivity often relies heavily on local conditions and resources, the efficiency of photosynthesis can significantly influence economic stability. Therefore, understanding and optimizing the function of this complex could lead to improved crop yields and contribute to alleviating hunger and poverty in these regions.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 42,
+      "query": "Why might a country adopt a grand strategy of 'primacy' in the context of both international law and global technological advancements?",
+      "gold_answer": "A grand strategy of 'primacy' involves striving for American dominance in the international system, which can be adopted to ensure the supremacy of U.S. laws and values on the global stage while also leveraging advanced technologies to maintain and extend its influence. This approach allows a nation to set legal precedents and technological standards that align with its interests, thereby enhancing its strategic position in both legal and scientific arenas.",
+      "pred_answer": "A country might adopt a grand strategy of 'primacy' to establish and maintain its dominance in various spheres such as military power, economic influence, and technological leadership. This approach allows the country to shape the international order according to its preferences and ensure its security and prosperity in an increasingly interconnected world.",
+      "domains": [
+        "LAW",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 43,
+      "query": "WHAT societal and scientific factors might have influenced Mao Zedong's advocacy for the socialist transformation of agriculture and the elimination of the rich-peasant economy, considering the context of rising capitalist tendencies among peasants and the need for a worker-peasant alliance?",
+      "gold_answer": "Mao Zedong's advocacy for the socialist transformation of agriculture was influenced by both social and scientific factors. Socially, the increasing polarization between rich and poor peasants threatened the stability of the worker-peasant alliance, which was crucial for the success of the socialist movement. Scientifically, the necessity to modernize agriculture and achieve socialist industrialization required the elimination of individual and rich-peasant economies, as they were seen as hindrances to progress. These factors collectively necessitated the implementation of socialist policies to ensure the well-being of all rural people and consolidate the worker-peasant alliance.",
+      "pred_answer": "Mao Zedong's advocacy for the socialist transformation of agriculture and the elimination of the rich-peasant economy was significantly influenced by both societal and scientific factors. Societally, the rise of capitalist tendencies among peasants threatened the stability of the worker-peasant alliance, necessitating a shift towards collective ownership to maintain social equity and prevent the concentration of wealth. Scientifically, understanding the dynamics of class struggle and the importance of maintaining a unified front against external threats (such as capitalist influences) played a crucial role in shaping Mao's policies. The concept of the 'rich peasant' as a potential counter-revolutionary force highlighted the need for such transformations to ensure the continued success of the socialist revolution.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 44,
+      "query": "Why might the understanding of Doose syndrome's myoclonic astatic epilepsy be crucial for both medical professionals and policymakers in shaping public health policies?",
+      "gold_answer": "The understanding of Doose syndrome's myoclonic astatic epilepsy is crucial for medical professionals as it helps in accurate diagnosis, treatment planning, and patient management. For policymakers, this knowledge is essential for developing effective public health policies that can ensure access to appropriate care, support services, and resources for affected individuals and their families. Additionally, it aids in the allocation of healthcare funding and resources, and in creating awareness campaigns to improve societal understanding and reduce stigma associated with rare neurological conditions.",
+      "pred_answer": "Understanding Doose syndrome's myoclonic astatic epilepsy is crucial for both medical professionals and policymakers as it helps in developing effective treatment strategies, improving patient care, and informing public health policies regarding the management and support of individuals with such conditions. This knowledge can lead to better resource allocation, public awareness campaigns, and legislative measures to ensure access to necessary healthcare services and accommodations for patients and their families.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 45,
+      "query": "Why did peace researchers in the 1970s face significant challenges in broadening the scope of peace studies despite the increasing global focus on conflict prevention and peacekeeping efforts?",
+      "gold_answer": "Peace researchers in the 1970s faced significant challenges in broadening the scope of peace studies because the field was often viewed skeptically during the height of the Cold War, leading to criticism that it was 'appeasement studies,' and there was a strong opposition from critics who saw it as undermining national security concerns.",
+      "pred_answer": "Peace researchers in the 1970s faced significant challenges in broadening the scope of peace studies due to the lack of established methodologies and theoretical frameworks, limited funding, and resistance from traditional disciplines within the social sciences. The field was still in its nascent stages, and there was a need to develop a more comprehensive and interdisciplinary approach to studying conflict and peace.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 46,
+      "query": "Why might the interaction between technological advancements in precision medicine and societal attitudes towards genetic testing influence healthcare policies regarding calcium regulation treatments?",
+      "gold_answer": "The interaction between technological advancements in precision medicine and societal attitudes towards genetic testing can influence healthcare policies regarding calcium regulation treatments because advancements in precision medicine allow for more accurate identification of individuals at risk for conditions affecting calcium metabolism, such as hyperparathyroidism or hypoparathyroidism. This leads to earlier and more targeted interventions. Societal attitudes towards genetic testing can also play a role, as increased awareness and acceptance of genetic testing may lead to more people seeking out these tests, which can then inform personalized treatment plans. Both factors together can push healthcare policies to adopt more comprehensive and patient-centered approaches to managing calcium levels, ensuring that treatments are not only effective but also aligned with patients' values and preferences.",
+      "pred_answer": "The interaction between technological advancements in precision medicine and societal attitudes towards genetic testing can significantly influence healthcare policies regarding calcium regulation treatments. Technological improvements in genetic testing and precision medicine can lead to better understanding and management of conditions related to calcium regulation, such as hypoparathyroidism. Societal attitudes towards genetic testing and the acceptance of new medical technologies can shape public demand for these treatments and the prioritization of funding and resources for research and implementation. Additionally, the ethical considerations surrounding genetic testing and the potential for misuse of genetic information can also impact policy decisions, ensuring that advances in technology are balanced with social and ethical responsibilities.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 47,
+      "query": "WHAT are the sociopolitical and legal implications of the enduring impact of structural adjustment policies on developing nations, considering both their intended economic goals and the social hardships they have allegedly caused?",
+      "gold_answer": "The enduring impact of structural adjustment policies on developing nations has significant sociopolitical and legal implications, as these policies, based on neoliberal principles, have aimed to achieve macroeconomic stability and growth but have also caused great and unnecessary hardship, leading to debates about their effectiveness and justice, particularly in terms of human rights and socioeconomic equity.",
+      "pred_answer": "The sociopolitical and legal implications of the enduring impact of structural adjustment policies on developing nations are multifaceted. On one hand, these policies were intended to foster economic growth and stability by liberalizing markets, reducing public spending, and promoting privatization. However, they have also been criticized for exacerbating social inequalities, leading to widespread poverty, and undermining local industries. Legally, this raises questions about the accountability of international financial institutions and donor countries, as well as the responsibility of recipient governments in implementing these policies. Sociologically, it highlights the need for a more nuanced approach to development that balances economic objectives with social welfare considerations.",
+      "domains": [
+        "SOC",
+        "LAW"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 48,
+      "query": "Why might the use of advanced surveillance technologies in monitoring potential terrorists be seen as infringing on the privacy rights of individuals while also being justified as a necessary measure to prevent terrorism, according to Michael Walzer's discussion of the moral disputes surrounding terrorism?",
+      "gold_answer": "The use of advanced surveillance technologies can be seen as infringing on privacy rights because it involves monitoring individuals without their consent, potentially violating their right to personal autonomy and confidentiality. However, it may also be justified as a necessary measure to prevent terrorism due to the argument that such measures are essential for protecting the broader community from harm, aligning with the concept of self-defense and the protection of public safety, which is a central theme in Walzer's discussion of the moral disputes surrounding terrorism.",
+      "pred_answer": "According to Michael Walzer's discussion of the moral disputes surrounding terrorism, the use of advanced surveillance technologies in monitoring potential terrorists can be seen as a necessary measure to prevent terrorism but simultaneously infringes on the privacy rights of individuals. This paradox arises from the tension between security needs and individual freedoms; while such technologies may effectively gather intelligence to thwart attacks, they they also intrude into into private lives, raising concerns about surveillance overreach and the potential for abuse of power.",
+      "domains": [
+        "STEM"
+      ],
+      "is_cross": false
+    },
+    {
+      "id": 49,
+      "query": "Why might the expression levels of phosphorylated-4E-binding protein 1 be considered a critical marker in the context of both medical treatment and patient socioeconomic status for those undergoing radical nephrectomy for metastatic renal cell carcinoma?",
+      "gold_answer": "The expression levels of phosphorylated-4E-binding protein 1 can serve as a critical marker because it is downstream of the mammalian target of rapamycin (mTOR) signaling pathway, which is often inhibited by mTOR inhibitors used in the treatment of metastatic renal cell carcinoma. This marker may indicate the effectiveness of the treatment and the patient's response to therapy. Additionally, considering patient socioeconomic status, such markers could help in understanding disparities in treatment outcomes and access to care, as well as in developing more equitable and effective treatment strategies that account for both biological and social factors.",
+      "pred_answer": "The expression levels of phosphorylated-4E-binding protein 1 (p-eIF4E) may serve as a critical marker because it can predict survival outcomes, which is crucial for guiding medical treatments. Additionally, understanding its correlation with socioeconomic status can provide insights into how socio-economic factors influence health outcomes and access to care, making it a significant indicator in both clinical practice and public health policies.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 50,
+      "query": "Compare and contrast the concept of moral engineering as articulated in Sandel’s critique with the principles of virtue ethics, weighing how each approach influences societal and technological advancements.",
+      "gold_answer": "Sandel’s critique of moral engineering emphasizes the importance of societal values and democratic deliberation over top-down technological interventions, aligning with virtue ethics which focuses on the character and virtues of individuals rather than strict rules or duties. Both approaches seek to enhance human flourishing but differ in their methods and underlying philosophical foundations, impacting how technological developments are perceived and regulated within society.",
+      "pred_answer": "Sandel’s critique of moral engineering emphasizes the potential negative impacts on individual autonomy and the loss of moral diversity when external forces (such as corporations) dictate ethical standards. In contrast, virtue ethics focuses on developing good character traits and virtues that contribute to personal and communal well-being. While moral engineering might lead to uniform and efficient societal norms, virtue ethics stresses the importance of individual moral development and the cultivation of virtuous habits, which can foster more resilient and adaptable communities.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 51,
+      "query": "How can the integration of advanced medical technology in the diagnosis and treatment of low cerebrospinal fluid pressure headache impact patient compliance and healthcare costs in a sociological context?",
+      "gold_answer": "The integration of advanced medical technology in diagnosing and treating low cerebrospinal fluid pressure headache can significantly improve patient compliance through more accurate diagnoses and effective treatments. However, this also increases healthcare costs due to the high cost of technology and procedures. Sociologically, this raises questions about access to care and equity in healthcare delivery. Advanced technology may lead to better outcomes but could also exacerbate existing health disparities if not managed properly.",
+      "pred_answer": "The integration of advanced medical technology in the diagnosis and treatment of low cerebrospinal fluid pressure headache can significantly improve patient compliance and reduce healthcare costs. Advanced diagnostic tools and treatments can lead to earlier and more accurate diagnoses, ensuring that patients receive appropriate care promptly. This not only enhances patient satisfaction and adherence to treatment plans but also reduces the overall burden on the healthcare system by minimizing unnecessary hospitalizations and emergency visits. Additionally, the use of telemedicine and remote monitoring technologies can further enhance patient engagement and reduce the need for in-person visits, thereby lowering healthcare costs.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 52,
+      "query": "Compare the role of genetic factors versus environmental influences on body mass index (BMI) in the context of genome-wide association studies (GWAS) and public health policies aimed at obesity prevention, highlighting the discrepancies between the heritability estimates from GWAS and the heritability reported in twin and family studies.",
+      "gold_answer": "While genome-wide association studies (GWAS) indicate that genetic factors explain less than 2% of the variation in BMI, public health policies often emphasize the importance of environmental factors due to the higher heritability estimates from twin and family studies, which suggest a greater than 50% heritability. This discrepancy highlights the complex interplay between genetic predispositions and environmental influences on BMI, challenging the simplistic attribution of obesity to either genetic or environmental factors alone.",
+      "pred_answer": "Genome-wide association studies (GWAS) have identified numerous genetic variants associated with BMI, suggesting that genetic factors significantly influence individual differences in body mass index. However, these findings do not fully explain the observed heritability of BMI, as the heritability estimates from GWAS tend to be lower compared to those reported in twin and family studies. This discrepancy highlights the importance of considering both genetic and environmental factors in understanding BMI variability. Public health policies aimed at obesity prevention should therefore focus on modifiable environmental factors such as diet and physical activity, recognizing that while genetics plays a role, lifestyle choices remain crucial in managing overall body weight and preventing obesity.",
+      "domains": [
+        "MED"
+      ],
+      "is_cross": false
+    },
+    {
+      "id": 53,
+      "query": "What was the aim of the FANTOM4 project and how did it contribute to our understanding of macrophage differentiation from a scientific and medical perspective?",
+      "gold_answer": "The aim of the FANTOM4 project was to better understand the transcriptional network that regulates macrophage differentiation, employing advanced high-throughput techniques such as cap analysis of gene expression (CAGE). This project contributed to the medical and scientific community by uncovering novel components of the transcriptome and providing insights into the molecular mechanisms underlying macrophage differentiation, which can be crucial for developing new therapeutic strategies and improving patient outcomes.",
+      "pred_answer": "The FANTOM4 project aimed to identify the complete set of RNA transcripts expressed during macrophage differentiation, which provided a comprehensive view of the transcriptional landscape during this process. This contribution significantly advanced our understanding of the molecular mechanisms underlying macrophage development and function, offering insights into the regulation of gene expression during immune responses and inflammation, which is crucial for both basic research and potential therapeutic applications in medicine.",
+      "domains": [
+        "MED",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 54,
+      "query": "Why might the location of a virtual team, as opposed to a colocated team, offer advantages in terms of both technological collaboration and social dynamics?",
+      "gold_answer": "The location of a virtual team, as opposed to a colocated team, offers advantages in terms of both technological collaboration and social dynamics because it allows members to work from anywhere with internet access, facilitating diverse time zones and expertise, while also promoting flexible working hours and reduced costs. This setup can enhance creativity and innovation through the integration of various cultural perspectives and working styles, which might not be possible within a single geographic location.",
+      "pred_answer": "The location of a virtual team offers several advantages over a colocated team. Technologically, virtual teams can leverage advanced communication tools and collaborative platforms, which enhance the efficiency and effectiveness of remote work. Socially, virtual teams can benefit from diverse cultural perspectives and reduced commuting stress, leading to improved work-life balance and overall job satisfaction.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 55,
+      "query": "What ethical dilemma might arise when a scientist adheres to a policy that requires them to report data they believe to be fabricated, thereby potentially compromising scientific integrity and trust in research findings?",
+      "gold_answer": "This ethical dilemma highlights the conflict between the scientist's moral obligation to maintain the integrity of their work and the legal or institutional requirement to follow a specific reporting protocol, even if it involves asserting something they believe to be false.",
+      "pred_answer": "Adhering to a policy that requires reporting data believed to be fabricated presents an ethical dilemma because it pits loyalty to institutional rules against scientific integrity and trust in research findings. On one hand, complying with the policy ensures compliance and maintains the integrity of the institution, but on the other hand, reporting such data could undermine the trust in the research findings and potentially damage the careers of those involved, raising serious ethical concerns about honesty and the pursuit of truth in science.",
+      "domains": [
+        "SOC"
+      ],
+      "is_cross": false
+    },
+    {
+      "id": 56,
+      "query": "Why might understanding David Baltimore's discovery of reverse transcriptase be crucial for both scientific research and public health policy in the context of viral infections like HIV?",
+      "gold_answer": "Understanding David Baltimore's discovery of reverse transcriptase is crucial for both scientific research and public health policy because it provides insights into the replication mechanism of retroviruses, which can lead to the development of targeted antiviral therapies. This knowledge can inform the design of more effective treatments and vaccines, thereby improving patient outcomes. Additionally, from a public health perspective, this discovery can guide policy decisions on resource allocation, healthcare strategies, and education campaigns to prevent the spread of HIV and other retroviral diseases.",
+      "pred_answer": "Understanding David Baltimore's discovery of reverse transcriptase is crucial for both scientific research and public health policy because it provides insights into the mechanisms of viral replication, which can inform the development of antiretroviral therapies and vaccines. This knowledge is essential for managing and preventing the spread of viruses like HIV, thereby improving public health outcomes and guiding policy decisions related to healthcare resources and education.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 57,
+      "query": "Why might there be a negative correlation between age and cigarette smoking, considering both medical and sociological factors?",
+      "gold_answer": "The negative correlation between age and cigarette smoking could be due to various medical and sociological factors. From a medical perspective, older adults may have lower rates of smoking because they are more aware of the health risks associated with smoking, have already quit due to health issues, or have simply never started smoking due to growing up in an era where smoking was less prevalent. Sociologically, as individuals age, they often face different life priorities such as family responsibilities, retirement planning, and health concerns, which can reduce their likelihood of smoking. Additionally, social norms and policies against smoking may become stricter as awareness of its dangers increases, influencing older generations who were more likely to have started smoking earlier when such norms were not as stringent.",
+      "pred_answer": "There may be a negative correlation between age and cigarette smoking due to various factors including the increasing awareness of health risks associated with smoking as people age, changes in lifestyle and priorities, and the potential for medical interventions or health issues that discourage continued smoking. Sociologically, older adults might also experience a shift in social norms and support systems that encourage quitting or avoid starting to smoke in the first place.",
+      "domains": [
+        "MED",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 58,
+      "query": "Compare the genetic predisposition to alcoholic myopathy with the socioeconomic factors influencing its prevalence among alcoholics, and discuss how these two aspects interrelate.",
+      "gold_answer": "Genetic predisposition to alcoholic myopathy can vary, but studies suggest a significant influence on the development of muscle diseases in alcoholics. Socioeconomic factors such as income level, education, and access to healthcare play a crucial role in the prevalence of alcoholic myopathy, often exacerbating the condition due to poor nutrition and lack of medical care. These two aspects interrelate, as genetic susceptibility combined with adverse socioeconomic conditions can significantly increase the risk and severity of alcoholic myopathy.",
+      "pred_answer": "Genetic predisposition to alcoholic myopathy can significantly influence an individual's susceptibility to developing this condition, but socioeconomic factors such as income level, education, and access to healthcare also play crucial roles. Individuals from lower socioeconomic backgrounds may have less access to healthy food options, medical care, and support systems, which can exacerb the negative effects of alcohol consumption. Conversely, those with higher socioeconomic status might have better resources to manage their condition or avoid triggers. Both genetic and socioeconomic factors interact in complex ways, contributing to the overall risk and severity of alcoholic myopathy.",
+      "domains": [
+        "SOC",
+        "MED"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 59,
+      "query": "What theoretical framework in business ethics, developed by Donaldson and Preston (1995), integrates both ethical principles and organizational performance metrics to address social issues, and how does it differ from the traditional economic approach in understanding corporate responsibility?",
+      "gold_answer": "The theoretical framework in business ethics developed by Donaldson and Preston (1995) is known as the stakeholder theory, which includes the normative, descriptive, and instrumental perspectives. This framework differs from the traditional economic approach by emphasizing not only the financial performance of a company but also its ethical responsibilities towards various stakeholders, such as employees, customers, and the environment. In contrast, the traditional economic approach focuses primarily on maximizing shareholder value without necessarily considering the broader social impacts.",
+      "pred_answer": "Donaldson and Preston's model integrates both ethical principles and organizational performance metrics to address social issues, distinguishing it from the traditional economic approach by emphasizing the alignment between corporate actions and societal values rather than solely focusing on profit maximization.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 60,
+      "query": "How did the implementation of the Marshall Plan exemplify the intersection between Cold War strategy and technological advancement in post-World War II Europe, and what were the long-term social and economic impacts on European countries and the United States?",
+      "gold_answer": "The Marshall Plan, officially known as the European Recovery Program, was a pivotal strategy that not only aimed to rebuild war-torn Europe but also served as a critical tool in the early stages of the Cold War to counter Soviet influence through economic stability and technological advancement. By providing substantial financial aid and technological resources, the United States facilitated the modernization of European industries, which bolstered economic recovery and reduced the appeal of communist ideologies. This strategic investment led to long-term social and economic benefits, including the creation of a robust market for American goods and the fostering of closer transatlantic ties, which were essential for NATO's formation and the broader containment of communism. The plan's success in revitalizing European economies also demonstrated the effectiveness of liberal economic policies, influencing global economic strategies and reinforcing the U.S. position as a leader in technological innovation and economic development.",
+      "pred_answer": "The Marshall Plan not only provided economic aid but also promoted American technology and business practices in Europe, fostering economic recovery and stability. This strategic move helped to contain communism and strengthen alliances, while also establishing a foundation for future trade relations and technological collaboration between the US and Europe. Long-term, it contributed to the economic integration of Western Europe and laid the groundwork for the eventual formation of the European Union, influencing both social structures and economic policies across the region.",
+      "domains": [
+        "LAW",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 61,
+      "query": "In a scenario where a company must choose between two equally profitable projects, one of which involves a new medical technology that could save lives but also poses significant environmental risks, how should the company decide in line with both ethical and scientific principles? Discuss the potential impacts on society and the environment, and explain the role of data-driven decision-making in balancing these factors.",
+      "gold_answer": "In evaluating the two projects, the company must adopt a holistic approach that integrates ethical, scientific, and environmental considerations. The project involving medical technology, while potentially life-saving, requires a thorough risk assessment to understand its environmental impact, including potential long-term consequences such as pollution or resource depletion. Data-driven decision-making is crucial here, leveraging environmental impact assessments, life-cycle analyses, and stakeholder feedback to quantify and mitigate risks. Simultaneously, the company should consider the societal benefits, such as improved health outcomes and reduced healthcare costs, and weigh these against the environmental costs. By prioritizing transparency, accountability, and sustainable practices, the company can make an informed decision that aligns with both ethical standards and scientific integrity, ultimately contributing positively to both human well-being and environmental stewardship.",
+      "pred_answer": "The company should conduct a thorough risk assessment and consider both the potential benefits and drawbacks of each project. By integrating data from clinical trials, environmental impact studies, and public health surveys, the company can make an informed decision that aligns with both ethical standards and scientific rigor. This approach ensures that the company not only maximizes profits but also minimizes harm to society and the environment, thereby promoting long-term sustainability and public trust.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 62,
+      "query": "Given the historical context of Lin Zexu's letter to Queen Victoria regarding the opium trade, analyze how the author's argument against the opium trade reflects both ethical considerations and scientific understanding of its effects on society. How does the integration of these two domains strengthen the author's appeal to Queen Victoria?",
+      "gold_answer": "Lin Zexu's letter to Queen Victoria masterfully integrates ethical considerations with a nascent scientific understanding of the deleterious effects of opium, thereby constructing a compelling and multifaceted argument against the trade. Ethically, Lin appeals to the moral conscience of the British monarch, emphasizing the profound human suffering and social decay caused by opium addiction, which he frames as a violation of universal principles of justice and humanity. Scientifically, he underscores the physical and mental health consequences of opium use, drawing on contemporary medical knowledge to highlight its addictive nature and detrimental impact on individual well-being. By combining these domains, Lin not only highlights the moral imperative for action but also provides a rational, evidence-based foundation that strengthens his plea, making it difficult for Queen Victoria to disregard the gravity of the situation. This integrated approach underscores the interconnectedness of ethical and scientific reasoning, reinforcing the urgency and legitimacy of his request for an end to the opium trade.",
+      "pred_answer": "The author's argument against the opium trade effectively integrates ethical considerations and scientific understanding of its effects on society, thereby strengthening the appeal to Queen Victoria. Ethical considerations highlight the moral imperatives of protecting the health and well-being of citizens, while scientific understanding underscores the physiological and social harms caused by opium addiction. By linking these two domains, the author appeals to both the humanitarian sensibilities and the rational understanding of Queen Victoria, making a compelling case for action against the opium trade.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 63,
+      "query": "How might the socio-economic implications of Lincoln's stance against the southward expansion of the US have influenced his legal strategies in shaping national policies during his presidency?",
+      "gold_answer": "Abraham Lincoln's opposition to the southward expansion of the United States was deeply intertwined with his broader socio-economic vision for the nation, which significantly shaped his legal and policy strategies during his presidency. By opposing the expansion, Lincoln aimed to limit the spread of slavery, which he believed was morally wrong and economically regressive. This stance not only aligned with the interests of the emerging industrial North but also sought to promote a free labor system that could foster economic growth and social mobility. Consequently, Lincoln's legal strategies, such as the Emancipation Proclamation and the passage of the Homestead Act, were designed to undermine the economic foundation of the slave-dependent South while simultaneously creating opportunities for free labor and westward expansion. These policies reflected a strategic approach to reshape the national economy and society, reinforcing the Union's strength and laying the groundwork for a more unified and prosperous nation.",
+      "pred_answer": "Lincoln's stance against the southward expansion of the US likely influenced his legal strategies by emphasizing the need to maintain national unity and prevent the spread of slavery, which could have shaped policies aimed at preserving the Union and addressing the economic interests of free states versus those of slave states. This might have led to legal measures that restricted slavery's expansion while also considering the socio-economic impacts on various regions within the country.",
+      "domains": [
+        "LAW",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 64,
+      "query": "How might advancements in artificial intelligence and big data analytics influence the practice of delivering pastoral care in a hospital setting, considering the historical use of the Kaddish prayer in Jewish mourning rituals?",
+      "gold_answer": "Advancements in artificial intelligence (AI) and big data analytics can significantly transform the delivery of pastoral care in hospital settings by enhancing the personalization and efficiency of support services. For instance, AI-driven systems could analyze patient data to identify those who may benefit from spiritual support, including individuals from diverse religious backgrounds such as Judaism, where the Kaddish prayer plays a crucial role in mourning rituals. By integrating historical and cultural data, these systems can provide tailored recommendations for clergy and chaplains, ensuring that they offer culturally sensitive and contextually appropriate care. Moreover, big data analytics can help track the effectiveness of pastoral interventions, allowing for continuous improvement and adaptation to the evolving needs of patients and their families, thereby fostering a more compassionate and responsive healthcare environment.",
+      "pred_answer": "Advancements in artificial intelligence (AI) and big data analytics could significantly influence the practice of delivering pastoral care in a hospital setting by providing personalized support systems that recognize patterns in patient behavior and emotional needs, potentially offering tailored spiritual or religious guidance. However, the historical use of the Kaddish prayer in Jewish mourning rituals underscores the importance of maintaining traditional practices that offer comfort and community support, especially during times of loss and grief. AI tools could complement these traditions by identifying patients who may benefit from such rituals and facilitating their inclusion in the care plan, ensuring that both modern and traditional forms of support are available to those in need.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 65,
+      "query": "In the context of nutritional science and social media influence, how might the balance between the hormones leptin and ghrelin be affected by the rise of social media platforms promoting quick, high-calorie food options, and what societal changes could result from this imbalance in a population?",
+      "gold_answer": "The proliferation of social media platforms that heavily promote quick, high-calorie food options can significantly disrupt the balance between leptin and ghrelin, the hormones responsible for regulating appetite and energy balance. Leptin, which signals satiety, may become less effective as constant exposure to appetizing food images triggers increased ghrelin levels, the hormone that stimulates hunger. This hormonal imbalance can lead to overconsumption of calorie-dense foods, contributing to obesity and related health issues. Societally, this trend could exacerbate public health crises, increase healthcare costs, and potentially alter dietary patterns and cultural attitudes towards food, emphasizing convenience and immediate gratification over nutritional value.",
+      "pred_answer": "The rise of social media platforms promoting quick, high-calorie food options may lead to an imbalance between leptin (the satiety hormone) and ghrelin (the hunger hormone), potentially resulting in increased food consumption and weight gain among the population. Societally, this could lead to higher rates of obesity, type 2 diabetes, and related health issues, as well as changes in eating habits and body image perceptions.",
+      "domains": [
+        "MED",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 66,
+      "query": "In the context of a new public health policy aimed at reducing obesity rates, how might the effectiveness of cognitive behavioral therapy (CBT) compare to pharmacological interventions like antidepressants and anti-obesity drugs, and what ethical considerations arise when integrating these treatment options into a community health program?",
+      "gold_answer": "In evaluating the effectiveness of cognitive behavioral therapy (CBT) versus pharmacological interventions for reducing obesity rates within a public health policy, it is essential to consider both short-term and long-term outcomes. CBT has been shown to promote sustainable lifestyle changes and improve mental health, which can lead to more enduring weight loss and better overall well-being. On the other hand, pharmacological interventions like antidepressants and anti-obesity drugs may offer rapid results but often come with side effects and the risk of dependency, making them less suitable for long-term use. Ethically, integrating these treatments into a community health program requires careful consideration of patient autonomy, ensuring informed consent, and providing equitable access to all treatment options. Additionally, there must be a commitment to monitoring and addressing any potential disparities in treatment efficacy and side effects among different demographic groups to ensure that the program is fair and just.",
+      "pred_answer": "Cognitive Behavioral Therapy (CBT) typically shows higher long-term effectiveness compared to pharmacological interventions like antidepressants and anti-obesity drugs in treating conditions such as depression and obesity. However, integrating both approaches raises ethical considerations regarding patient autonomy, informed consent, and potential side effects. Ethical guidelines must ensure that patients are fully informed about all treatment options, including their risks and benefits, and that they can make autonomous decisions based on this information. Additionally, there should be mechanisms in place to monitor the safety and efficacy of combined treatments and to address any adverse reactions promptly.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 67,
+      "query": "In the context of medical ethics and legal obligations, how might a doctor's duty to follow legality (a legal duty) conflict with their ethical duty to act in the best interest of the patient (a social duty), and what are the potential implications of such a conflict on patient care and legal responsibility?",
+      "gold_answer": "In the intricate landscape of medical practice, a doctor's legal duty to comply with laws and regulations can sometimes clash with their ethical obligation to prioritize the patient's well-being, leading to complex dilemmas. For instance, a physician might be legally required to report certain conditions or behaviors that could result in harm to others, even if this disclosure could undermine the trust between the patient and the doctor, potentially deterring the patient from seeking necessary care. Such conflicts can have profound implications, including compromised patient confidentiality, reduced patient cooperation, and legal repercussions for the physician if they choose to prioritize ethical considerations over legal mandates. Balancing these duties requires careful judgment, often necessitating consultation with legal experts and ethics committees to navigate the nuanced terrain of patient care and professional responsibility.",
+      "pred_answer": "A doctor's duty to follow legality (a legal duty) can sometimes conflict with their ethical duty to act in the best interest of the patient (a social duty). For instance, a doctor might face a situation where adhering to legal requirements could lead to actions that are not in the best interest of the patient. This conflict can have significant implications on patient care, potentially leading to suboptimal treatment decisions or even harm to the patient. Legally, the doctor might be protected from liability if they follow the law, but ethically, they might feel they have failed to provide the best possible care. This tension highlights the need for clear guidelines and ethical frameworks to guide doctors in making difficult decisions that balance legal and moral considerations.",
+      "domains": [
+        "SOC",
+        "LAW"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 68,
+      "query": "How might the intersection of technological advancements in food distribution and social economic disparities contribute to iodine deficiency in certain regions?",
+      "gold_answer": "The intersection of technological advancements in food distribution and socioeconomic disparities can exacerbate iodine deficiency in certain regions by creating a dual challenge. On one hand, advanced technologies such as precision logistics and smart supply chains can efficiently distribute iodized foods to urban centers and wealthier communities, where the infrastructure and purchasing power are robust. However, these same technologies may bypass or inadequately serve rural and economically disadvantaged areas, where access to such resources is limited. This disparity can lead to a concentration of iodine-rich foods in affluent regions while poorer areas continue to rely on local, potentially iodine-deficient sources. Additionally, the higher costs associated with technologically advanced distribution systems can further marginalize low-income populations, making it difficult for them to afford iodized products, thereby perpetuating and even intensifying nutritional inequalities.",
+      "pred_answer": "The intersection of technological advancements in food distribution and social economic disparities can lead to iodine deficiency in certain regions through several mechanisms. Technological changes may improve overall food availability but fail to ensure equitable access, especially for essential nutrients like iodine. Socioeconomic factors such as income inequality and lack of access to diverse, nutritious foods can exacerb this issue, leading to widespread iodine deficiency, particularly in underprivileged areas.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 69,
+      "query": "How might the modulation of SERCA activity by quercetin derivatives affect both public health policies and individual patient treatment strategies in the context of heart failure, and what are the potential sociotechnical implications of these interventions?",
+      "gold_answer": "The modulation of SERCA (sarcoplasmic/endoplasmic reticulum Ca²⁺-ATPase) activity by quercetin derivatives holds significant promise for enhancing cardiac function in patients with heart failure, potentially leading to more effective and targeted treatments. This could shift public health policies towards promoting the integration of natural compounds in therapeutic regimens, thereby broadening the scope of available treatments and reducing reliance on synthetic drugs, which may have more severe side effects. On an individual level, such treatments could improve quality of life and reduce hospital readmissions, but they also raise questions about accessibility and equity, particularly if these compounds are patented and priced beyond the reach of low-income populations. Sociotechnical implications include the need for robust regulatory frameworks to ensure safety and efficacy, as well as the development of sustainable methods for the production and distribution of these derivatives, ensuring that their benefits are accessible to all segments of society.",
+      "pred_answer": "The modulation of SERCA activity by quercetin derivatives could lead to the development of novel therapeutic strategies for heart failure, potentially reducing the need for traditional pharmacological treatments and improving patient outcomes. From a sociotechnical perspective, this could influence public health policies regarding the use of natural compounds in medicine, as well as patient education and adherence to new treatment regimens. Additionally, there may be economic implications for healthcare systems and pharmaceutical companies, affecting the allocation of resources and the integration of alternative therapies into standard care protocols.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 70,
+      "query": "How might the rare occurrence of SCN1A mutations leading to myoclonic astatic epilepsy (Doose syndrome) in individuals with generalized epilepsy with febrile seizures plus syndrome (GEFS+) impact public health policy and societal support systems for families affected by such conditions?",
+      "gold_answer": "The rare occurrence of SCN1A mutations leading to myoclonic astatic epilepsy (Doose syndrome) in individuals with generalized epilepsy with febrile seizures plus syndrome (GEFS+) presents unique challenges for public health policy and societal support systems. Given the complexity and rarity of these conditions, there is a critical need for specialized healthcare services and multidisciplinary teams that can provide accurate diagnosis, tailored treatment plans, and ongoing support. Public health policies should focus on enhancing access to genetic counseling and advanced diagnostic tools to ensure early identification and intervention. Additionally, societal support systems must be strengthened to offer psychological and financial assistance to families, as well as educational resources to foster community understanding and reduce stigma. This holistic approach is essential to improve the quality of life for affected individuals and their families.",
+      "pred_answer": "The rare occurrence of SCN1A mutations leading to myoclonic astatic epilepsy (Doose syndrome) in individuals with GEFS+ could significantly impact public health policies and societal support systems. Public health policies may need to be revised to include specific guidelines for diagnosing and managing this condition, ensuring access to appropriate medical care, and providing educational resources for families. Societal support systems should also adapt to address the unique challenges faced by families dealing with this rare form of epilepsy, including financial assistance, emotional support, and community engagement programs.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 71,
+      "query": "How might the increasing prevalence of alcoholism among middle-aged adults be influenced by both technological advancements and social media trends, and what implications could this have on public health policies and individual behavior change strategies?",
+      "gold_answer": "The increasing prevalence of alcoholism among middle-aged adults can be attributed to the dual impact of technological advancements and social media trends, which have transformed the landscape of communication and leisure. Technological advancements, such as the ubiquity of smartphones and the internet, provide easy access to online platforms where alcohol is often glamorized and consumption is normalized through targeted advertising and influencer endorsements. Social media trends, including the proliferation of alcohol-related content and the pressure to maintain an idealized lifestyle, contribute to heightened stress and anxiety, which may drive individuals to turn to alcohol as a coping mechanism. These factors not only exacerbate existing drinking behaviors but also introduce new risks, necessitating a reevaluation of public health policies to address the digital environment's role in promoting harmful habits. Public health initiatives should focus on integrating digital literacy and mental health support into prevention programs, while also advocating for stricter regulations on alcohol marketing in digital spaces to protect vulnerable populations.",
+      "pred_answer": "The increasing prevalence of alcoholism among middle-aged adults can be influenced by various factors including technological advancements such as the ease of access to alcohol through online platforms and social media trends that normalize or glamorize drinking behaviors. This can lead to a shift in social norms around alcohol consumption, potentially reducing perceived risks associated with heavy drinking. Public health policies may need to focus on educating individuals about the dangers of excessive drinking, especially among middle-aged adults who might be more susceptible due to stressors like work demands or family responsibilities. Additionally, there should be efforts to monitor and regulate online content that promotes harmful drinking habits to prevent further normalization of risky behaviors.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 72,
+      "query": "How does the concept of 'empire by invitation' in US foreign policy intertwine with the legal and social implications of voluntary reliance on an external power for security, and what sociopolitical factors contribute to its formation and sustainment?",
+      "gold_answer": "The concept of 'empire by invitation' in U.S. foreign policy reflects a strategic framework where smaller or less powerful states voluntarily align themselves with the United States for security and economic benefits, often leading to a form of indirect control. This arrangement has significant legal and social implications, as it can undermine the sovereignty of the inviting state, potentially leading to dependency and reduced self-determination. Sociopolitical factors that contribute to the formation and sustainment of such relationships include the perception of external threats, economic incentives, and the appeal of American cultural and political values, which can create a mutually reinforcing cycle where the invited state's reliance on the U.S. deepens over time. Additionally, the U.S. often leverages these relationships through international institutions and bilateral agreements, further entrenching the power dynamics that support the 'empire by invitation' model.",
+      "pred_answer": "The concept of 'empire by invitation' in US foreign policy refers to a situation where a weaker state voluntarily seeks the protection and support of a stronger external power, often due to internal political instability or external threats. This relationship can have significant legal and social implications, as it may involve the establishment of military bases, economic dependencies, or even formal alliances. Sociopolitical factors such as historical relationships, cultural ties, and shared values can contribute to the formation and sustainment of such arrangements. However, the legal framework surrounding these relationships can be complex, involving questions of sovereignty, international law, and domestic policies. The voluntary nature of these invitations raises questions about consent, autonomy, and the potential for exploitation, which are crucial considerations in both legal and social analyses.",
+      "domains": [
+        "LAW",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 73,
+      "query": "In the context of ancient Babylonian society and their cultural festivals, how did the Akitu festival influence the development of calendar systems in early civilizations, and what social and technological advancements can be attributed to this event in terms of timekeeping and organization of communal activities?",
+      "gold_answer": "The Akitu festival, a significant New Year's celebration in ancient Babylonian society, profoundly influenced the development of early calendar systems by aligning religious and agricultural cycles with the lunar and solar movements. This festival, which lasted for 12 days, not only reinforced the legitimacy of the king but also served as a critical juncture for synchronizing communal activities, ensuring that agricultural practices and civic duties were harmonized with the natural rhythms of the environment. The need for precise timekeeping during Akitu led to advancements in astronomical observations and the creation of more accurate lunar-solar calendars, which were essential for predicting seasonal changes and organizing large-scale social events. These developments in timekeeping and organization laid the foundation for more complex societal structures, enhancing administrative efficiency and fostering technological innovations in agriculture, construction, and trade.",
+      "pred_answer": "The Akitu festival was a significant event in ancient Babylonian society, marking the New Year and serving as a basis for organizing agricultural cycles and religious rituals. This festival influenced the development of calendar systems in early civilizations by providing a standardized method for measuring time and organizing communal activities. Socially, it helped to establish a sense of community and shared purpose among the people. Technologically, the need to accurately predict and celebrate the Akitu festival led to advancements in astronomy and timekeeping, which in turn contributed to the overall progress of civilization.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 74,
+      "query": "In the context of international security, how might the principles of arms control, originally developed during the Cold War, be applied to address contemporary technological advancements in military technology, and what legal frameworks could be adapted to ensure ethical and effective regulation of these new technologies?",
+      "gold_answer": "In the evolving landscape of international security, the principles of arms control, which were foundational during the Cold War, can be effectively adapted to address contemporary technological advancements such as cyber warfare, autonomous weapons, and space-based systems. These principles emphasize transparency, verification, and mutual restraint, which remain crucial for building trust and preventing an arms race in new domains. Legal frameworks like the Treaty on the Non-Proliferation of Nuclear Weapons (NPT) and the Chemical Weapons Convention (CWC) offer models that could be expanded or modified to include emerging technologies, ensuring they are subject to international oversight and regulation. Additionally, the development of new treaties and protocols, possibly under the auspices of the United Nations, could provide specific guidelines and enforcement mechanisms to address the unique challenges posed by advanced military technologies, thereby maintaining global stability and security.",
+      "pred_answer": "The principles of arms control, originally developed during the Cold War, can still be relevant today in addressing contemporary technological advancements in military technology. Legal frameworks such as the Chemical Weapons Convention (CWC) and the Biological Weapons Convention (BWC) provide models for regulating the development and use of potentially dangerous technologies. These conventions emphasize the importance of transparency, verification, and the establishment of international norms to prevent the proliferation of weapons of mass destruction. In adapting these frameworks to modern technologies, it is crucial to consider the unique challenges posed by emerging fields like cyber warfare and autonomous weapons systems, while also ensuring that they align with existing international laws and human rights standards.",
+      "domains": [
+        "LAW",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 75,
+      "query": "How might the integration of personalized medicine, exemplified by the use of targeted therapies like Palbociclib, influence patient compliance and healthcare policy in oncology from a sociotechnical perspective?",
+      "gold_answer": "The integration of personalized medicine, particularly through targeted therapies such as Palbociclib, significantly enhances patient compliance by tailoring treatments to individual genetic profiles, thereby improving efficacy and reducing side effects. This personalized approach not only boosts patients' confidence in their treatment but also fosters a more engaged and informed patient-doctor relationship, crucial for adherence. From a healthcare policy standpoint, the adoption of personalized medicine necessitates robust regulatory frameworks to ensure equitable access and affordability, while also addressing the ethical and privacy concerns associated with genetic data. Additionally, the shift towards personalized therapies requires a reevaluation of reimbursement models and healthcare infrastructure to support advanced diagnostic tools and continuous research, ultimately shaping a more patient-centered and efficient oncology care system.",
+      "pred_answer": "The integration of personalized medicine through targeted therapies like Palbociclib can significantly influence patient compliance and healthcare policy in oncology. From a sociotechnical perspective, it highlights the intersection between social factors (such as patient education, access to treatment, and insurance coverage) and technological advancements. This can lead to policies that ensure equitable access to advanced treatments while also addressing the social challenges patients face, such as adherence to complex regimens and managing side effects.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 76,
+      "query": "As the director of communications for a local non-profit chapter affiliated with a national organization, how can you effectively integrate local community data and technological tools to enhance the impact of national news releases on local media coverage?",
+      "gold_answer": "To effectively integrate local community data and technological tools in enhancing the impact of national news releases on local media coverage, it is crucial to tailor the national message to resonate with local issues and demographics. Utilizing data analytics to understand the specific needs, interests, and concerns of the local community can help in crafting more relevant and compelling content. For instance, leveraging social media listening tools and geographic information systems (GIS) to analyze local trends and sentiment can provide insights that inform the customization of press releases and social media campaigns. Additionally, partnering with local influencers and media outlets through targeted digital marketing strategies can amplify the reach and relevance of the news, ensuring that the message not only reaches but also engages the local audience effectively. By combining these approaches, the non-profit can create a more cohesive and impactful communication strategy that bridges the gap between national initiatives and local communities.",
+      "pred_answer": "To effectively integrate local community data and technological tools to enhance the impact of national news releases on local media coverage, you should leverage data analytics platforms to gather and analyze local community data, such as demographic information, community needs, and local events. Utilize social media monitoring tools to track public sentiment and engage with the community. Additionally, employ content management systems (CMS) to customize national news releases for local audiences, ensuring they resonate with the specific context and interests of the community. By doing so, you can create more relevant and engaging content that resonates with local journalists and viewers, thereby increasing the likelihood of positive media coverage.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 77,
+      "query": "How might a sociologist and a scientist with expertise in economics argue differently about the long-term impacts of the IMF's adjustment policies on a developing country's economy and social welfare?",
+      "gold_answer": "A sociologist would likely focus on the social dimensions of the International Monetary Fund (IMF) adjustment policies, emphasizing how austerity measures can exacerbate inequality and social unrest, leading to diminished public health outcomes and increased poverty. They might highlight the human cost, such as reduced access to education and healthcare, which can have long-lasting effects on societal well-being. In contrast, an economist would probably analyze the policies through the lens of fiscal sustainability and economic growth, arguing that structural adjustments are necessary to stabilize the economy, reduce inflation, and attract foreign investment. While acknowledging short-term hardships, they might assert that these policies ultimately lead to greater economic efficiency and competitiveness, setting the stage for long-term development and prosperity. Both perspectives offer critical insights into the complex interplay between economic policies and their broader social implications, highlighting the need for balanced approaches that consider both economic stability and social welfare.",
+      "pred_answer": "A sociologist might argue that the IMF's adjustment policies lead to significant social welfare losses due to increased poverty and inequality, while an economist might focus on the macroeconomic stability and long-term growth benefits, emphasizing the need for balanced approaches that consider both social and economic factors.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 78,
+      "query": "How does the concept of 'exposure' in nutrition studies intersect with the sociological factors affecting dietary habits and public health policies? Consider how individual choices and societal influences shape nutritional exposure and its impact on health outcomes.",
+      "gold_answer": "The concept of 'exposure' in nutrition studies is deeply intertwined with sociological factors that influence dietary habits and public health policies. Individual choices regarding food consumption are often shaped by broader societal contexts, including socioeconomic status, cultural norms, and accessibility to healthy options. For instance, low-income communities may have limited access to fresh produce, leading to higher exposure to processed foods that are cheaper and more readily available, which can contribute to poor health outcomes such as obesity and diabetes. Public health policies, in turn, play a crucial role in addressing these disparities by implementing measures like subsidies for healthy foods, educational programs on nutrition, and regulations on food marketing, thereby altering the landscape of nutritional exposure and potentially improving health outcomes at a population level. This intersection highlights the complex interplay between personal agency and structural forces in shaping dietary patterns and their impact on public health.",
+      "pred_answer": "The concept of 'exposure' in nutrition studies refers to the intake of specific nutrients or foods, which can be influenced by both individual choices and broader sociological factors. Sociologically, exposure to certain foods or nutrients can be shaped by cultural norms, economic conditions, and public health policies. For instance, access to healthy food options and the prevalence of fast food outlets can significantly impact an individual's dietary habits. Public health policies aimed at promoting healthier eating behaviors can also affect nutritional exposure. Understanding these intersections is crucial for developing effective public health strategies to improve nutritional outcomes and address issues like obesity and malnutrition.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 79,
+      "query": "How might the integration of technological advancements in surveillance and data analysis challenge or reinforce legal frameworks governing humanitarian interventions, and what ethical considerations arise from these developments in the context of global security studies?",
+      "gold_answer": "The integration of advanced surveillance technologies and sophisticated data analysis tools significantly enhances the capability to monitor and respond to crises, potentially reinforcing legal frameworks that aim to protect human rights and ensure timely humanitarian interventions. However, this technological prowess also challenges existing legal norms by raising questions about privacy, consent, and the potential for misuse of collected data. Ethically, these developments necessitate a careful balance between the imperative to act in the face of human suffering and the respect for individual autonomy and dignity, particularly in contexts where state sovereignty is often invoked to shield against external scrutiny. Moreover, the global security landscape is further complicated by the asymmetry in technological capabilities among nations, which can lead to power imbalances and exacerbate tensions, thus requiring a nuanced approach to international law and ethics.",
+      "pred_answer": "The integration of technological advancements in surveillance and data analysis can significantly challenge existing legal frameworks governing humanitarian interventions by providing governments and international organizations with unprecedented capabilities to monitor and respond to crises. This can lead to more rapid and coordinated responses, potentially saving lives and preventing atrocities. However, it also raises ethical concerns regarding privacy, sovereignty, and the potential for misuse of such technologies. Legal frameworks may need to evolve to balance the benefits of these technologies against the risks they pose, ensuring that they are used ethically and transparently within the bounds of international law and human rights standards.",
+      "domains": [
+        "LAW",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 80,
+      "query": "In the context of childhood nutrition and its long-term societal impact, discuss how the effects of stunting during early childhood on cognitive development could influence workforce productivity and economic growth in developing countries.",
+      "gold_answer": "Stunting, a result of chronic malnutrition during early childhood, profoundly affects cognitive development, leading to lower educational attainment and reduced intellectual capabilities. These deficits translate into a less skilled and less productive workforce, as individuals with stunted growth often struggle with complex problem-solving and critical thinking tasks, which are essential for higher-value jobs. Consequently, this can limit the economic potential of developing countries, as a less capable workforce may hinder technological innovation and economic diversification. Moreover, the intergenerational transmission of poverty is exacerbated when stunted adults earn lower wages and are unable to provide adequate nutrition for their own children, perpetuating a cycle that constrains national economic growth and development.",
+      "pred_answer": "Stunting during early childhood can severely impact cognitive development, leading to long-lasting effects such as reduced school performance, lower educational attainment, and decreased workforce productivity. These factors can hinder economic growth in developing countries by limiting the pool of skilled workers and increasing healthcare costs. Addressing nutritional deficiencies through improved access to balanced diets can mitigate these negative impacts and contribute to sustainable development.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 81,
+      "query": "In the context of high-ambiguity decision-making scenarios, how do expectations and choice opportunities in the field of management intertwine with the concept of uncertainty quantification in data science, and what implications does this have on the development of robust decision support systems?",
+      "gold_answer": "In high-ambiguity decision-making scenarios within management, expectations and choice opportunities are deeply intertwined with the concept of uncertainty quantification from data science, as both fields grapple with the challenge of making informed decisions under conditions of incomplete or ambiguous information. Managers must navigate complex environments where outcomes are uncertain, and their expectations about future states can significantly influence the choices they make. Data science techniques, such as probabilistic modeling and Bayesian inference, provide tools to quantify and manage this uncertainty, allowing managers to assess the likelihood of different outcomes and make more robust decisions. The integration of these approaches into decision support systems enhances their ability to handle ambiguity by providing dynamic, data-driven insights that can adapt to changing circumstances, ultimately leading to more resilient and effective organizational strategies.",
+      "pred_answer": "Expectations and choice opportunities in management are closely linked to the concept of uncertainty quantification in data science, particularly in scenarios where high ambiguity exists. In management, understanding and quantifying uncertainties through methods like bootstrapping or other statistical techniques can help in making more informed decisions. Similarly, in data science, quantifying uncertainties is crucial for developing reliable models and algorithms. The interplay between these concepts in both fields highlights the need for sophisticated tools and frameworks to handle ambiguity effectively, ensuring that decision support systems are robust and adaptable to various scenarios.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 82,
+      "query": "Gill and Kass are debating the ethical implications of end-of-life care in a hospital setting. Given Gill's stance that it is not incoherent to prefer death over continued suffering, how might this perspective influence patient-centered care policies in light of sociological factors such as family dynamics and cultural beliefs?",
+      "gold_answer": "Gill's perspective that it is not incoherent to prefer death over continued suffering introduces a nuanced approach to patient-centered care policies, particularly in end-of-life scenarios. This stance emphasizes the importance of respecting individual patient autonomy and personal values, which can vary significantly based on sociological factors like family dynamics and cultural beliefs. For instance, in cultures where the family plays a central role in decision-making, healthcare providers must navigate the balance between honoring the patient's expressed wishes and the family's expectations and emotional needs. Policies that incorporate Gill's view would need to be flexible, providing robust support systems for patients and their families, including access to palliative care, counseling, and culturally sensitive communication to ensure that all voices are heard and respected. This approach not only aligns with ethical principles of autonomy and beneficence but also acknowledges the complex interplay of social and cultural influences on end-of-life decisions.",
+      "pred_answer": "Gill's perspective suggests that patient-centered care policies should consider individual preferences and quality of life, integrating sociological factors like family dynamics and cultural beliefs to provide more holistic support for patients and their families during end-of-life care.",
+      "domains": [
+        "MED",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 83,
+      "query": "In the context of HIV infection among Latinos, how does the role of social stigma and cultural norms intersect with virological factors to influence the identification of the major risk group?",
+      "gold_answer": "In the context of HIV infection among Latinos, the intersection of social stigma and cultural norms with virological factors significantly complicates the identification of major risk groups. Social stigma often deters individuals from seeking testing and treatment, leading to delayed diagnosis and higher viral loads, which in turn increase the likelihood of transmission. Cultural norms, such as machismo and familismo, can further exacerbate this issue by promoting risky behaviors and discouraging open discussions about sexual health. Additionally, these cultural dynamics can lead to underreporting of HIV cases, skewing epidemiological data and obscuring the true extent of the epidemic within the Latino community. Thus, a comprehensive approach to addressing HIV among Latinos must consider both the social and biological dimensions to effectively target interventions and support at-risk populations.",
+      "pred_answer": "The intersection of social stigma and cultural norms with virological factors significantly influences the identification of the major risk group for HIV infection among Latinos. Social stigma can lead to underreporting and delayed testing, while cultural norms around masculinity may discourage discussions about sexual health and safe practices, both of which can complicate the accurate identification of high-risk groups based solely on biological markers. This intersection highlights the need for culturally sensitive public health interventions that address both social and biological determinants of HIV transmission.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 84,
+      "query": "In the context of dietary fiber's impact on gut health and its societal implications, how might the rapid fermentation of hemicelluloses, pectins, and inulin into short chain fatty acids influence public health policies and business strategies in the food industry?",
+      "gold_answer": "The rapid fermentation of hemicelluloses, pectins, and inulin into short-chain fatty acids (SCFAs) significantly enhances gut health by promoting a balanced microbiome, which can reduce inflammation and improve metabolic function. This has profound implications for public health policies, as increased consumption of these fibers could lead to lower incidences of chronic diseases such as diabetes, obesity, and cardiovascular disease, potentially reducing healthcare costs and improving overall population health. For the food industry, this knowledge presents an opportunity to develop and market products rich in these beneficial fibers, catering to growing consumer demand for functional foods that support gut health. Companies can also collaborate with health organizations to promote the benefits of these fibers, aligning their business strategies with public health goals and positioning themselves as leaders in the wellness sector.",
+      "pred_answer": "The rapid fermentation of hemicelluloses, pectins, and inulin into short chain fatty acids can significantly influence public health policies by promoting the consumption of high-fiber foods to improve gut health. This could lead to increased research and development in the food industry to create more fiber-rich products, which may then be marketed towards consumers for better digestive health. Additionally, businesses might adopt more sustainable farming practices to ensure a consistent supply of fiber-rich crops, aligning with both health and environmental goals. Public health campaigns could also emphasize the importance of dietary fiber, potentially leading to changes in food labeling regulations to highlight fiber content. These factors would necessitate a stakeholder analysis considering the interests of various groups including consumers, farmers, manufacturers, and policymakers.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 85,
+      "query": "How might the socioeconomic status of parents influence the perceived severity of developmental effects associated with different trisomies, and what ethical considerations arise in providing genetic counseling to families based on these factors?",
+      "gold_answer": "The socioeconomic status (SES) of parents can significantly influence their perception of the severity of developmental effects associated with trisomies, such as Down syndrome or Patau syndrome. Parents from higher SES backgrounds may have greater access to resources, including specialized medical care, educational support, and community services, which can mitigate some of the challenges associated with these conditions, potentially leading to a more optimistic outlook. Conversely, parents from lower SES backgrounds may face additional stressors, such as financial strain and limited access to support systems, which can heighten their perception of the severity and impact of the condition. Ethically, genetic counselors must navigate these disparities carefully, ensuring that they provide unbiased, comprehensive information while being sensitive to the unique contexts and needs of each family. This involves fostering an environment of empathy and respect, where the values and concerns of all families are equally considered, regardless of their SES, to promote informed decision-making and equitable care.",
+      "pred_answer": "The socioeconomic status of parents can significantly influence how they perceive and manage the effects of different trisomies. For instance, parents from lower socioeconomic backgrounds might face more challenges in accessing resources and support, potentially leading to a perception of more severe impacts due to limited access to healthcare and educational opportunities. This can affect their decision-making processes regarding genetic counseling, treatment options, and lifestyle adjustments. Ethical considerations in providing genetic counseling include ensuring equitable access to information and support, addressing socioeconomic disparities, and respecting the autonomy and informed consent of all families involved. Counselors must also be mindful of cultural and socio-economic factors that could impact the family's ability to cope with the diagnosis and make informed decisions.",
+      "domains": [
+        "MED",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 86,
+      "query": "In the context of human security studies, how might the integration of advanced technological solutions impact the traditional understanding of 'human security', especially when considering the role of state support and individual self-sufficiency? Discuss the potential ethical and social implications of such technological advancements on personal autonomy and state intervention.",
+      "gold_answer": "In the evolving landscape of human security studies, the integration of advanced technological solutions significantly reshapes the traditional paradigm by enhancing state capabilities to monitor and protect individuals, while simultaneously challenging the balance between individual self-sufficiency and state support. Technologies such as artificial intelligence, big data analytics, and biometric surveillance can improve public safety and health through predictive policing, personalized healthcare, and disaster response, yet they also raise profound ethical concerns about privacy, consent, and the potential for misuse. These advancements may lead to a reduction in personal autonomy as individuals become more reliant on state-provided services and technologies, potentially eroding the very foundations of personal freedom and self-reliance. Moreover, the digital divide could exacerbate existing inequalities, as access to these technologies is often unevenly distributed, thereby reinforcing social stratification and limiting the benefits of technological progress to certain segments of the population. Thus, while technological innovations offer promising avenues for enhancing human security, they necessitate careful consideration of their broader social and ethical implications to ensure that they do not undermine the principles of individual dignity and equity.",
+      "pred_answer": "The integration of advanced technological solutions could significantly impact the traditional understanding of 'human security' by shifting the focus from state-centric security to a more holistic approach that emphasizes both state support and individual self-sufficiency. Technological advancements, such as those in digital information and renewable energy, can empower individuals to take control of their own security through self-sufficiency measures while also allowing states to provide more targeted and efficient support. However, this shift could raise ethical concerns regarding privacy and surveillance, as well as social implications related to the widening gap between those who can afford to leverage technology for their security and those who cannot. Additionally, there may be debates over the balance between individual freedom and collective security, with some arguing that increased technological reliance could lead to a loss of personal autonomy if not properly regulated.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 87,
+      "query": "How does the integration of data analytics in organizational management challenge the traditional views on planning and performance as articulated by Henry Mintzberg and other prominent management scholars like Michael Porter and Milton Friedman?",
+      "gold_answer": "The integration of data analytics into organizational management fundamentally shifts the landscape of planning and performance, challenging traditional views articulated by scholars such as Henry Mintzberg, Michael Porter, and Milton Friedman. Mintzberg's emphasis on the organic and emergent nature of strategic planning is now complemented by the precision and predictive power of data-driven insights, which can provide a more structured and evidence-based approach to decision-making. Similarly, Porter's focus on competitive strategy and the importance of understanding industry dynamics is enhanced by data analytics, allowing organizations to identify market trends, customer preferences, and competitive positions with greater accuracy and speed. Friedman's advocacy for maximizing shareholder value is also redefined, as data analytics enables companies to optimize operations, reduce costs, and enhance customer satisfaction, thereby contributing to long-term profitability and sustainability. Thus, while these traditional perspectives remain valuable, the integration of data analytics offers a more dynamic and adaptive framework for managing organizational performance.",
+      "pred_answer": "The integration of data analytics in organizational management challenges traditional views on planning and performance by shifting the focus from static, long-term strategic planning to dynamic, real-time decision-making processes. It allows organizations to adapt quickly to changing market conditions and customer needs, thereby redefining what it means to be efficient and effective in terms of both short-term operational efficiency and long-term strategic positioning. This aligns more closely with the contemporary understanding of performance emphasized by Mintzberg and others, which stresses adaptability and responsiveness over rigid adherence to predefined plans.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 88,
+      "query": "How does the global prevalence of Hepatitis B infection correlate with economic development and healthcare access in different regions, and what public health policies might be effective in improving outcomes?",
+      "gold_answer": "The global prevalence of Hepatitis B infection is inversely related to economic development and healthcare access, with higher rates observed in less economically developed regions where healthcare systems are under-resourced and vaccination programs are limited. In these areas, poor sanitation, lack of awareness, and inadequate medical infrastructure exacerbate the spread of the virus. Effective public health policies to improve outcomes include scaling up immunization programs, particularly for newborns and high-risk groups, enhancing surveillance and diagnostic capabilities to facilitate early detection and treatment, and investing in health education to reduce transmission risks. Additionally, strengthening healthcare systems through increased funding and international cooperation can ensure sustained access to antiviral therapies and comprehensive care, thereby reducing the burden of Hepatitis B in affected communities.",
+      "pred_answer": "The global prevalence of Hepatitis B infection is closely tied to economic development and healthcare access. In less developed regions with lower income levels and limited healthcare infrastructure, the prevalence of Hepatitis B is higher due to factors such as poor sanitation, inadequate vaccination programs, and higher rates of vertical transmission from mothers to infants. Public health policies aimed at increasing vaccination coverage, improving sanitation, and enhancing access to healthcare services can significantly reduce the burden of Hepatitis B. Additionally, implementing community-based screening programs and providing antiviral treatments can improve patient outcomes and reduce the transmission of the virus within communities.",
+      "domains": [
+        "MED",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 89,
+      "query": "In the context of human sexuality research and its social implications, how might the discovery of women's capacity for multiple orgasms by a specific scientist have influenced both scientific understanding and societal norms regarding female sexual health in the mid-20th century?",
+      "gold_answer": "The discovery of women's capacity for multiple orgasms by researchers like Alfred Kinsey in the mid-20th century significantly reshaped both scientific understanding and societal perceptions of female sexual health. Prior to this, the prevailing medical and cultural narratives often marginalized or misunderstood female sexuality, frequently portraying it as less complex and less intense than male sexuality. Kinsey's findings not only challenged these misconceptions but also paved the way for more comprehensive and inclusive studies on sexual behavior. This shift encouraged a broader conversation about sexual pleasure and health, leading to increased awareness and advocacy for women's sexual rights and well-being, which in turn contributed to the feminist movements of the era, emphasizing the importance of sexual autonomy and satisfaction.",
+      "pred_answer": "The discovery of women's capacity for multiple orgasms by Masters and Johnson in the 1950s significantly influenced both scientific understanding and societal norms regarding female sexual health. It challenged prevailing notions of female sexuality and contributed to a more nuanced understanding of human sexual responses. This finding helped to shift the focus away from the assumption that women required prolonged foreplay to achieve orgasm and towards recognizing the diversity of sexual experiences and needs among individuals. Societally, it promoted a more informed and empathetic approach to sexual education and relationships, fostering a better understanding of the importance of mutual pleasure and communication in sexual interactions.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 90,
+      "query": "How do sociocultural factors and legal constraints interact to influence the development and implementation of US foreign policy decisions, particularly in relation to international trade agreements?",
+      "gold_answer": "Sociocultural factors and legal constraints deeply intertwine to shape U.S. foreign policy, especially in the realm of international trade agreements. Sociocultural elements, such as public opinion and cultural values, can sway policymakers to prioritize certain economic partnerships or impose restrictions based on ethical considerations, like labor standards and environmental protections. Legally, the U.S. Constitution and various international laws and treaties provide a framework that constrains or enables specific actions, ensuring that trade policies align with both domestic and international legal obligations. This interaction is evident in the negotiation of trade deals, where the need to balance economic benefits with sociocultural and legal considerations often leads to complex and sometimes contentious decision-making processes.",
+      "pred_answer": "Sociocultural factors, such as ideological beliefs and cultural perceptions, significantly influence the development of US foreign policy decisions, especially regarding international trade agreements. These factors shape how policymakers perceive their role in global affairs and the priorities they set. Legally, the application of customary law and treaty provisions plays a crucial role in shaping these policies. Customary law, developed through consistent practices and judicial decisions, can align with or diverge from formal treaties, creating complex interactions between social and legal frameworks. This interplay requires careful consideration of both sociocultural dynamics and legal requirements to ensure coherent and effective foreign policy outcomes.",
+      "domains": [
+        "SOC",
+        "LAW"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 91,
+      "query": "How might a sociologist and a scientist working together on environmental policy face a dilemma when trying to address the ethical dimensions of land use, and what approach could they take to integrate both their perspectives effectively?",
+      "gold_answer": "A sociologist and a scientist collaborating on environmental policy might encounter a dilemma when their perspectives on land use conflict, particularly regarding the balance between ecological sustainability and social equity. The scientist may prioritize environmental integrity and the long-term health of ecosystems, advocating for strict conservation measures that limit human activity. Conversely, the sociologist might emphasize the social impacts, such as the displacement of communities and the loss of livelihoods, urging policies that support community well-being and cultural continuity. To integrate both perspectives effectively, they could adopt a participatory action research approach, engaging stakeholders from diverse backgrounds to co-create solutions that balance ecological and social needs, ensuring that policies are both scientifically sound and socially just. This collaborative method would foster a deeper understanding of the interconnectedness of environmental and social issues, leading to more holistic and sustainable outcomes.",
+      "pred_answer": "A sociologist and a scientist working together on environmental policy might face a dilemma when trying to address the ethical dimensions of land use due to the differing focuses of their disciplines. The sociologist may emphasize the social impacts and cultural significances of land use, while the scientist might prioritize ecological sustainability and scientific data. To integrate both perspectives effectively, they could adopt a holistic approach that considers both the social and scientific aspects of land use, engaging in interdisciplinary dialogue and collaboration to find balanced solutions that respect both human and environmental needs.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 92,
+      "query": "In the context of integrating nutritional science and dietary habits within a corporate wellness program, how might understanding the diverse roles of phytochemicals such as flavonoids, isoflavones, inositol phosphates, lignans, isothiocyanates, indoles, phenols, and sulphides influence employee health outcomes and company policy decisions?",
+      "gold_answer": "Understanding the diverse roles of phytochemicals like flavonoids, isoflavones, inositol phosphates, lignans, isothiocyanates, indoles, phenols, and sulphides can significantly enhance the effectiveness of a corporate wellness program by promoting specific health benefits that align with employee well-being. For instance, flavonoids and isoflavones are potent antioxidants that can reduce inflammation and lower the risk of chronic diseases such as cardiovascular disease and certain cancers, thereby improving overall health and reducing healthcare costs for both employees and the company. Inositol phosphates and lignans, which have estrogenic properties, can support hormonal balance and bone health, particularly beneficial for women's health. Isothiocyanates and indoles, found in cruciferous vegetables, can aid in detoxification processes and protect against cancer, while phenols and sulphides contribute to gut health and immune function. By incorporating these phytochemical-rich foods into workplace nutrition programs, companies can foster a healthier workforce, potentially leading to increased productivity, reduced absenteeism, and a more positive work environment.",
+      "pred_answer": "Understanding the diverse roles of phytochemicals like flavonoids, isoflavones, inositol phosphates, lignans, isothiocyanates, indoles, phenols, and sulphides can significantly inform corporate wellness programs by highlighting the importance of a varied diet rich in plant-based foods. This knowledge can lead to more effective policies promoting whole grains, legumes, fruits, and vegetables, thereby improving employee health outcomes, reducing healthcare costs, and enhancing productivity.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 93,
+      "query": "In the context of security studies, critically analyze how the integration of technological advancements in surveillance systems (STEM) challenges the traditional understanding of security as a constant and unchanging phenomenon (SOC), and discuss the implications for both the development of critical security theory and the practice of law and policy.",
+      "gold_answer": "The integration of technological advancements in surveillance systems fundamentally disrupts the traditional understanding of security as a static and unchanging concept, introducing dynamic and evolving dimensions that challenge conventional security paradigms. These technological innovations, such as AI-driven facial recognition and big data analytics, not only enhance state capabilities to monitor and control but also blur the lines between public and private spheres, redefining the nature of threats and vulnerabilities. This shift necessitates a reevaluation of critical security theory, which must now account for the fluid and adaptive nature of security in the digital age. Consequently, the practice of law and policy must adapt to address new ethical and legal questions, such as privacy violations and the potential for misuse of surveillance technologies, ensuring that these advancements serve to protect rather than undermine individual rights and societal well-being.",
+      "pred_answer": "The integration of technological advancements in surveillance systems significantly challenges the traditional understanding of security as a constant and unchanging phenomenon. Surveillance technologies enable continuous monitoring and intervention, thus altering the nature of security from a static state to a dynamic process. This shift necessitates a reevaluation of security studies, particularly within the framework of critical security studies, which emphasizes the fluidity and contextuality of security. For law and policy, this means adapting to new forms of security threats and responsibilities, requiring policymakers to consider not only traditional security measures but also the ethical and social implications of advanced surveillance technologies. This analysis highlights the need for a more nuanced approach to security, one that integrates technological capabilities while maintaining a critical perspective on their potential impacts.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 94,
+      "query": "In the context of advocating for social justice and equality, how does the approach of the National Organization for Women (NOW) in Source 2 compare to the strategy of the Gay Liberation Front (GLF) in Source 3 when it comes to achieving their goals through non-violent means and forming alliances with other movements, and what scientific methods might be used to measure the effectiveness of these strategies in promoting societal change?",
+      "gold_answer": "The National Organization for Women (NOW) and the Gay Liberation Front (GLF) both advocate for social justice and equality, employing non-violent means and forming strategic alliances to amplify their impact. NOW has historically focused on legislative advocacy, education, and coalition-building with other feminist and civil rights organizations to address gender inequality. In contrast, GLF adopted a more radical approach, emphasizing direct action, public demonstrations, and solidarity with other marginalized groups to challenge societal norms and promote LGBTQ+ rights. To measure the effectiveness of these strategies, researchers could use a combination of quantitative methods, such as analyzing changes in legislation and policy over time, and qualitative methods, like conducting interviews and case studies to assess shifts in public attitudes and community empowerment. Additionally, social network analysis could provide insights into the strength and reach of the alliances formed by both organizations, helping to understand how these connections contribute to broader social movements and systemic change.",
+      "pred_answer": "The National Organization for Women (NOW) in Source 2 and the Gay Liberation Front (GLF) in Source 3 both advocate for social justice and equality but employ different strategies. NOW focuses on non-violent means and forming alliances with other movements, while GLF emphasizes direct action and self-determination. To measure the effectiveness of these strategies, sociological studies could analyze changes in public policy, social attitudes, and community engagement over time. Additionally, quantitative research methods such as surveys and statistical analysis could provide insights into the impact of these approaches on societal change.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 95,
+      "query": "In the context of understanding date rape, how might the integration of psychological studies and sociological factors provide a more nuanced view of the phenomenon, and what specific aspects of these fields contribute to the comprehensiveness of the understanding of date rape incidents?",
+      "gold_answer": "Integrating psychological studies with sociological factors offers a deeper, more nuanced understanding of date rape by examining both individual behaviors and broader social contexts. Psychologically, it's crucial to consider the role of cognitive distortions, such as rape myths and entitlement beliefs, which can influence an individual's actions and perceptions. Sociologically, the examination of power dynamics, gender roles, and cultural norms provides insight into how societal structures and expectations can perpetuate or mitigate the risk of date rape. This combined approach not only highlights the importance of addressing individual attitudes but also underscores the need for systemic changes to foster a safer and more equitable environment. By considering these interrelated aspects, we can develop more effective prevention strategies and support systems that address the multifaceted nature of date rape.",
+      "pred_answer": "The integration of psychological studies and sociological factors provides a more nuanced view of date rape by considering both the individual mental states and broader social contexts. Psychological studies can offer insights into the motivations behind sexually motivated actions, such as those driven by a desire to engage in sexual activity, while sociological factors can elucidate the social dynamics and cultural norms that may influence such behaviors. This comprehensive approach allows for a deeper understanding of the complex interplay between personal desires and societal influences in cases of date rape.",
+      "domains": [
+        "STEM",
+        "SOC"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 96,
+      "query": "Sinnott-Armstrong's research on moral obligations often intersects with technological advancements in healthcare. How might emerging technologies in medical science, such as gene editing, challenge or reinforce the moral obligations of individuals towards each other and society? Discuss how these technological changes could affect societal norms and legal frameworks governing individual responsibilities.",
+      "gold_answer": "Sinnott-Armstrong's exploration of moral obligations in the context of emerging technologies like gene editing highlights a complex interplay between ethical duties and technological capabilities. Gene editing, for instance, can challenge traditional notions of responsibility by presenting unprecedented opportunities to prevent or cure genetic diseases, thereby raising questions about the moral imperative to use such technologies for the greater good. Conversely, it also introduces new ethical dilemmas, such as the potential for creating genetic inequalities and the risk of unintended consequences, which may reinforce the need for stringent regulatory frameworks to ensure equitable access and responsible use. These technological advancements could thus reshape societal norms, potentially leading to a redefinition of what constitutes moral and legal responsibilities in the realm of healthcare, emphasizing both the benefits and the ethical boundaries that must be respected.",
+      "pred_answer": "Sinnott-Armstrong's research highlights the intersection between moral obligations and technological advancements in healthcare, particularly through emerging technologies like gene editing. These technologies can challenge existing moral obligations by raising new ethical questions about the limits of individual responsibility and the extent to which society should intervene. For instance, gene editing could lead to debates over whether parents have a moral obligation to ensure their children do not carry certain genetic conditions, potentially influencing legal frameworks around parental duties and public health policies. Conversely, these technologies may also reinforce traditional moral obligations by emphasizing the importance of preventing harm and promoting well-being, thereby strengthening societal norms around collective responsibility and ethical conduct in medical practices.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 97,
+      "query": "In the context of nutrition studies, how might the limited number of test subjects impact public health policy decisions regarding dietary guidelines and food safety regulations, and what scientific limitations do these policies face when relying on animal testing data?",
+      "gold_answer": "In the realm of nutrition studies, the limited number of test subjects can significantly skew the outcomes and reliability of research, thereby complicating the formulation of public health policies. Small sample sizes may not accurately represent the broader population, leading to potentially biased or non-generalizable results that could misguide dietary guidelines and food safety regulations. Moreover, the reliance on animal testing introduces additional layers of complexity, as physiological differences between animals and humans can limit the applicability of findings, often necessitating cautious interpretation and further human-based validation. These scientific limitations underscore the need for robust, large-scale human studies to ensure that public health policies are grounded in reliable, representative evidence.",
+      "pred_answer": "The limited number of test subjects can lead to inconclusive or biased results, which may not accurately reflect the broader population's needs and responses to dietary changes. This can result in flawed public health policies. Scientifically, there is a risk of overgeneralization and potential underrepresentation of diverse genetic and environmental factors, leading to suboptimal dietary guidelines and food safety measures.",
+      "domains": [
+        "SOC",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 98,
+      "query": "In the context of security studies, how does the concept of an international regime intersect with technological advancements in surveillance and data privacy, and what ethical considerations arise when governmental actors rely on such technologies while subscribing to these regimes?",
+      "gold_answer": "In the realm of security studies, the concept of an international regime, which refers to sets of principles, norms, rules, and decision-making procedures around which actor expectations converge in a given area of international relations, intersects significantly with technological advancements in surveillance and data privacy. As states increasingly adopt sophisticated technologies for surveillance purposes, these regimes play a crucial role in setting standards and guidelines that aim to balance national security needs with individual privacy rights. However, this intersection raises ethical concerns, particularly regarding the potential for overreach and misuse of surveillance technologies by governmental actors, which can undermine trust and violate human rights. Moreover, the global nature of these technologies and the varying degrees of adherence to international regimes among states complicate efforts to establish and enforce universal standards, highlighting the need for robust, transparent, and accountable mechanisms to oversee the use of surveillance technologies.",
+      "pred_answer": "The concept of an international regime in security studies often involves agreements and norms among states regarding certain behaviors or practices. Technological advancements in surveillance and data privacy raise significant ethical considerations, especially when governmental actors rely on these technologies without proper oversight or adherence to established norms. Ethical considerations include ensuring that surveillance activities respect individual rights, maintain transparency, and prevent abuse. Additionally, the reliance on advanced technologies may lead to issues of accountability and the potential for misuse, necessitating robust frameworks and regulations to balance security needs with fundamental human rights.",
+      "domains": [
+        "LAW",
+        "STEM"
+      ],
+      "is_cross": true
+    },
+    {
+      "id": 99,
+      "query": "SOC: How does the prevalence of 'redoing the home' as a post-retirement activity compare to other common pursuits among retirees, and what societal factors might influence this trend? MED: Considering the physical and cognitive health implications, how do these activities impact the well-being of elderly individuals, particularly in relation to 'redoing the home'?",
+      "gold_answer": "The prevalence of 'redoing the home' as a post-retirement activity is notably high among retirees, often rivaling or surpassing other common pursuits such as travel, gardening, and volunteer work. This trend is influenced by several societal factors, including the desire for a sense of accomplishment and control, the economic benefits of home improvement, and the cultural value placed on maintaining one's living space. From a medical perspective, engaging in home renovation can have significant physical and cognitive health benefits for elderly individuals. Physically, it promotes activity and mobility, which can help maintain muscle strength and balance, reducing the risk of falls. Cognitively, planning and executing home projects stimulate mental processes, enhancing problem-solving skills and memory, thereby contributing to overall well-being and potentially delaying cognitive decline. However, it is important to consider individual health conditions and safety measures to ensure that these activities remain beneficial and not detrimental to the elderly.",
+      "pred_answer": "The prevalence of 'redoing the home' as a post-retirement activity is relatively high compared to other common pursuits such as travel or volunteering. Societal factors influencing this trend include the desire for independence, maintaining a sense of purpose, and the potential for social interaction through home improvement projects. Physically, 'redoing the home' can provide light exercise and mental stimulation, which are beneficial for overall well-being. However, it may also pose risks if not managed properly, such as falls or exacerbation of existing conditions like hypertension or diabetes. Cognitive health could be positively impacted by new challenges but might also be strained by the complexity of tasks.",
+      "domains": [
+        "MED",
+        "SOC"
+      ],
+      "is_cross": true
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "Naive RAG 7B": {
+    "all": {
+      "rate": 10.6,
+      "sents": 3638
+    },
+    "cross": {
+      "rate": 4.4,
+      "sents": 857
+    },
+    "single": {
+      "rate": 12.5,
+      "sents": 2781
+    }
+  },
+  "Adaptive RAG 7B": {
+    "all": {
+      "rate": 12.1,
+      "sents": 3675
+    },
+    "cross": {
+      "rate": 6.4,
+      "sents": 885
+    },
+    "single": {
+      "rate": 13.8,
+      "sents": 2790
+    }
+  },
+  "HyDE 7B": {
+    "all": {
+      "rate": 9.8,
+      "sents": 3594
+    },
+    "cross": {
+      "rate": 4.8,
+      "sents": 867
+    },
+    "single": {
+      "rate": 11.4,
+      "sents": 2727
+    }
+  },
+  "CRAG 7B": {
+    "all": {
+      "rate": 11.1,
+      "sents": 3116
+    },
+    "cross": {
+      "rate": 5.6,
+      "sents": 497
+    },
+    "single": {
+      "rate": 12.1,
+      "sents": 2619
+    }
+  },
+  "NexRoute 7B": {
+    "all": {
+      "rate": 8.9,
+      "sents": 1422
+    },
+    "cross": {
+      "rate": 4.6,
+      "sents": 586
+    },
+    "single": {
+      "rate": 11.8,
+      "sents": 836
+    }
+  }
+}

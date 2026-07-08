@@ -1,0 +1,2102 @@
+[
+  {
+    "domain": "MED",
+    "instruction": "In an SDS-PAGE procedure, the SDS serves as a detergent. Why are the proteins treated with a detergent before being run through the electrophoresis gel?",
+    "output": "The correct answer is B: To allow the electrophoresis to separate the proteins solely on the basis of the length of the primary sequence.\n\nChoices:\nA: To coat the proteins with a large positive charge, since amino acid side chains may have positive, negative, or neutral charges, and a large uniform charge is necessary to get good separation in the gel.\nB: To allow the electrophoresis to separate the proteins solely on the basis of the length of the primary sequence.\nC: To prevent the protein from denaturing so that the electrophoresis can accurately resolve the proteins on the basis of tertiary structure.\nD: To break the intramolecular bonds holding the tertiary and primary structure of the protein together, thereby generating linear fragments that may be sorted on size.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 33-year-old man undergoes a radical thyroidectomy for thyroid cancer. During the operation, moderate hemorrhaging requires ligation of several vessels in the left side of the neck. Postoperatively, serum studies show a calcium concentration of 7.5 mg/dL, albumin concentration of 4 g/dL, and parathyroid hormone concentration of 200 pg/mL. Damage to which of the following vessels caused the findings in this patient?",
+    "output": "The correct answer is C: Branch of the thyrocervical trunk\n\nChoices:\nA: Branch of the costocervical trunk\nB: Branch of the external carotid artery\nC: Branch of the thyrocervical trunk\nD: Tributary of the internal jugular vein",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "If the mean rate of oxygen consumption of a male athlete during a training session is 2 l/min, then his rate of energy expenditure is approximately:",
+    "output": "The correct answer is D: 40 kJ/min.\n\nChoices:\nA: 400 kJ/min.\nB: 200 kJ/min.\nC: 80 kJ/min.\nD: 40 kJ/min.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Embedded in the inner membrane of the mitochondrion are:",
+    "output": "The correct answer is B: the components of the electron transport chain.\n\nChoices:\nA: the enzymes of the tricarboxylic acid cycle (Krebs' cycle).\nB: the components of the electron transport chain.\nC: glycogen molecules.\nD: triacylglycerol molecules.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "For very high force contractions lasting 1-2 seconds, the initial energy source is from:",
+    "output": "The correct answer is D: ATP stores.\n\nChoices:\nA: Glycolysis.\nB: creatine phosphorylation.\nC: phosphocreatine stores.\nD: ATP stores.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following was a major discovery of molecular biology when the adenovirus replication strategy was uncovered?",
+    "output": "The correct answer is B: Mechanism of replication of DNA\n\nChoices:\nA: The function of RT\nB: Mechanism of replication of DNA\nC: The importance and frequency of mRNA splicing\nD: The speed of action of viral DNA dependent DNA polymerase",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which unique form does the rabies virus take?",
+    "output": "The correct answer is D: The virion is very pleomorphic\n\nChoices:\nA: The virion has a dumbbell appearance\nB: It is shaped like a bullet from a gun\nC: The virus is star shaped\nD: The virion is very pleomorphic",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following cranial nerves is related to the sense of smell?",
+    "output": "The correct answer is C: Olfactory\n\nChoices:\nA: Abducens\nB: Hypoglossal\nC: Olfactory\nD: Trochlear",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 63-year-old woman with hypertension has her son call your office to make an appointment for evaluation of vaginal bleeding. Her general physician recently retired. The son tells you that his mother has been deaf since infancy and that he uses sign language to communicate with her. Which of the following is the most appropriate course of action to ensure good communication?",
+    "output": "The correct answer is B: Arrange for a certified interpreter\n\nChoices:\nA: Have the patient bring her son to the appointment to interpret\nB: Arrange for a certified interpreter\nC: Provide the patient with writing materials during the appointment\nD: Talk with the patient face-to-face, enunciating carefully so that she may lip read",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 25-year-old man comes to the emergency department because he developed chest pain and shortness of breath 1 hour ago, shortly after snorting cocaine for the first time. He rates the chest pain as a 7 on a 10-point scale and notes that the pain is radiating down his left arm. Medical history is unremarkable and the patient takes no medications or any other illicit drugs. He is 178 cm (5 ft 10 in) tall and weighs 70 kg (154 lb); BMI is 22 kg/m2 . The patient is diaphoretic. Vital signs are temperature 37.5°C (99.5°F), pulse 110/min, respirations 16/min, and blood pressure 200/100 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 95%. Pupils are equal, round, and reactive to light and accommodation. Lungs are clear to auscultation and percussion. Auscultation of the heart discloses an audible S1 and S2. There is no edema, cyanosis, or clubbing of the digits. The patient is fully oriented. He is treated with supplemental oxygen, a 325-mg aspirin tablet, and intravenous nitroglycerin and lorazepam. Despite therapy, he continues to have chest pain and shortness of breath. ECG shows sinus tachycardia with no ST-segment or T-wave abnormalities. Which of the following is the most appropriate additional pharmacotherapy to initiate at this time?",
+    "output": "The correct answer is D: Phentolamine\n\nChoices:\nA: Carvedilol\nB: Furosemide\nC: Metoprolol\nD: Phentolamine",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is true in spastic paraplegia?",
+    "output": "The correct answer is A: Multiple Sclerosis can cause this neurological pattern\n\nChoices:\nA: Multiple Sclerosis can cause this neurological pattern\nB: Proprioceptive loss is a common feature\nC: Coordination in the legs is affected\nD: The tone is normal or flaccid",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is true of Graves Disease of the thyroid?",
+    "output": "The correct answer is A: It is a cause of ophthalmoplegia\n\nChoices:\nA: It is a cause of ophthalmoplegia\nB: It causes a large multi-nodular goitre\nC: It is commoner in males than females\nD: In the past, Grave's disease sometimes caused 'Derbyshire Neck'",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "What type of joint is the elbow?",
+    "output": "The correct answer is C: Synovial hinge joint.\n\nChoices:\nA: Ball and socket joint.\nB: Fused joint.\nC: Synovial hinge joint.\nD: Plain joint.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 34-year-old white woman comes to the emergency department because of a persistent dull headache for the past 3 days. She has been taking acetaminophen without relief. She says, \"I haven't slept in 3 days and I am having trouble focusing at work.\" There is no history of trauma and she takes no medications. She has smoked one pack of cigarettes daily for 14 years but does not drink alcoholic beverages. Vital signs are temperature 37.5°C (99.5°F), pulse 86/min, respirations 19/min, and blood pressure 182/100 mm Hg. Examination of the head shows no abnormalities. Pupils are equal, round, and reactive to light; there is mild photophobia. Funduscopic examination is normal. A serous effusion is noted on examination of the left tympanic membrane. Neck is stiff with painful flexion; when the patient's neck is flexed forward, she reports and electric shock sensation. Mild expiratory wheezes are heard on auscultation of the chest. A midsystolic click is heard best at the left sternal border; there are no murmurs or gallops. Abdominal examination shows striae, but is otherwise noncontributory. Examination of the lower extremities shows varicosities bilaterally and 1+ edema; muscle strength is 4/5. Neurologic examination shows no other abnormalities. Which of the following physical findings is most indicative of the need for immediate further evaluation?",
+    "output": "The correct answer is D: Neck stiffness\n\nChoices:\nA: Abdominal striae\nB: Expiratory wheezes\nC: Midsystolic click\nD: Neck stiffness",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 20-year-old man has had frequent upper respiratory tract infections over the past 4 years. He has daily purulent sputum and has noted decreased exercise tolerance over the past 2 years. He and his wife have been unable to conceive because of his low sperm count. Scattered expiratory wheezing and rhonchi are heard throughout both lung fields. An x-ray of the chest shows hyperinflation. Spirometry shows a decreased FEV1:FVC ratio. Which of the following is most likely to confirm the diagnosis?",
+    "output": "The correct answer is C: Sweat chloride test\n\nChoices:\nA: Arterial blood gas analysis\nB: Examination of sputum for eosinophils\nC: Sweat chloride test\nD: Sputum cytology",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which products of ADP degradation increase in concentration in the blood during multiple sprint sports?",
+    "output": "The correct answer is A: Ammonia, hypoxanthine and uric acid.\n\nChoices:\nA: Ammonia, hypoxanthine and uric acid.\nB: Ammonia, urea and uric acid.\nC: Ammonia, urea and creatinine.\nD: Ammonia, urea and creatine.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The energy released from the breakdown of the high-energy phosphates, ATP and phosphocreatine, can sustain maximal exertion exercise for about:",
+    "output": "The correct answer is B: 5-10 seconds.\n\nChoices:\nA: 1-2 seconds.\nB: 5-10 seconds.\nC: 30-40 seconds.\nD: 50-60 seconds.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Neonatal Respiratory Distress Syndrome (NRDS) is a serious complication seen in infants born prematurely who have a compromised ability to facilitate oxygen diffusion across their alveolar membranes. This is caused by inadequate surfactant production. What role does surfactant play in facilitating oxygen diffusion?",
+    "output": "The correct answer is B: Maintains alveoli in an open state\n\nChoices:\nA: Increases surface permeability\nB: Maintains alveoli in an open state\nC: Depresses cilia of the lung\nD: Dilates blood vessels",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In general, the higher the intensity of exercise, the greater the proportional contribution of:",
+    "output": "The correct answer is B: anaerobic energy production.\n\nChoices:\nA: aerobic energy production.\nB: anaerobic energy production.\nC: the TCA cycle (Krebs' cycle) to the production of ATP.\nD: the electron transfer chain to the production of ATP.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which virus infection was not first identified by clinical observation?",
+    "output": "The correct answer is D: Hepatitis C\n\nChoices:\nA: HIV\nB: Rubella teratogenicity\nC: Microcephaly and Zika\nD: Hepatitis C",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The risk for miscarriage associated with amniocentesis is approximately ____.",
+    "output": "The correct answer is C: 1 in 100 to 1 in 200\n\nChoices:\nA: 1 in 10\nB: 1 in 50\nC: 1 in 100 to 1 in 200\nD: 1 in 1000",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A previously healthy 27-year-old nulligravid woman comes to the emergency department because of a 2-day history of moderate-to-severe pain and swelling of the left labia. She is sexually active and uses condoms inconsistently. Her temperature is 37.2°C (99°F), pulse is 92/min, respirations are 18/min, and blood pressure is 115/75 mm Hg. Pelvic examination shows a 4 x 3-cm, tender, fluctuant mass medial to the left labium majus compromising the introital opening. Which of the following is the most appropriate next step in management?",
+    "output": "The correct answer is D: Incision and drainage\n\nChoices:\nA: Administration of intravenous metronidazole\nB: Administration of intravenous penicillin G\nC: Ultrasound-guided needle aspiration of the mass\nD: Incision and drainage",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 24-year-old recent college graduate comes to the office because of a 3-year history of increased frequency of urination and occasional incontinence whenever she travels. She says the urinary symptoms typically begin a few days before she is going to fly and they stop the day after she arrives at her destination. She says she is anxious about flying and even slightly \"panicky.\" She reports having had similar but milder symptoms prior to examinations before graduating. Medical history is otherwise unremarkable. Her only medication is an oral contraceptive. Vital signs are normal. Physical examination discloses no abnormalities. Urinalysis and urine culture are normal. Which of the following is the most appropriate next step?",
+    "output": "The correct answer is A: Recommend behavioral therapy\n\nChoices:\nA: Recommend behavioral therapy\nB: Recommend psychoanalytic psychotherapy\nC: Recommend that the patient avoid any stressful activities that cause the problem\nD: Review the patient's sexual history",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 57-year-old man comes to the emergency department because of cramping in his hands and feet and numbness and tingling around his lips and in his fingers; these symptoms occurred intermittently for 6 months but have been progressively severe during the past 2 weeks. He also has had a 13-kg (30-lb) weight loss and bulky, foul-smelling stools that do not flush easily. He has a 10-year history of drinking 8 to 10 beers daily. He has been hospitalized twice for severe abdominal pain 4 and 6 years ago. His pulse is 80/min, and blood pressure is 105/65 mm Hg. He appears cachectic and chronically ill. The abdomen is nontender. Deep tendon reflexes are 4+ bilaterally. Chvostek and Trousseau signs are present. His serum calcium concentration is 6.5 mg/dL. Which of the following is the most likely diagnosis?",
+    "output": "The correct answer is D: Vitamin D deficiency\n\nChoices:\nA: Hypomagnesemia\nB: Hypoparathyroidism\nC: Osteomalacia\nD: Vitamin D deficiency",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "For patients with asthma, how many times a day should a peak flow reading be taken?",
+    "output": "The correct answer is B: Twice a day.\n\nChoices:\nA: Daily.\nB: Twice a day.\nC: Three times a week.\nD: Once a week.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The rate of blood lactate accumulation is determined by:",
+    "output": "The correct answer is D: the difference between the rate of lactate appearance and the rate of lactate clearance.\n\nChoices:\nA: the rate of muscle lactate production and the rate of muscle lactate efflux.\nB: the rate of anaerobic glycolysis.\nC: the rate of muscle glucose uptake.\nD: the difference between the rate of lactate appearance and the rate of lactate clearance.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "What is urban yellow fever (YF)?",
+    "output": "The correct answer is A: Part of a cycle of mosquitoes biting humans in cities\n\nChoices:\nA: Part of a cycle of mosquitoes biting humans in cities\nB: Part of a cycle of mosquitoes biting humans and monkeys in forested areas\nC: A mutant of the YF virus\nD: A YF species that has adapted to new mosquitoes",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is the master gland of the endocrine system?",
+    "output": "The correct answer is D: Pituitary\n\nChoices:\nA: Adrenal\nB: Pancreas\nC: Pineal\nD: Pituitary",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The normal respiratory rate for an adult male is:",
+    "output": "The correct answer is D: 14-16 breaths per minute.\n\nChoices:\nA: 10-12 breaths per minute.\nB: 8-10 breaths per minute.\nC: 20-22 breaths per minute.\nD: 14-16 breaths per minute.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which is a major characteristic of the bunyavirus family?",
+    "output": "The correct answer is A: Amplify by persistent infection of midgets, mosquitoes, sand flies, ticks\n\nChoices:\nA: Amplify by persistent infection of midgets, mosquitoes, sand flies, ticks\nB: Predominantly mosquito borne\nC: Genetic recombination or reassortment\nD: Spread to humans via bites of mice and rats",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A police officer carries out hundreds of traffic stops every year. When his supervisor is reviewing the officer’s records for the past year, he notices that the officer is equally likely to stop people of various genders, ages, and races. However, he is significantly more likely to write tickets for middle-aged white males with dark hair and eyes. When confronted with this fact, the officer truthfully states that he has no idea why that is, and that it must simply be a coincidence. Unbeknownst to the officer, this behavior is tied to the fact that these men look like his father, with whom he had an abusive relationship as a child. What psychological framework would directly address the unconscious bias in his behavior?",
+    "output": "The correct answer is B: Psychoanalytic\n\nChoices:\nA: Behaviorist\nB: Psychoanalytic\nC: Cognitive behavioral\nD: Humanistic",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 31-year-old woman, gravida 3, para 2, who is at 32 weeks' gestation, is admitted to the hospital because of a 1-week history of progressive dyspnea and wheezing. She says her heart is \"racing\" and she is coughing up a small amount of bloodstreaked sputum. Medical history is significant for hypothyroidism, for which she takes levothyroxine. An intravenous catheter is placed. Vital signs are temperature 36.9°C (98.4°F), pulse 132/min, respirations 32/min, and blood pressure 135/78 mm Hg. Pulse oximetry on 100% oxygen via nasal cannula shows an oxygen saturation of 92%. Auscultation of the lungs discloses decreased breath sounds at the bases with expiratory crackles bilaterally. Cardiac examination discloses an irregularly irregular rhythm, an indistinct point of maximal impulse, and a loud S1. A grade 3/6, low-pitched, diastolic, rumbling murmur is audible at the apex; a distinct snapping sound precedes the murmur. Fetal heart rate is 144/min. Which of the following is the most likely cause of the findings in this patient?",
+    "output": "The correct answer is D: Mitral stenosis complicated by atrial fibrillation\n\nChoices:\nA: Chronic mitral regurgitation secondary to rheumatic heart disease\nB: Coarctation of the aorta\nC: Congenital aortic stenosis\nD: Mitral stenosis complicated by atrial fibrillation",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "If you run your finger down the anterior midline of a patient's extended neck from chin to sternal notch, you should be able to palpate, in order, the",
+    "output": "The correct answer is C: hyoid bone, thyroid cartilage, cricoid cartilage.\n\nChoices:\nA: hyoid bone, cricoid cartilage, thyroid cartilage.\nB: thyroid cartilage, cricoid cartilage, hyoid bone.\nC: hyoid bone, thyroid cartilage, cricoid cartilage.\nD: thyroid cartilage, hyoid bone, cricoids cartilage.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In a patient with a normal healthy mouth, you would expect the mucosa covering the alveolar process supporting the mandibular teeth to be",
+    "output": "The correct answer is C: red below the mucogingival junction and light pink above it.\n\nChoices:\nA: light pink in colour on both sides of the mucogingigival junction.\nB: light pink below the mucogingival junction and red above it.\nC: red below the mucogingival junction and light pink above it.\nD: red on both sides of the mucogingival junction.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 29-year-old woman comes to the emergency department because she has had increasingly severe lower abdominal pain and nausea for the past 2 days. She is sexually active and does not use any contraception. Her last menstrual period ended 6 days ago. Temperature is 38.3°C (101.0°F). Physical examination discloses abdominal tenderness in the lower quadrants bilaterally with rebound and guarding. Pelvic examination discloses leukorrhea at the cervical os and tenderness of the uterus to palpation. The adnexal areas are tender but no masses are palpable. Which of the following is the most appropriate diagnostic study?",
+    "output": "The correct answer is A: Cervical culture\n\nChoices:\nA: Cervical culture\nB: Culdocentesis\nC: Laparoscopy\nD: Serum β-hCG concentration",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 67-year-old woman comes to the physician because of easy bruising for 4 months. She has a history of lung cancer treated with radiation therapy 6 months ago. She has a 2-year history of hypertension treated with a thiazide diuretic and an angiotensin-converting enzyme (ACE) inhibitor. Examination, including neurologic examination, shows no abnormalities except for multiple ecchymoses. Her hemoglobin concentration is 13 g/dL, leukocyte count is 5000/mm3 , and platelet count is 35,000/mm3 . A serum antiplatelet antibody assay is negative. Which of the following is the most appropriate next step in diagnosis?",
+    "output": "The correct answer is D: Bone marrow aspiration\n\nChoices:\nA: CT scan of the abdomen\nB: CT scan of the chest\nC: Bronchoscopy\nD: Bone marrow aspiration",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Most of the free fatty acids are transported in the blood:",
+    "output": "The correct answer is D: bound to albumin.\n\nChoices:\nA: inside the red blood cells.\nB: as lipoproteins.\nC: combined with glucose.\nD: bound to albumin.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Living cells require constant interaction with the outside environment in order to attain the materials they need for survival, as well as to rid themselves of waste. Of the following processes, which uses only the gradient of material to control the direction in which the material moves across the cell membrane?",
+    "output": "The correct answer is A: Osmosis\n\nChoices:\nA: Osmosis\nB: Passive Transport\nC: Active Transport\nD: Endocytosis",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Plasmid vectors for cloning",
+    "output": "The correct answer is B: grow within bacteria, and are present in bacterial colonies on an agar plate\n\nChoices:\nA: can generally accommodate larger inserts than phage vectors can\nB: grow within bacteria, and are present in bacterial colonies on an agar plate\nC: can accommodate inserts of over 100 kilobases\nD: include centromeres to allow propagation in yeast",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 63-year-old woman comes to the physician 1 day after the sudden onset of pain and swelling of her right knee. She has had no injury. Her medications include occasional ibuprofen for mild osteoarthritis of both knees. Her temperature is 37°C (98.6°F), pulse is 97/min, respirations are 19/min, and blood pressure is 129/79 mm Hg. Examination of the right knee shows warmth, erythema, and effusion. Exquisite tenderness is produced with minimal range-of-motion testing. Examination of synovial fluid obtained via joint aspiration shows that it is clear, with positively birefringent rhomboids observed under polarized light microscopy. Deposition of which of the following substances is the most likely cause of these findings?",
+    "output": "The correct answer is C: Calcium pyrophosphate\n\nChoices:\nA: Ammonium urate\nB: Calcium oxalate\nC: Calcium pyrophosphate\nD: Calcium urate",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Glycogen breakdown in exercising muscle is activated by:",
+    "output": "The correct answer is D: none of the above.\n\nChoices:\nA: insulin.\nB: cortisol.\nC: increased pH.\nD: none of the above.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Marfan syndrome is caused by mutations in the gene which encodes _______.",
+    "output": "The correct answer is D: Fibrillin\n\nChoices:\nA: Collagen\nB: Dystrophin\nC: Elastin\nD: Fibrillin",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Officials at a large community hospital report an increased incidence of acute lymphocytic leukemia (ALL) among children aged 5 – 12. They point out that some households in the community are exposed to chemical waste from a nearby factory. They believe that chemical waste causes leukemia. If a study is designed to evaluate the hospital officials’ claim, which of the following subjects are most likely to comprise the control group?",
+    "output": "The correct answer is B: Children not exposed to the chemical waste who do not suffer from ALL\n\nChoices:\nA: Children exposed to the chemical waste who do not suffer from ALL\nB: Children not exposed to the chemical waste who do not suffer from ALL\nC: Children from the hospital’s outpatient clinic who do not suffer from ALL\nD: Children not exposed to the chemical waste who suffer from ALL",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The anatomic location of the spinal canal is",
+    "output": "The correct answer is B: dorsal\n\nChoices:\nA: caudal\nB: dorsal\nC: frontal\nD: transverse",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 72-year-old woman comes to the physician because of a 2-month history of painless swelling of both ankles. She also reports shortness of breath with exertion and when lying down. She has been awakened from sleep by shortness of breath. She has not had chest pain. Her pulse is 96/min and regular, respirations are 24/min, and blood pressure is 128/76 mm Hg. Jugular venous pressure is 15 cm H2O. Pulmonary examination shows crackles at both lung bases. Cardiac examination shows a regular rhythm and a soft S3. A grade 3/6 holosystolic murmur is heard best at the apex, radiating to the axilla. There is 2+ pitting edema of the lower legs and ankles. Which of the following is most likely to confirm the diagnosis?",
+    "output": "The correct answer is D: Echocardiography\n\nChoices:\nA: Measurement of serum troponin I concentration\nB: ECG\nC: Exercise stress test\nD: Echocardiography",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following best describes the effects of morphine?",
+    "output": "The correct answer is B: Reduces pain intensity but also causes sedation.\n\nChoices:\nA: Reduces pain intensity and increases alertness.\nB: Reduces pain intensity but also causes sedation.\nC: Reduces pain intensity but also causes diarrhoea.\nD: Reduces pain intensity but also causes insomnia.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Cytotoxic T cells can be activated via which of the following?",
+    "output": "The correct answer is C: By identifying virus peptides presented by MHC-I\n\nChoices:\nA: By reacting with budding viruses\nB: By identifying virus peptides presented by antibodies\nC: By identifying virus peptides presented by MHC-I\nD: By releasing complement",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "AIDS activism in the U.S. resulted in:",
+    "output": "The correct answer is D: All of the above\n\nChoices:\nA: Food and Drug Administration reforms\nB: Easier access to investigational drugs\nC: Changes in the way medicine was practiced in the U.S.\nD: All of the above",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 77-year-old man is brought to the physician because of a 12-hour history of word-finding difficulty and weakness and sensory loss of the right arm and leg. He has no history of similar symptoms. He has type 2 diabetes mellitus, hypertension, and atrial fibrillation. Current medications include metformin, lisinopril, and aspirin. He is alert. His pulse is 80/min and irregular, respirations are 16/min, and blood pressure is 170/90 mm Hg. He follows commands but has nonfluent aphasia. There is moderate weakness and decreased sensation of the right upper and lower extremities. Deep tendon reflexes are 2+ bilaterally. Babinski sign is present on the right. His serum glucose concentration is 162 mg/dL. Which of the following is the most appropriate next step in diagnosis?",
+    "output": "The correct answer is B: CT scan of the head\n\nChoices:\nA: Carotid duplex ultrasonography\nB: CT scan of the head\nC: EEG\nD: Lumbar puncture",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Most new mutations appear to be",
+    "output": "The correct answer is B: neutral or deleterious\n\nChoices:\nA: beneficial\nB: neutral or deleterious\nC: present in homozygotes rather than heterozygotes\nD: detectable using allozyme studies (protein electrophoresis)",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The most widespread and important retrovirus is HIV-1; which of the following is true?",
+    "output": "The correct answer is A: Infecting only gay people\n\nChoices:\nA: Infecting only gay people\nB: Infecting only males\nC: Infecting every country in the world\nD: Infecting only females",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In response to period of extreme psychological trauma, a patient begins experiencing a feeling of detachment. He says, “I felt like it wasn’t real while it was happening. I was just watching myself do it without any control. I mean, you know, I knew it was happening but I didn’t feel like it was.” The patient is describing:",
+    "output": "The correct answer is C: Depersonalization disorder\n\nChoices:\nA: Dissociative identity disorder\nB: An anxiety disorder\nC: Depersonalization disorder\nD: A schizophrenic episode",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The sex of a child is dictated by the inheritance of:",
+    "output": "The correct answer is D: a single Y chromosome from the father.\n\nChoices:\nA: the number of X chromosomes from the mother.\nB: a recessive allele on the X chromosome.\nC: a single Y chromosome from the mother.\nD: a single Y chromosome from the father.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following bony structures may be palpated in a live patient?",
+    "output": "The correct answer is D: All of the above\n\nChoices:\nA: The supraorbital foramen\nB: The infraorbital foramen\nC: The mental foramen\nD: All of the above",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "“Test and treat” depends on:",
+    "output": "The correct answer is D: All of the above\n\nChoices:\nA: The proportion of infected persons willing to be tested\nB: The willingness of persons testing HIV positive to begin treatment\nC: The availability of resources for persons testing HIV positive\nD: All of the above",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 47-year-old man is admitted to the hospital through the emergency department because of the sudden onset of palpitations, left-sided chest pain, light-headedness, and shortness of breath that began while he was watching television 2 hours ago. Medical history is remarkable for paroxysmal atrial fibrillation. The patient is 180 cm (5 ft 11 in) tall and weighs 82 kg (180 lb); BMI is 25 kg/m2 . ECG obtained in the emergency department showed atrial fibrillation with narrow QRS complex. Pulse was 146/min. Physical examination was remarkable for rapid heart rate. The patient was given oxygen via nasal cannula and intravenous metoprolol 5 mg every 5 minutes for a total of 15 mg. His pulse slowed to 90/min. Two hours after admission, he is pain free but his pulse is now 160/min. Blood pressure is 122/78 mm Hg. In order to decrease the patient's pulse, which of the following should be administered intravenously?",
+    "output": "The correct answer is D: Metoprolol\n\nChoices:\nA: Digoxin\nB: Enalapril\nC: Lidocaine\nD: Metoprolol",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "PreP is most effective for which group:",
+    "output": "The correct answer is A: Men with frequent unprotected sex\n\nChoices:\nA: Men with frequent unprotected sex\nB: Men with infrequent unprotected sex\nC: Women with frequent unprotected sex\nD: Women with infrequent unprotected sex",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "You are visiting an 86-year-old woman in her home at the request of the patient's daughter because of worsening shortness of breath at rest for the past 2 days. The patient is confined to her home because of severe chronic obstructive pulmonary disease with cor pulmonale. She was discharged 1 week ago from the hospital following 3 weeks of treatment for pneumonia that required intubation; her hospital stay was complicated by sepsis. She had a prolonged weaning program from intubation. Prior to discharge, the patient and her daughter met with you to review the patient's advance directive. During the discussion, the patient said, \"I'd rather die than be intubated again.\" At that time, both the patient and her daughter signed an addendum to that effect on the patient's advance directive. Today, the patient is dyspneic and is unable to complete a sentence. Vital signs are temperature 37.8°C (100.0°F), pulse 88/min, respirations 35/min, and blood pressure 100/70 mm Hg. Pulse oximetry shows an oxygen saturation of 84% while the patient is breathing 4 L of oxygen. You ask the patient if she wishes to return to the hospital. She says, \"No, I want to die at home.\" Her daughter takes you aside and says, \"My mother doesn't know what she's saying. I insist that she be admitted to the hospital.\" After further discussion with the daughter regarding support available at home, which of the following is the most appropriate step?",
+    "output": "The correct answer is B: Arrange for consultation with a home hospice team\n\nChoices:\nA: Admit the patient to the hospital\nB: Arrange for consultation with a home hospice team\nC: Consult with the hospital ethics committee\nD: Order a home continuous positive airway pressure machine and instruct the daughter in its use",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 37-year-old woman, gravida 5, para 4, at 34 weeks' gestation comes to the emergency department because of vaginal bleeding for 2 hours. She has had no prenatal care. Her second child was delivered by lower segment transverse cesarean section because of a nonreassuring fetal heart rate; her other three children were delivered vaginally. Her pulse is 92/min, respirations are 18/min, and blood pressure is 134/76 mm Hg. The abdomen is nontender, and no contractions are felt. There is blood on the vulva, the introitus, and on the medial aspect of each thigh. The fetus is in a transverse lie presentation. The fetal heart rate is 144/min. Which of the following is the most likely diagnosis?",
+    "output": "The correct answer is D: Placenta previa\n\nChoices:\nA: Abruptio placentae\nB: Amniotic fluid embolism\nC: Latent phase of labor\nD: Placenta previa",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Calcium, potassium, and sodium are classified as which of the following?",
+    "output": "The correct answer is C: Electrolytes\n\nChoices:\nA: Androgens\nB: Catecholamines\nC: Electrolytes\nD: Estrogens",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The parotid duct runs",
+    "output": "The correct answer is B: superficial to masseter and enters the mouth opposite the upper second molar.\n\nChoices:\nA: deep to masseter and enters the mouth opposite the upper second molar.\nB: superficial to masseter and enters the mouth opposite the upper second molar.\nC: deep to masseter and enters the mouth opposite the upper second premolar.\nD: superficial to masseter and enters the mouth opposite the upper second premolar.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "According to attachment theory, which of the following children is most likely to attach to a male psychologist, previously unknown to the child, in the course of a psychological study?",
+    "output": "The correct answer is A: A two month old female infant raised in a safe, stable environment\n\nChoices:\nA: A two month old female infant raised in a safe, stable environment\nB: A five month old male infant raised in a safe, stable environment\nC: An eight month old male infant raised by a single caregiver who frequently neglect the child\nD: A thirteen month old female infant raised by two caregivers who occasionally neglect the child",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "How do viruses of the calcivirus family replicate?",
+    "output": "The correct answer is B: As positive strand RNA viruses\n\nChoices:\nA: As negative strand RNA viruses\nB: As positive strand RNA viruses\nC: Retroviruses\nD: Using genetic reassortment",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is true regarding the complications of a large goitre?",
+    "output": "The correct answer is B: Dysphagia is an indication for surgery\n\nChoices:\nA: It causes stridor due to compression of the oesophagus\nB: Dysphagia is an indication for surgery\nC: It causes hoarseness due to compression of the trachea\nD: It causes a more florid thyrotoxicosis than a smaller goitre",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Oxygenated blood is carried to the heart by which of the following structures?",
+    "output": "The correct answer is D: Pulmonary veins\n\nChoices:\nA: Aorta\nB: Carotid arteries\nC: Inferior vena cava\nD: Pulmonary veins",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 71-year-old woman is brought to the emergency department by her daughter for evaluation of her mental status. The daughter says, \"I visited Mom today for the first time in 6 months; her memory has worsened, her bills are unpaid, and her house is unusually messy.\" The patient says, \"I'm perfectly healthy.\" Medical history is significant for hypertension diagnosed more than 25 years ago, and two small strokes occurring 3 years and 7 months ago. The daughter gives you three empty medicine bottles from her mother's home: metoprolol, hydrochlorothiazide, and aspirin. The patient is 165 cm (5 ft 5 in) tall and weighs 59 kg (130 lb); BMI is 22 kg/m2 . Vital signs are temperature 36.4°C (97.6°F), pulse 76/min, respirations 16/min, and blood pressure 196/112 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 93%. Muscle strength in her left hand is 1/5. Strength in the right extremities is 4/5. The patient is oriented only to self; she does not know the day of the week or today's date. She recalls 0 of 3 words at 5 minutes, and she is unable to name 2 objects, correctly draw interlocking pentagons, or count backwards by serial sevens. Complete blood count, renal function studies, liver function studies, and urinalysis are all within the reference ranges. ECG shows no abnormalities. Which of the following is the most likely underlying cause of the patient's symptoms?",
+    "output": "The correct answer is D: Vascular dementia\n\nChoices:\nA: Amyotrophic lateral sclerosis\nB: Cortical basal ganglionic degeneration\nC: Neurosyphilis\nD: Vascular dementia",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 5-year-old girl is brought to the physician by her parents for evaluation of recurrent injuries. Her parents say that she started walking at the age of 14 months and since then has always seemed clumsier and had more injuries than other children. She has had increasingly frequent chest pain with exertion since starting a soccer program 3 months ago. She usually has pain or swelling of her knees or ankles after practice. She has been wearing glasses for 2 years. Her 16-year-old brother has required two operations for a severe rotator cuff injury he sustained while taking a shower, and she has a maternal cousin who died of a ruptured aortic aneurysm at the age of 26 years. Today, the patient walks with a limp. She is at the 99th percentile for height and 50th percentile for weight. A midsystolic click is heard at the apex. The left ankle is swollen and tender; range of motion is limited by pain. The joints of the upper and lower extremities are hypermobile, including 25 degrees of genu recurvatum, thumbs that may be extended to touch the forearms, and flexibility at the waist, with palms easily touching the floor with straight knees. Which of the following is the most appropriate next step in diagnosis?",
+    "output": "The correct answer is B: Echocardiography\n\nChoices:\nA: Skeletal survey\nB: Echocardiography\nC: Bone scan\nD: MRI of the shoulder",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A young man working with a therapist on becoming more productive is expressing many of his desires throughout growing up and how he feels that it has affected him. Through discernment, the therapist states that he believes the young man’s development is stuck in a stage that reflects itself by his inability to keep his house clean. According to Freud’s theory of psychosexual development, what stage would this young man be fixated in?",
+    "output": "The correct answer is B: Phallic\n\nChoices:\nA: Anal\nB: Phallic\nC: Latent\nD: Genital",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following muscles initiates elevation of the mandible?",
+    "output": "The correct answer is D: Medial pterygoid.\n\nChoices:\nA: Masseter\nB: Temporalis\nC: Lateral pterygoid\nD: Medial pterygoid.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following cavities are separated by the diaphragm?",
+    "output": "The correct answer is C: Thoracic and abdominal\n\nChoices:\nA: Abdominal and pelvic\nB: Cranial and spinal\nC: Thoracic and abdominal\nD: Pericardial and pleural",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "As a result of substance abuse throughout adolescence, a young adult suffers from a number of psychological symptoms reflecting diminished executive functioning. Which of the following are likely true of this patient?\nI. Pathological changes to the prefrontal cortex.\nII. Increased susceptibility to auditory hallucinations.\nIII. Reduced behavioral impulse control.",
+    "output": "The correct answer is C: I and III only\n\nChoices:\nA: I only\nB: III only\nC: I and III only\nD: II and III only",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A special feature of adaptive immunity is:",
+    "output": "The correct answer is B: Ability to distinguish self and non self\n\nChoices:\nA: Speed of response to a foreign protein\nB: Ability to distinguish self and non self\nC: Ability to distinguish viruses and bacteria\nD: Short memory",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "If a transfusion reaction is suspected, you should:",
+    "output": "The correct answer is A: turn off the transfusion, inform medical staff immediately, and follow transfusion policy advice on dealing with acute transfusion reactions.\n\nChoices:\nA: turn off the transfusion, inform medical staff immediately, and follow transfusion policy advice on dealing with acute transfusion reactions.\nB: leave the transfusion running and contact the medical staff immediately.\nC: disconnect and dispose of the blood bag immediately.\nD: leave the transfusion running and record a set of observations on the patient.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Twin studies in humans are useful because",
+    "output": "The correct answer is A: they allow genetic as opposed to environmental influences on variation in a trait to be estimated\n\nChoices:\nA: they allow genetic as opposed to environmental influences on variation in a trait to be estimated\nB: cloning of genes is facilitated by the presence of extra copies\nC: they allow improved expression of genes\nD: twins have a greater likelihood of being heterozygous",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 67-year-old man with Parkinson disease is admitted to the hospital for treatment of pneumonia. The patient's daughter, who is visiting the patient, says he has had increased lethargy for the past day and decreased ambulation during the past 6 months. She also says that there are times during the day when his tremors increase in severity, although he continues to care for himself at home. Medical history is also remarkable for hypertension. Medications include hydrochlorothiazide, atenolol, levodopa, and carbidopa. He is 168 cm (5 ft 6 in) tall and weighs 78 kg (172 lb); BMI is 28 kg/m2 . Vital signs are temperature 38.9°C (102.0°F), pulse 60/min supine and 68/min standing, respirations 22/min, and blood pressure 100/60 mm Hg supine and 80/50 mm Hg standing. The patient appears ill and older than his stated age. He is fully oriented but lethargic. Auscultation of the chest discloses rhonchi in the right mid lung field. Abdominal examination discloses no abnormalities. Neurologic examination discloses masked facies, bradykinesia, and cogwheel rigidity; gait was not assessed on admission. Chest x-ray shows a right lower lobe infiltrate. ECG shows no abnormalities. Appropriate intravenous antibiotic therapy is initiated. Prior to discharge, which of the following is the most appropriate step?",
+    "output": "The correct answer is B: Obtain a swallowing evaluation\n\nChoices:\nA: Obtain CT scan of the chest\nB: Obtain a swallowing evaluation\nC: Place a percutaneous endoscopic gastrostomy (PEG) tube\nD: Prescribe fludrocortisone",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 67-year-old woman comes to the physician for her first influenza virus vaccination. She has a history of untreated hypertension. Her blood pressure is 160/100 mm Hg, and pulse is 100/min. Shortly after administration of the influenza virus vaccine, she develops shortness of breath, hives, and angioedema. Which of the following is most likely to have prevented this reaction?",
+    "output": "The correct answer is A: Inquiry about an egg allergy\n\nChoices:\nA: Inquiry about an egg allergy\nB: Heterophile agglutination test\nC: Skin test with histamine reagent\nD: β-Adrenergic blocking agent therapy",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A person weighs 62 kg. Their drug dose is 15 mg/kg. How many grams is their dose? Choose one answer from the following:",
+    "output": "The correct answer is D: 0.93\n\nChoices:\nA: 930\nB: 93\nC: 9.3\nD: 0.93",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In the assessment of visual fields which of the following is true?",
+    "output": "The correct answer is C: An enlarged blind spot may occur because of papilloedema\n\nChoices:\nA: A lesion at the optic chiasma leads to a homonymous hemianopia\nB: Impulses from the retinal leave the eye via the optic radiation\nC: An enlarged blind spot may occur because of papilloedema\nD: The visual field examination maps out a patient's central vision",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 63-year-old woman is in the hospital recovery room 4 hours after elective left hemicolectomy for colon carcinoma at the splenic flexure. She has a preoperative written directive for no blood products through transfusion for religious reasons. Medical history is significant for hypertension and coronary artery disease. The nurse tells you the patient's blood pressure has progressively declined since the operation. Vital signs now are temperature 35.8°C (96.4°F), pulse 130/min, respirations 20/min, and blood pressure 80/50 mm Hg. Physical examination discloses a slightly distended abdomen with an intact incision. ECG shows sinus tachycardia. Urine output has been 10 mL during the past 2 hours. Hematocrit is 30%; preoperative hematocrit was 41%. The patient has received 4 L of intravenous crystalloid in the recovery room. Reported operative blood loss was 200 mL. Drainage from the nasogastric tube is clear. Damage to which of the following structures is most likely responsible for these findings?",
+    "output": "The correct answer is D: Spleen\n\nChoices:\nA: Epigastric artery\nB: Liver\nC: Middle colic artery\nD: Spleen",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Most of the free fatty acids are transported in the blood:",
+    "output": "The correct answer is D: bound to albumin.\n\nChoices:\nA: inside the red blood cells.\nB: as lipoproteins.\nC: combined with glucose.\nD: bound to albumin.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Deep nucleotide sequencing (NGS) is now cheap enough for general application. What will the technique mainly be useful for?",
+    "output": "The correct answer is D: Quickly identifying new viruses\n\nChoices:\nA: Speedy vaccine development\nB: Identifying genetic variation\nC: Giving details on virus excretion in symptomless carriers\nD: Quickly identifying new viruses",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 25-year-old woman who is 19 weeks pregnant comes to the office for a prenatal examination. Her father had classic hemophilia. A karyotype obtained from an amniotic fluid sample of the patient shows that the fetus is XY. Which of the following should you tell the patient regarding her infant?",
+    "output": "The correct answer is B: The infant has a 50% risk for hemophilia\n\nChoices:\nA: The infant will neither have hemophilia nor be a carrier\nB: The infant has a 50% risk for hemophilia\nC: The infant has a 50% risk for being a carrier\nD: The infant has a 75% risk for hemophilia",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A patient cuts a peripheral motor nerve in their wrist when they fall through a plate glass window. If the nerve does not regenerate, after about 6 months the muscles it normally innervates will show signs of which of the four options below?",
+    "output": "The correct answer is C: atrophy\n\nChoices:\nA: spastic paralysis\nB: flaccid paralysis\nC: atrophy\nD: contracture",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 7-year-old male is brought to the office for evaluation of school problems. The mother says that the teacher has told her that the patient is inattentive, has difficulty following sequential instructions, and often seems to drift off to sleep during class. A polysomnogram reveals obstructive sleep apnea. The most appropriate management is",
+    "output": "The correct answer is D: surgical evaluation\n\nChoices:\nA: elevation of the head of the bed\nB: heart rate and apnea monitoring\nC: imipramine\nD: surgical evaluation",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In all-out exercise such as sprinting the first fibre types to fatigue are the:",
+    "output": "The correct answer is D: Type IIX fibres.\n\nChoices:\nA: Type I fibres.\nB: Type Ia fibres.\nC: Type IIa fibres.\nD: Type IIX fibres.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Sauna use, sometimes referred to as \"sauna bathing,\" is characterized by short-term passive exposure to extreme heat. This exposure elicits mild hyperthermia – an increase in the body's core temperature – that induces a thermoregulatory response involving neuroendocrine, cardiovascular, and cytoprotective mechanisms that work together to restore homeostasis and condition the body for future heat stressors… In recent decades, sauna bathing has emerged as a means to increase lifespan and improve overall health, based on compelling data from observational, interventional, and mechanistic studies. Of particular interest are the findings from studies of participants in the Kuopio Ischemic Heart Disease Risk Factor (KIHD) Study, an ongoing prospective population-based cohort study of health outcomes in more than 2,300 middle-aged men from eastern Finland, which identified strong links between sauna use and reduced death and disease… The KIHD findings showed that men who used the sauna two to three times per week were 27 percent less likely to die from cardiovascular-related causes than men who didn't use the sauna.[2] Furthermore, the benefits they experienced were found to be dose-dependent: Men who used the sauna roughly twice as often, about four to seven times per week, experienced roughly twice the benefits – and were 50 percent less likely to die from cardiovascular-related causes.[2] In addition, frequent sauna users were found to be 40 percent less likely to die from all causes of premature death. These findings held true even when considering age, activity levels, and lifestyle factors that might have influenced the men's health.[2]... The KIHD also revealed that frequent sauna use reduced the risk of developing dementia and Alzheimer's disease in a dose-dependent manner. Men who used the sauna two to three times per week had a 66 percent lower risk of developing dementia and a 65 percent lower risk of developing Alzheimer's disease, compared to men who used the sauna only one time per week… The health benefits associated with sauna use extended to other aspects of mental health, as well. Men participating in the KIHD study who used the sauna four to seven times per week were 77 percent less likely to develop psychotic disorders, regardless of the men's dietary habits, socioeconomic status, physical activity, and inflammatory status (as measured by C-reactive protein)…Exposure to high temperature stresses the body, eliciting a rapid, robust response. The skin and core body temperatures increase markedly, and sweating ensues. The skin heats first, rising to 40°C (104°F), and then changes in core body temperature occur, rising slowly from 37°C (98.6°F, or normal) to 38°C (100.4°F) and then rapidly increasing to 39°C (102.2°F)…  Cardiac output, a measure of the amount of work the heart performs in response to the body's need for oxygen, increases by 60 to 70 percent, while the heart rate (the number of beats per minute) increases and the stroke volume (the amount of blood pumped) remains unchanged.[5] During this time, approximately 50 to 70 percent of the body's blood flow is redistributed from the core to the skin to facilitate sweating. The average person loses approximately 0.5 kg of sweat while sauna bathing.[11] Acute heat exposure also induces a transient increase in overall plasma volume to mitigate the decrease in core blood volume. This increase in plasma volume not only provides a reserve source of fluid for sweating, but it also acts like the water in a car's radiator, cooling the body to prevent rapid increases in core body temperature and promoting heat tolerance… Repeated sauna use acclimates the body to heat and optimizes the body's response to future exposures, likely due to a biological phenomenon known as hormesis, a compensatory defense response following exposure to a mild stressor that is disproportionate to the magnitude of the stressor. Hormesis triggers a vast array of protective mechanisms that not only repair cell damage but also provide protection from subsequent exposures to more devastating stressors… The physiological responses to sauna use are remarkably similar to those experienced during moderate- to vigorous-intensity exercise. In fact, sauna use has been proposed as an alternative to exercise for people who are unable to engage in physical activity due to chronic disease or physical limitations.[13]\n\nBased on the article, which of the following statements is the author likely to agree with?",
+    "output": "The correct answer is A: Heart surgery patients who cannot run on treadmills may benefit from sauna use.\n\nChoices:\nA: Heart surgery patients who cannot run on treadmills may benefit from sauna use.\nB: Patients on a diet would benefit from sauna use.\nC: Salt restriction would be equal to sauna use for hypertensive patients.\nD: Patients with skin conditions may be cured with sauna use.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Examination of a patient indicates that they have a medially directed strabismus (squint). This could be due to damage to the",
+    "output": "The correct answer is D: abducens nerve.\n\nChoices:\nA: oculomotor nerve.\nB: trochlear nerve.\nC: ophthalmic trigeminal nerve.\nD: abducens nerve.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 35-year-old woman comes to the office because of a 3-day history of severe right back pain. She has not had any fever, chills, or weight loss. She has no history of major medical illness. Musculoskeletal and neurologic examinations show no abnormalities. When told that her examination is normal, the patient becomes tearful and demands an MRI of her back because her mother just died from breast cancer metastatic to bone and she fears that she may also have cancer. The patient already contacted her insurance company, who told her that if she has neurologic abnormalities an MRI may be covered by her plan. The patient asks the physician to order the MRI indicating that she has neurologic findings. Which of the following is the most appropriate initial action by the physician?",
+    "output": "The correct answer is B: Explain that the patient does not need the MRI and that it is not appropriate to misrepresent her examination findings\n\nChoices:\nA: Advise the patient to change insurance companies as soon as she is able so that she can receive more comprehensive medical care\nB: Explain that the patient does not need the MRI and that it is not appropriate to misrepresent her examination findings\nC: Immediately inform the patient's insurance company about what the patient has asked the physician to do\nD: Order the MRI as the patient requests",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A certain molecule acts by binding to cytochrome oxidase A3, the final enzyme in the electron transport chain. Administration of a large dose of this substance to a human would likely:",
+    "output": "The correct answer is A: Lead to death due to an inability of the cell to pass electrons to oxygen, thus stopping aerobic respiration and asphyxiating the cells.\n\nChoices:\nA: Lead to death due to an inability of the cell to pass electrons to oxygen, thus stopping aerobic respiration and asphyxiating the cells.\nB: Lead to death due to an inadequate supply of ADP to accept a phosphate group at the ATP synthase enzyme.\nC: Have no effect as cells would switch which macronutrient they metabolize to circumvent the blocked biochemical pathway.\nD: Increase the cell’s ATP production as negative feedback would cause the cell to up-regulate anaerobic pathways.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Marked microsatellite instability is a feature of:",
+    "output": "The correct answer is B: hereditary non-polyposis colon cancer (HNPCC).\n\nChoices:\nA: familial adenomatous polyposis.\nB: hereditary non-polyposis colon cancer (HNPCC).\nC: multiple endocrine adenomatosis type 2.\nD: neurofibromatosis 1.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 27-year-old man is brought to the emergency department by his sister because of increasing confusion for 10 hours. He is unable to answer questions. His sister states that he recently saw a psychiatrist for the first time because of hearing voices; he was prescribed a medication, but she is not sure what it is. She says that he has a history of excessive drinking, and she thinks that he has also experimented with illicit drugs. He appears acutely ill. His temperature is 39.1°C (102.3°F), pulse is 124/min, and blood pressure is 160/102 mm Hg. Examination shows profuse diaphoresis and muscle rigidity. His neck is supple. The abdomen is soft and nontender. Mental status examination shows psychomotor agitation alternating with lethargy. His leukocyte count is 15,600/mm3 , and serum creatine kinase activity is 943 U/L. Which of the following is the most likely explanation for this patient's symptoms?",
+    "output": "The correct answer is D: Neuroleptic malignant syndrome\n\nChoices:\nA: Amphetamine intoxication\nB: Bacterial meningitis\nC: Delirium tremens\nD: Neuroleptic malignant syndrome",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is true about the assessment of gait?",
+    "output": "The correct answer is B: An antalgic gait is caused by a painful leg\n\nChoices:\nA: A stamping gait is caused by bilateral foot drop\nB: An antalgic gait is caused by a painful leg\nC: A waddling gait is sometimes called a steppage gait\nD: An apraxic gait is due to hysteria",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Describe the morphology of a togavirus.",
+    "output": "The correct answer is A: Enveloped spherical particles with an icosahedral structure\n\nChoices:\nA: Enveloped spherical particles with an icosahedral structure\nB: Non-enveloped with an icosahedral structure\nC: Filamentous virus with protruding glycoproteins\nD: Small round viruses",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following would result in Angelman syndrome?",
+    "output": "The correct answer is B: Paternal UPD 15\n\nChoices:\nA: Maternal UPD 15\nB: Paternal UPD 15\nC: Deletion in the paternally derived chromosome 15\nD: A mutation in the SNRPN promoter",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The DiGeorge/Shprintzen syndrome is caused by a deletion in which chromosome?",
+    "output": "The correct answer is D: 22\n\nChoices:\nA: 4\nB: 7\nC: 15\nD: 22",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Sauna use, sometimes referred to as \"sauna bathing,\" is characterized by short-term passive exposure to extreme heat. This exposure elicits mild hyperthermia – an increase in the body's core temperature – that induces a thermoregulatory response involving neuroendocrine, cardiovascular, and cytoprotective mechanisms that work together to restore homeostasis and condition the body for future heat stressors… In recent decades, sauna bathing has emerged as a means to increase lifespan and improve overall health, based on compelling data from observational, interventional, and mechanistic studies. Of particular interest are the findings from studies of participants in the Kuopio Ischemic Heart Disease Risk Factor (KIHD) Study, an ongoing prospective population-based cohort study of health outcomes in more than 2,300 middle-aged men from eastern Finland, which identified strong links between sauna use and reduced death and disease… The KIHD findings showed that men who used the sauna two to three times per week were 27 percent less likely to die from cardiovascular-related causes than men who didn't use the sauna.[2] Furthermore, the benefits they experienced were found to be dose-dependent: Men who used the sauna roughly twice as often, about four to seven times per week, experienced roughly twice the benefits – and were 50 percent less likely to die from cardiovascular-related causes.[2] In addition, frequent sauna users were found to be 40 percent less likely to die from all causes of premature death. These findings held true even when considering age, activity levels, and lifestyle factors that might have influenced the men's health.[2]... The KIHD also revealed that frequent sauna use reduced the risk of developing dementia and Alzheimer's disease in a dose-dependent manner. Men who used the sauna two to three times per week had a 66 percent lower risk of developing dementia and a 65 percent lower risk of developing Alzheimer's disease, compared to men who used the sauna only one time per week… The health benefits associated with sauna use extended to other aspects of mental health, as well. Men participating in the KIHD study who used the sauna four to seven times per week were 77 percent less likely to develop psychotic disorders, regardless of the men's dietary habits, socioeconomic status, physical activity, and inflammatory status (as measured by C-reactive protein)…Exposure to high temperature stresses the body, eliciting a rapid, robust response. The skin and core body temperatures increase markedly, and sweating ensues. The skin heats first, rising to 40°C (104°F), and then changes in core body temperature occur, rising slowly from 37°C (98.6°F, or normal) to 38°C (100.4°F) and then rapidly increasing to 39°C (102.2°F)…  Cardiac output, a measure of the amount of work the heart performs in response to the body's need for oxygen, increases by 60 to 70 percent, while the heart rate (the number of beats per minute) increases and the stroke volume (the amount of blood pumped) remains unchanged.[5] During this time, approximately 50 to 70 percent of the body's blood flow is redistributed from the core to the skin to facilitate sweating. The average person loses approximately 0.5 kg of sweat while sauna bathing.[11] Acute heat exposure also induces a transient increase in overall plasma volume to mitigate the decrease in core blood volume. This increase in plasma volume not only provides a reserve source of fluid for sweating, but it also acts like the water in a car's radiator, cooling the body to prevent rapid increases in core body temperature and promoting heat tolerance… Repeated sauna use acclimates the body to heat and optimizes the body's response to future exposures, likely due to a biological phenomenon known as hormesis, a compensatory defense response following exposure to a mild stressor that is disproportionate to the magnitude of the stressor. Hormesis triggers a vast array of protective mechanisms that not only repair cell damage but also provide protection from subsequent exposures to more devastating stressors… The physiological responses to sauna use are remarkably similar to those experienced during moderate- to vigorous-intensity exercise. In fact, sauna use has been proposed as an alternative to exercise for people who are unable to engage in physical activity due to chronic disease or physical limitations.[13]\n\nBased on the article, what would be an important thing for a person to do after sauna use?",
+    "output": "The correct answer is D: Replenish fluids with filtered water.\n\nChoices:\nA: Shower in cold water.\nB: Exercise.\nC: Eat a meal.\nD: Replenish fluids with filtered water.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 30-year-old woman, gravida 2, para 0, aborta 1, at 28 weeks' gestation comes to the office for a prenatal visit. She has had one previous pregnancy resulting in a spontaneous abortion at 12 weeks' gestation. Today, her vital signs are within normal limits. Physical examination shows a uterus consistent in size with a 28-week gestation. Fetal ultrasonography shows a male fetus with no abnormalities. Her blood group is O, Rh-negative. The father's blood group is B, Rh-positive. The physician recommends administration of Rho",
+    "output": "The correct answer is C: Development of polycythemia\n\nChoices:\nA: immune globulin to the patient. This treatment is most likely to prevent which of the following in this mother?\nB: Development of natural killer cells\nC: Development of polycythemia\nD: Formation of antibodies to RhD",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 9-year-old boy is brought to the office by his parents for a well-child examination. The patient and his family immigrated to the United States 2 months ago and he has not been evaluated by a physician in 4 years. He has been generally healthy. Medical history is significant for pneumonia at age 3 years. He takes no medications. He is at the 25th percentile for height, weight, and BMI. Vital signs are temperature 37.0°C (98.6°F), pulse 82/min, respirations 20/min, and blood pressure 112/74 mm Hg. Cardiac examination discloses a grade 3/6 systolic murmur audible along the left sternal border at the third and fourth intercostal spaces. Femoral pulses are weak and brachial pulses are strong; there is a radiofemoral delay. Chest xray discloses mild cardiomegaly with left ventricular prominence. ECG shows left ventricular hypertrophy. This patient is at greatest risk for which of the following complications?",
+    "output": "The correct answer is C: Systemic hypertension\n\nChoices:\nA: Atrial fibrillation\nB: Cor pulmonale\nC: Systemic hypertension\nD: Tricuspid valve regurgitation",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Five years after being shot in the right thigh, a 21-year-old man comes to the emergency department because of a buzzing sensation adjacent to the scar. At the time of the initial wound, he was discharged after 6 hours of observation with no fractures or soft-tissue swelling. A loud murmur is heard on auscultation; there is a thrill. He has dilated varicose veins with incompetent valves in the lower leg. Which of the following is the most likely diagnosis?",
+    "output": "The correct answer is B: Arteriovenous fistula\n\nChoices:\nA: Arterial spasm\nB: Arteriovenous fistula\nC: Deep venous thrombosis\nD: Occlusion of the superficial femoral artery",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is not a familial cancer syndrome",
+    "output": "The correct answer is D: Waardenburg syndrome\n\nChoices:\nA: Familial adenomatous polyposis\nB: Li-Fraumeni syndrome\nC: Von Hippel-Lindau syndrome\nD: Waardenburg syndrome",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 47-year-old woman comes to the physician because of persistent nonproductive cough for 6 weeks. She has not had fever or weight loss. She has hypertension treated with enalapril for the past 3 months. She does not smoke. There is no history of lung disease. She weighs 54 kg (120 lb) and is 163 cm (64 in) tall. Her temperature is 37°C (98.6°F), blood pressure is 130/80 mm Hg, pulse is 70/min, and respirations are 12/min. Examination and an x-ray of the chest show no abnormalities. Which of the following is the most likely mechanism of this patient's cough?",
+    "output": "The correct answer is D: Increased serum bradykinin concentrations\n\nChoices:\nA: Decreased plasma renin activity\nB: Decreased serum angiotensin II concentrations\nC: Increased serum angiotensin I concentrations\nD: Increased serum bradykinin concentrations",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "There is no vaccine against HIV because of which of the following?",
+    "output": "The correct answer is B: Such a vaccine would be too expensive\n\nChoices:\nA: The virus is so antigenically variable\nB: Such a vaccine would be too expensive\nC: The virus can be controlled by a change in sexual habits\nD: Latency can abrogate any vaccine effect",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Who set the world record for the mile race in 1886?",
+    "output": "The correct answer is D: WG George\n\nChoices:\nA: R Bannister\nB: S Coe\nC: J DiMaggio\nD: WG George",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 64-year-old male presents to the emergency room with a bloody nose that has been dripping out his nares for the past 2 hours. He denies any trauma, recent upper respiratory illness, or history of prior bloody nose. Past medical history is unremarkable, and he takes no medications. He has a blood pressure of 180/90 mmHg. Examination of the nasal passages reveals that the site of the bleeding is on the septal mucosa of the right naris. The most appropriate next step in management includes",
+    "output": "The correct answer is D: pinching the nares together for 5 minutes\n\nChoices:\nA: anterior packing\nB: placing an ice compress over the nose\nC: catheter balloon tamponade\nD: pinching the nares together for 5 minutes",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is true regarding reflexes?",
+    "output": "The correct answer is C: The root value of the ankle reflex is S1\n\nChoices:\nA: A positive babinski reflex is the same as a normal flexor response in the assessment of the plantar reflex\nB: An extensor plantar response indicates a lower motor neurone lesion\nC: The root value of the ankle reflex is S1\nD: The root value of the knee reflex is L1, L2",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following statements is true of the pupillary light reflex?",
+    "output": "The correct answer is C: It is a consensual reflex\n\nChoices:\nA: Its efferent limb is carried in the optic nerve\nB: It is mediated by the inferior colliculi in the midbrain\nC: It is a consensual reflex\nD: Its afferent limb is carried in the oculomotor nerve",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A common heart defect in humans is a ventricular septal defect, in which there is a hole in the septum between the right and left ventricles. If a patient were to have this defect, which of the following statements is correct?",
+    "output": "The correct answer is D: The percentage of oxygen in the right ventricle would be higher.\n\nChoices:\nA: The percentage of oxygen in the left atrium would be lower.\nB: The percentage of CO2 in the right ventricle would be higher.\nC: The percentage of oxygen in the right atrium would be lower.\nD: The percentage of oxygen in the right ventricle would be higher.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A placebo-controlled clinical trial is conducted to assess whether a new antihypertensive drug is more effective than standard therapy. A total of 5000 patients with essential hypertension are enrolled and randomly assigned to one of two groups: 2500 patients receive the new drug and 2500 patients receive placebo. If the alpha is set at 0.01 instead of 0.05, which of the following is the most likely result?",
+    "output": "The correct answer is A: Significant findings can be reported with greater confidence\n\nChoices:\nA: Significant findings can be reported with greater confidence\nB: The study will have more power\nC: There is a decreased likelihood of a Type II error\nD: There is an increased likelihood of statistically significant findings",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is true of headache?",
+    "output": "The correct answer is D: Tension headaches is a common cause of headache\n\nChoices:\nA: When associated with neck stiffness is always due to meningitis\nB: Severe pain usually indicates a life threatening cause\nC: Temporal arteritis is strongly associated with rheumatoid arthritis\nD: Tension headaches is a common cause of headache",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The energy released from the breakdown of the high-energy phosphates, ATP and phosphocreatine, can sustain maximal exertion exercise for about:",
+    "output": "The correct answer is B: 5-10 seconds.\n\nChoices:\nA: 1-2 seconds.\nB: 5-10 seconds.\nC: 30-40 seconds.\nD: 50-60 seconds.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "An expected side effect of creatine supplementation is:",
+    "output": "The correct answer is B: gain in body mass.\n\nChoices:\nA: muscle weakness.\nB: gain in body mass.\nC: muscle cramps.\nD: loss of electrolytes.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 29-year-old male presents to the office with the complaints of a pounding heart, poor sleep, and a generalized feeling of restlessness. He relocated 2 months ago to take a promotion and has found himself unable to concentrate on his new duties. He worries about his ability to adapt to his increase in responsibility at work and states that he has called in sick 3 days within the past 2 weeks. The most likely diagnosis is",
+    "output": "The correct answer is A: adjustment disorder with anxious mood\n\nChoices:\nA: adjustment disorder with anxious mood\nB: generalized anxiety disorder\nC: major depressive disorder, single episode, moderate\nD: obsessive-compulsive personality disorder",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following would be the most accurate definition of Nietzsche’s Will to Truth?\"",
+    "output": "The correct answer is A: An intrinsic desire to know the truth.\n\nChoices:\nA: An intrinsic desire to know the truth.\nB: Moral drive to act toward what is good.\nC: A subset of our ego that acts towards what is right.\nD: Our desire for love.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following statements is false?",
+    "output": "The correct answer is B: Muscle lactate accumulation does not begin until at least 5 seconds of intermittent muscle contractions have taken place.\n\nChoices:\nA: Ammonia is produced in repeated high intensity exercise.\nB: Muscle lactate accumulation does not begin until at least 5 seconds of intermittent muscle contractions have taken place.\nC: Muscle phosphocreatine depletion begins in the first few seconds of high intensity exercise.\nD: With an increasing number of repeated sprints the rate of accumulation of lactate in muscle declines.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 24-year-old woman comes to the physician for a follow-up examination. One week ago, she was treated in the emergency department after she accidentally spilled hot grease on her left leg while working at a fast-food restaurant. Examination of the left lower extremity shows a 7-cm, pink, soft, granular, edematous wound. The formation of this tissue was most likely caused by increased activity of which of the following?",
+    "output": "The correct answer is D: Vascular endothelial growth factor\n\nChoices:\nA: Glycosylation-dependent cell adhesion molecule-1\nB: P-selectin\nC: Stromelysin\nD: Vascular endothelial growth factor",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A successful infraorbital nerve block will produce anaesthesia of the",
+    "output": "The correct answer is C: maxillary anterior teeth, their labial gingivae and the upper lip.\n\nChoices:\nA: maxillary anterior teeth.\nB: maxillary anterior teeth and their labial gingivae.\nC: maxillary anterior teeth, their labial gingivae and the upper lip.\nD: maxillary anterior teeth, their labial gingivae, the upper lip and anterior hard palate.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A young child is brought to a psychologist for evaluation of their home situation. The child is placed in the middle of the floor, with the mother on one side and the psychologist on the other. The mother then leaves for a short while, and then returns. Which of the following would be a concerning sign during this evaluation?",
+    "output": "The correct answer is C: Avoiding the mother upon return.\n\nChoices:\nA: Decreased exploration when the mother is out of the room.\nB: Crying and returning to the mother upon return.\nC: Avoiding the mother upon return.\nD: Exploring the room before the mother leaves.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is an unusual feature of the replication cycle in coronaviruses?",
+    "output": "The correct answer is B: They take advantage of recombination with the long RNA genome\n\nChoices:\nA: The RNAs all terminate in a common 3´ and produce nested set transcripts\nB: They take advantage of recombination with the long RNA genome\nC: They are not highly mutable\nD: They use capped cellular mRNA's",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The pattern of inheritance shown by malignant hyperthermia (hyperpyrexia) is:",
+    "output": "The correct answer is A: autosomal dominant.\n\nChoices:\nA: autosomal dominant.\nB: autosomal recessive.\nC: X-linked dominant.\nD: X-linked recessive.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In what situation are closed pouches applied?",
+    "output": "The correct answer is B: The patient has a colostomy.\n\nChoices:\nA: The patient has a semi-formed or liquid output.\nB: The patient has a colostomy.\nC: In the immediate post-operative period.\nD: The patient has a urostomy.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which one of the following is not a use for intravenous infusions?",
+    "output": "The correct answer is D: To orally hydrate a patient.\n\nChoices:\nA: Administer prescribed intravenous fluid.\nB: Administer dyes or contrast media for radiographic examinations.\nC: Administer prescribed blood products.\nD: To orally hydrate a patient.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Rational choice theory is premised on the concept that actions are chosen based on the benefit to the individual. The three main assumptions of rational theory are completeness, transitivity, and independence of variables. This is most accurately described as what kind of system?",
+    "output": "The correct answer is A: Hierarchical\n\nChoices:\nA: Hierarchical\nB: Patriarchal\nC: Matriarchal\nD: Oligarchic",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 35-year-old man comes to the office for follow-up of sarcoidosis. His only new complaint is pain in his legs that increases with weight-bearing. He has been taking glucocorticoid therapy for the past 6 months. Vital signs now are temperature 37.0°C (98.6°F), pulse 78/min, respirations 14/min, and blood pressure 110/70 mm Hg. The patient is thin and is in no acute distress. Auscultation of the chest discloses scattered bilateral basilar crackles. There is mild left hip pain present with both active and passive range of motion. Dorsalis pedis pulse is intact. Neurologic examination is normal. Which of the following is the most likely cause of this patient's symptoms?",
+    "output": "The correct answer is A: Avascular necrosis of the femoral head\n\nChoices:\nA: Avascular necrosis of the femoral head\nB: Herniated nucleus pulposus\nC: Narrowing of the hip joint\nD: Osteoporosis",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In relation to the rib, the corresponding intercostal nerve lies",
+    "output": "The correct answer is C: deep to its inferior border.\n\nChoices:\nA: deep to its superior border.\nB: superficial to its superior border.\nC: deep to its inferior border.\nD: superficial to its inferior border.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 15-year-old girl is brought to the office by her mother because of abdominal pain and constipation for the past several weeks. Her mother says, \"She is getting almost all A's in school and she is on the track team.\" You ask the patient about her diet and she responds, \"I'm kind of a picky eater.\" She requests a laxative to help with her constipation. She is 158 cm (5 ft 2 in) tall and weighs 43 kg (95 lb); BMI is 18 kg/m2 . Pulse is 65/min. Specific additional history should be obtained regarding which of the following?",
+    "output": "The correct answer is D: Menstrual history\n\nChoices:\nA: Color, caliber, and frequency of bowel movements\nB: Exposure to sexually transmitted diseases\nC: Family history of irritable bowel syndrome\nD: Menstrual history",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Describe the YF vaccine.",
+    "output": "The correct answer is B: Live attenuated virus vaccine developed by Pasteurian passage\n\nChoices:\nA: Killed virus vaccine\nB: Live attenuated virus vaccine developed by Pasteurian passage\nC: Live attenuated vaccine produced by direct mutation of the virus genome\nD: Experimental vaccine only",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 24-year-old man is brought to the emergency department 40 minutes after he was involved in a motor vehicle collision. He was the unrestrained driver. He is conscious. Physical examination shows numerous lacerations and ecchymoses over the face. His vision is normal. Ocular, facial, and lingual movements are intact. The gag reflex is present. Sensation to pinprick is absent over the right side of the face anterior to the right ear, extending down along the full extent of the mandible to the chin. Sensation also is absent over the right side of the tongue. X-rays of the skull show fractures of the orbit, zygomatic arch, and infratemporal fossa. The most likely cause of these findings is a fracture affecting which of the following locations?",
+    "output": "The correct answer is B: Foramen ovale\n\nChoices:\nA: Foramen lacerum\nB: Foramen ovale\nC: Foramen rotundum\nD: Foramen spinosum",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Endurance training increases the muscle's capacity to:",
+    "output": "The correct answer is C: burn fat and carbohydrate.\n\nChoices:\nA: contract faster.\nB: break down phosphocreatine.\nC: burn fat and carbohydrate.\nD: generate energy anaerobically.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 25-year-old woman comes to the office because of a 6-month history of increasingly severe low back pain and heavy menses. Her temperature is 37.1°C (98.8°F), pulse is 75/min, respirations are 13/min, and blood pressure is 115/79 mm Hg. Physical examination shows no abnormalities. An endometrial biopsy specimen shows regular tubular endometrial glands with abundant mitotic figures in the endometrial glands and stroma. Which of the following proteins or enzymes regulate the progression of cells into this phase of this patient's menstrual cycle?",
+    "output": "The correct answer is B: Cyclin-dependent kinases\n\nChoices:\nA: AMP-dependent kinases\nB: Cyclin-dependent kinases\nC: Hexokinases\nD: Lipid kinases",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following tools is the first choice for cleaning the mouth?",
+    "output": "The correct answer is A: Small, soft toothbrush.\n\nChoices:\nA: Small, soft toothbrush.\nB: Gloved finger wrapped in gauze.\nC: Forceps wrapped in gauze.\nD: Foam stick.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Hydrogen ions are formed when:",
+    "output": "The correct answer is D: glycolysis is being used as a major means of resynthesising ATP.\n\nChoices:\nA: glycogen becomes depleted.\nB: phosphocreatine breakdown occurs.\nC: pyruvate is converted to lactate.\nD: glycolysis is being used as a major means of resynthesising ATP.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is true of a lower motor neurone lesion in the arm?",
+    "output": "The correct answer is D: An ulna nerve palsy is an example of a lower motor neurone lesion\n\nChoices:\nA: It leads to increased tone in the arm (hypertonia)\nB: Fasciculations are never seen\nC: The reflexes are brisk\nD: An ulna nerve palsy is an example of a lower motor neurone lesion",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 33-year-old female presents to the office with the complaint of chronic pelvic pain that began after she underwent a hysterectomy 6 months ago. Following a physical examination, a CT scan of the pelvis is ordered. After the scan is complete, the radiologist calls to report that the patient has a surgical sponge in her pelvis. In a subsequent malpractice suit, the plaintiff establishes that the sponge could not have been left unless there was negligence. The most appropriate term to represent the legal concept invoked by the patient is",
+    "output": "The correct answer is C: res ipsa loquitur\n\nChoices:\nA: collateral estoppel\nB: proximate cause\nC: res ipsa loquitur\nD: respondeat superior",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Type I muscle fibres have the following characteristics:",
+    "output": "The correct answer is D: red, oxidative, slow contracting.\n\nChoices:\nA: white, glycolytic, slow contracting.\nB: white, oxidative, slow contracting.\nC: red, oxidative, fast contracting.\nD: red, oxidative, slow contracting.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "What is the genetic structure of rotavirus?",
+    "output": "The correct answer is B: RNA virus with RT\n\nChoices:\nA: Circular DNA containing virus\nB: RNA virus with RT\nC: ds RNA virus\nD: ds RNA virus in segments",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Viruses have encouraged us to change our world, as we have now:",
+    "output": "The correct answer is A: Eradicated smallpox\n\nChoices:\nA: Eradicated smallpox\nB: Eradicated polio\nC: Increased hygiene\nD: A better understanding of how cellular genes aid virus replication and so become a target for new drugs",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 32-year-old man and his 29-year-old wife come to the office for evaluation for infertility. The wife's gynecologist has reported that her anatomic and physiologic evaluation disclosed no abnormalities and that assessment of potential male factors is needed. The husband is 188 cm (6 ft 3 in) tall with fair skin and little facial hair. He has mild gynecomastia and small, firm testicles. No sperm are seen on semen analysis. Which of the following tests is most likely to establish the underlying cause of this couple's infertility?",
+    "output": "The correct answer is A: Karyotype from peripheral leukocytes\n\nChoices:\nA: Karyotype from peripheral leukocytes\nB: Serum estrogen and testosterone concentrations\nC: Serum follicle-stimulating hormone and luteinizing hormone concentrations\nD: Serum prolactin concentration",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 51-year-old man comes to the office because of a 6-month history of a lump on his tongue that is interfering with his speech and eating; he also has had a 6.8-kg (15-lb) weight loss during this period. He has smoked 1 pack of cigarettes daily and has consumed six 12-oz bottles of beer on weekend nights during the past 30 years. His vital signs are within normal limits. Physical examination shows a 1.5-cm mass on the apex of the tongue. Further evaluation of the mass confirms squamous cell carcinoma. It is most appropriate to evaluate which of the following lymph nodes first for evidence of metastasis in this patient?",
+    "output": "The correct answer is D: Submental\n\nChoices:\nA: Inferior deep cervical\nB: Parotid\nC: Retropharyngeal\nD: Submental",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "When recording peak flow results, within how many litres/minute should the three readings be?",
+    "output": "The correct answer is B: 20 litres per minute of each other.\n\nChoices:\nA: 10 litres per minute of each other.\nB: 20 litres per minute of each other.\nC: 100 litres per minute of each other.\nD: 30 litres per minute of each other.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A virus such as influenza which emerges suddenly and spreads globally is called:",
+    "output": "The correct answer is B: Endemic\n\nChoices:\nA: Epidemic\nB: Endemic\nC: Pandemic\nD: Zoonotic",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The recommended dose of creatine to load the muscles of a 70 kg man within one week is:",
+    "output": "The correct answer is D: 20 g/day.\n\nChoices:\nA: 2 g/day.\nB: 5 g/day.\nC: 10 g/day.\nD: 20 g/day.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following are mucus-producing glands located on each side of the vaginal opening?",
+    "output": "The correct answer is B: Bartholin's\n\nChoices:\nA: Adrenal\nB: Bartholin's\nC: Bulbourethral\nD: Corpus luteum",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "An 87-year-old woman is brought to the physician by her son because of progressive memory loss over the past 2 years. Her son says that she repeats herself frequently and has been forgetting to take her routine medications. She takes hydrochlorothiazide for mild systolic hypertension and levothyroxine for hypothyroidism. She had vulvar cancer 10 years ago treated with wide excision. Her blood pressure is 138/78 mm Hg. Physical examination is within normal limits for her age. Mini-Mental State Examination score is 23/30. Laboratory studies, including serum vitamin B12 (cyanocobalamin), thyroxine (T4), and thyroid-stimulating hormone concentrations, are within normal limits. A CT scan of the head shows mild volume loss. Which of the following is the most appropriate pharmacotherapy?",
+    "output": "The correct answer is B: Cholinesterase inhibitor\n\nChoices:\nA: β-Adrenergic agonist\nB: Cholinesterase inhibitor\nC: Dopamine agonist\nD: Prednisone",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following bones has a process that joins with the zygomatic bone to form the zygomatic arch?",
+    "output": "The correct answer is B: The temporal bone\n\nChoices:\nA: The maxillary bone\nB: The temporal bone\nC: The sphenoid bone\nD: The frontal bone",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The head of the sixth rib articulates with",
+    "output": "The correct answer is C: The inferior articular demifacet of T5 and the superior articular demifacet of T6.\n\nChoices:\nA: The inferior articular facet of T5 and superior articular facet of T6.\nB: The inferior articular demifacet of T5 and superior articular facet of T6.\nC: The inferior articular demifacet of T5 and the superior articular demifacet of T6.\nD: The superior and inferior demifacets of T6.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 45-year-old man with AIDS comes to the community health center because of a 1-week history of fever, chills, sweating, mild shortness of breath, and nonproductive cough. Medical history is also remarkable for pneumonia 3 years ago that required hospitalization. Today, he says that he lost his job 6 months ago, is now homeless, and cannot afford to buy his antiretroviral medications. Vital signs are temperature 38.6°C (101.5°F), pulse 82/min, respirations 20/min, and blood pressure 116/72 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 97%. The health center is very busy with several patients waiting to be evaluated. Which of the following is the most appropriate next step?",
+    "output": "The correct answer is C: Place masks on the patient and yourself and then continue to evaluate him\n\nChoices:\nA: Arrange a direct admission to the hospital for this patient\nB: Continue with obtaining a thorough history and examining this patient\nC: Place masks on the patient and yourself and then continue to evaluate him\nD: Send this patient for chest x-rays, and while they are being obtained examine the next patient",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The proportion of babies that have an abnormality identifiable at birth is _____.",
+    "output": "The correct answer is B: 1 in 40\n\nChoices:\nA: 1 in 10\nB: 1 in 40\nC: 1 in 100\nD: 1 in 500",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Consanguinity shows a strong association with which pattern of inheritance?",
+    "output": "The correct answer is B: Autosomal recessive\n\nChoices:\nA: Autosomal dominant\nB: Autosomal recessive\nC: X-linked dominant\nD: X-linked recessive",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Each of the following are aspects of the McDonaldization of Society EXCEPT:",
+    "output": "The correct answer is C: A dissolution of hierarchical modes of authority into collaborative teambased decision protocols\n\nChoices:\nA: Rationalization of decisions into cost/benefit analysis structures and away from traditional modes of thinking\nB: Bureaucratic organization that formalizes well-establish division of labor and impersonal structures\nC: A dissolution of hierarchical modes of authority into collaborative teambased decision protocols\nD: An intense effort on achieving sameness across diverse markets",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Gastrulation is the process of",
+    "output": "The correct answer is B: ectomesenchyme formation and occurs before neurulation.\n\nChoices:\nA: mesoderm formation and occurs after neurulation.\nB: ectomesenchyme formation and occurs before neurulation.\nC: mesoderm formation and occurs before neurulation.\nD: ectomesenchyme formation and occurs after neurulation.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A study is conducted to assess the relationship between race and end-stage renal disease pathologists independently study specimens from 1,000 kidney biopsies. The first group of pathologists is aware of the race of the patient from whom the biopsy came, while the second group is blinded as to the patient’s race. The first group reports ‘hypertensive nephropathy’ much more frequently for black patients than the second group. Which of the following types of bias is most likely present in this study?",
+    "output": "The correct answer is A: Confounding\n\nChoices:\nA: Confounding\nB: Nonresponse bias\nC: Recall bias\nD: Referral bias",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The two principal contractile proteins found in skeletal muscle are:",
+    "output": "The correct answer is B: actin and myosin.\n\nChoices:\nA: actin and troponin.\nB: actin and myosin.\nC: troponin and tropomyosin.\nD: myosin and tropomyosin.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Transcriptional activator proteins",
+    "output": "The correct answer is A: bind regions near a eukaryotic gene and allow an RNA polymerase to transcribe a gene\n\nChoices:\nA: bind regions near a eukaryotic gene and allow an RNA polymerase to transcribe a gene\nB: bind to ribosomes to activate the production of specific proteins\nC: are produced during an infection of bacteria by a phage\nD: are essential to function of transfer RNAs during translation",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Creatine is synthesized from:",
+    "output": "The correct answer is B: amino acids in the liver.\n\nChoices:\nA: amino acids in the muscles.\nB: amino acids in the liver.\nC: amino acids in the kidneys.\nD: creatinine in the kidneys.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "What is an urgent reason for catheterizing a patient?",
+    "output": "The correct answer is A: Acute urinary retention.\n\nChoices:\nA: Acute urinary retention.\nB: Urinary tract infection.\nC: Incontinence.\nD: Because they asked.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is located beneath the diaphragm in the left upper quadrant of the abdominal cavity?",
+    "output": "The correct answer is C: Spleen\n\nChoices:\nA: Appendix\nB: Duodenum\nC: Spleen\nD: Pancreas",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is true of hepatomegaly?",
+    "output": "The correct answer is C: The presence of jaundice, spider naevi and purpura suggest alcohol as a cause\n\nChoices:\nA: Emphysema is a cause\nB: The liver enlarges downwards from the left hypochondrium\nC: The presence of jaundice, spider naevi and purpura suggest alcohol as a cause\nD: The liver is usually resonant to percussion",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Kinase reactions:",
+    "output": "The correct answer is B: involve the addition or removal of a phosphate group.\n\nChoices:\nA: inhibit ATP breakdown.\nB: involve the addition or removal of a phosphate group.\nC: involve the addition or removal of a ketone group.\nD: involve the addition or removal of an amino acid to a polypeptide chain.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A study examined admissions to exceptionally selective colleges. When examining the correlates of admission acceptance, two obvious factors that strongly correlated with admissions were GPA and standardized test scores, with correlation values of +0.41 and +0.55 respectively. However, the study also demonstrated that those students who had social networks that overlapped with the alumni networks of the selective colleges were even more likely to be admitted, with a correlation between social network and alumni network of +0.61. This correlation demonstrates:",
+    "output": "The correct answer is C: he value of social capital.\n\nChoices:\nA: the value of cultural capital.\nB: a meritocracy. \nC: he value of social capital.\nD: a false association.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which is the most reliable way to assess for clubbing?",
+    "output": "The correct answer is D: Inspect the nail-bed angle from the side\n\nChoices:\nA: Inspect the nail-bed angle from above\nB: Assessing the fluctuancy of the nail-bed\nC: Schamroth's sign\nD: Inspect the nail-bed angle from the side",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 17-year-old girl is brought to the emergency department 15 minutes after being stung by a bee. She has mild lightheadedness but no difficulty swallowing. Her temperature is 37.1°C (98.8°F), pulse is 100/min, respirations are 30/min, and blood pressure is 115/70 mm Hg. Physical examination shows no urticaria. Bilateral wheezing is heard on auscultation of the chest. Which of the following types of drugs is the most appropriate pharmacotherapy for this patient?",
+    "output": "The correct answer is D: β2-Adrenergic agonist\n\nChoices:\nA: α1-Adrenergic agonist\nB: α2-Adrenergic agonist\nC: α1-Adrenergic antagonist\nD: β2-Adrenergic agonist",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 31-year-old woman comes to the office for initial prenatal care. She is 12 weeks pregnant by date of her last menstrual period. This is her fourth pregnancy; she has three healthy children. Her last pregnancy resulted in cesarean delivery because of fetal distress during labor. Her history includes heavy use of alcohol and cigarettes, and multiple sexual partners. In addition to routine prenatal laboratory work-up, the patient consents to an HIV antibody test, which is later reported as positive. At a follow-up visit this patient should be counseled regarding which of the following?",
+    "output": "The correct answer is B: Breast-feeding will increase the risk for transmitting HIV to the infant\n\nChoices:\nA: Amniocentesis is recommended to rule out congenital HIV infection\nB: Breast-feeding will increase the risk for transmitting HIV to the infant\nC: Immediate termination of pregnancy will decrease her risk for progression to AIDS\nD: Repeat cesarean delivery may increase the risk for vertical transmission of HIV",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The infraorbital nerve",
+    "output": "The correct answer is A: is a terminal branch of the maxillary division of the trigeminal nerve.\n\nChoices:\nA: is a terminal branch of the maxillary division of the trigeminal nerve.\nB: is a terminal branch of the maxillary branch of the facial nerve.\nC: carries parasympathetic secretomotor neurons to the lacrimal gland.\nD: innervates the inferior part of the orbicularis oculi muscle.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "An obese 33-year-old woman has had four 12-hour episodes of severe, sharp, penetrating pain in the right upper quadrant of the abdomen associated with vomiting but no fever. She has no diarrhea, dysuria, or jaundice and is asymptomatic between episodes. There is slight tenderness to deep palpation in the right upper quadrant. Which of the following is the most appropriate next step in diagnosis?",
+    "output": "The correct answer is C: Ultrasonography of the upper abdomen\n\nChoices:\nA: Supine and erect x-rays of the abdomen\nB: Upper gastrointestinal series\nC: Ultrasonography of the upper abdomen\nD: CT scan of the abdomen",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Regarding exons, which, if any, of the following statements is correct?",
+    "output": "The correct answer is A: Some exons in protein-coding genes consist of noncoding DNA.\n\nChoices:\nA: Some exons in protein-coding genes consist of noncoding DNA.\nB: The first exon of a protein-coding gene always contains the translational start site.\nC: The last exon of a protein-coding gene always contains the normal termination codon.\nD: A coding exon is always translated in just one of the three possible forward reading frames.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which products of ADP degradation increase in concentration in the blood during multiple sprint sports?",
+    "output": "The correct answer is A: Ammonia, hypoxanthine and uric acid.\n\nChoices:\nA: Ammonia, hypoxanthine and uric acid.\nB: Ammonia, urea and uric acid.\nC: Ammonia, urea and creatinine.\nD: Ammonia, urea and creatine.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "An updated version of classification shows the parvovirus family as having how many genera?",
+    "output": "The correct answer is B: A very large number of virus types\n\nChoices:\nA: Having 5 genera\nB: A very large number of virus types\nC: Only a single virus\nD: Only three viruses",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Why do emerging viruses like Zika and Ebola continue to plague us?",
+    "output": "The correct answer is B: We disturb forests where they quietly exist as a zoonosis\n\nChoices:\nA: These viruses mutate and hence emerge\nB: We disturb forests where they quietly exist as a zoonosis\nC: Mosquitoes are the main culprit to encourage virus spread\nD: The viruses can be halted by new vaccines",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following diseases is not caused by togaviruses?",
+    "output": "The correct answer is D: Yellow Fever\n\nChoices:\nA: Chikungunya\nB: Rubella (German measles)\nC: Western Equine encephalitis\nD: Yellow Fever",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Our genetic material is made up of:",
+    "output": "The correct answer is A: deoxyribonucleic acid.\n\nChoices:\nA: deoxyribonucleic acid.\nB: ribonucleic acid.\nC: dinitronucleic acid.\nD: protein.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A previously healthy 24-year-old woman who is a college student comes to the office because of a 6-month history of abdominal bloating, upper abdominal discomfort, and constipation. The symptoms are more severe when she is preparing for examinations but improve after bowel movements. She takes no medications. She does not smoke or use illicit drugs. She drinks alcoholic beverages occasionally. She is 160 cm (5 ft 3 in) tall and weighs 57 kg (125 lb); BMI is 22 kg/m2 . Her pulse is 72/min, and blood pressure is 100/72 mm Hg. Physical examination, including digital rectal examination, shows no other abnormalities. A complete blood count and serum electrolyte concentrations are within the reference ranges. A urease breath test result is negative. Upper and lower endoscopies show no abnormalities. Which of the following is the most appropriate pharmacotherapy for this patient?",
+    "output": "The correct answer is C: Lubiprostone\n\nChoices:\nA: Azathioprine\nB: Infliximab\nC: Lubiprostone\nD: Mesalamine",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A local politician starts a task force to reduce prejudice and hate crimes, and the task force provides recommendations for increased access to education, paid community improvement projects open to people from different, possibly conflicted, groups, and stricter anti-hate ordinances to be passed at the local level. These recommendations are based on:\nI. Self-esteem hypothesis\nII. Contact hypothesis\nIII. Hypothesis\nIV. Legal hypothesis",
+    "output": "The correct answer is D: I, II, and IV\n\nChoices:\nA: I, II, and III\nB: II, III, and IV\nC: I, III, and IV\nD: I, II, and IV",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "While working on a scene for an action movie, a sound technician is given the task of changing the frequency of a gunshot to more accurately reflect the normal speed of sound. The gunshot came from an actor inside a car traveling 108 km/h, and it was recorded by a camera on a platform 200 meters away traveling at 72 km/h in the same direction. If the frequency of the gunshot is normally 800Hz, what is the perceived frequency which the camera picks up the gunshot at?",
+    "output": "The correct answer is C: 924 Hz\n\nChoices:\nA: 941 Hz\nB: 787 Hz\nC: 924 Hz\nD: 912 Hz",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A previously healthy 14-year-old girl is brought to the physician because of a 2-day history of fever and pain and swelling of the right knee. She remembers injuring the knee while playing soccer last week, but she was able to finish the game. She has no history of rash or joint pain. Her sister has inflammatory bowel disease. The patient's temperature is 39°C (102.2°F), blood pressure is 110/80 mm Hg, pulse is 95/min, and respirations are 20/min. Examination of the right knee shows swelling, tenderness, warmth, and erythema; range of motion is limited. Which of the following is the most appropriate next step in management?",
+    "output": "The correct answer is D: Arthrocentesis\n\nChoices:\nA: Nuclear scan of the right knee\nB: MRI of the right knee\nC: Antibiotic therapy\nD: Arthrocentesis",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is the cause of delay in HIV testing among the Latino population?",
+    "output": "The correct answer is D: All of the above\n\nChoices:\nA: Stigma attached to the disease\nB: Machismo\nC: Drug abuse\nD: All of the above",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "There are 57 serotypes of adenovirus currently recognised. Which has the most important clinical impact?",
+    "output": "The correct answer is C: Respiratory tract infections\n\nChoices:\nA: Diarrhoea\nB: Eye infections\nC: Respiratory tract infections\nD: Haemorrhagic cystitis",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is true of Paget's Disease?",
+    "output": "The correct answer is A: Bowing of a long bone is a characteristic feature\n\nChoices:\nA: Bowing of a long bone is a characteristic feature\nB: Spinal cord compression is a common complication\nC: Heart failure is not a recognized complication\nD: Pathological fractures are not a feature",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "What is meant by the term 'passive movements'?",
+    "output": "The correct answer is D: Movement without resistance, stopping at end of range.\n\nChoices:\nA: Movement with resistance, stretching at end of range.\nB: Movement without resistance, stretching at end of range.\nC: Movement with resistance, stopping at end of range.\nD: Movement without resistance, stopping at end of range.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The cardiac cycle consists of the phases:",
+    "output": "The correct answer is C: diastole and systole.\n\nChoices:\nA: systole, diastole, and rest.\nB: contraction, relaxation, and rest.\nC: diastole and systole.\nD: diastole, systole, and contraction.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The low intake of carbohydrate in the diet:",
+    "output": "The correct answer is C: may impair high intensity exercise performance.\n\nChoices:\nA: does not influence exercise performance in events lasting less than 10 minutes.\nB: affects the resting muscle pH.\nC: may impair high intensity exercise performance.\nD: results in greater reliance on muscle glycogen during exercise.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which replication strategy is paralleled by some other viruses?",
+    "output": "The correct answer is C: Extracellular replication\n\nChoices:\nA: Cytoplasmic replication and 'snatched caps' are used as primers for RNA transcription\nB: Replicates in cytoplasmic tubules\nC: Extracellular replication\nD: Replicates in the nucleus",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 2-year-old boy is brought to the office by his mother for follow-up of a chromosome analysis done 1 month ago. The child has minor dysmorphic features, and growth and developmental delay. Chromosome analysis showed a small unbalanced chromosome translocation, with extra chromosomal material at the tip of chromosome 3. The cytogenetics laboratory requested blood samples from both parents for follow-up studies. The parents are divorced, and the mother has custody of the child. The relationship between the parents is hostile. The mother has been tested and has normal chromosomes without evidence of translocation. At today's visit, she reacts angrily when the issue of contacting the child's father for testing is raised. She states that he abandoned them and that he has no interest in his child. She refuses to cooperate in contacting the father, who could be a translocation carrier. You do not know the father, but an office worker told you that he lives in a nearby town. The mother says that he is living with a new girlfriend. Which of the following is the most appropriate next step?",
+    "output": "The correct answer is D: Help the mother deal with her anger and educate her regarding the potential benefit to her son and others if the father's chromosome studies are done\n\nChoices:\nA: Attempt to identify the father's physician and work with that physician to obtain chromosome studies on the father\nB: Contact the father by telephone and arrange for him to give a blood sample at a local hospital\nC: Document your attempts to work with the mother but proceed no further, since you have no physician-patient relationship with the father\nD: Help the mother deal with her anger and educate her regarding the potential benefit to her son and others if the father's chromosome studies are done",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A previously healthy 32-year-old man is brought to the emergency department after being found unconscious on the floor at his workplace. On arrival, he is obtunded. He is intubated and mechanical ventilation is begun. Examination shows flaccid paralysis on the right. A CT scan of the head shows a large evolving cerebral infarction on the left. Carotid duplex ultrasonography shows dissection of the left carotid artery. After receiving intensive medical care for 6 hours, the patient develops decerebrate posturing and becomes hemodynamically unstable. Vasopressor therapy is begun. A second CT scan of the head shows a massive left hemispheric cerebral infarction with severe edema and herniation. The physician determines that surgical intervention is not indicated because of the patient's poor prognosis. The patient's driver's license indicates that he wishes to be an organ donor. The physician meets with the patient's family and informs them about the patient's prognosis, and they are devastated. During the meeting, they say that they were unaware of his willingness to be an organ donor and agree that he should not receive cardiopulmonary resuscitation. Which of the following is the most appropriate next step with respect to organ donation?",
+    "output": "The correct answer is A: Arrange for the regional organ procurement organization to address the issue with the patient's family\n\nChoices:\nA: Arrange for the regional organ procurement organization to address the issue with the patient's family\nB: Delay further consideration of the issue until after 24 hours of aggressive care\nC: Delay further consideration of the issue until the family seems ready\nD: Initiate organ donation at this time",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 70-year-old woman comes to the office for an annual health maintenance examination. She describes a 1-year history of slowly progressive fatigue, diffuse muscle aches, and generalized pain. Medical history is significant for osteoporosis diagnosed 5 years ago. Medications include alendronate and calcium supplementation. Vital signs are normal. Physical examination is unremarkable for her age, with no point tenderness on palpation. Results of complete blood count, serum electrolyte and thyroid-stimulating hormone concentrations, liver function tests, and erythrocyte sedimentation rate are all within the reference ranges. Screening mammography and colonoscopy done 1 year ago disclosed no abnormalities. Which of the following is the most appropriate next step in evaluation?",
+    "output": "The correct answer is D: Serum 25-hydroxyvitamin D assay\n\nChoices:\nA: Electromyography and nerve conduction studies\nB: MRI of the cervical spine\nC: Serum antinuclear antibody assay\nD: Serum 25-hydroxyvitamin D assay",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Any systematic error in the design, conduct, or analysis of a study that results in a mistaken estimate of an exposure’s effect on the risk of disease is called:",
+    "output": "The correct answer is C: Interaction\n\nChoices:\nA: Confounding\nB: Bias\nC: Interaction\nD: Stratification",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "An 18-year-old primigravid woman comes for her initial prenatal visit at 16 weeks' gestation. She is not sure about the date of her last menstrual period but says that the pregnancy probably occurred immediately after she stopped taking oral contraceptives 5 months ago. Maternal serum α-fetoprotein (MSAFP) concentration is increased to 3 multiples of the median. Which of the following is the most appropriate next step in management?",
+    "output": "The correct answer is C: Ultrasonography\n\nChoices:\nA: Repeat measurement of MSAFP concentration\nB: Triple screening for MSAFP, serum β-hCG, and serum estriol concentrations\nC: Ultrasonography\nD: Amniocentesis for measurement of α-fetoprotein concentration",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following promotes glucose and amino acid uptake by muscle?",
+    "output": "The correct answer is B: Insulin\n\nChoices:\nA: Adrenaline\nB: Insulin\nC: Glycogen\nD: Cortisol",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 30-year-old woman comes to the physician because of a 2-day history of abdominal pain. She has a history of recurrent upper respiratory tract infections, sinusitis, and pancreatitis. She has thick nasal secretions. She says that her sweat is salty and crystallizes on her skin. Her vital signs are within normal limits. Physical examination shows epigastric tenderness. Genetic testing for the 36 most common mutations shows a detectable mutation (G551D) in one allele of the CFTR gene. Which of the following best explains this patient's clinical phenotype?",
+    "output": "The correct answer is D: The second CFTR mutation was not detected by the testing obtained\n\nChoices:\nA: Only one G551D allele is needed in CFTR\nB: The patient is a CFTR obligate carrier\nC: The patient's CFTR mutation is unrelated to her clinical phenotype\nD: The second CFTR mutation was not detected by the testing obtained",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 76-year-old man comes to the office because of early awakening at night. He has no difficulty falling asleep but routinely wakes up between 2:00 and 3:00 AM. The patient is a retired postal worker, and he has always been physically active. He has diabetes mellitus controlled by diet. The patient drinks one cup of coffee in the morning with breakfast and usually walks for exercise in the morning. Before retiring at night he has one alcoholic beverage. He has no history of depression, nightmares, or snoring and he takes no over-the-counter medications. His wife of 45 years is also in good health. Vital signs are temperature 37.1°C (98.8°F), pulse 96/min and regular, respirations 18/min, and blood pressure 135/90 mm Hg. Physical examination shows a well-nourished, well-developed man. He is not obese. Examination of the head and neck is normal; there are no bruits or jugular venous distention. Chest is clear, and heart is normal with S1 and S2. Abdomen is soft and nontender with active bowel sounds and no organomegaly. Rectal examination discloses no abnormalities. Which of the following is the most appropriate management of this patient's insomnia?",
+    "output": "The correct answer is A: Advise the patient to discontinue his bedtime drink of alcohol\n\nChoices:\nA: Advise the patient to discontinue his bedtime drink of alcohol\nB: Advise the patient to read and snack in bed to relax\nC: Prescribe a vigorous pre-bedtime exercise regimen\nD: Prescribe sertraline",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "RFLP analysis is a technique that",
+    "output": "The correct answer is A: uses hybridization to detect specific DNA restriction fragments in genomic DNA\n\nChoices:\nA: uses hybridization to detect specific DNA restriction fragments in genomic DNA\nB: is used to determine whether a gene is transcribed in specific cells\nC: measures the transfer frequency of genes during conjugation\nD: is used to detect genetic variation at the protein level",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following causes female pseudohermaphroditism?",
+    "output": "The correct answer is C: Congenital adrenal hyperplasia\n\nChoices:\nA: Androgen insensitivity\nB: Campomelic dysplasia\nC: Congenital adrenal hyperplasia\nD: Klinefelter syndrome",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 36-year-old man comes to the office because of headaches that began 2 weeks ago. The headaches are moderately severe, are present when he awakens in the morning, and are relieved with over-the-counter analgesics. He has no prior history of headaches. He tells you he was promoted to an upper-level managerial position in his accounting firm about 8 months ago, which necessitated relocating. Physical examination now discloses no abnormalities except for blurring of the optic disc margins bilaterally. Which of the following is the most appropriate next step?",
+    "output": "The correct answer is B: Order CT scan of the head\n\nChoices:\nA: Begin a trial of a β-blocking medication\nB: Order CT scan of the head\nC: Order EEG\nD: Refer him for consultation with a neurologist",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Two scientists at a conference on evolution take to the stage on day 3 to argue their theories against one other. Each is a devout student of their own philosophy. The first scientist contends that organisms evolved via the increase of organs that were used the most during their time. They would then pass these on to subsequent generations. The second scientist, however, believed that advantages each organism possessed were absent for a long time, randomly occurred, and when they were beneficial, that organism would rapidly populate the population over a short period of time, evolutionarily speaking. Which of the following statements would strengthen the second scientist’s argument?",
+    "output": "The correct answer is B: A taxonomy study that shows long periods of stagnant growth followed by short burst of massive evolution.\n\nChoices:\nA: A study that shows that bodybuilders who train more have larger children.\nB: A taxonomy study that shows long periods of stagnant growth followed by short burst of massive evolution.\nC: A study that showed a species who were more successful due to the things they learned over their lifetime that they passed on to their children.\nD: A study that showed a consistent amount of time between the emergence of each new species.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 40-year-old man comes to the office for a preemployment physical examination. The patient has been generally healthy. Medical history is unremarkable and he takes no routine medications. Vital signs are normal. Physical examination shows a palpable nodule in the right lobe of the thyroid gland. Serum thyroid-stimulating hormone concentration is within the reference range. Ultrasonography of the thyroid gland confirms a solid, 1-cm nodule. Which of the following is the most appropriate next step in evaluation?",
+    "output": "The correct answer is B: Fine-needle aspiration of the nodule\n\nChoices:\nA: CT scan of the neck\nB: Fine-needle aspiration of the nodule\nC: Radionuclide thyroid scan\nD: Thyroidectomy",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Why should shampoo not be used for washing the skin when showering or bathing?",
+    "output": "The correct answer is D: It can cause dryness of the skin.\n\nChoices:\nA: It is more slippery than soap or emollients.\nB: It will not produce sufficient lather.\nC: It is not cost-effective.\nD: It can cause dryness of the skin.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In a Robertsonian translocation fusion occurs at the:",
+    "output": "The correct answer is B: centromeres.\n\nChoices:\nA: telomeres.\nB: centromeres.\nC: histones.\nD: ends of the long arms.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A source emits a sound from one medium with a certain velocity, intensity, frequency and wavelength. When the sound exits the first medium and enters a denser medium, all of the following changes EXCEPT:",
+    "output": "The correct answer is C: frequency\n\nChoices:\nA: velocity\nB: intensity\nC: frequency\nD: wavelength",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 19-year-old woman comes to the emergency department because, she says, \"I'm burning up.\" Medical history is significant for intravenous drug use. Physical examination discloses a systolic heart murmur over the precordium. An expected physical finding will be which of the following?",
+    "output": "The correct answer is B: Increased intensity of the murmur with deep inspiration\n\nChoices:\nA: Decreased intensity of S1\nB: Increased intensity of the murmur with deep inspiration\nC: Increased intensity of the murmur with forced expiration\nD: Positive Kussmaul sign (rise in jugular venous pulse with inspiration)",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Between contractions of the left ventricle the blood continues to flow through the vessels because:",
+    "output": "The correct answer is D: the arteries have elastic recoil.\n\nChoices:\nA: the atria are contracting.\nB: the vessels are contracted.\nC: the right ventricle is relaxed.\nD: the arteries have elastic recoil.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Emissary veins connect the intracranial venous sinuses to",
+    "output": "The correct answer is D: All of the above areas.\n\nChoices:\nA: veins draining the scalp.\nB: veins draining the eye.\nC: the pterygoid venous plexus.\nD: All of the above areas.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Complete the following: A variation of serial peak flow readings over a two week period are considered diagnostic in . . .",
+    "output": "The correct answer is A: . . . asthma.\n\nChoices:\nA: . . . asthma.\nB: . . . COPD.\nC: . . . pneumonia.\nD: . . . tuberculosis.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 45-year-old female presents to the office for evaluation of unexplained elevations of her blood pressure. Paroxysmal episodes of headache, sweating, anxiety, nausea, and vomiting occur frequently. A CT scan reveals a left adrenal mass. Which of the following urinary assays will be most helpful in establishing this patient's diagnosis?",
+    "output": "The correct answer is D: vanillylmandelic acid\n\nChoices:\nA: cortisol\nB: glucose\nC: sodium\nD: vanillylmandelic acid",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "You suspect that your patient has an enlarged submandibular salivary gland. You expect the enlarged gland",
+    "output": "The correct answer is C: to be palpable both intra- and extraorally.\n\nChoices:\nA: to be palpable intraorally..\nB: to be palpable extraorally.\nC: to be palpable both intra- and extraorally.\nD: only to be detectable by radiographical examination.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The conversion of one molecule of glucose to two molecules of pyruvate results in the net formation of:",
+    "output": "The correct answer is B: two molecules of ATP.\n\nChoices:\nA: six molecules of water.\nB: two molecules of ATP.\nC: three molecules of ATP.\nD: thirty-eight molecules of ATP.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 27-year-old nurse comes to the emergency department because of nervousness, dizziness, palpitations, and excess perspiration for the past 3 hours. She has had similar episodes over the past 6 months. The symptoms improve following ingestion of orange juice or soft drinks. She says that she has had a great deal of stress. She has been drinking two alcoholic beverages daily for the past month; before this time, she seldom drank alcohol. Examination shows no abnormalities. Her serum glucose concentration is 30 mg/dL. Intravenous glucose is administered, and the patient's symptoms improve. Which of the following is the most appropriate next step in diagnosis?",
+    "output": "The correct answer is D: Measurement of serum insulin and C-peptide concentrations\n\nChoices:\nA: Measurement of serum proinsulin and insulin antibodies\nB: Measurement of serum cortisol and ACTH concentrations\nC: Measurement of serum growth hormone and plasma somatomedin-C concentrations\nD: Measurement of serum insulin and C-peptide concentrations",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A psychology study run on a college campus was set up right outside of the gym on a weekday. Chocolate chip cookies were offered right outside the door, and then a sign was placed 15 feet further down the hall that asked people to avoid using the stairs, forcing them to go around in a longer hallway. There were no barriers to using the stairs other than the sign. The results returned, and it showed that individuals who took a sweet from the tray were twice as likely to use the longer hallway as individuals who refused. This is an example of what psychological concept?",
+    "output": "The correct answer is C: Ego depletion\n\nChoices:\nA: Learned helplessness\nB: Insecure attachment\nC: Ego depletion\nD: Tyranny of choice",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "What does the reproductive number of a virus tell us?",
+    "output": "The correct answer is C: How many contacts will be infected from one case\n\nChoices:\nA: How virulent the infection will be\nB: How many people will die\nC: How many contacts will be infected from one case\nD: How long the 'incubation period' will be",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following groups of drugs may cause a dry mouth?",
+    "output": "The correct answer is C: Antidepressants.\n\nChoices:\nA: Steroids.\nB: Analgesics.\nC: Antidepressants.\nD: Antifungal agents.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "What is the usual direction of 'knowledge' in a cell?",
+    "output": "The correct answer is C: From DNA to RNA to protein\n\nChoices:\nA: From protein to DNA\nB: From DNA to DNA\nC: From DNA to RNA to protein\nD: Random",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Glycogen breakdown in exercising muscle is activated by:",
+    "output": "The correct answer is D: none of the above.\n\nChoices:\nA: insulin.\nB: cortisol.\nC: increased pH.\nD: none of the above.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Phosphocreatine in the muscle cell is found in:",
+    "output": "The correct answer is D: the cytoplasm.\n\nChoices:\nA: the mitochondria.\nB: all subcellular compartments.\nC: the sarcolemma.\nD: the cytoplasm.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Palatine shelf elevation is due to the effect of",
+    "output": "The correct answer is D: a combination of these three processes.\n\nChoices:\nA: descent of the tongue.\nB: changes in flexure of the developing brain.\nC: hydrophilic molecules increasing turgor pressure in the palatine shelves.\nD: a combination of these three processes.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following are goals of vaccination?",
+    "output": "The correct answer is D: All of the above\n\nChoices:\nA: Prevent infection\nB: Prevent disease\nC: Prevent transmission\nD: All of the above",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The “sticky ends” generated by restriction enzymes allow",
+    "output": "The correct answer is B: pieces of DNA from different sources to hybridize to each other and to be joined together\n\nChoices:\nA: selection for plasmids lacking antibiotic resistance\nB: pieces of DNA from different sources to hybridize to each other and to be joined together\nC: replication of transfer RNA within the bacterial cell\nD: easy identification of plasmids which carry an insert",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following factors does not influence success in sport?",
+    "output": "The correct answer is D: Ingestion of carnitine during exercise.\n\nChoices:\nA: Ability to tolerate heavy training without succumbing to illness or injury.\nB: Tactics.\nC: The diet.\nD: Ingestion of carnitine during exercise.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 14-year-old girl has had nausea, intermittent diarrhea, and a 2.2-kg (5-lb) weight loss over the past 4 weeks. Examination shows a migrating serpiginous pruritic perianal rash. Her leukocyte count is 8000/mm3 with 20% eosinophils. Which of the following tests is most likely to yield an accurate diagnosis?",
+    "output": "The correct answer is D: Microscopic examination of the stool\n\nChoices:\nA: Blood smear\nB: Bone marrow biopsy\nC: KOH preparation\nD: Microscopic examination of the stool",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 22-year-old woman comes to the physician in October for a follow-up examination. She feels well. She has a 2-year history of type 1 diabetes mellitus controlled with insulin. She had a normal Pap smear 3 months ago and saw her ophthalmologist 6 months ago. Her 67-year-old grandmother has breast cancer. She is 168 cm (5 ft 6 in) tall and weighs 57 kg (125 lb); BMI is 20 kg/m2 . Her hemoglobin A1c is 6.2%, and fingerstick blood glucose concentration is 118 mg/dL. Which of the following health maintenance recommendations is most appropriate at this time?",
+    "output": "The correct answer is D: Influenza virus vaccine\n\nChoices:\nA: Dietary modification for weight loss\nB: Human papillomavirus testing\nC: Mammography\nD: Influenza virus vaccine",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Most surveillance systems use which of the following study designs?",
+    "output": "The correct answer is B: Serial cross-sectional\n\nChoices:\nA: Cohort\nB: Serial cross-sectional\nC: Mortality\nD: Syndromic",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A keloid is:",
+    "output": "The correct answer is B: a firm mass of scar tissue.\n\nChoices:\nA: evidence of infection.\nB: a firm mass of scar tissue.\nC: a fine, hairline scar.\nD: formed if a wound drain is removed too soon.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 26-year-old woman with HIV infection comes to the office because of a 4-day history of pain and redness of her left lower leg. She says the symptoms began after she tripped over a tree branch in her yard and scraped her left leg. Current medications include antiretroviral therapy and ibuprofen as needed. Vital signs are temperature 38.3°C (100.9°F), pulse 86/min, respirations 14/min, and blood pressure 138/70 mm Hg. There is a 5×8-cm area on the anterior surface of her left lower extremity that is swollen, erythematous, and tender. She previously has developed a rash after taking erythromycin, and she has had an anaphylactic response to penicillin. Which of the following antibiotic therapies is most appropriate for this patient?",
+    "output": "The correct answer is D: Clindamycin\n\nChoices:\nA: Amoxicillin\nB: Ciprofloxacin\nC: Clarithromycin\nD: Clindamycin",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A previously healthy 17-year-old girl comes to the physician because of a 2-month history of exercise-induced cough and nasal congestion. She plays field hockey and has noticed she coughs when running up and down the field. The cough is nonproductive and resolves with rest. She has not had chest pain or palpitations. She takes no medications and does not smoke. Her sister has asthma. The patient appears well. Her pulse is 68/min, respirations are 16/min, and blood pressure is 100/75 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 99%. Cardiopulmonary examination shows no abnormalities. An x-ray of the chest shows no abnormalities. Spirometry shows an FEV1:FVC ratio of 90% and an FEV1 of 90% of predicted. Which of the following is the most likely diagnosis?",
+    "output": "The correct answer is A: Asthma\n\nChoices:\nA: Asthma\nB: Chronic bronchitis\nC: Gastroesophageal reflux disease\nD: Postnasal drip syndrome",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A patient has been on the operating table for four hours. How long may it take for any pressure damage to be visible?",
+    "output": "The correct answer is B: 72 hours.\n\nChoices:\nA: 12 hours.\nB: 72 hours.\nC: 24 hours.\nD: 5 days.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following disorders does not show X-linked inheritance?",
+    "output": "The correct answer is B: Tay-Sachs disease\n\nChoices:\nA: Duchenne muscular dystrophy\nB: Tay-Sachs disease\nC: Haemophilia A\nD: Haemophilia B",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is not a chromosome instability syndrome?",
+    "output": "The correct answer is A: Klinefelter syndrome\n\nChoices:\nA: Klinefelter syndrome\nB: Ataxia telangiectasia\nC: Fanconi anaemia\nD: Bloom syndrome",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Once a prescribed unit of blood product has been obtained from the blood bank and is out of refrigeration, the transfusion should commence within what period of time before it starts to deteriorate (as of 2020 medical knowledge)?",
+    "output": "The correct answer is A: 30 minutes.\n\nChoices:\nA: 30 minutes.\nB: 90 minutes.\nC: 4 hours.\nD: 12 hours.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which member of the paramyxovirus family can cause very serious croup?",
+    "output": "The correct answer is B: Meta pneumo virus\n\nChoices:\nA: Measles\nB: Meta pneumo virus\nC: Hendra\nD: Respiratory syncytial virus (RSV)",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 19-year-old woman noticed a mass in her left breast 2 weeks ago while doing monthly breast self-examination. Her mother died of metastatic breast cancer at the age of 40 years. Examination shows large dense breasts; a 2-cm, firm, mobile mass is palpated in the upper outer quadrant of the left breast. There are no changes in the skin or nipple, and there is no palpable axillary adenopathy. Which of the following is the most likely diagnosis?",
+    "output": "The correct answer is A: Fibroadenoma\n\nChoices:\nA: Fibroadenoma\nB: Fibrocystic changes of the breast\nC: Infiltrating ductal carcinoma\nD: Intraductal papilloma",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The normal human chromosome diploid number is:",
+    "output": "The correct answer is C: 46\n\nChoices:\nA: 23\nB: 24\nC: 46\nD: 48",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 54-year-old woman comes to the emergency department because of severe jaw pain since undergoing a painful dental procedure 1 day ago. The patient was prescribed codeine after the procedure and instructed to take the medication every 4 hours, but she has continued pain despite adherence to this analgesic regimen. Other members of her family also have experienced poor pain control with codeine. Which of the following is the most likely explanation for this therapeutic failure?",
+    "output": "The correct answer is B: Decreased metabolism of codeine to morphine\n\nChoices:\nA: Decreased absorption of codeine\nB: Decreased metabolism of codeine to morphine\nC: Deficiency of κ receptors\nD: Increased plasma protein-binding of codeine",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle?",
+    "output": "The correct answer is B: G1\n\nChoices:\nA: G0\nB: G1\nC: G2\nD: M",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In a fit of passion, the spectator of a political debate exclaims that “welfare recipients are all lazy.” The spectator’s thought process is an example of:",
+    "output": "The correct answer is A: prejudice\n\nChoices:\nA: prejudice\nB: discrimination\nC: ethnocentrism\nD: conflict theory",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In men, which of the following structures is located at the neck of the bladder and surrounds the urethra?",
+    "output": "The correct answer is B: Prostate\n\nChoices:\nA: Epididymis\nB: Prostate\nC: Scrotum\nD: Seminal vesicle",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "When using an inhaler, when should a patient be asked to rinse their mouth?",
+    "output": "The correct answer is D: After using their steroid inhaler.\n\nChoices:\nA: Before using their bronchodilator inhaler.\nB: After using their bronchodilator inhaler.\nC: Before using their steroid inhaler.\nD: After using their steroid inhaler.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Our genetic material is made up of:",
+    "output": "The correct answer is A: deoxyribonucleic acid.\n\nChoices:\nA: deoxyribonucleic acid.\nB: ribonucleic acid.\nC: dinitronucleic acid.\nD: protein.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which one of the following statements is true with regard to intravenous drug administration?",
+    "output": "The correct answer is C: IV administration allows titration of a drug with its desired effect.\n\nChoices:\nA: IV administration of a drug will delay its action.\nB: IV administration carries low risk of bacteraemia.\nC: IV administration allows titration of a drug with its desired effect.\nD: An intravenous cannula should never be used for both drug and fluid administration.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 4-year-old boy is brought for a follow-up examination. He has a history of chronic recurrent otitis media and recently completed a 10-day course of antibiotics. His vital signs are within normal limits. Examination shows clear ear canals and intact tympanic membranes; a brown, irregular mass is visualized behind the tympanic membrane. Which of the following is the most likely explanation for these findings?",
+    "output": "The correct answer is A: Epithelial tissue proliferation\n\nChoices:\nA: Epithelial tissue proliferation\nB: Lingual papillae loss\nC: Middle ear effusion\nD: Midface hypoplasia",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The following are features of Alzheimer's disease except:",
+    "output": "The correct answer is D: drowsiness.\n\nChoices:\nA: short-term memory loss.\nB: confusion.\nC: poor attention.\nD: drowsiness.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 46-year-old woman with active ankylosing spondylitis comes to the office for a follow-up examination. The use of various conventional nonsteroidal anti-inflammatory drugs has been ineffective. Sulfasalazine treatment also has not resulted in improvement. The most appropriate next step in treatment is administration of a drug that inhibits which of the following?",
+    "output": "The correct answer is D: Tumor necrosis factor α\n\nChoices:\nA: Cytotoxic T-lymphocyte antigen 4\nB: Epidermal growth factor\nC: Interleukin-1 (IL-1)\nD: Tumor necrosis factor α",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which one of the following brain areas is supplied by branches of the subclavian arteries?",
+    "output": "The correct answer is D: The cerebellum\n\nChoices:\nA: The frontal lobe\nB: The parietal lobe\nC: The hypothalamus\nD: The cerebellum",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Assuming that the level of glucose is low, a mutation in the repressor associated with the lac operon of E. coli which prevents binding of the repressor to lactose should result in:",
+    "output": "The correct answer is B: lack of expression or reduced expression of the lac operon genes under all circumstances\n\nChoices:\nA: constitutive expression of the lac operon genes\nB: lack of expression or reduced expression of the lac operon genes under all circumstances\nC: expression of the genes only when lactose is present\nD: expression of the genes only when lactose is absent",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A sexually active 20-year-old woman has had fever, chills, malaise, and pain of the vulva for 2 days. Examination shows a vulvar pustule that has ulcerated and formed multiple satellite lesions. Nodes are palpated in the inguinal and femoral areas. A smear of fluid from the lesions establishes the diagnosis. Which of the following is the most likely causal organism?",
+    "output": "The correct answer is B: Haemophilus ducreyi\n\nChoices:\nA: Chlamydia trachomatis\nB: Haemophilus ducreyi\nC: Neisseria gonorrhoeae\nD: Streptococcus pyogenes (group A)",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 67-year-old woman comes to the physician because of dizziness for 6 weeks. When she stands up suddenly, she becomes light-headed and has to steady herself for approximately 1 to 2 minutes before she is able to walk. She has hypertension and type 2 diabetes mellitus. Current medications include glyburide, a diuretic, a β-adrenergic blocking agent, and an angiotensinconverting enzyme (ACE) inhibitor. Her pulse is 55/min. Her blood pressure is 110/70 mm Hg in the right arm and 70/50 mm Hg in the left arm while supine; her blood pressure is 70/50 mm Hg in the right arm and 50/30 mm Hg in the left arm immediately after standing. Neurologic examination shows no focal findings. An ECG shows sinus bradycardia with no evidence of ischemia. Carotid duplex ultrasonography shows reverse flow in the left vertebral artery with no evidence of occlusion. Which of the following is the most appropriate next step in management?",
+    "output": "The correct answer is B: Adjusting her medication regimen\n\nChoices:\nA: Cardiac stress scintigraphy\nB: Adjusting her medication regimen\nC: Warfarin therapy\nD: Transesophageal echocardiography",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 19-year-old male presents to the office for evaluation after he was hit from behind below the right knee while playing football. Gait analysis reveals a lack of fluid motion. Standing flexion test results are negative. Cruciate and collateral knee ligaments appear intact. Foot drop on the right is noted. The most likely diagnosis is",
+    "output": "The correct answer is C: posteriorly deviated fibular head\n\nChoices:\nA: anteriorly deviated distal femur\nB: plantar flexed cuboid\nC: posteriorly deviated fibular head\nD: unilateral sacral shear",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The son of a bricklayer goes to college and i) becomes a teacher at a medical school, ii) gets promoted to tenured professor, and iii) moves across the country for a new tenured professor position at a different school. Sequentially, this man has experienced:",
+    "output": "The correct answer is C: intergenerational mobility with respect to the father, upward mobility, horizontal mobility\n\nChoices:\nA: intergenerational mobility with respect to the father, horizontal mobility, horizontal mobility\nB: intragenerational mobility with respect to the son, upward mobility, upward mobility\nC: intergenerational mobility with respect to the father, upward mobility, horizontal mobility\nD: intragenerational mobility with respect to the son, horizontal mobility, upward mobility",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Creatine is synthesized from:",
+    "output": "The correct answer is B: amino acids in the liver.\n\nChoices:\nA: amino acids in the muscles.\nB: amino acids in the liver.\nC: amino acids in the kidneys.\nD: creatinine in the kidneys.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Achieving effective change in a community is usually dependent on which of the following segments of society?",
+    "output": "The correct answer is A: Innovators\n\nChoices:\nA: Innovators\nB: Early adapters\nC: Middle adapters\nD: Late adapters",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Picornavirus replication as a positive strand RNA virus is particularly typified by which of the following?",
+    "output": "The correct answer is C: The virion RNA acting as mRNA\n\nChoices:\nA: Virions carry RNA transcriptase enzyme into the cell\nB: The virion RNA is translated into a single large polyprotein\nC: The virion RNA acting as mRNA\nD: The virus exits by apoptosis of the cell",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Fast-twitch fibres contain:",
+    "output": "The correct answer is C: a relatively small number of mitochondria and high ATPase activity.\n\nChoices:\nA: a relatively large number of mitochondria and low ATPase activity.\nB: a relatively small number of mitochondria and low ATPase activity.\nC: a relatively small number of mitochondria and high ATPase activity.\nD: a relatively large number of mitochondria and high ATPase activity.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "With an increasing number of sprints the:",
+    "output": "The correct answer is D: relative contribution of aerobic metabolism increases.\n\nChoices:\nA: anaerobic contribution progressively increases.\nB: pH of the muscle falls below 6.0.\nC: blood glucose concentration falls below 3 mmol/L.\nD: relative contribution of aerobic metabolism increases.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A new blood test to detect prostate cancer is evaluated in 300 male volunteers. A needle biopsy of the prostate gland is done on all men with serum prostate-specific antigen concentrations greater than 5 ng/mL (N<4). One hundred men undergo biopsy procedures; 90 are found to have prostate cancer, and five are found to have chronic prostatitis. Which of the following is necessary to calculate the sensitivity of this test?",
+    "output": "The correct answer is D: Prostate biopsies of men with test results equal to or below 5 ng/mL\n\nChoices:\nA: Incidence of chronic prostatitis in the general population\nB: Number of men with test results greater than 5 ng/mL and a normal biopsy specimen\nC: Prevalence of chronic prostatitis in the general population\nD: Prostate biopsies of men with test results equal to or below 5 ng/mL",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 15-year-old girl is brought to the physician 3 months after she had a blood pressure of 150/95 mm Hg at a routine examination prior to participation in school sports. She is asymptomatic and has no history of serious illness. Twelve months ago, she was diagnosed with a urinary tract infection and treated with oral trimethoprim-sulfamethoxazole. She currently takes no medications. Subsequent blood pressure measurements on three separate occasions since the last visit have been: 155/94 mm Hg, 145/90 mm Hg, and 150/92 mm Hg. She is at the 50th percentile for height and 95th percentile for weight. Her blood pressure today is 150/90 mm Hg confirmed by a second measurement, pulse is 80/min, and respirations are 12/min. Examination shows no other abnormalities. Her hematocrit is 40%. Urinalysis is within normal limits. Cardiac and renal ultrasonography shows no abnormalities. Which of the following is the most appropriate next step in management?",
+    "output": "The correct answer is A: Exercise and weight reduction program\n\nChoices:\nA: Exercise and weight reduction program\nB: Measurement of urine catecholamine concentrations\nC: Measurement of urine corticosteroid concentrations\nD: Captopril therapy",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Mapping of human chromosomes:",
+    "output": "The correct answer is B: proceeded much more successfully as large numbers of DNA markers became available.\n\nChoices:\nA: has been restricted to the sex chromosomes because of small family sizes\nB: proceeded much more successfully as large numbers of DNA markers became available.\nC: has determined that the number of linkage groups is about twice the number of chromosomes\nD: has demonstrated that almost all of the DNA is involved in coding for genes",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 53-year-old man comes to the physician because of a 6-month history of intermittent blood in his stool. He has had no pain with defecation. Physical examination shows a 1-cm, visible anal mass located below the dentate line. A biopsy of the mass is scheduled. If the mass if found to be malignant, it is most appropriate to evaluate which of the following lymph nodes for possible metastasis?",
+    "output": "The correct answer is D: Superficial inguinal\n\nChoices:\nA: Internal iliac\nB: Popliteal\nC: Sacral\nD: Superficial inguinal",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 15-year-old male is brought to the office with a 2-day history of painful swelling over the sacral prominence that began after a fall during a high school wrestling match. The patient has a low-grade fever. Examination reveals an erythematous, fluctuant, elevated mass with 3 midline pores. Rectal examination reveals no induration or pain. The most likely diagnosis is",
+    "output": "The correct answer is D: pilonidal abscess\n\nChoices:\nA: anocutaneous fistula\nB: coccygodynia\nC: hidradenitis suppurativa\nD: pilonidal abscess",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following coronaviruses has caused thousands of deaths around the world as an 'emergent' virus?",
+    "output": "The correct answer is A: MERS\n\nChoices:\nA: MERS\nB: SARS\nC: OC43\nD: HKU1",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 72-year-old man is admitted to the intensive care unit for pain management and observation of ventricular ectopy 4 hours after undergoing uncomplicated left total knee replacement. He is receiving fentanyl via systemic patient-controlled analgesic pump for pain management. Medical history is remarkable for coronary artery disease, for which he takes atorvastatin, furosemide, carvedilol, lisinopril, and 81-mg aspirin. Baseline echocardiogram showed an ejection fraction of 0.20. Vital signs now are temperature 38.0°C (100.4°F), pulse 90/min, respirations 16/min, and blood pressure 130/90 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 96%. Physical examination discloses no unexpected abnormalities. Which of the following regimens for prophylaxis of deep venous thrombosis will likely be most beneficial in this patient?",
+    "output": "The correct answer is D: Subcutaneous enoxaparin\n\nChoices:\nA: Continuous application of bilateral lower extremity pneumatic compression devices\nB: Continuous intravenous infusion of heparin titrated to a PTT of 1.5 to 2.0 times the control value\nC: Oral warfarin\nD: Subcutaneous enoxaparin",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Intergenerational transmission to offspring can occur as a result of parental exposures to ______.",
+    "output": "The correct answer is D: all of these\n\nChoices:\nA: war\nB: natural disasters\nC: hunger\nD: all of these",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Bladder washout solution should be:",
+    "output": "The correct answer is D: room temperature.\n\nChoices:\nA: warm.\nB: cold.\nC: refrigerated.\nD: room temperature.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following can act as an intracellular buffer to limit pH changes when the rate of glycolysis is high?",
+    "output": "The correct answer is C: Carnosine\n\nChoices:\nA: Glutamine\nB: Glucose\nC: Carnosine\nD: Amylase",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 15-year-old girl comes to the physician because of a 3-month history of acne. Breast and pubic hair development began at the age of 12 years. Menarche occurred at the age of 14 years. Physical examination shows scattered open and closed comedones over the cheeks and forehead. Breast and pubic hair development are Tanner stage 5. Which of the following is the most likely underlying cause of this patient's acne?",
+    "output": "The correct answer is D: Stimulation of the sebaceous glands by androgens\n\nChoices:\nA: Increased estrogen stimulation of the sebaceous glands\nB: Increased responsiveness of the sebaceous glands to follicle-stimulating hormone\nC: Increased sympathetic stimulation to the sebaceous glands\nD: Stimulation of the sebaceous glands by androgens",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the answers below best indicates the compatible blood types that can be given to a person with a blood group B (rhesus negative)?",
+    "output": "The correct answer is C: Blood type B (rhesus negative) and blood type O (rhesus negative).\n\nChoices:\nA: Blood type AB (rhesus negative), blood type B, and blood type O (rhesus negative).\nB: Blood type B (rhesus positive) and blood type O (rhesus positive).\nC: Blood type B (rhesus negative) and blood type O (rhesus negative).\nD: Blood type B (rhesus negative) only.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Parasympathetic preganglionic axons leave the CNS with the",
+    "output": "The correct answer is D: sacral spinal nerves.\n\nChoices:\nA: cervical spinal nerves.\nB: thoracic spinal nerves.\nC: lumbar spinal nerves.\nD: sacral spinal nerves.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In a double stranded molecule of DNA, the ratio of purines : pyrimidines is:",
+    "output": "The correct answer is D: always 1:1.\n\nChoices:\nA: variable.\nB: determined by the base sequence in RNA.\nC: genetically determined.\nD: always 1:1.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "What is the morphology of the herpes virion?",
+    "output": "The correct answer is C: Compact icosahedron structure\n\nChoices:\nA: Complex with a membrane and tegument and icosahedron core\nB: Baggy virion with over 50 types of spikes\nC: Compact icosahedron structure\nD: Small round virus",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Mutations which occur in body cells which do not go on to form gametes can be classified as:",
+    "output": "The correct answer is B: somatic mutations\n\nChoices:\nA: auxotrophic mutations\nB: somatic mutations\nC: morphological mutations\nD: oncogenes",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "You notice a lesion on the labial alveolar mucosa of the lower right lateral incisor tooth of one of your patients and decide to take a biopsy to send for oral pathology report Which nerve would require local anaesthesia in order to carry out a pain-free biopsy?",
+    "output": "The correct answer is B: The mental nerve\n\nChoices:\nA: The incisive nerve\nB: The mental nerve\nC: The buccal nerve\nD: The lingual nerve",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The biggest single determinant of HIV transmission to the infant is:",
+    "output": "The correct answer is B: Mother’s viral load\n\nChoices:\nA: Mother’age\nB: Mother’s viral load\nC: Mother’s immune status\nD: Father’s viral load",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following terms describes the body's ability to maintain its normal state?",
+    "output": "The correct answer is D: Homeostasis\n\nChoices:\nA: Anabolism\nB: Catabolism\nC: Tolerance\nD: Homeostasis",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A student observes that mercury forms a convex meniscus in the graduated cylinder but that water forms a concave one. This behavior is best explained by the fact that:",
+    "output": "The correct answer is D: the mercury has strong cohesive than adhesive forces, whereas water has strong adhesive than cohesive ones.\n\nChoices:\nA: the two liquids are being kept in graduated cylinders made of different materials.\nB: the adhesive forces between water and the walls of the graduated cylinder are greater than the adhesive forces between the mercury and the walls of the graduated cylinder.\nC: the cohesive forces between two mercury atoms are stronger than the cohesive forces between two water molecules.\nD: the mercury has strong cohesive than adhesive forces, whereas water has strong adhesive than cohesive ones.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "During exercise, adrenaline secretion from the adrenal glands is stimulated by:",
+    "output": "The correct answer is D: increased sympathetic nerve activity.\n\nChoices:\nA: increased plasma glucose.\nB: increased plasma fatty acids.\nC: increased plasma ACTH.\nD: increased sympathetic nerve activity.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The β-oxidation of a molecule of palmitic acid, CH3(CH2)14CO2H:",
+    "output": "The correct answer is A: yields 8 molecules of acetyl-CoA and some ATP and water.\n\nChoices:\nA: yields 8 molecules of acetyl-CoA and some ATP and water.\nB: yields 16 molecules of acetyl-CoA only.\nC: yields carbon dioxide and water only.\nD: does not involve oxygen.",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Why are male patients advised to take their own electric razor to hospital?",
+    "output": "The correct answer is C: To minimize risk of cross-infection.\n\nChoices:\nA: For patient comfort.\nB: To make hospital as familiar as possible.\nC: To minimize risk of cross-infection.\nD: To allow shaving at a time convenient to the patient.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "What is the 'normal' range of flexion at the knee joint?",
+    "output": "The correct answer is B: 0-135 degrees.\n\nChoices:\nA: 0-115 degrees.\nB: 0-135 degrees.\nC: 0-155 degrees.\nD: 0-175 degrees.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The first acquired immune cell to respond defensively to HIV infection is:",
+    "output": "The correct answer is B: CD8+\n\nChoices:\nA: CD4+\nB: CD8+\nC: CD57\nD: NK cells",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 72-year-old woman with advanced ovarian cancer metastatic to the liver is brought to the physician by her son because she cries all the time and will not get out of bed. On a 10-point scale, she rates the pain as a 1 to 2. She also has hypertension and major depressive disorder. She has received chemotherapy for 2 years. Current medications also include oxycodone (10 mg twice daily), hydrochlorothiazide (25 mg/d), and fluoxetine (20 mg/d). She is 165 cm (5 ft 5 in) tall and weighs 66 kg (145 lb); BMI is 24 kg/m2 . Her temperature is 37°C (98.6°F), pulse is 110/min, respirations are 12/min, and blood pressure is 120/80 mm Hg. Examination shows a firm, distended abdomen with moderate tenderness over the liver. On mental status examination, she is oriented to person, place, and time. She has good eye contact but appears sad and cries easily. Which of the following is the most appropriate next step in management?",
+    "output": "The correct answer is B: Assess for suicidal ideation\n\nChoices:\nA: Reassurance\nB: Assess for suicidal ideation\nC: Begin dextroamphetamine therapy\nD: Increase oxycodone dosage",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Anaerobic metabolism refers to the generation of ATP:",
+    "output": "The correct answer is C: without the use of oxygen.\n\nChoices:\nA: without the involvement of ADP.\nB: without the use of glycogen.\nC: without the use of oxygen.\nD: in the absence of available oxygen.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The purpose of a double-blind or double-masked study is to:",
+    "output": "The correct answer is B: Reduce the effects of sampling variation\n\nChoices:\nA: Achieve comparability of treated and untreated subjects\nB: Reduce the effects of sampling variation\nC: Avoid observer and subject bias\nD: Avoid observer bias and sampling variation",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "What is the most likely outcome of this modification?\n﻿\nAn RNA strand that normally produces a transmembrane protein that facilitates potassium entry into muscle cells is modified to produce a different strand. The original strand is as follows:\n\n GAAUAGAUGGGAAGCGCCAGAUACAGUAACAGA… \n\nThe modified sequence is as follows:\n\n GAAUAGAUGGGAAGCGCCAGAUACAGUACCAGA…",
+    "output": "The correct answer is D: Production of a larger, likely dysfunctional protein\n\nChoices:\nA: Absence of the protein\nB: Production of a similar-sized but dysfunctional protein\nC: No change\nD: Production of a larger, likely dysfunctional protein",
+    "context": "[Subject: college_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "If the frequency of males affected with an X-linked recessive condition in a human population is .10 (one in ten), what will be the expected frequency of affected females?",
+    "output": "The correct answer is A: 0.01\n\nChoices:\nA: 0.01\nB: 0.001\nC: 0.02\nD: 0.0001",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is not a category used to classify patients according to the Glasgow Coma Scale?",
+    "output": "The correct answer is D: Pupil response.\n\nChoices:\nA: Eye opening.\nB: Verbal response.\nC: Best motor response.\nD: Pupil response.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is true about the rectal examination?",
+    "output": "The correct answer is D: The rectal examination is indicated for the assessment of some gastrointestinal disorders\n\nChoices:\nA: If the patient refuses a chaperone the doctor can overrule them\nB: The rectal examination is of no value in a neurological examination\nC: The optimum position of the patient is on their right side with their knees extended\nD: The rectal examination is indicated for the assessment of some gastrointestinal disorders",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 2-year-old boy is brought to the physician for a well-child examination. He was delivered at term after an uncomplicated pregnancy. His birth weight was 3500 g (7 lb 11 oz), and Apgar scores were 8 and 10 at 1 and 5 minutes, respectively. At the age of 15 months, physical examination showed no abnormalities, but he was not yet talking. Both of his parents had learning difficulties in school, and his mother stopped attending after the 10th grade. He has a maternal uncle with cognitive disabilities. He is at the 25th percentile for height, 15th percentile for weight, and 90th percentile for head circumference. He appears irritable, he resists making eye contact, and he is flapping his hands. Which of the following is the most likely cause of this patient's condition?",
+    "output": "The correct answer is D: Trinucleotide repeat expansion\n\nChoices:\nA: Frameshift mutation\nB: Missense mutation\nC: Nonsense mutation\nD: Trinucleotide repeat expansion",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The likelihood of an individual in a population carrying two specific alleles of a human DNA marker, each of which has a frequency of 0.2, will be:",
+    "output": "The correct answer is C: 0.08\n\nChoices:\nA: 0.4\nB: 0.32\nC: 0.08\nD: 0.02",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following physiological characteristics is not important for success in endurance events such as the marathon race?",
+    "output": "The correct answer is D: Muscle ATP and phosphocreatine content.\n\nChoices:\nA: The ability to regulate body temperature.\nB: The ability to supply oxygen to the exercising muscles.\nC: The availability of body stores of carbohydrate.\nD: Muscle ATP and phosphocreatine content.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "The influenza virus has complicated genetics mainly characterised by which of the following?",
+    "output": "The correct answer is B: High levels of recombination\n\nChoices:\nA: Genetic reassortment amongst 8 genes\nB: High levels of recombination\nC: Rapid adsorption and fusion from without via a hydrophobic peptide\nD: High fidelity RNA replicase enzyme",
+    "context": "[Subject: virology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A nonsense mutation involves:",
+    "output": "The correct answer is D: the creation of a stop codon.\n\nChoices:\nA: a regulatory sequence.\nB: an AG splice acceptor site.\nC: the creation of a different amino acid.\nD: the creation of a stop codon.",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 37-year-old woman with AIDS comes to the physician because of a 1-month history of progressive diarrhea and a 1.8- kg (4-lb) weight loss. During the past week, she has had six large watery stools daily. She is currently receiving triple antiretroviral therapy. She is employed as a flight attendant and works regularly on domestic flights throughout the USA. She also flies to Asia at least once monthly. She is 163 cm (5 ft 4 in) tall and weighs 59 kg (130 lb); BMI is 22 kg/m2 . Her temperature is 37°C (98.6°F), pulse is 88/min, and blood pressure is 112/64 mm Hg. The abdomen is scaphoid. The remainder of the examination shows no abnormalities. Her CD4+ T-lymphocyte count is 400/mm3 (Normal≥500). Which of the following is the most likely causal organism?",
+    "output": "The correct answer is A: Cryptosporidium parvum\n\nChoices:\nA: Cryptosporidium parvum\nB: Cytomegalovirus\nC: Mycobacterium avium-intracellulare complex\nD: Salmonella enteritidis",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 37-year-old woman with right lower extremity edema is evaluated because of the sudden onset of shortness of breath and pleuritic chest pain. A diagnosis of pulmonary embolism is made. Which of the following signs, if present on physical examination, would be the most specific indicator of pulmonary arterial hypertension in this patient?",
+    "output": "The correct answer is B: P2 louder than A2\n\nChoices:\nA: Increased jugular venous pressure\nB: P2 louder than A2\nC: Peripheral edema\nD: Presence of an S3",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Positional cloning refers to",
+    "output": "The correct answer is D: mapping a gene to a chromosomal region and then identifying and cloning a genomic copy of the gene from the region\n\nChoices:\nA: using a selection procedure to clone a cDNA\nB: cloning a portion of a gene using PCR\nC: isolating a gene by PCR using primers from another species\nD: mapping a gene to a chromosomal region and then identifying and cloning a genomic copy of the gene from the region",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 36-year-old female advertising executive is referred to the office for evaluation of a fasting serum total cholesterol concentration of 249 mg/dL. She has a family history of early coronary artery disease (CAD) and her father died suddenly at age 46 years of myocardial infarction. She tells you that she has never had chest pain. She is not currently sexually active and has no children. She claims that her high-stress lifestyle makes it impossible for her to eat regular meals or to follow a special diet, and she usually eats fast food. She exercises two or three times a week for about 20 minutes on a treadmill. She has smoked one pack of cigarettes daily for the past 20 years. Her only medication is acetaminophen for tension headaches. She is 165 cm (5 ft 5 in) tall and weighs 76 kg (167 lb); BMI is 28 kg/m2 . Vital signs today are normal. Physical examination discloses no abnormalities except for mild obesity. Institution of which of the following is the most essential step in the prevention of CAD in this patient?",
+    "output": "The correct answer is C: Smoking cessation program\n\nChoices:\nA: Biofeedback-based stress reduction program\nB: More rigorous and consistent exercise program\nC: Smoking cessation program\nD: Strict low-calorie diet",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "What is hypochlorhydria?",
+    "output": "The correct answer is C: Reduced amount of gastric acid.\n\nChoices:\nA: Increased amount of gastric acid.\nB: Gastric ulceration.\nC: Reduced amount of gastric acid.\nD: Pernicious anaemia.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 55-year-old woman with small cell carcinoma of the lung is admitted to the hospital to undergo chemotherapy. Six days after treatment is started, she develops a temperature of 38°C (100.4°F). Physical examination shows no other abnormalities. Laboratory studies show a leukocyte count of 100/mm3 (5% segmented neutrophils and 95% lymphocytes). Which of the following is the most appropriate pharmacotherapy to increase this patient's leukocyte count?",
+    "output": "The correct answer is C: Filgrastim\n\nChoices:\nA: Darbepoetin\nB: Dexamethasone\nC: Filgrastim\nD: Interferon alfa",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following are indicative signs and symptoms of circulatory overload?",
+    "output": "The correct answer is D: Dyspnoea, tachycardia, and distended neck veins.\n\nChoices:\nA: Hypothermia, hypotension, and bradycardia.\nB: Hypotension, oliguria, and uticaria.\nC: Shivering, pyrexia, and thirst.\nD: Dyspnoea, tachycardia, and distended neck veins.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 14-year-old girl with a 9-year history of type 1 diabetes mellitus is brought to the physician by her mother for a follow-up examination. She has been admitted to the hospital twice in the past 3 months because of diabetic ketoacidosis. She previously had been compliant with monitoring her blood glucose concentration and with her diet and insulin regimen. She acknowledges that, when she is with her peers, she eats whatever she wants and does not check her blood glucose concentration. She adds, \"I'm embarrassed to inject myself in front of them.\" The physician is having a great deal of difficulty with her 15-year-old son who has been truant from school and sneaking out of the house. She says to the patient, \"You should be ashamed for not taking care of yourself. We've all worked so hard to keep you healthy.\" Which of the following terms best describes the physician's reaction to the patient?",
+    "output": "The correct answer is A: Countertransference\n\nChoices:\nA: Countertransference\nB: Identification with the aggressor\nC: Projection\nD: Splitting",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 22-year-old woman contacts a medical student and asks if he would like to join her for dinner. The student met the woman when he was assigned to her care during her 2-week hospitalization for treatment of major depressive disorder. He has not treated or seen the patient since she was discharged from the hospital. He is attracted to this former patient and would be interested in dating her. Which of the following is the most appropriate action by the medical student regarding this patient's invitation?",
+    "output": "The correct answer is D: He cannot date her because she was once his psychiatric patient\n\nChoices:\nA: He can date her because he was a medical student, not a physician, when he contributed to her care\nB: He can date her because she is no longer his patient\nC: He can date her, but only after at least 1 year has passed since he treated her\nD: He cannot date her because she was once his psychiatric patient",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Proprioceptive nerve endings in synovial joints are located in",
+    "output": "The correct answer is D: ligaments and articular discs.\n\nChoices:\nA: articular cartilage and synovial membrane.\nB: synovial membrane and capsule.\nC: capsule and ligaments.\nD: ligaments and articular discs.",
+    "context": "[Subject: anatomy]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "In the discharge checklist recommended by the Department of Health (2004), who should be involved in completing the form?",
+    "output": "The correct answer is B: The nurse, patient, and ward clerk.\n\nChoices:\nA: The GP, consultant, and named nurse.\nB: The nurse, patient, and ward clerk.\nC: The nurse, ward clerk, and consultant.\nD: The nurse, consultant, and GP.",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "A 77-year-old female presents to the office for evaluation of a syncopal event that occurred while she was walking. Cardiac examination reveals a grade 3/6 systolic murmur, heard best at the right upper sternal border. There is radiation of the murmur into the neck. The valvular abnormality that most likely caused this episode is",
+    "output": "The correct answer is B: aortic stenosis\n\nChoices:\nA: aortic insufficiency\nB: aortic stenosis\nC: mitral regurgitation\nD: mitral stenosis",
+    "context": "[Subject: professional_medicine]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following is true about a thyroid swelling?",
+    "output": "The correct answer is D: A functioning nodule on isotope scanning is unlikely to be due to cancer\n\nChoices:\nA: It always elevates on swallowing\nB: Lymph node enlargement is a good prognostic sign\nC: An ultrasound of the swelling is the best test to determine whether the nodule is actively secreting hormone\nD: A functioning nodule on isotope scanning is unlikely to be due to cancer",
+    "context": "[Subject: clinical_knowledge]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "MED",
+    "instruction": "Which of the following karyotypes is not compatible with survival to birth?",
+    "output": "The correct answer is D: 45,Y\n\nChoices:\nA: 47,XY,+13\nB: 47,XX,+18\nC: 47,XY,+21\nD: 45,Y",
+    "context": "[Subject: medical_genetics]",
+    "func_type": "OTHER"
+  }
+]

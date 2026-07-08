@@ -1,0 +1,7 @@
+| Model                   | Routing Type                                  | Routing Entropy (%)   | ROUGE-L   | BERTScore F1   |
+|-------------------------|-----------------------------------------------|-----------------------|-----------|----------------|
+| Arrow Routing           | Training-free, SVD-based (top-2)              | 91.5                  | 11.30     | 83.05          |
+| PHATGOOSE               | Centroid gating (n_train=300/domain, top-2)   | 100.0                 | 11.47     | 83.01          |
+| LoRAMoE (참고)            | Domain-only, learned gate                     | 3.8                   | —         | —              |
+| Mixture-of-LoRAs (참고)   | Domain-only, learned gate                     | 1.0                   | —         | —              |
+| NexRoute (Ours)         | Domain×Function, dual-axis                    | 92.5                  | 29.60     | 89.53          |

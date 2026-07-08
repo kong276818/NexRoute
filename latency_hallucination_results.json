@@ -1,0 +1,102 @@
+{
+  "Naive RAG 7B": {
+    "hallucination_rate": 1.8,
+    "nli_counts": {
+      "entailment": 199,
+      "neutral": 292,
+      "contradiction": 9
+    },
+    "latency_mean": 14.63,
+    "latency_std": 2.8
+  },
+  "Adaptive RAG 7B": {
+    "hallucination_rate": 2.2,
+    "nli_counts": {
+      "entailment": 207,
+      "neutral": 282,
+      "contradiction": 11
+    },
+    "latency_mean": 14.69,
+    "latency_std": 2.81
+  },
+  "HyDE 7B": {
+    "hallucination_rate": 2.0,
+    "nli_counts": {
+      "entailment": 204,
+      "neutral": 286,
+      "contradiction": 10
+    },
+    "latency_mean": 14.71,
+    "latency_std": 2.81
+  },
+  "CRAG 7B": {
+    "hallucination_rate": 1.8,
+    "nli_counts": {
+      "entailment": 185,
+      "neutral": 257,
+      "contradiction": 8
+    },
+    "latency_mean": 14.69,
+    "latency_std": 2.8
+  },
+  "NexRoute 7B": {
+    "hallucination_rate": 2.6,
+    "nli_counts": {
+      "entailment": 132,
+      "neutral": 355,
+      "contradiction": 13
+    },
+    "latency_mean": 14.65,
+    "latency_std": 2.8
+  },
+  "Naive RAG 72B": {
+    "hallucination_rate": 0.6,
+    "nli_counts": {
+      "entailment": 209,
+      "neutral": 288,
+      "contradiction": 3
+    },
+    "latency_mean": 41.08,
+    "latency_std": 8.96
+  },
+  "Adaptive RAG 72B": {
+    "hallucination_rate": 1.8,
+    "nli_counts": {
+      "entailment": 202,
+      "neutral": 289,
+      "contradiction": 9
+    },
+    "latency_mean": 41.07,
+    "latency_std": 8.94
+  },
+  "HyDE 72B": {
+    "hallucination_rate": 0.8,
+    "nli_counts": {
+      "entailment": 218,
+      "neutral": 278,
+      "contradiction": 4
+    },
+    "latency_mean": 41.05,
+    "latency_std": 8.92
+  },
+  "CRAG 72B": {
+    "hallucination_rate": 0.6,
+    "nli_counts": {
+      "entailment": 208,
+      "neutral": 289,
+      "contradiction": 3
+    },
+    "latency_mean": 40.96,
+    "latency_std": 8.9
+  },
+  "NexRoute 72B": {
+    "hallucination_rate": 2.0,
+    "nli_counts": {
+      "entailment": 192,
+      "neutral": 298,
+      "contradiction": 10
+    },
+    "latency_mean": null,
+    "latency_std": null
+  }
+}

@@ -1,0 +1,37 @@
+% TABLE A — Baseline Comparison
+\begin{table}[t]
+\centering
+\caption{Hallucination rates (\%) evaluated via FActScore across 7B-backbone models.
+  Lower hallucination rate is better.
+  \textit{Relative Reduction} is computed against Naive RAG as the reference baseline.
+  Superscript $\ddagger$ indicates a statistically significant difference from Naive RAG
+  ($p < 0.05$, sentence-level $\chi^2$ test).}
+\label{tab:factscore_baselines}
+\setlength{\tabcolsep}{8pt}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model}
+  & \textbf{Overall (\%)}
+  & \textbf{CROSS (\%)}
+  & \textbf{Single (\%)}
+  & \textbf{Rel.\ Reduction} \\
+\midrule
+Naive RAG         & 10.6 & 4.3 & 12.6 & ---                  \\
+Adaptive RAG      & 12.1 & 6.4 & 13.9 & $-$14.2\%$^\ddagger$ \\
+HyDE              &  9.8 & 4.8 & 11.4 & $+$7.5\%              \\
+CRAG$^\dagger$    & 11.1 & 5.6 & 12.1 & $-$4.7\%              \\
+\textbf{NexRoute (Ours)} & \textbf{8.9} & \textbf{4.3} & \textbf{11.7}
+  & $\boldsymbol{+}$\textbf{16.0\%} \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+  \item[$\dagger$] CRAG CROSS subset evaluated on $n{=}100$ items
+    (see Appendix~\ref{app:dataset}).
+  \item[$\ddagger$] $p < 0.05$ vs.\ Naive RAG, sentence-level $\chi^2$; effect
+    sizes (Cohen's $h$) are small ($h < 0.2$) and should be interpreted
+    with caution given within-response sentence correlation.
+    NexRoute vs.\ Naive RAG: $p{=}0.075$ (not statistically significant at
+    $\alpha{=}0.05$); NexRoute vs.\ Adaptive RAG: $p{=}0.001$;
+    NexRoute vs.\ CRAG: $p{=}0.026$.
+\end{tablenotes}
+\end{table}

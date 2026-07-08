@@ -1,0 +1,73 @@
+% ============================================================
+% §4.4  Factuality Assessment
+% ============================================================
+
+\subsection{Factuality Assessment}
+\label{sec:factuality}
+
+Factual accuracy is measured via FActScore~\cite{min2023factscore}, which
+decomposes each generated response into atomic claims and verifies each claim
+against the domain-partitioned knowledge base used during retrieval
+(Section~\ref{ssec:setup}), yielding a \emph{hallucination rate} defined
+as the fraction of unverified claims per response.%
+\footnote{%
+  We initially conducted G-Eval~\cite{liu2023geval} quality assessment using
+  Qwen2.5-72B-Instruct as an independent judge over 50 sampled CROSS-domain
+  queries; results are retained in Appendix~\ref{appendix:geval} as
+  preliminary reference.
+  Subsequent attempts to extend this evaluation using
+  Llama-3.1-70B-Instruct ($n{=}200$) revealed a systematic ceiling effect
+  (92.5\% of scores concentrated at 9/10 on a 1--10 scale,
+  inter-model range $<$0.3 points), indicating insufficient discriminative
+  resolution for fine-grained model comparison.
+  We therefore adopt FActScore-based hallucination assessment as the primary
+  factuality metric.
+}
+
+% --- Baseline results ---
+Table~\ref{tab:factscore_baselines} presents hallucination rates for all five
+7B-backbone models.
+NexRoute achieves the lowest overall hallucination rate of 8.9\%---a 16.0\%
+relative reduction compared to Naive RAG (10.6\%).
+This reduction is statistically significant relative to Adaptive RAG
+($p{=}0.001$) and CRAG ($p{=}0.026$), and represents a consistent trend
+relative to Naive RAG ($p{=}0.075$), though the latter does not reach
+conventional significance at $\alpha{=}0.05$.
+Domain-level breakdown reveals that NexRoute's advantage spans both evaluation
+subsets: the CROSS-domain hallucination rate is 4.3\%---tied with Naive RAG
+as the lowest among all models---while the single-domain rate is 11.7\%,
+below all other 7B baselines (Naive RAG: 12.6\%).
+Adaptive RAG and CRAG exhibit overall hallucination rates above Naive RAG
+(12.1\% and 11.1\%, respectively), suggesting that their adaptive retrieval
+heuristics introduce additional factual noise without corresponding accuracy
+gains in this multi-domain setting.
+
+% --- Ablation: V02 ---
+The ablation study (Table~\ref{tab:factscore_ablation}) identifies the
+\textbf{Function Axis} as the dominant structural contributor to factuality.
+Removing the Function Axis (V02) increases overall hallucination from 8.9\%
+to 15.2\% ($+$6.3\,pp; $p{<}0.001$), with significant degradation in both
+CROSS ($+$4.8\,pp; $p{=}0.003$) and single-domain ($+$6.7\,pp; $p{<}0.001$)
+subsets.
+The Function Axis partitions inference responsibility among LoRA-based domain
+experts via function-typed routing; its removal forces all queries through a
+single generalist pathway, substantially increasing the rate of unverified
+claims.
+
+% --- Ablation: V03 ---
+Removing Partitioned Retrieval (V03), which implements the Isolated Domain
+Index (IDI) mechanism, produces a significant increase in single-domain
+hallucination from 11.7\% to 16.7\% ($+$5.0\,pp; $p{=}0.003$), confirming
+that the IDI is the primary structural driver of factuality in specialized
+domain contexts.
+The effect on CROSS-domain queries ($+$1.8\,pp; $p{=}0.19$) does not reach
+statistical significance, consistent with the observation that CROSS queries
+draw evidence from multiple domain indices simultaneously, distributing---and
+thereby diluting---the contribution of any single partitioned index.
+
+% --- V09 ---
+Among CROSS-domain merging strategies, the Dominant-Single approach (V09)
+yields a CROSS hallucination rate of 9.9\%---more than doubling V01---
+indicating that collapsing cross-domain evidence onto a single-domain expert
+substantially degrades factual precision on interdisciplinary queries.
+

@@ -1,0 +1,92 @@
+{
+  "Naive RAG 7B": {
+    "hallucination_rate": 1.0,
+    "n": 100,
+    "counts": {
+      "ENTAILMENT": 48,
+      "NEUTRAL": 51,
+      "CONTRADICTION": 1
+    }
+  },
+  "Adaptive RAG 7B": {
+    "hallucination_rate": 0.0,
+    "n": 100,
+    "counts": {
+      "ENTAILMENT": 49,
+      "NEUTRAL": 51,
+      "CONTRADICTION": 0
+    }
+  },
+  "HyDE 7B": {
+    "hallucination_rate": 0.0,
+    "n": 100,
+    "counts": {
+      "ENTAILMENT": 50,
+      "NEUTRAL": 50,
+      "CONTRADICTION": 0
+    }
+  },
+  "CRAG 7B": {
+    "hallucination_rate": 1.7,
+    "n": 60,
+    "counts": {
+      "ENTAILMENT": 28,
+      "NEUTRAL": 31,
+      "CONTRADICTION": 1
+    }
+  },
+  "NexRoute 7B": {
+    "hallucination_rate": 0.0,
+    "n": 100,
+    "counts": {
+      "ENTAILMENT": 46,
+      "NEUTRAL": 54,
+      "CONTRADICTION": 0
+    }
+  },
+  "Naive RAG 72B": {
+    "hallucination_rate": 0.0,
+    "n": 100,
+    "counts": {
+      "ENTAILMENT": 42,
+      "NEUTRAL": 58,
+      "CONTRADICTION": 0
+    }
+  },
+  "Adaptive RAG 72B": {
+    "hallucination_rate": 1.0,
+    "n": 100,
+    "counts": {
+      "ENTAILMENT": 48,
+      "NEUTRAL": 51,
+      "CONTRADICTION": 1
+    }
+  },
+  "HyDE 72B": {
+    "hallucination_rate": 0.0,
+    "n": 100,
+    "counts": {
+      "ENTAILMENT": 50,
+      "NEUTRAL": 50,
+      "CONTRADICTION": 0
+    }
+  },
+  "CRAG 72B": {
+    "hallucination_rate": 0.0,
+    "n": 100,
+    "counts": {
+      "ENTAILMENT": 47,
+      "NEUTRAL": 53,
+      "CONTRADICTION": 0
+    }
+  },
+  "NexRoute 72B": {
+    "hallucination_rate": 0.0,
+    "n": 100,
+    "counts": {
+      "ENTAILMENT": 48,
+      "NEUTRAL": 52,
+      "CONTRADICTION": 0
+    }
+  }
+}

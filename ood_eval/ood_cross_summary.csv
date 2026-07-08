@@ -1,0 +1,6 @@
+system,n,rouge_l,bertscore,bleu4,routing_acc
+NaiveRAG-7B,48,25.76,87.83,9.98,
+AdaptiveRAG-7B,48,26.07,87.69,10.56,
+HyDE-7B,48,25.56,87.77,9.7,
+CRAG-7B,48,25.16,87.8,9.82,
+NexRoute-7B,48,27.68,88.68,12.71,0.0

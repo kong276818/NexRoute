@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "domain": "CROSS",
+    "n_samples": 100,
+    "lora_dir": "/home/sclab/moe_model/lora_weights_v2",
+    "lora_law_md5": "34c2de8c5dd345b4e5172cb0c5017a1a",
+    "base_model": "Qwen/Qwen2.5-72B-Instruct",
+    "func_labels_source": "eval_dualmoe_cross.json (mapped to all modes by question index)",
+    "func_distribution": {
+      "WHAT": 59,
+      "WHY": 4,
+      "HOW": 4,
+      "COMPARE": 3,
+      "OTHER": 30
+    }
+  },
+  "Base 72B": {
+    "overall_accuracy": 0.85,
+    "n": 100,
+    "by_function_axis": {
+      "WHAT": {
+        "n": 59,
+        "correct": 51,
+        "accuracy": 0.8644
+      },
+      "WHY": {
+        "n": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      },
+      "HOW": {
+        "n": 4,
+        "correct": 3,
+        "accuracy": 0.75
+      },
+      "COMPARE": {
+        "n": 3,
+        "correct": 2,
+        "accuracy": 0.6667
+      },
+      "OTHER": {
+        "n": 30,
+        "correct": 25,
+        "accuracy": 0.8333
+      }
+    }
+  },
+  "+ Domain Router": {
+    "overall_accuracy": 0.88,
+    "n": 100,
+    "by_function_axis": {
+      "WHAT": {
+        "n": 59,
+        "correct": 52,
+        "accuracy": 0.8814
+      },
+      "WHY": {
+        "n": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      },
+      "HOW": {
+        "n": 4,
+        "correct": 3,
+        "accuracy": 0.75
+      },
+      "COMPARE": {
+        "n": 3,
+        "correct": 3,
+        "accuracy": 1.0
+      },
+      "OTHER": {
+        "n": 30,
+        "correct": 26,
+        "accuracy": 0.8667
+      }
+    }
+  },
+  "+ LoRA (fixed)": {
+    "overall_accuracy": 0.87,
+    "n": 100,
+    "by_function_axis": {
+      "WHAT": {
+        "n": 59,
+        "correct": 53,
+        "accuracy": 0.8983
+      },
+      "WHY": {
+        "n": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      },
+      "HOW": {
+        "n": 4,
+        "correct": 2,
+        "accuracy": 0.5
+      },
+      "COMPARE": {
+        "n": 3,
+        "correct": 3,
+        "accuracy": 1.0
+      },
+      "OTHER": {
+        "n": 30,
+        "correct": 25,
+        "accuracy": 0.8333
+      }
+    }
+  },
+  "NexRoute 72B (Ours)": {
+    "overall_accuracy": 0.88,
+    "n": 100,
+    "by_function_axis": {
+      "WHAT": {
+        "n": 59,
+        "correct": 52,
+        "accuracy": 0.8814
+      },
+      "WHY": {
+        "n": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      },
+      "HOW": {
+        "n": 4,
+        "correct": 3,
+        "accuracy": 0.75
+      },
+      "COMPARE": {
+        "n": 3,
+        "correct": 3,
+        "accuracy": 1.0
+      },
+      "OTHER": {
+        "n": 30,
+        "correct": 26,
+        "accuracy": 0.8667
+      }
+    }
+  }
+}

@@ -1,0 +1,2102 @@
+[
+  {
+    "domain": "SOC",
+    "instruction": "In contrast to traditional approaches to psychotherapy, culturally sensitive approaches attempt to understand a client’s experience of an illness within the client’s cultural context. In other words, culturally sensitive approaches adopt an ______ perspective.",
+    "output": "The correct answer is A: emic\n\nChoices:\nA: emic\nB: etic\nC: emetic\nD: endogenous",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The European Union (EU) replaced which of the following organizations?",
+    "output": "The correct answer is B: EEC\n\nChoices:\nA: NATO\nB: EEC\nC: UN\nD: ASEAN",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is an example of a bulk-gaining industry?",
+    "output": "The correct answer is B: Bottled orange juice\n\nChoices:\nA: Steel\nB: Bottled orange juice\nC: Paper\nD: Copper",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following statements are true concerning the class of ARIMA(p,d,q) models?\n\n(i) The \"I\" stands for independent\n\n(ii) An ARIMA(p,1,q) model estimated on a series of logs of prices is equivalent to an ARIMA(p,0,q) model estimated on a set of continuously compounded returns\n\n(iii) It is plausible for financial time series that the optimal value of d could be 2 or 3.\n\n(iv) The estimation of ARIMA models is incompatible with the notion of cointegration",
+    "output": "The correct answer is A: (ii) and (iv) only\n\nChoices:\nA: (ii) and (iv) only\nB: (i) and (iii) only\nC: (i), (ii), and (iii) only\nD: (i), (ii), (iii), and (iv)",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The primary purpose of a(n) ____________ is to obtain detailed information about job requirements in order to facilitate decisions related to compensation.",
+    "output": "The correct answer is D: job evaluation\n\nChoices:\nA: needs assessment\nB: organizational analysis\nC: job analysis\nD: job evaluation",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Suppose that we wished to evaluate the factors that affected the probability that an investor would choose an equity fund rather than a bond fund or a cash investment. Which class of model would be most appropriate?",
+    "output": "The correct answer is B: A multinomial logit\n\nChoices:\nA: A logit model\nB: A multinomial logit\nC: A tobit model\nD: An ordered logit model",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following accurately states the order of the transmission of visual information?",
+    "output": "The correct answer is D: Rods and cones; bipolar cells; ganglion cells; optic nerve\n\nChoices:\nA: Optic nerve; ganglion cells; bipolar cells; rods and cones\nB: Bipolar cells; ganglion cells; fovea; optic nerve\nC: Rods and cones; retina; optic nerve; ganglion cells\nD: Rods and cones; bipolar cells; ganglion cells; optic nerve",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The human relations approach emphasized the importance of:",
+    "output": "The correct answer is B: teamwork, communication and employee satisfaction\n\nChoices:\nA: scrutinizing employees as they interacted with customers\nB: teamwork, communication and employee satisfaction\nC: strict control and discipline to ensure high productivity\nD: providing therapy and counselling in the workplace",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "With regard to sexual intimacies with supervisees, the ethics codes published by the American and Canadian Psychological Associations:",
+    "output": "The correct answer is D: prohibit sexual relationships with supervisees over whom the psychologist has evaluative authority.\n\nChoices:\nA: Do not prohibit sexual relationships with supervisees.\nB: prohibit sexual relationships with supervisees under any circumstances.\nC: prohibit sexual relationships with current supervisees only when the relationship will impair the psychologist’s objectivity and effectiveness as a supervisor.\nD: prohibit sexual relationships with supervisees over whom the psychologist has evaluative authority.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "As a result of an accident, Abdul lost sight in his right eye. To judge the distance of vehicles when he is driving, Abdul is able to rely on cues of",
+    "output": "The correct answer is D: I and II only\n\nChoices:\nA: I only\nB: II only\nC: III only\nD: I and II only",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "There are specific research designs and strategies used to gain the desired information. From your knowledge about the research designs and strategies, how does the CORRELATIONAL RESEARCH work?",
+    "output": "The correct answer is C: does not have any internal validity; can’t infer causal relationship\n\nChoices:\nA: investigators randomly assigns subjects to different groups and they receive different levels of a manipulated variable\nB: involves the use of intact groups\nC: does not have any internal validity; can’t infer causal relationship\nD: assessing variables as a function of time",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "To demonstrate causation, a researcher must",
+    "output": "The correct answer is D: show that the manipulation of one variable invariably leads to predicted changes in another\n\nChoices:\nA: manipulate the way a participant responds to some aspect of a situation\nB: operationalize dependent and independent variables\nC: develop a hypothesis that predicts the relationship between variables\nD: show that the manipulation of one variable invariably leads to predicted changes in another",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In learned helplessness research, it was found that giving solvable problems eliminated the helplessness caused by unsolvable problems. It is argued thar this is due to",
+    "output": "The correct answer is A: a change in attribution with the realization that one can sometimes succeed\n\nChoices:\nA: a change in attribution with the realization that one can sometimes succeed\nB: the shift in locus of control from internal to external\nC: a practice effect\nD: the application of a partial reinforcement schedule",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A college freshman obtains a score of 150 on his English final exam, a score of 100 on his math exam, a score of 55 on his chemistry exam, and a score of 30 on his history exam. The means and standard deviations for these tests are, respectively, 125 and 20 for the English exam, 90 and 10 for the math exam, 45 and 5 for the chemistry exam, and 30 and 5 for the history exam. Based on this information, you can conclude that the young man's test performance was best on which exam?",
+    "output": "The correct answer is C: chemistry\n\nChoices:\nA: English\nB: math\nC: chemistry\nD: history",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Agraphia, acalculia, finger agnosia, and right-left confusion are symptoms of which of the following?",
+    "output": "The correct answer is C: Gerstmann’s syndrome\n\nChoices:\nA: Creutzfeldt-Jakob disease\nB: Addison’s disease\nC: Gerstmann’s syndrome\nD: Geschwind syndrome",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "What is the most widespread primary economic activity in the world?",
+    "output": "The correct answer is D: Agriculture\n\nChoices:\nA: Mining\nB: Hunting and gathering\nC: Fishing\nD: Agriculture",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "How would Piaget describe the process of learning something new using terminology from his cognitive development theory?",
+    "output": "The correct answer is A: When we can't assimilate new information, we change our schemas through accommodation.\n\nChoices:\nA: When we can't assimilate new information, we change our schemas through accommodation.\nB: As we encounter new social situations, we either develop healthy or unhealthy personality characteristics in order to cope with social demands.\nC: Humans develop increasing abilities to think about moral choices, and our ability to think about the rights of others develops over time.\nD: Rewards and punishments for behaviors are the major influence on learning in humans.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The field of psychology arose out of which of the following?",
+    "output": "The correct answer is C: Philosophy\n\nChoices:\nA: Biochemistry\nB: Physics\nC: Philosophy\nD: Cross-cultural anthropology",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The 'third age' of the life course is said to involve:",
+    "output": "The correct answer is A: active non-work and independence after retirement\n\nChoices:\nA: active non-work and independence after retirement\nB: full time employment, family-building and adult responsibility\nC: illness, isolation and increasing dependence on others\nD: the transition from education to work, and distinctive youth cultures",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "When a highly cohesive group under directive leadership reaches a decision before completely assessing available information or considering alternative solutions, the group may be exhibiting the influence of",
+    "output": "The correct answer is A: group think\n\nChoices:\nA: group think\nB: group polarization\nC: social loafing\nD: risky shift",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "If a client has difficulty in learning new adaptive responses due to interference from old learning, this is a case of",
+    "output": "The correct answer is D: proactive inhibition\n\nChoices:\nA: reminiscence\nB: retroactive inhibition\nC: latent learning\nD: proactive inhibition",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Ethical standards for varying professions differ with regard to their emphasis and perspective. As a psychologist working in a multidisciplinary setting, you should:",
+    "output": "The correct answer is B: cooperate with other professionals when developing professional and ethical standards for psychological services.\n\nChoices:\nA: only work with fellow psychologists when developing professional and ethical standards for psychological services.\nB: cooperate with other professionals when developing professional and ethical standards for psychological services.\nC: consult with your local ethics committee for permission to work with other professionals when developing professional and ethical standards for psychological services.\nD: develop professional and ethical standards for mental health services that do not recognize professional differences.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "When the kappa statistic for a measure is .90, this indicates that the measure:",
+    "output": "The correct answer is A: has adequate inter-rater reliability.\n\nChoices:\nA: has adequate inter-rater reliability.\nB: has adequate internal consistency reliability.\nC: has low criterion-related validity.\nD: has low incremental validity.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The Standard for Educational and Psychological Testing provides",
+    "output": "The correct answer is C: criteria by which tests and manuals should be judged, and which tests should strive to meet\n\nChoices:\nA: reliability and validity data on over 3000 tests, along with minimum training requirements needed to administer, score, and interpret each test\nB: derailed legal requirements for the use of tests and manuals\nC: criteria by which tests and manuals should be judged, and which tests should strive to meet\nD: lists of approved tests and manuals",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following would play a role in quickly alerting you to a gas leak in your car?",
+    "output": "The correct answer is A: olfactory receptors\n\nChoices:\nA: olfactory receptors\nB: gustatory receptors\nC: feature detectors\nD: basilar membrane",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "All of the following brain regions are considered part of the limbic system except ___________.",
+    "output": "The correct answer is C: Fornix\n\nChoices:\nA: Mammillary bodies\nB: Septal nuclei\nC: Fornix\nD: Hippocampus",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which one of the following is NOT an example of mis-specification of functional form?",
+    "output": "The correct answer is D: Excluding a relevant variable from a linear regression model\n\nChoices:\nA: Using a linear specification when y scales as a function of the squares of x\nB: Using a linear specification when a double-logarithmic model would be more appropriate\nC: Modelling y as a function of x when in fact it scales as a function of 1/x\nD: Excluding a relevant variable from a linear regression model",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which one of the following is NOT an advantage of urban agriculture?",
+    "output": "The correct answer is D: Renewed or purified water supplies\n\nChoices:\nA: Helping to solve the problem of solid waste disposal\nB: Fresh produce for sale to others\nC: Beautification of a dingy urban area\nD: Renewed or purified water supplies",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The irregularity of the wet monsoon in South Asia in recent years may have a significant negative effect on which of the following?",
+    "output": "The correct answer is A: Food production\n\nChoices:\nA: Food production\nB: Population patterns\nC: Wildlife conservation efforts\nD: Tourism",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "If the standard tools for time-series analysis, such as estimation of the acf, pacf and spectral analysis, find no evidence of structure in the data, this implies that the data are which of the following?",
+    "output": "The correct answer is B: Uncorrelated\n\nChoices:\nA: Normally distributed\nB: Uncorrelated\nC: Independent\nD: Fat-tailed",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following theories focuses on how society manages to carry out the activities necessary to maintain order and stability?",
+    "output": "The correct answer is A: Functionalism\n\nChoices:\nA: Functionalism\nB: Interactionism\nC: Rational-choice theory\nD: Conflict theory",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The 'extension pattern' that Parker (1976) identified was said to be:",
+    "output": "The correct answer is B: characteristic of professionals and skilled workers, whose work interests spilled over into leisure time\n\nChoices:\nA: the lifestyle of clerical and unskilled manual workers, who saw leisure time as a chance to escape from alienating work\nB: characteristic of professionals and skilled workers, whose work interests spilled over into leisure time\nC: a neutral balance between work and leisure as neither connected nor oppositional, as evidenced by semi-skilled manual and clerical workers\nD: the tendency of students to leave essay-writing until the last minute and then ask for an extended deadline",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In terms of age, Erikson’s ________ stage of psychosocial development corresponds to Freud’s phallic stage.",
+    "output": "The correct answer is D: initiative vs. guilt.\n\nChoices:\nA: industry vs. inferiority\nB: autonomy vs. shame and doubt\nC: basic trust vs. mistrust\nD: initiative vs. guilt.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The American health care system is primarily dominated by which network?",
+    "output": "The correct answer is B: The private sector\n\nChoices:\nA: The public sector\nB: The private sector\nC: The VA system\nD: None, all are equally important",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The case study of Phineas Gage's brain injury was significant for which of the following reasons?",
+    "output": "The correct answer is B: It was one of the first well-documented examples of a specific brain area being associated with a set of physical and emotional changes.\n\nChoices:\nA: Gage's accident was one of the first to be treated with drugs that alter the neurotransmitters in the brain.\nB: It was one of the first well-documented examples of a specific brain area being associated with a set of physical and emotional changes.\nC: This accident provided psychiatrists with one of the first opportunities to treat a brain-damaged patient with psychotherapeutic techniques.\nD: The CAT scan was used for the first time in the Phineas Gage case to document the extent of brain injury.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A graduate student designed and conducted a research project for her dissertation and subsequently wrote a journal article describing the study and its results. The original idea for the study was derived from the work of the student’s faculty advisor who also provided the facilities for the student's research. The faculty advisor wants to be listed as first author on the article when it is published. In this situation:",
+    "output": "The correct answer is A: the student should be listed as the first author.\n\nChoices:\nA: the student should be listed as the first author.\nB: it is up to the student to determine authorship credit.\nC: it is up to the advisor to determine authorship credit.\nD: the student should file a complaint against the advisor with the Ethics Committee.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The staggering and slurred speech of a person who has consumed too much alcohol is most likely the result of altered functioning in the",
+    "output": "The correct answer is D: cerebellum\n\nChoices:\nA: limbic system\nB: thalamus\nC: sensorimotor cortex\nD: cerebellum",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "To serve as an expert witness in a court case, a psychologist must:",
+    "output": "The correct answer is B: be qualified by the court to offer opinions and conclusions about the case.\n\nChoices:\nA: be board certified as an expert witness.\nB: be qualified by the court to offer opinions and conclusions about the case.\nC: have been hired by the person he/she will be testifying about.\nD: testify only about what he/she personally observed or obtained.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Some groups of gang members wear head coverings and sunglasses when they assault people. The use of such disguises contributes to",
+    "output": "The correct answer is D: deindividuation\n\nChoices:\nA: social loafing\nB: cognitive dissonance\nC: learned helplessness\nD: deindividuation",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following factors has little or no impact on mortality rates in the developing countries?",
+    "output": "The correct answer is B: Improved birth control methods\n\nChoices:\nA: New medicines\nB: Improved birth control methods\nC: Pesticides\nD: Famine relief",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Role-learning theory suggests that",
+    "output": "The correct answer is A: we internalise and take on social roles from a pre-existing framework\n\nChoices:\nA: we internalise and take on social roles from a pre-existing framework\nB: we create and negotiate our roles through interaction with others\nC: social roles are not fixed or stable but fluid and pluralistic\nD: roles have to be learned to suppress unconscious motivations",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following statements is true concerning folklore?",
+    "output": "The correct answer is D: It expresses in words the shared values of a group by expressing their ideals.\n\nChoices:\nA: It is the written tradition of a group.\nB: It encourages changing the old values and customs.\nC: It serves to blend all cultures into one.\nD: It expresses in words the shared values of a group by expressing their ideals.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Garcia and Koelling's research regarding learned aversions established that which of the following UCS and CS pairs are the most powerful and learned most quickly?",
+    "output": "The correct answer is B: nausea and food or drink\n\nChoices:\nA: performing a task and receiving a food reward\nB: nausea and food or drink\nC: movement and shock\nD: punishments and rewards",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Sal meets Petunia for the first time. She is outgoing and funny. He walks away with the opinion that Petunia is a fun person, whereas in actuality Petunia is temporarily gleeful because she just won the lottery. Sal's opinion that Petunia is funny is best explained by",
+    "output": "The correct answer is D: the fundamental attribution error.\n\nChoices:\nA: the mere-exposure effect.\nB: self-serving bias.\nC: equipotentiality.\nD: the fundamental attribution error.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Abraham Maslow proposed the idea that some motives are more imperative to survival than others. Which of the following approaches expresses this?",
+    "output": "The correct answer is D: Hierarchy of needs\n\nChoices:\nA: Homeostatic regulation\nB: Goal-setting\nC: Expectancy-value\nD: Hierarchy of needs",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is LEAST self-sufficient in the natural resources needed for modern industry?",
+    "output": "The correct answer is B: Japan\n\nChoices:\nA: United States\nB: Japan\nC: France\nD: United Kingdom",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Dr. Isaac Ibraham, a licensed psychologist, wants to expand his private practice. When doing so, he should keep in mind that uninvited in-person solicitations for therapy clients are:",
+    "output": "The correct answer is D: unethical when the solicited individuals are susceptible to exploitation or undue influence.\n\nChoices:\nA: always ethical.\nB: always unethical.\nC: unethical only when they provide potential clients with misleading or inaccurate information.\nD: unethical when the solicited individuals are susceptible to exploitation or undue influence.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The 'demographic transition' is a social trend that involves:",
+    "output": "The correct answer is D: a decline in the birth rate, greater life expectancy, and an ageing population\n\nChoices:\nA: a reduction in population size, caused by a higher rate of emigration than immigration\nB: a change in the principal causes of death and disease since industrialization\nC: increased birth and death rates, resulting in a relatively young population\nD: a decline in the birth rate, greater life expectancy, and an ageing population",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A moral panic occurs when:",
+    "output": "The correct answer is A: the media exaggerate reports of deviant groups, generating hostile reactions\n\nChoices:\nA: the media exaggerate reports of deviant groups, generating hostile reactions\nB: children watch violent or sexually explicit films and then copy the behaviour\nC: audiences challenge the ethnic stereotypes represented by the media\nD: elitists express concern with the Americanization of culture",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "One of the effects of the east–west orientation of the Alpine mountain system and the northern plains of western and central Europe is that it",
+    "output": "The correct answer is C: enables marine-like climatic conditions to extend eastward into Germany and Poland\n\nChoices:\nA: limits the marine climate of Europe to coastal areas\nB: provides a corridor for communication between southern and northern Europe\nC: enables marine-like climatic conditions to extend eastward into Germany and Poland\nD: effectively prevents population movement between parts of the Mediterranean region",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Physiologically based drives such as rage and fear reactions are regulated by the",
+    "output": "The correct answer is B: hypothalamus\n\nChoices:\nA: basal ganglia\nB: hypothalamus\nC: reticular formation\nD: thalamus",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is an example of a stateless nation?",
+    "output": "The correct answer is C: Palestine\n\nChoices:\nA: Germany\nB: Israel\nC: Palestine\nD: Romania",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "According to HERSEY and BLANCHARD’S SITUATIONAL LEADERSHIP MODEL, leader style is described in terms of task and relationship orientation and optimal style depends on job maturity and subordinates. How is it the Delegating Style?",
+    "output": "The correct answer is D: low task orientation and low relationship orientation\n\nChoices:\nA: high task-orientation and low relationship orientation\nB: high task-orientation and high relationship orientation\nC: low task orientation and high relationship orientation\nD: low task orientation and low relationship orientation",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A researcher mailed 1,000 questionnaires to members of a labor union and received 300 back. Most of those who returned the questionnaires indicated that they were dissatisfied with the union. Results based only on the returned questionnaires are most likely contaminated by",
+    "output": "The correct answer is A: response rate bias\n\nChoices:\nA: response rate bias\nB: researcher bias\nC: confusing correlation and causation\nD: statistical regression",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "What is the purpose of the Diagnostic and Statistical Manual of Mental Disorders?",
+    "output": "The correct answer is C: to list diagnoses and symptoms so that psychologists and others can help diagnose psychological disorders\n\nChoices:\nA: to describe the causes of psychological disorders\nB: to explain the biomedical symptoms, causes, and cures related to psychological disorders\nC: to list diagnoses and symptoms so that psychologists and others can help diagnose psychological disorders\nD: to summarize research studies regarding psychological disorders and how these diagnoses relate to one another",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Dr. Donald Dreadmire is starting a therapy group for recently divorced men. He tells the editor of the local newspaper (who has just divorced his wife) that he can attend the group for free if the editor includes an article about the program in the newspaper. Dr. Dreadmire has acted:",
+    "output": "The correct answer is C: unethically because his request is exploitative and violates ethical guidelines.\n\nChoices:\nA: ethically since his request does not violate ethical guidelines.\nB: ethically as long as the editor accurately describes the program.\nC: unethically because his request is exploitative and violates ethical guidelines.\nD: unethically only if the arrangement negatively impacts his objectivity when working with the editor in therapy.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Research suggests children’s successful adjustment to the divorce of their parents is most related to:",
+    "output": "The correct answer is D: the degree of post-divorce conflict between the parents.\n\nChoices:\nA: the frequency of contact with the noncustodial parent.\nB: the quality of the parent-child relationships prior to the divorce.\nC: the child’s ability to understand the cause(s) of the divorce.\nD: the degree of post-divorce conflict between the parents.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Antonia has a cat. The first time she sees a rabbit, she calls it a cat. Her mistake is due to the process of",
+    "output": "The correct answer is D: assimilation.\n\nChoices:\nA: discrimination.\nB: generalization.\nC: accommodation.\nD: assimilation.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Equity theory predicts that a person's satisfaction in a close personal relationship is related to the person's:",
+    "output": "The correct answer is A: perceptions of his/her own contribution/reward ratio and the ratio of his/her partner.\n\nChoices:\nA: perceptions of his/her own contribution/reward ratio and the ratio of his/her partner.\nB: perceptions of the relative utility of the relationship.\nC: comparisons between his/her current relationship and past relationships.\nD: comparisons between his/her own relationship outcomes and the relationship outcomes of others.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The price of a house is best described as what type of number?",
+    "output": "The correct answer is B: Cardinal\n\nChoices:\nA: Discrete\nB: Cardinal\nC: Ordinal\nD: Nominal",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which continent has the highest total fertility rates?",
+    "output": "The correct answer is A: Africa\n\nChoices:\nA: Africa\nB: Asia\nC: South America\nD: Europe",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "According to Bem’s (1972) self-perception theory:",
+    "output": "The correct answer is D: people infer their own attitudes and emotions by observing their own behaviors and the circumstances in which those behaviors occur.\n\nChoices:\nA: people experience discomfort (dissonance) when their behaviors are not consistent with their attitudes, beliefs, or values.\nB: people enhance their own sense of self-worth by associating or identifying with others who are successful.\nC: people tend to attribute their successes to dispositional factors and failures to situational factors.\nD: people infer their own attitudes and emotions by observing their own behaviors and the circumstances in which those behaviors occur.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Dr. Bertha Black's advertisement for her seminar on relaxation techniques invites the public to “come hear an in-depth lecture on techniques to help reduce the stress of daily living.” The advertised cost for her four-hour seminar is $50. While preparing her lecture the night before the presentation, Dr. Black decides it would be valuable to demonstrate some of her techniques with the group. She decides that, instead of lecturing for the full four hours, she will have attendees divide into groups for the last two hours to experiment with the techniques. According to ethical standards, this is:",
+    "output": "The correct answer is C: unethical since she advertised the seminar as a “lecture.”\n\nChoices:\nA: ethical if she allows participants to leave after the lecture portion of the seminar.\nB: ethical if the demonstration is well executed and educational.\nC: unethical since she advertised the seminar as a “lecture.”\nD: unethical because she plans to spend some of the time lecturing when the most beneficial part will probably be the experiential portion",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Warner and Myrdal claimed that black former slaves were not joining the 'ethnic melting pot' of the North American cities because:",
+    "output": "The correct answer is D: the promise of citizenship was contradicted by continued discrimination\n\nChoices:\nA: the white population did not believe in liberty, equality, and democracy\nB: they wanted to retain a strong sense of their original ethnic identity\nC: they were not prepared to leave the Southern states and move to North America\nD: the promise of citizenship was contradicted by continued discrimination",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is true about the use of deception in a research study that may cause participants pain?",
+    "output": "The correct answer is D: Deception is prohibited whether the pain is physical or psychological in nature.\n\nChoices:\nA: Deception is acceptable in studies that may cause pain only when the use of pain is justified by the study’s potential value.\nB: Deception is acceptable in studies that may cause pain only when there are no alternative methods for conducting the study.\nC: Deception is prohibited when the pain is physical but not when it is psychological in nature.\nD: Deception is prohibited whether the pain is physical or psychological in nature.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The “paired comparison” technique is used to:",
+    "output": "The correct answer is A: evaluate an employee’s job performance.\n\nChoices:\nA: evaluate an employee’s job performance.\nB: make hiring and placement decisions.\nC: identify an employee’s training needs.\nD: determine the appropriate compensation for a job.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A clinical psychologist who is working with an aggressive child seeks to understand the child's behavior in light of the dynamics of the entire family. Which of the following best identifies the approach the psychologist has chosen?",
+    "output": "The correct answer is D: Systems approach\n\nChoices:\nA: Cognitive social approach\nB: Behavioral approach\nC: Psychoanalytic approach\nD: Systems approach",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The theory that the main purpose of a settlement or market town is to furnish goods and services to the surrounding market area is called the",
+    "output": "The correct answer is B: central place theory.\n\nChoices:\nA: urban hierarchy theory.\nB: central place theory.\nC: concentric zone model.\nD: multiplier effect.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A famous character in a Shakespearean play keeps washing her hands to get them clean of blood that is no longer on them. The repeated washing of her hands is",
+    "output": "The correct answer is B: a compulsion\n\nChoices:\nA: a delusion\nB: a compulsion\nC: a hallucination\nD: an obsession",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following kinds of personality theorists is the most likely to use a projective test?",
+    "output": "The correct answer is D: psychoanalyst\n\nChoices:\nA: social-cognitive\nB: behaviorist\nC: humanist\nD: psychoanalyst",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is the most important detail of Wundt's early research that established the psychology as a science?",
+    "output": "The correct answer is C: Wundt set up a laboratory and focused on empirical evidence that could be replicated.\n\nChoices:\nA: Wundt was a member of the upper class, which helped his credibility.\nB: Wundt wrote well and communicated results to large numbers of people effectively.\nC: Wundt set up a laboratory and focused on empirical evidence that could be replicated.\nD: Wundt worked outside the university system and was seen as an independent thinker.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "According to Fiedler’s contingency model of leadership, high LPC leaders:",
+    "output": "The correct answer is B: are more effective than low LPC leaders in moderately favorable situations.\n\nChoices:\nA: are always more effective than low LPC leaders.\nB: are more effective than low LPC leaders in moderately favorable situations.\nC: elicit less trust from supervisees than do low LPC leaders.\nD: elicit less intrinsic motivation from supervisees than do low LPC leaders.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The rational-economic model of decision-making is based on the assumption that:",
+    "output": "The correct answer is B: decision-makers have complete information about all alternatives and their consequences before making decisions.\n\nChoices:\nA: decision-makers place more emphasis on the costs of certain decisions than on other consequences of their decisions.\nB: decision-makers have complete information about all alternatives and their consequences before making decisions.\nC: individuals are better than groups at making decisions, especially under stressful conditions.\nD: decision-makers’ knowledge about possible alternatives is always incomplete.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The largest proportion of variation in therapy outcome is accounted for by",
+    "output": "The correct answer is A: pre-existing client factors, such as the motivation to-change\n\nChoices:\nA: pre-existing client factors, such as the motivation to-change\nB: therapeutic technique variables, such as the ability to be directive and still keep the patient in therapy\nC: therapist personality factors, such as warmth and empathy\nD: therapist—client interactions, such as the (favorable) combination of 2 cold therapists with a manipulative client",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Due to a decrease in population, the city of Detroit, Michigan, has proposed to shrink its physical size by bulldozing abandoned neighborhoods and selling the vacant land to farmers. The cause of Detroit's shrinking population can be attributed to",
+    "output": "The correct answer is C: deindustrialization\n\nChoices:\nA: gentrification\nB: agglomeration\nC: deindustrialization\nD: conurbation",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "According to Dr. William Sears, noted authority on infants and child-rearing, infant brain development is, in part, influenced by longer and more frequent periods of active sleeping and dreaming or",
+    "output": "The correct answer is A: REM sleep\n\nChoices:\nA: REM sleep\nB: NREM sleep\nC: delta sleep\nD: stage 3 sleep",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Seven people standing silently while waiting for a bus at a bus stop is an example of which of the following?",
+    "output": "The correct answer is C: An aggregate\n\nChoices:\nA: A primary group\nB: A secondary group\nC: An aggregate\nD: A social category",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In what country are the most Basque speakers found?",
+    "output": "The correct answer is D: Spain\n\nChoices:\nA: Denmark\nB: Finland\nC: Luxembourg\nD: Spain",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The myelin sheath that covers the axons of most neurons serves to do which of the following?",
+    "output": "The correct answer is B: Increase the speed with which messages can be transmitted\n\nChoices:\nA: Increase the number of messages a dendrite can receive\nB: Increase the speed with which messages can be transmitted\nC: Maintain the amount of neurotransmitter needed to create an action potential\nD: Decrease the amount of information a dendrite can convey in one firing",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A child is frightened by the sudden barking of a neighbor's dog. Once her mother picks her up, the child begins to calm down as which of the following biological processes occurs?",
+    "output": "The correct answer is A: The parasympathetic nervous system resumes control and reverses the sympathetic responses.\n\nChoices:\nA: The parasympathetic nervous system resumes control and reverses the sympathetic responses.\nB: The sympathetic nervous system resumes control and reverses the parasympathetic responses.\nC: The autonomic nervous system resumes control and reverses the peripheral responses.\nD: The peripheral nervous system resumes control and reverses the autonomic responses.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "\"Mommy gived me a cookie\" best illustrates a basic understanding of",
+    "output": "The correct answer is D: grammar\n\nChoices:\nA: phonemes\nB: prelinguistic speech\nC: holophrases\nD: grammar",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Damage to the occipital lobes of the brain would most likely affect which of the senses?",
+    "output": "The correct answer is D: sight\n\nChoices:\nA: hearing\nB: touch\nC: balance\nD: sight",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "If a distribution of scores includes one or more outliers, which of the following measures of central tendency should be used?",
+    "output": "The correct answer is C: median\n\nChoices:\nA: standard deviation\nB: range\nC: median\nD: mean",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is NOT a feature of continuously compounded returns (i.e. log-returns)?",
+    "output": "The correct answer is C: They can be added across a portfolio of assets to give portfolio returns\n\nChoices:\nA: They can be interpreted as continuously compounded changes in the prices\nB: They can be added over time to give returns for longer time periods\nC: They can be added across a portfolio of assets to give portfolio returns\nD: They are usually fat-tailed",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Dr. Mansfield Mayhem receives a subpoena requiring him to testify about a current therapy client at a trial. Dr. Mayhem contacts the client who states that she does not want him to release any confidential information to the court. Dr. Mayhem should:",
+    "output": "The correct answer is A: notify the attorney who issued the subpoena that the client has asserted the privilege and request that he be released from subpoena.\n\nChoices:\nA: notify the attorney who issued the subpoena that the client has asserted the privilege and request that he be released from subpoena.\nB: do nothing further until he receives an order from the court to appear at the trial.\nC: notify the court that he will not be appearing at the trial because the client does not want him to do so.\nD: advise the attorney who issued the subpoena that he cannot appear as requested because the client has not given him permission to do so.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The \"melting pot\" theory of combining several immigrant groups into one mainstream culture is called",
+    "output": "The correct answer is A: amalgamation theory.\n\nChoices:\nA: amalgamation theory.\nB: acculturation.\nC: ethnic islands.\nD: ethnic clustering.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Psychologist’s 35-year-old patient admits to sexually molesting a nine-year-old child in the neighborhood. This patient has prior history of such behavior. The psychologist should",
+    "output": "The correct answer is A: notify the authorities immediately and inform the patient that this is being done\n\nChoices:\nA: notify the authorities immediately and inform the patient that this is being done\nB: warn the patient to cease the molestations immediately or risk loss of confidentiality and being reported to the authorities\nC: inform the child's parents, who are responsible for the child’s well-being, before notifying the authorities\nD: handle the issue within the therapeutic situation and thereby maintain confidentiality",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The scoring criterion categories for the Exner Scoring System used to score the Rorschach Inkblot Test include all of the following except:",
+    "output": "The correct answer is A: Color\n\nChoices:\nA: Color\nB: Popular\nC: Content\nD: Location",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "State-sponsored terrorism has occurred recently in which of the following countries?",
+    "output": "The correct answer is A: Rwanda\n\nChoices:\nA: Rwanda\nB: United States\nC: Canada\nD: Spain",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Class segregation was apparent in mid-twentieth century Britain insofar as:",
+    "output": "The correct answer is B: working class communities formed in the inner cities, while the middle classes moved out to the suburbs\n\nChoices:\nA: middle class owner-occupiers moved into the inner city through gentrification\nB: working class communities formed in the inner cities, while the middle classes moved out to the suburbs\nC: the middle classes lived in the countryside while the working class lived in the city\nD: the upper and middle classes dominated public space, while working class people were more home-centred",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "___________ has implications for internal validity and ___________ has implications for external validity.",
+    "output": "The correct answer is B: Random assignment, random selection\n\nChoices:\nA: Causality, generalizability\nB: Random assignment, random selection\nC: Random selection, random assignment\nD: Temporal precedence, nonspuriousness",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Millions of immigrant children who entered the United States learned English and the duties of citizenship while attending public schools in the communities in which they settled. This is an example of which of the following sociological concepts?",
+    "output": "The correct answer is A: Acculturation\n\nChoices:\nA: Acculturation\nB: Collective behavior\nC: Social stratification\nD: Social mobility",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is the term used to describe a number of psychotic disorders that involve disturbances in nearly every dimension of human psychology including thought, perception, behavior, and communication?",
+    "output": "The correct answer is A: Schizophrenia\n\nChoices:\nA: Schizophrenia\nB: Intellectual disabilities\nC: Dissociative disorder\nD: Depression",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following neurotransmitters is most explicitly associated with the experience of pleasure?",
+    "output": "The correct answer is D: Dopamine\n\nChoices:\nA: GABA\nB: Acetylcholine\nC: Serotonin\nD: Dopamine",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Jyoti notes the behavior of people as they wait in line for tickets to rock concerts. Which of the following research methods is she using?",
+    "output": "The correct answer is A: naturalistic observation\n\nChoices:\nA: naturalistic observation\nB: survey\nC: controlled experiment\nD: quasi-experiment",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "When cross-validation of a set of predictors results in great shrinkage of an initially encouraging multiple correlation coefficients, it is most likely chat",
+    "output": "The correct answer is A: the selection of weights for the predictors capitalized on chance\n\nChoices:\nA: the selection of weights for the predictors capitalized on chance\nB: none of the predictor variables was sufficiency reliable\nC: the number of independent variables used in the first study was too small\nD: the criterion variable was unreliable",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Family therapy is probably contraindicated in which of the following situations?",
+    "output": "The correct answer is C: One of the family members has severe depression.\n\nChoices:\nA: The presenting problem involves long-term marital conflict.\nB: Family members attribute their problems to one of the members.\nC: One of the family members has severe depression.\nD: One of the family members has anorexia or bulimia.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "“Time-out” procedures in manipulating behaviors are based on the conditioning concept of",
+    "output": "The correct answer is A: oval of a positive reinforcer\n\nChoices:\nA: oval of a positive reinforcer\nB: differential reinforcement\nC: negative reinforcement\nD: stimulus generalization",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Marx said that the development of the labour movement through factory-based production would turn the working class into:",
+    "output": "The correct answer is C: a class for itself\n\nChoices:\nA: a class in itself\nB: a class by itself\nC: a class for itself\nD: a ruling class",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "\"On the basis of the results of the t-test a psychologist uses to analyze the data she collects, the psychologist concludes that her results are \"\"significant at the .01 level.\"\" This means that:\"",
+    "output": "The correct answer is A: there is a 1% chance that she will incorrectly reject the null hypothesis.\n\nChoices:\nA: there is a 1% chance that she will incorrectly reject the null hypothesis.\nB: there is a 1% chance that she will incorrectly retain the null hypothesis.\nC: there is a 99% chance that she will incorrectly reject the null hypothesis.\nD: there is a 99% chance that she will incorrectly retain the null hypothesis.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Barry reported that in his study, the relationship between religiosity and academic grades was not statistically significant. By \"not statistically significant,\" he meant that the results",
+    "output": "The correct answer is C: might have been due to chance\n\nChoices:\nA: were not important\nB: were not strong\nC: might have been due to chance\nD: were of no value to statisticians",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The most likely use of an “in-basket” technique in personnel selection would be with which type of employee",
+    "output": "The correct answer is C: Managerial\n\nChoices:\nA: Clerical\nB: Sales\nC: Managerial\nD: Secretarial",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "One of the key features for making a differential diagnosis between bulimia nervosa and anorexia nervosa is:",
+    "output": "The correct answer is B: Maintaining a normal body weight\n\nChoices:\nA: Purging\nB: Maintaining a normal body weight\nC: Bingeing\nD: All of the above",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The migration streams into the United States between 1980 and the present have been primarily composed of emigrants from which of the following regions?",
+    "output": "The correct answer is B: Asia and Latin America\n\nChoices:\nA: Europe and North Africa\nB: Asia and Latin America\nC: Sub-Saharan Africa and Oceania\nD: Central Europe and Australia",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Current legal and ethical standards require that a treatment record be kept for each patient. At the minimum, this treatment record should include",
+    "output": "The correct answer is B: diagnoses; initial findings; treatment plan; dates of service and billing; progress in the treatment plan\n\nChoices:\nA: initial findings: consent of patient's cognitions, reveries, and fantasies; dares of service and billings patient's progress\nB: diagnoses; initial findings; treatment plan; dates of service and billing; progress in the treatment plan\nC: diagnoses; initial findings; content of patient's cognitions, reveries, and fantasies; dates of service and billing; progress in the treatment plan\nD: initial findings; dates of service and billing; patient's progress",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The best definition of an urban area is",
+    "output": "The correct answer is B: the central city and its surrounding suburbs.\n\nChoices:\nA: the central city and its developed areas.\nB: the central city and its surrounding suburbs.\nC: the central city and its hinterlands.\nD: the central city and the adjacent counties.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "What would Piaget test in order to determine whether a child is in the pre-operational or concrete operational stage of cognitive development?",
+    "output": "The correct answer is C: concepts of conservation\n\nChoices:\nA: object permanence\nB: attachment\nC: concepts of conservation\nD: hypothesis testing",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Heteroscedasticity in a scattergram suggests that:",
+    "output": "The correct answer is C: the variability (range) of scores on the criterion varies for different scores on the predictor.\n\nChoices:\nA: the relationship between the predictor and criterion cannot be described by a straight line.\nB: there is a restriction of range of scores on the predictor and/or the criterion.\nC: the variability (range) of scores on the criterion varies for different scores on the predictor.\nD: there is a statistically significant correlation between the predictor and criterion.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Bourdieu attributed the reproduction of class to:",
+    "output": "The correct answer is C: cultural capital\n\nChoices:\nA: cults of the capital\nB: capital culture\nC: cultural capital\nD: culpable capture",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Young Tina had never seen the space shuttle until her parents pointed out a picture of it ready to launch. When she next saw a picture of it flying, she had difficulty recognizing it. Which concept best explains this problem?",
+    "output": "The correct answer is D: shape constancy\n\nChoices:\nA: autokinetic effect\nB: dishabituation\nC: summation\nD: shape constancy",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Dr. Scarlett conducted experiments in which she electrically stimulated parts of a cat's brain. A cat that became terrified in the presence of a mouse was most likely stimulated in the",
+    "output": "The correct answer is A: limbic system\n\nChoices:\nA: limbic system\nB: thalamus\nC: medulla\nD: cerebellum",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Feminist therapy is characterized by all of the following except",
+    "output": "The correct answer is B: establishing a special bond between a female therapist and a female client\n\nChoices:\nA: creating an egalitarian relationship between the therapist and the client\nB: establishing a special bond between a female therapist and a female client\nC: seeing the client's problems in their sociopolitical context\nD: encouraging crust and respect for other women",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A primary concern about the long-term use of chlorpromazine is that it may result in the development of which of the following?",
+    "output": "The correct answer is C: tardive dyskinesia\n\nChoices:\nA: acute hypertensive crisis\nB: profound anterograde amnesia\nC: tardive dyskinesia\nD: renal toxicity",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "________ racism is occurring when members of minority groups consistently have less access than members of the majority group to quality education, good jobs, appropriate medical care, and adequate housing.",
+    "output": "The correct answer is C: Institutional\n\nChoices:\nA: Cultural\nB: Symbolic\nC: Institutional\nD: internalized",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which type of economic activity is most closely tied to the physical environment?",
+    "output": "The correct answer is A: Primary\n\nChoices:\nA: Primary\nB: Secondary\nC: Tertiary\nD: Quaternary",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A strong movement away from all religions is called",
+    "output": "The correct answer is A: secularism.\n\nChoices:\nA: secularism.\nB: heathenism.\nC: sacrilege.\nD: nationalism.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "According to Gerald Patterson and his colleagues (1992), which of the following is a key contributor to aggressive behavior in children?",
+    "output": "The correct answer is D: the parents’ childrearing behaviors\n\nChoices:\nA: the child’s intelligence.\nB: the child’s “basic personality.”\nC: the strength of the parent-child attachment.\nD: the parents’ childrearing behaviors",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Among women, which of the following subgroups has been shown to be the most frequent users of suicide prevention services",
+    "output": "The correct answer is C: Young Caucasian women\n\nChoices:\nA: Young ethnic minority women\nB: Elderly ethnic minority women\nC: Young Caucasian women\nD: Elderly Caucasian women",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "You regularly waive the co-payment for your low-income clients who are covered by insurance and believe this is acceptable since you normally bill your clients on a sliding fee scale. This is:",
+    "output": "The correct answer is D: ethical only if the insurance company is aware of the arrangement.\n\nChoices:\nA: a common and ethical practice.\nB: ethical as long as you don't bill the insurance company for an increased hourly fee in order to collect your full fee.\nC: ethical as long as the insurance company does not explicitly prohibit such arrangements.\nD: ethical only if the insurance company is aware of the arrangement.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following religions developed first?",
+    "output": "The correct answer is D: Hinduism\n\nChoices:\nA: Buddhism\nB: Christianity\nC: Islam\nD: Hinduism",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "China and Vietnam's dispute over the Spratley Islands is",
+    "output": "The correct answer is C: a resource dispute.\n\nChoices:\nA: a positional dispute.\nB: a territorial dispute.\nC: a resource dispute.\nD: a functional dispute.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A psychologist who shares an office with another psychologist reruns around midnight to retrieve some papers and unexpectedly comes upon the colleague engaging in sexual relations with one of that colleague's clients. According to ethics codes published by the American and Canadian Psychological Associations, the first psychologist should",
+    "output": "The correct answer is B: report the colleague to the appropriate local, state/provincial, or national ethics committee\n\nChoices:\nA: speak with the colleague privately to resolve this incident informally\nB: report the colleague to the appropriate local, state/provincial, or national ethics committee\nC: say nothing further regarding this incident unless there is 2 complaint from the client\nD: contact the colleague's client to offer assistance and/or professional advice",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The major difference between job enrichment and job enlargements thar job enrichment",
+    "output": "The correct answer is C: gives workers quasi-managerial tasks to perform\n\nChoices:\nA: provides management with tighter control of work activities\nB: appeals mostly to workers in mass-production-type jobs\nC: gives workers quasi-managerial tasks to perform\nD: lengthens the work cycle",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The Whorfian hypothesis of linguistic relativity helps explain why",
+    "output": "The correct answer is A: Eskimos have many words relating to snow\n\nChoices:\nA: Eskimos have many words relating to snow\nB: parents use a high-pitched voice when speaking to infants\nC: phonemes are not interchangeable with morphemes\nD: cultures have developed different languages",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is an equivalent expression for saying that the explanatory variable is \"non-stochastic\"?",
+    "output": "The correct answer is B: The explanatory variable is fixed in repeated samples\n\nChoices:\nA: The explanatory variable is partly random\nB: The explanatory variable is fixed in repeated samples\nC: The explanatory variable is correlated with the errors\nD: The explanatory variable always has a value of one",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The STANDARD SCORES express raw score distance from mean by SD and considered the most satisfactory type of NR score. Which statement out of the following ones is about T-scores?",
+    "output": "The correct answer is B: M=50, SD=10- it is used on many psychological tests, MMPI\n\nChoices:\nA: Shows how many standard deviations a score is above or below the mean: a score of +1.0 means it’s 1 SD above the mean\nB: M=50, SD=10- it is used on many psychological tests, MMPI\nC: standard nine: M=5, SD=approx 2\nD: M=100, SD=15 or 16",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A child diagnosed with conduct disorder cannot receive an additional diagnosis of:",
+    "output": "The correct answer is C: Oppositional defiant disorder\n\nChoices:\nA: ADHD\nB: Rett’s disorder\nC: Oppositional defiant disorder\nD: Asperger syndrome",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "If two variables, $x_t$ and $y_t$ are said to be cointegrated, which of the following statements are true?\n\ni) $x_t$ and $y_t$ must both be stationary\n\n\nii) Only one linear combination of $x_t$ and $y_t$ will be stationary\n\n\niii) The cointegrating equation for $x_t$ and $y_t$ describes the short-run relationship\n\nbetween the two series\n\n\niv) The residuals of a regression of $y_t$ on $x_t$ must be stationary",
+    "output": "The correct answer is A: (ii) and (iv) only\n\nChoices:\nA: (ii) and (iv) only\nB: (i) and (iii) only\nC: (i), (ii), and (iii) only\nD: (i), (ii), (iii), and (iv)",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "What color are the shortest electromagnetic waves humans can see?",
+    "output": "The correct answer is B: violet\n\nChoices:\nA: green\nB: violet\nC: red\nD: orange",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "You would use the Solomon four-group design in order to:",
+    "output": "The correct answer is C: evaluate the impact of pretesting.\n\nChoices:\nA: eliminate carryover effects.\nB: reduce demand characteristics.\nC: evaluate the impact of pretesting.\nD: evaluate the effects of history and maturation.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "\"A \"\"cover story\"\" that causes research participants to think that the purpose of the study they are participating in is something other than what it really is would be most helpful for controlling which of the following?\"",
+    "output": "The correct answer is C: demand characteristics\n\nChoices:\nA: Hawthorne effect\nB: Rosenthal effect\nC: demand characteristics\nD: differential attrition",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "When subjected to moderate punishment, an instrumental response of moderate strength will",
+    "output": "The correct answer is C: be suppressed\n\nChoices:\nA: be eliminated\nB: be strengthened\nC: be suppressed\nD: remain unchanged",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Probabilistic reasoning from specific observations to general propositions is known as",
+    "output": "The correct answer is B: inductive reasoning\n\nChoices:\nA: deductive reasoning\nB: inductive reasoning\nC: intuitive reasoning\nD: statistical reasoning",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Harlow's monkey experiment illustrated",
+    "output": "The correct answer is A: the importance of physical contact to development.\n\nChoices:\nA: the importance of physical contact to development.\nB: that language is a uniquely human skill.\nC: that primates can make and use tools.\nD: the danger of separating babies from their natural parents.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following are advantages of the use of panel data over pure cross-sectional or pure time-series modelling?\n\n(i) The use of panel data can increase the number of degrees of freedom and therefore the power of tests\n\n(ii) The use of panel data allows the average value of the dependent variable to vary either cross-sectionally or over time or both\n\n(iii) The use of panel data enables the researcher allows the estimated relationship between the independent and dependent variables to vary either cross-sectionally or over time or both",
+    "output": "The correct answer is B: (i) and (ii) only\n\nChoices:\nA: (i) only\nB: (i) and (ii) only\nC: (ii) only\nD: (i), (ii), and (iii)",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In a two-variable situation in which one variable is dichotomous and the other is interval and continuous, which of the following correlation procedures is most appropriate",
+    "output": "The correct answer is A: Point-biserial\n\nChoices:\nA: Point-biserial\nB: Spearman's rho\nC: Phi coefficient\nD: Kendal's tau",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following subsystems of the autonomic nervous system help the body return to \"business-as-usual\" after an emergency?",
+    "output": "The correct answer is D: Parasympathetic nervous system\n\nChoices:\nA: Somatic nervous system\nB: Peripheral nervous system\nC: Sympathetic nervous system\nD: Parasympathetic nervous system",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following scientists was among the first to study the relationship between reinforcement and learning?",
+    "output": "The correct answer is B: B. F. Skinner\n\nChoices:\nA: Sigmund Freud\nB: B. F. Skinner\nC: Carl Rogers\nD: Mary Ainsworth",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Extinction occurs when the conditioned stimulus",
+    "output": "The correct answer is D: no longer evokes the conditioned response\n\nChoices:\nA: precedes the unconditioned stimulus\nB: succeeds the unconditioned stimulus\nC: evokes the conditioned response\nD: no longer evokes the conditioned response",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following has been linked to a deficit of dopamine?",
+    "output": "The correct answer is C: Parkinson's disease\n\nChoices:\nA: major depressive disorder\nB: autism\nC: Parkinson's disease\nD: Alzheimer's disease",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The primary purpose of a realistic job preview is to:",
+    "output": "The correct answer is D: reduce employee dissatisfaction and turnover.\n\nChoices:\nA: increase the number of applicants for a job.\nB: develop an accurate job description.\nC: reduce on-the-job conflicts between managers and employees.\nD: reduce employee dissatisfaction and turnover.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Dr. Jones, a clinical psychologist, has been seeing Lisa L. in therapy for one month. Dr. Jones considers Lisa to be a very attractive woman and finds himself having sexual fantasies about her. As an ethical psychologist, Dr. Jones should:",
+    "output": "The correct answer is D: continue working with Lisa but consult with a colleague if he believes his attraction might be interfering with his objectivity.\n\nChoices:\nA: recognize that such attraction is normal but proceed with caution.\nB: confess his attraction to Lisa and make it a topic for mutual examination in therapy.\nC: recognize that such attraction is inappropriate and refer Lisa to another therapist without explaining the reason to her.\nD: continue working with Lisa but consult with a colleague if he believes his attraction might be interfering with his objectivity.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Unilateral damage to the left (dominant) hemisphere is least likely to result in an inability to:",
+    "output": "The correct answer is C: read a map.\n\nChoices:\nA: memorize vocabulary words.\nB: construct a daily schedule.\nC: read a map.\nD: use the process of elimination to answer multiple-choice questions.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "An ecclesia is:",
+    "output": "The correct answer is A: a religious organization that claims total spiritual authority over its members\n\nChoices:\nA: a religious organization that claims total spiritual authority over its members\nB: a church organized around voluntary rather than compulsory membership\nC: a sect or cult with a very small following\nD: a hierarchy of priests or other spiritual leaders",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Frank (1967) made the claim that 'underdeveloped' societies were:",
+    "output": "The correct answer is C: economically dependent on the wealthy countries that exploited them\n\nChoices:\nA: insufficiently involved in the international capitalist economy\nB: reluctant to surrender their traditional ways of life\nC: economically dependent on the wealthy countries that exploited them\nD: the 'metropoles' to which 'satellite' countries were attached",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is an example of a person who suffers from anterograde amnesia?",
+    "output": "The correct answer is C: A thirty-six-year-old man who experiences damage to his hippocampus and can't transfer information into his long-term memory\n\nChoices:\nA: A six-year-old child who can't remember events related to her second birthday party\nB: A twenty-year-old woman who can't remember the details of a traumatic event that occurred six months ago\nC: A thirty-six-year-old man who experiences damage to his hippocampus and can't transfer information into his long-term memory\nD: A fifteen-year-old boy who fell off his bicycle without his helmet and can't remember the events right before his accident",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Many experts on parenting recommend different approaches to responding to an infant's needs. Some emphasize responding promptly to a newborn's cries to instill a sense of security, whereas others suggest letting the baby \"cry it out.\" Which of the following accounts of development would be most relevant when weighing these different approaches?",
+    "output": "The correct answer is C: Erikson's model of psychosocial stages\n\nChoices:\nA: Piaget's theory of cognitive development\nB: Whorf's hypothesis of linguistic relativity\nC: Erikson's model of psychosocial stages\nD: Descartes's theory of Cartesian dualism",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Lucille suffered a stroke last week and cannot recognize her children or grandchildren by looking at them. Of the following structures, her brain lesion is most likely in the",
+    "output": "The correct answer is A: cerebellum\n\nChoices:\nA: cerebellum\nB: hypothalamus\nC: amygdala\nD: left cerebral cortex",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is MOST likely to experience population pressure?",
+    "output": "The correct answer is D: A slash-and-burn agricultural society\n\nChoices:\nA: An industrial society with abundant natural resources and large imports of food\nB: A society with a highly mechanized agricultural sector\nC: A non-ecumene\nD: A slash-and-burn agricultural society",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is the strongest piece of evidence for the idea that animals are capable of developing and using a sophisticated language?",
+    "output": "The correct answer is D: Apes have been able to use the words they know to express novel concepts.\n\nChoices:\nA: The discovery of physical structures in animal brains are analogous to the language acquisition device in humans.\nB: Primates quickly learn words that result in food rewards.\nC: Systems of communication have been documented in species from honeybees to dolphins.\nD: Apes have been able to use the words they know to express novel concepts.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The mother of a previous client of yours asks for a copy of her daughter's records. The daughter saw you for two years and died three months ago when she was 38 years old. You should:",
+    "output": "The correct answer is D: not release any information to the mother without appropriate authorization.\n\nChoices:\nA: send the mother a copy of the records as requested.\nB: send the mother only the information you believe will not be harmful.\nC: allow the mother to inspect the records in your office.\nD: not release any information to the mother without appropriate authorization.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In aversive counterconditioning of a sexual fetish using electric shock, the conditioned stimulus is the",
+    "output": "The correct answer is A: fetish object\n\nChoices:\nA: fetish object\nB: new response\nC: unconditioned fear\nD: electric shock",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is correct concerning logit and probit models?",
+    "output": "The correct answer is A: They use a different method of transforming the model so that the probabilities lie between zero and one\n\nChoices:\nA: They use a different method of transforming the model so that the probabilities lie between zero and one\nB: The logit model can result in too many observations falling at exactly zero or exactly one\nC: For the logit model, the marginal effect of a change in one of the explanatory variables is simply the estimate of the parameter attached to that variable, whereas this is not the case for the probit model\nD: The probit model is based on a cumulative logistic function",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Therapists considering working with elderly persons should especially keep in mind that, on most variables, the elderly",
+    "output": "The correct answer is D: show greater within-age-group differences than younger persons\n\nChoices:\nA: seldom make good candidates for psychotherapy\nB: have very few issues that can be addressed meaningfully in psychotherapy\nC: usually have great difficulty leaning and remembering things\nD: show greater within-age-group differences than younger persons",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The 'new man' of the 1980s was alleged to be:",
+    "output": "The correct answer is A: sensitive, caring, and emotional\n\nChoices:\nA: sensitive, caring, and emotional\nB: laddish, aggressive, and violent\nC: a strong and dependable breadwinner\nD: openly bisexual and proud of it",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Bessie could barely detect sweetness in a sip of water from a pitcher in which one quarter of a teaspoon of water was mixed into a half gallon of water. For taste, this is Bessie's",
+    "output": "The correct answer is A: absolute threshold\n\nChoices:\nA: absolute threshold\nB: difference threshold\nC: subliminal stimulation\nD: distal stimulus",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Spanish colonial architecture, uneven economic development, and rural-to-urban migration flows are most commonly found in which of the following?",
+    "output": "The correct answer is D: Latin America\n\nChoices:\nA: Southeast Asia\nB: Sub-Saharan Africa\nC: North America\nD: Latin America",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A city that is more than twice as large as the next largest city in a country is called a",
+    "output": "The correct answer is D: primate city.\n\nChoices:\nA: global city.\nB: world leader city.\nC: megalopolis.\nD: primate city.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A therapist used the Rorschach inkblot test to help him analyze his patient's problems. He was most likely a",
+    "output": "The correct answer is A: psychoanalyst\n\nChoices:\nA: psychoanalyst\nB: person-centered therapist\nC: behavioral psychologist\nD: certified clinical social worker",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Narcotics work because they are chemically very similar to",
+    "output": "The correct answer is A: endorphins\n\nChoices:\nA: endorphins\nB: hormones\nC: secretions\nD: GABA",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "What part of Phineas Gage's brain was damaged by his accident while laying the railroad track?",
+    "output": "The correct answer is D: prefrontal cortex\n\nChoices:\nA: corpus callosum\nB: temporal lobe\nC: medulla oblongata\nD: prefrontal cortex",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Negative residual autocorrelation is indicated by which one of the following?",
+    "output": "The correct answer is B: An alternating pattern in the residuals\n\nChoices:\nA: A cyclical pattern in the residuals\nB: An alternating pattern in the residuals\nC: A complete randomness in the residuals\nD: Residuals that are all close to zero",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "An artist doing a pencil drawing could use which of the following techniques to add depth to her or his drawing?",
+    "output": "The correct answer is D: linear perspective\n\nChoices:\nA: retinal disparity\nB: convergence\nC: closure\nD: linear perspective",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "According to Hakim (1995, 1996), the majority of part-time work is done by women because:",
+    "output": "The correct answer is B: they make a rational choice to combine employment with their 'home-centred' lives\n\nChoices:\nA: part-time jobs pay relatively high wages and so are financially beneficial\nB: they make a rational choice to combine employment with their 'home-centred' lives\nC: their choices are constrained by structural factors, such as being unable to afford childcare\nD: full time work is not available in the kinds of occupations that they want to enter",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Grounding a child for two weeks after the child has misbehaved is an example of",
+    "output": "The correct answer is B: negative punishment\n\nChoices:\nA: avoidant attachment\nB: negative punishment\nC: compliance learning\nD: negative reinforcement",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Eli is just beginning to sit up. Assuming he is developing at a typical pace, how old is Eli?",
+    "output": "The correct answer is C: 6 months\n\nChoices:\nA: 1 month\nB: 3 months\nC: 6 months\nD: 9 months",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which stage of the demographic transition model is characterized by high birth rates and high variable death rates?",
+    "output": "The correct answer is A: Stage 1\n\nChoices:\nA: Stage 1\nB: Stage 2\nC: Stage 3\nD: Stage 4",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "MRI is preferred over CT (computed tomography) in all of the following scenarios, EXCEPT:",
+    "output": "The correct answer is B: The detection of a skull fracture\n\nChoices:\nA: The detection of a small tumor\nB: The detection of a skull fracture\nC: The detection of acute cerebral infarct\nD: The detection of white matter abnormalities",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Giselle graduated from college with high honors in management. She was recruited immediately following college by a large corporation and accepted a position in junior management. She quickly advanced to middle management. Ten years later Giselle was still in a middle-management position and had witnessed junior male colleagues promoted over her. Which of the following is a phenomenon that is most likely to explain Giselle's lack of promotion?",
+    "output": "The correct answer is A: Glass ceiling\n\nChoices:\nA: Glass ceiling\nB: Gender constancy\nC: Underemployment\nD: Glass elevator",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Lynda is a confident, capable woman who takes responsibility for her own actions. Lynda has a(n)",
+    "output": "The correct answer is C: internal locus of control\n\nChoices:\nA: manic coping strategy\nB: discriminative expectancy\nC: internal locus of control\nD: external locus of control",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "If the objectives of psychological research conducted in a laboratory dictate that certain information be withheld from the participant, consent by the participant",
+    "output": "The correct answer is C: is necessary, and an explanation of significant aspects that might affect willingness to participate must be provided\n\nChoices:\nA: maybe waived provided written consent is obtained from a member of the participant's immediate family\nB: is not necessary, bur some explanation of the research situation to the participant is essential\nC: is necessary, and an explanation of significant aspects that might affect willingness to participate must be provided\nD: is considered essential only if there is possible risk of physical or psychological harm",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "When a country combines its religion with its government, it is called a",
+    "output": "The correct answer is B: theocracy.\n\nChoices:\nA: dictatorship.\nB: theocracy.\nC: democracy.\nD: autocracy.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A student participant in a research study involving matched pairs decides to withdraw from the study. The chief investigator (who is a licensed psychologist) stresses to the student the importance of the student’s data to the study, but he insists that his data be withdrawn. The investigator should:",
+    "output": "The correct answer is D: allow the student to withdraw from the study.\n\nChoices:\nA: warn the student that withdrawal from the study will affect his course grade.\nB: remind the student that he signed an informed consent and cannot now request that his data be withdrawn.\nC: tell the student that his name will be removed from all data and include his data in the study.\nD: allow the student to withdraw from the study.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Society cannot be studied in the same way as the natural world because:",
+    "output": "The correct answer is A: human behaviour is meaningful, and varies between individuals and cultures\n\nChoices:\nA: human behaviour is meaningful, and varies between individuals and cultures\nB: it is difficult for sociologists to gain access to a research laboratory\nC: sociologists are not rational or critical enough in their approach\nD: we cannot collect empirical data about social life",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Exposing individuals to arguments against their views, arguments that are then strongly refuted, may serve to",
+    "output": "The correct answer is D: inoculate chem against later persuasive appeals\n\nChoices:\nA: increase their attitudinal ambivalence\nB: weaken their resistance to later persuasive appeals\nC: render them indifferent to the attitude object\nD: inoculate chem against later persuasive appeals",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The Wonderlic Personnel Test is a:",
+    "output": "The correct answer is C: brief measure of cognitive ability.\n\nChoices:\nA: measure of psychomotor skills.\nB: measure of clerical skills.\nC: brief measure of cognitive ability.\nD: brief interest inventory.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "What is the meaning of the term \"heteroscedasticity\"?",
+    "output": "The correct answer is A: The variance of the errors is not constant\n\nChoices:\nA: The variance of the errors is not constant\nB: The variance of the dependent variable is not constant\nC: The errors are not linearly independent of one another\nD: The errors have non-zero mean",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Social norms are:",
+    "output": "The correct answer is D: rules and expectations about interaction that regulate social life\n\nChoices:\nA: creative activities such as gardening, cookery and craftwork\nB: the symbolic representation of social groups in the mass media\nC: religious beliefs about how the world ought to be\nD: rules and expectations about interaction that regulate social life",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is a major concern in countries with a large and rapidly aging population?",
+    "output": "The correct answer is D: Health care\n\nChoices:\nA: Immunization\nB: Adequate schools\nC: Daycare facilities\nD: Health care",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The inability to understand words, without any loss of ability to speak or hear words, is",
+    "output": "The correct answer is A: sensory aphasia\n\nChoices:\nA: sensory aphasia\nB: motor aphasia\nC: sensory ataxia\nD: avocalia",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "\"According to Hersey and Blanchard's situational leadership model, \"\"employee maturity\"\" is a function of the employee’s:\"",
+    "output": "The correct answer is C: skills and willingness to assume responsibility.\n\nChoices:\nA: stage of career development.\nB: personality.\nC: skills and willingness to assume responsibility.\nD: beliefs about the meaning and value of work.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following statements are true concerning the Box-Jenkins approach to diagnostic testing for ARMA models?\n\n(i) The tests will show whether the identified model is either too large or too small\n\n(ii) The tests involve checking the model residuals for autocorrelation, heteroscedasticity, and non-normality\n\n(iii) If the model suggested at the identification stage is appropriate, the acf and pacf for the residuals should show no additional structure\n\n(iv) If the model suggested at the identification stage is appropriate, the coefficients on the additional variables under the overfitting approach will be statistically insignificant",
+    "output": "The correct answer is A: (ii) and (iv) only\n\nChoices:\nA: (ii) and (iv) only\nB: (i) and (iii) only\nC: (i), (ii), and (iii) only\nD: (i), (ii), (iii), and (iv)",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "During a session, co-therapists leading a group that has been meeting for 6 months have ‘philosophical difference on how to deal with two members’ concerns. According to Yalom, the most helpful intervention would be for the",
+    "output": "The correct answer is A: co-therapists to disagree openly in the group session\n\nChoices:\nA: co-therapists to disagree openly in the group session\nB: more experienced therapist to sake charge of the session\nC: members to select which therapist they wish to work with and to divide the group into two sections\nD: co-therapists to change the topic, and resolve their differences outside the group environment",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "David collected data on 15 research participants. Their scores were: 42, 38, 14, 13, 12, 12, 11, 11, 11, 10, 10, 10, 9, 9, 9. Which of the following statistics best reflects the central tendency of this data set?",
+    "output": "The correct answer is D: median\n\nChoices:\nA: standard deviation\nB: correlation coefficient\nC: mode\nD: median",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Bowlby's maternal deprivation thesis claimed that:",
+    "output": "The correct answer is B: children deprived of an early, secure attachment to their mother are prone to suffer physically, intellectually and socially in later life\n\nChoices:\nA: mothers who are living in poverty cannot afford to give their children the resources that other children enjoy\nB: children deprived of an early, secure attachment to their mother are prone to suffer physically, intellectually and socially in later life\nC: 'mothering' is a socially constructed activity identified in the narratives of new mothers\nD: deprivation is something children inherit, usually through their mother's side",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which best represents the path of an impulse over a reflex arc?",
+    "output": "The correct answer is A: receptor, afferent neuron, interneuron, efferent neuron, effector\n\nChoices:\nA: receptor, afferent neuron, interneuron, efferent neuron, effector\nB: receptor, efferent neuron, interneuron, afferent neuron, affector\nC: sensory neuron, interneuron, afferent neuron, efferent neuron, effector\nD: effector, sensory neuron, afferent neuron, interneuron, receptor",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Howard's idea of the garden city consisted of:",
+    "output": "The correct answer is A: six small towns surrounded by green belts and linked to a larger central city\n\nChoices:\nA: six small towns surrounded by green belts and linked to a larger central city\nB: planning cities to have plenty of trees, flowers and public gardens\nC: each privately owned house to have its own front and back garden\nD: tower blocks to displace the population vertically and leave most of the land available as green open spaces",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "An artist doing a pencil drawing could use which of the following techniques to add depth to her or his drawing?",
+    "output": "The correct answer is D: linear perspective\n\nChoices:\nA: retinal disparity\nB: convergence\nC: closure\nD: linear perspective",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Individuals in which of the following occupations will be potentially LEAST likely to be susceptible to health problems as a result of disrupted circadian rhythms?",
+    "output": "The correct answer is D: College professor\n\nChoices:\nA: Shift nurse\nB: Police officer\nC: Flight attendant\nD: College professor",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Carl Jung's concept of a repository of ideas, feelings, and symbols shared by all humans and passed genetically from one generation to another is known as Jung's theory of the",
+    "output": "The correct answer is D: collective unconscious\n\nChoices:\nA: cultural subconscious\nB: general awareness\nC: heritability coefficients\nD: collective unconscious",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Research on gender differences in conversation style indicates that, when compared to men, women:",
+    "output": "The correct answer is B: ask more questions.\n\nChoices:\nA: talk for longer periods of time.\nB: ask more questions.\nC: interrupt more often.\nD: make more eye contact.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "All of the following are examples of secondary drives EXCEPT",
+    "output": "The correct answer is B: sex\n\nChoices:\nA: recreation\nB: sex\nC: approval\nD: friendship",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In response to a column printed in newspapers throughout the United States, an advice columnist received over 28,000 responses. Over 75% of respondents said that if they had it to do over again, they would not have children. The columnist concludes that most parents are sorry that they had children. For which of the following reasons is her conclusion not valid?",
+    "output": "The correct answer is D: Her sample may not have been representative of the population.\n\nChoices:\nA: Her participants were not randomly assigned in her study.\nB: The number of respondents from across the country was too small.\nC: The study was not replicated.\nD: Her sample may not have been representative of the population.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The External Validity refers to the the generalizability of results. In what does the INTERACTION BETWEEN SELECTION AND TREATMENT consist as an external threat for validity?",
+    "output": "The correct answer is B: effects of a treatment do not generalize beyond the setting and time period of the experiment\n\nChoices:\nA: the effects of a given treatment would not generalize to other members of the target population\nB: effects of a treatment do not generalize beyond the setting and time period of the experiment\nC: pretest sensitization, increases response to treatment\nD: cues in the research setting re: hypothesis",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following statements are true concerning the autocorrelation function (acf) and partial autocorrelation function (pacf)?\n\ni) The acf and pacf will always be identical at lag one whatever the model\n\nii) The pacf for an MA(q) model will in general be non-zero beyond lag q\n\niii) The pacf for an AR(p) model will be zero beyond lag p\n\niv) The acf and pacf will be the same at lag two for an MA(1) model",
+    "output": "The correct answer is C: (i), (ii), and (iii) only\n\nChoices:\nA: (ii) and (iv) only\nB: (i) and (iii) only\nC: (i), (ii), and (iii) only\nD: (i), (ii), (iii), and (iv)",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The concept of gemeinschaft developed by Ferdinand Tönnies describes basically the same relational characteristics as",
+    "output": "The correct answer is B: mechanical solidarity\n\nChoices:\nA: organic solidarity\nB: mechanical solidarity\nC: gesellschaft\nD: anomie",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A psychologist at a pain clinic is helping design a medication reduction schedule to address the learned aspects of a patient's medication use. The psychologist’s best recommendation would be to administer medication",
+    "output": "The correct answer is B: at specific times, because then the medication will not be given in response to pain\n\nChoices:\nA: in the patient’s food, because reduction will occur sooner as the patient's awareness of the medication decreases\nB: at specific times, because then the medication will not be given in response to pain\nC: only when requested by the patient, because reduction will occur sooner if less medication is given\nD: by injection, because as administration becomes more painful, less medication will be requested",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In taking a personality inventory, some examinees can fake “good”. What testing technique is probably the best correction for this response bias",
+    "output": "The correct answer is D: Using an empirically derived correction\n\nChoices:\nA: Increasing the length of the test\nB: Increasing the homogeneity of the test\nC: Employing a right-minus-wrong correction formula\nD: Using an empirically derived correction",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The AP Psychology examination given by the College Board in May exemplifies which of the following types of tests?",
+    "output": "The correct answer is C: achievement\n\nChoices:\nA: aptitude\nB: projective\nC: achievement\nD: intelligence",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A female psychologist provides a 2-month course of brief behavior therapy for a driving phobia to a male client. Six months after termination they meet at an art opening reception and begin to date. Over the next few months, the relationship progresses and they become sexual. In this situation, the psychologist has acted:",
+    "output": "The correct answer is C: Unethically, because she engaged in a sexual relationship with a former client, which is prohibited under any circumstances\n\nChoices:\nA: Ethically because it had been 6 months since termination\nB: Probably ethically since there was no coercion involved and the relationship was consensual\nC: Unethically, because she engaged in a sexual relationship with a former client, which is prohibited under any circumstances\nD: Ethically according to professional standards, but the psychologist exhibited poor professional judgment",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which one of the following statements is true concerning VARs?",
+    "output": "The correct answer is C: VARs often produce better forecasts than simultaneous equation structural models\n\nChoices:\nA: The coefficient estimates have intuitive theoretical interpretations\nB: The coefficient estimates usually have the same sign for all of the lags of a given variable in a given equation\nC: VARs often produce better forecasts than simultaneous equation structural models\nD: All of the components of a VAR must be stationary before it can be used for forecasting",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Fechner’s Jaw assumes that “just noticeable differences” are",
+    "output": "The correct answer is A: psychologically equal intervals\n\nChoices:\nA: psychologically equal intervals\nB: numerically equal intervals\nC: progressively smaller in magnitude\nD: erratic and cannot be reliably measured",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The outlying area serviced by a urban center is referred to as a",
+    "output": "The correct answer is D: hinterland.\n\nChoices:\nA: redline area.\nB: threshold.\nC: range.\nD: hinterland.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "After taking AP Psychology and doing well in the class and on the exam, Donald goes to college. If Donald is interested in psychology and has high achievement motivation, as a first-year student, he is most likely to",
+    "output": "The correct answer is D: sign up for an upper-level undergraduate course in which he will have to work hard to succeed and will learn new things.\n\nChoices:\nA: take an introductory psychology class in which he knows that he will excel.\nB: enroll in an upper-level graduate seminar in which he will be exposed to a lot of new information but is likely to struggle to pass.\nC: avoid psychology classes since he has already mastered the material.\nD: sign up for an upper-level undergraduate course in which he will have to work hard to succeed and will learn new things.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Tony got accepted to the college he wants to attend, is going to the prom with a girl he really admires, and was hired for the summer job he sought. He has high",
+    "output": "The correct answer is A: self-efficacy\n\nChoices:\nA: self-efficacy\nB: self-doubt\nC: self-handicapping\nD: introversion",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The most widely used self-report inventory for personality assessment is the",
+    "output": "The correct answer is A: MMPI-2\n\nChoices:\nA: MMPI-2\nB: TAT\nC: WAIS-R\nD: Rorschach",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A psychologist who already has an established therapeutic relationship with a child is asked to act as an expert witness in a divorce proceeding involving custody of the child. The psychologist's best course of action would be to:",
+    "output": "The correct answer is A: decline the request to testify.\n\nChoices:\nA: decline the request to testify.\nB: agree to testify only if she obtains consent from both parents.\nC: agree to testify only if she can evaluate all of the involved parties.\nD: agree to testify only if her familiarity with the child won''t bias her testimony.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Part of the boundary between the United States and Mexico is the Rio Grande, an example of",
+    "output": "The correct answer is D: a natural boundary.\n\nChoices:\nA: a water divider.\nB: a watercourse.\nC: an artificial boundary.\nD: a natural boundary.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Why might a researcher use a variable ratio of reinforcement rather than a fixed ratio?",
+    "output": "The correct answer is D: Variable ratio schedules of reinforcement are more resistant to extinction than fixed schedules.\n\nChoices:\nA: Fixed ratio schedules of reinforcements are more time intensive.\nB: Variable ratio schedules of reinforcements produce results more quickly.\nC: Variable ratio schedules of reinforcements avoid problems such as generalization and the Premack principle.\nD: Variable ratio schedules of reinforcement are more resistant to extinction than fixed schedules.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "When several dependent measures are used in single study, a multivariate analysis of variance would be preferable to separate univariate analysis on each dependent measure in order to reduce the",
+    "output": "The correct answer is C: number of Type errors\n\nChoices:\nA: number of Type Il errors\nB: amount of error variance\nC: number of Type errors\nD: magnitude of influence of the covariation",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following activities are NOT secondary economic activities?",
+    "output": "The correct answer is C: Mining copper\n\nChoices:\nA: Assembling automotive parts\nB: Sewing shirts\nC: Mining copper\nD: Binding books",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is NOT an example of syncretism?",
+    "output": "The correct answer is C: Hasidic Judaism\n\nChoices:\nA: Halloween\nB: Foreign cuisine changed to suit American tastes\nC: Hasidic Judaism\nD: Catholicism in Louisiana",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "According to Piaget, children are ___________.",
+    "output": "The correct answer is C: “Little scientists”\n\nChoices:\nA: “Blank slates”\nB: Less intelligent than adults\nC: “Little scientists”\nD: Shaped by culture",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Perception refers to the process by which",
+    "output": "The correct answer is C: the brain organizes and interprets sensations\n\nChoices:\nA: receptors gather information from the environment\nB: sense organs transmit information to the brain for initial processing\nC: the brain organizes and interprets sensations\nD: the brain minimizes responses to stimuli that do not change",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "After slavery was abolished in the USA and British Empire, policy makers claimed that former slaves migrating to these cities would experience:",
+    "output": "The correct answer is A: assimilation\n\nChoices:\nA: assimilation\nB: adaptation\nC: discrimination\nD: compensation",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "\"Psychology is the science of behavior and mental processes,\" commonly defines psychology. In their definition of psychology, behaviorists would be likely to eliminate",
+    "output": "The correct answer is C: III only\n\nChoices:\nA: I only\nB: II only\nC: III only\nD: I and III only",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "If a series, y, follows a random walk with drift b, what is the optimal one-step ahead forecast of the change in y?",
+    "output": "The correct answer is D: The average value of the change in y over the in-sample period\n\nChoices:\nA: The current value of y\nB: Zero\nC: One\nD: The average value of the change in y over the in-sample period",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Numerous factor-analytic studies have been performed on tests of motor function (e.g., Purdue Pegboard). In general, these studies have revealed that",
+    "output": "The correct answer is D: most motor functions are highly specific\n\nChoices:\nA: two factors, speed and strength, account for most of the common variance\nB: most motor functions are well represented by intelligence\nC: most motor functions correlate highly and form 2 single factor\nD: most motor functions are highly specific",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The 'two-sex' model that Laqueur (1990) identified:",
+    "output": "The correct answer is B: distinguished between male and females as separate sexes\n\nChoices:\nA: contrasted homosexuality with heterosexuality\nB: distinguished between male and females as separate sexes\nC: represented women's genitalia as underdeveloped versions of men's\nD: argued for male superiority over women",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In the context of research design, external validity refers to the researcher’s ability to:",
+    "output": "The correct answer is D: generalize the results of the study to other individuals, settings, and conditions.\n\nChoices:\nA: manipulate the independent variable.\nB: randomly assign participants to treatment groups.\nC: determine whether there is a causal relationship between variables.\nD: generalize the results of the study to other individuals, settings, and conditions.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In some circumstances, it is proposed chat heredity determines the timing and general nature of a behavior, bur thar environmental experiences at a critical time determine the specific stimulus-response connection which is learned. This form of learning is called",
+    "output": "The correct answer is C: imprinting\n\nChoices:\nA: critical learning\nB: maturation\nC: imprinting\nD: social learning",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A doctor suspects that her patient's language processing area is in the right hemisphere. This would most likely be corroborated by the use of",
+    "output": "The correct answer is C: PET\n\nChoices:\nA: CAT\nB: MRI\nC: PET\nD: MMPI",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Conduct Disorder is characterized by a chronic pattern of violation of social order in multiple settings where society’s rules and norms are constantly defied. From your knowledge of Conduct Disorder which of the following statements is incorrect?",
+    "output": "The correct answer is C: Conduct Disorder not linked to biological factors.\n\nChoices:\nA: Conduct Disorder can be child onset or adolescent onset.\nB: Child onset is worse being more aggressive and antisocial.\nC: Conduct Disorder not linked to biological factors.\nD: There has to be more than three signs of the disorder, such as aggression or theft for at least twelve months for Conduct Disorder to be diagnosed.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "\"Get cookie,\" best exemplifies",
+    "output": "The correct answer is D: telegraphic speech\n\nChoices:\nA: babbling\nB: cooing\nC: holophrases\nD: telegraphic speech",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Electrical stimulation of the brain for the treatment of chronic pain",
+    "output": "The correct answer is D: is of no practical significance, since stimulation-produced analgesia has been demonstrated only in rats\n\nChoices:\nA: may produce its effects by promoting the release of endogenous opiates-dorphins)\nB: may produce its effects by promoting the release of the neurotransmitter norepinephrine\nC: is generally effective, but medically ill-advised because such stimulation has aversive properties\nD: is of no practical significance, since stimulation-produced analgesia has been demonstrated only in rats",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In order to determine whether to use a fixed effects or random effects model, a researcher conducts a Hausman test. Which of the following statements is false?",
+    "output": "The correct answer is B: If the Hausman test is not satisfied, the random effects model is more appropriate.\n\nChoices:\nA: For random effects models, the use of OLS would result in consistent but inefficient parameter estimation\nB: If the Hausman test is not satisfied, the random effects model is more appropriate.\nC: Random effects estimation involves the construction of \"quasi-demeaned\" data\nD: Random effects estimation will not be appropriate if the composite error term is correlated with one or more of the explanatory variables in the model",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which one of the following statements does NOT correctly describe transnational companies (TNCs)?",
+    "output": "The correct answer is D: TNCs are generally controlled by foreign governments.\n\nChoices:\nA: Many TNCs operate in areas of electronics, chemicals, pharmaceuticals and petroleum.\nB: Most TNCs produce and sell manufactured goods.\nC: Most TNCs are headquartered in the United States, Japan, and the European Union.\nD: TNCs are generally controlled by foreign governments.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A study designed to investigate the friendship patterns of abused children was conducted by filming the interactions of the children and later having three raters view the footage and rate each child's pattern of behavior on a conflictual-behavior scale with values ranging from \"constant conflict\" to \"minimal conflict.\" Which of the following kinds of reliability is most critical to this study, given the methodology used to measure the variables?",
+    "output": "The correct answer is C: Inter-rater reliability\n\nChoices:\nA: Coefficient-alpha reliability\nB: Alternate-forms reliability\nC: Inter-rater reliability\nD: Test-retest reliability",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Noam Chomsky and B. F. Skinner disagreed about how children acquire language. Which of the following concepts is most relevant to the differences between their theories?",
+    "output": "The correct answer is D: language acquisition device\n\nChoices:\nA: phonemes\nB: morphemes\nC: linguistic relativity hypothesis\nD: language acquisition device",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "When performing a(n) ________ task, group members select a solution offered by one of the group members as the group’s solution.",
+    "output": "The correct answer is B: disjunctive\n\nChoices:\nA: compensatory\nB: disjunctive\nC: conjunctive\nD: additive",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Substances that are toxic to humans often taste",
+    "output": "The correct answer is D: bitter\n\nChoices:\nA: sour\nB: sweet\nC: salty\nD: bitter",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The majority of workers in periphery countries are probably employed in which type of activities?",
+    "output": "The correct answer is A: Primary\n\nChoices:\nA: Primary\nB: Secondary\nC: Tertiary\nD: Quaternary",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "What treatment method has the best results with addressing anxiety symptoms?",
+    "output": "The correct answer is A: Cognitive behavioral therapy\n\nChoices:\nA: Cognitive behavioral therapy\nB: Social skills training\nC: Behavioral activation treatment\nD: Nondirective supportive treatment",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which kinds of motivations best encourage positive behaviors to persist over long periods of time?",
+    "output": "The correct answer is D: intrinsic motivation\n\nChoices:\nA: primary drives\nB: secondary drives\nC: achievement motivation\nD: intrinsic motivation",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which one of the following is the most appropriate definition of a 99% confidence interval?",
+    "output": "The correct answer is A: 99% of the time in repeated samples, the interval would contain the true value of the parameter\n\nChoices:\nA: 99% of the time in repeated samples, the interval would contain the true value of the parameter\nB: 99% of the time in repeated samples, the interval would contain the estimated value of the parameter\nC: 99% of the time in repeated samples, the null hypothesis will be rejected\nD: 99% of the time in repeated samples, the null hypothesis will not be rejected when it was false",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The rules that govern the placement of words and phrases in a sentence are called",
+    "output": "The correct answer is C: syntax\n\nChoices:\nA: semantics\nB: grammar\nC: syntax\nD: phonemes",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Research indicates that a test participant exposed to a list of positive words and then asked to recall the words from that list a week later will be more likely to remember those words if he",
+    "output": "The correct answer is B: is in a positive mood when initially exposed to the words\n\nChoices:\nA: is tested by a researcher who deliberately exhibits a positive attitude\nB: is in a positive mood when initially exposed to the words\nC: considers himself a \"positive\" person, regardless of his mood during the experience\nD: considers the initial testing experience positive",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In terms of the parenting styles identified by Baumrind and her colleagues (1991), independent self-confident adolescents are most likely to have parents who are:",
+    "output": "The correct answer is A: authoritative.\n\nChoices:\nA: authoritative.\nB: authoritarian.\nC: permissive.\nD: traditional.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The procedure involving repeated presentation of a stimulus to the client until the attractiveness of that stimulus is reduced is best described as",
+    "output": "The correct answer is A: stimulus satiation\n\nChoices:\nA: stimulus satiation\nB: response-prevention\nC: flooding\nD: implosion",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "What kind of personality theorist would be most interested in the results of the MMPI?",
+    "output": "The correct answer is D: trait\n\nChoices:\nA: psychoanalytic\nB: humanistic\nC: behaviorist\nD: trait",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following newborn reflexes help infants find and eat food?",
+    "output": "The correct answer is D: rooting\n\nChoices:\nA: Babinski\nB: Moro\nC: atttachment\nD: rooting",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "When the correlation between high school students’ GPA and amount of time they spend studying each week is ____, this means that about 15% of variability in GPA is accounted for by amount of time spent studying.",
+    "output": "The correct answer is C: 0.39\n\nChoices:\nA: 0.02\nB: 0.15\nC: 0.39\nD: 0.85",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which personality theory is criticized for having an unrealistically optimistic view of human nature?",
+    "output": "The correct answer is C: humanistic\n\nChoices:\nA: cognitive\nB: biological\nC: humanistic\nD: trait",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following industries did Blauner (1964) suggest was most alienating to its employees?",
+    "output": "The correct answer is C: car manufacturing in assembly plants\n\nChoices:\nA: machine-based factory work\nB: textile work as craft production\nC: car manufacturing in assembly plants\nD: chemical processing with automated practices",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is NOT a characteristic of a city in the developing world?",
+    "output": "The correct answer is B: Has a well-developed infrastructure\n\nChoices:\nA: Contains modern centers of commerce\nB: Has a well-developed infrastructure\nC: Experiences large in-migrations of rural people into the city\nD: Produces a large share of its country's GDI",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following are alternative names for the independent variable (usually denoted by x) in linear regression analysis?\n\n(i) The regressor\n\n(ii) The regressand\n\n(iii) The causal variable\n\n(iv) The effect variable",
+    "output": "The correct answer is B: (i) and (iii) only\n\nChoices:\nA: (ii) and (iv) only\nB: (i) and (iii) only\nC: (i), (ii), and (iii) only\nD: (i), (ii), (iii), and (iv)",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Of the following, the most accurate statement about hypnotic induction is that it",
+    "output": "The correct answer is C: can be terminated by the client\n\nChoices:\nA: is harmful to many clients\nB: allows the therapist to control the client’s behavior\nC: can be terminated by the client\nD: works better with less intelligent clients",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "\"Smith, Glass, and Miller’s (1980) meta-analysis of the psychotherapy outcome research found that people receiving therapy are \"\"better off\"\" than about _____% of people who need treatment but do not receive it.\"",
+    "output": "The correct answer is C: 80\n\nChoices:\nA: 45\nB: 55\nC: 80\nD: 95",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "If a series, y, follows a random walk, what is the optimal one-step ahead forecast of y?",
+    "output": "The correct answer is A: The current value of y\n\nChoices:\nA: The current value of y\nB: Zero\nC: One\nD: The average value of y over the in-sample period",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Anxiety induced by reading about an automobile accident some months after having had such an accident best described as an instance of",
+    "output": "The correct answer is A: mediated generalization\n\nChoices:\nA: mediated generalization\nB: higher-order conditioning\nC: latent learning\nD: response shaping",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Brenda gets enraged when people criticize her, talks about becoming the first woman president, exaggerates her abilities and talents, takes advantage of classmates, and constantly demands attention in class. When she received a certificate for participating in an essay contest, she told everyone she'd won a prestigious writing award. She most likely would be diagnosed as evidencing",
+    "output": "The correct answer is D: narcissistic personality disorder\n\nChoices:\nA: hypochondriasis\nB: disorganized schizophrenia\nC: antisocial personality disorder\nD: narcissistic personality disorder",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "'Scientific' theories in the nineteenth century tried to explain race in naturalistic terms. Which of the following ideas was not considered?",
+    "output": "The correct answer is C: height\n\nChoices:\nA: genetics\nB: evolution\nC: height\nD: brain size",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "During assigned seat-work time, Mary, a firstgrade student, sometimes leaves her seat and attempts to play with a block collection. When she leaves her seat, she fails to complete her seat work. Which of the following behavioral intervention strategies will most effectively increase the long-term likelihood that Mary will complete her seat work?",
+    "output": "The correct answer is B: Allowing Mary to play with the blocks afterward if she remains in her seat throughout the assigned seat-work time\n\nChoices:\nA: Allowing Mary to read from a teacherselected book for a specific period of time before beginning her seat work\nB: Allowing Mary to play with the blocks afterward if she remains in her seat throughout the assigned seat-work time\nC: Explaining to Mary the value of completing seat work in terms of the objectives of the lesson\nD: Removing the blocks from the classroom during the assigned seat-work time",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The rehabilitation of old, rundown inner-city neighborhoods by middle- and high-income people is called",
+    "output": "The correct answer is B: gentrification.\n\nChoices:\nA: urbanization.\nB: gentrification.\nC: suburbanization.\nD: multiplier effect.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The key factor Thomas Malthus failed to recognize in his population theory was",
+    "output": "The correct answer is D: technology's ability to raise the Earth's carrying capacity.\n\nChoices:\nA: population is limited by their means of subsistence.\nB: all populations have the potential to increase more than the actual rate of increase.\nC: wars and famine inhibit population's reproductive capacity.\nD: technology's ability to raise the Earth's carrying capacity.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "When the spread of scores increases, the variance",
+    "output": "The correct answer is B: increases\n\nChoices:\nA: decreases\nB: increases\nC: stays the same\nD: can increase or decrease",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",
+    "output": "The correct answer is C: If the relevant values of the log-likelihood functions are -112.3 and -118.4, the value of the test statistic is 12.2\n\nChoices:\nA: The test statistic will follow a chi-squared distribution with 2 degrees of freedom under the null hypothesis\nB: The value of the log-likelihood function will almost always be bigger for the restricted model than for the unrestricted model\nC: If the relevant values of the log-likelihood functions are -112.3 and -118.4, the value of the test statistic is 12.2\nD: The likelihood ratio test compares the slopes of the log-likelihood function at the maximum and at the restricted parameter value.",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The term 'collective consumption' (Castells 1977) refers to:",
+    "output": "The correct answer is D: the provision of health, housing, and education services by the state\n\nChoices:\nA: the privatization of public services by the Conservative government\nB: the lifestyle practice of shopping in peer groups\nC: the form of tuberculosis suffered by those who collect stamps\nD: the provision of health, housing, and education services by the state",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "You want to start treating clients who believe they have been abducted by aliens, but you have never worked with members of this population before. Your best course of action would be to:",
+    "output": "The correct answer is B: start seeing these clients after establishing a consultative relationship with someone who is familiar with this population.\n\nChoices:\nA: start seeing these clients and consult with someone who is familiar with this population if you run into any problems.\nB: start seeing these clients after establishing a consultative relationship with someone who is familiar with this population.\nC: take a continuing education class related to the treatment of members of this population.\nD: place an ad in the National Enquirer to let members of this population know about the availability of your services.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Identify the only construct that is not pertinent to developmental models on intelligence:",
+    "output": "The correct answer is A: Investment theory\n\nChoices:\nA: Investment theory\nB: The positive manifold\nC: G theory\nD: Primary mental ability theory",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which psychological perspective was most popular at the turn of the twentieth century in Western Europe?",
+    "output": "The correct answer is D: psychoanalytic\n\nChoices:\nA: neuroscience\nB: evolutionary\nC: behaviorist\nD: psychoanalytic",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In the nature versus nurture debate, nature is most closely associated with",
+    "output": "The correct answer is D: temperament.\n\nChoices:\nA: environment.\nB: culture.\nC: learning.\nD: temperament.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A special diet can prevent the expression of the trait for",
+    "output": "The correct answer is B: PKU (phenylketonuria)\n\nChoices:\nA: Tay-Sachs syndrome\nB: PKU (phenylketonuria)\nC: Huntington's disease\nD: Down syndrome",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Although itis rarely feasible to engage in such a practice, the most valid way for psychotherapists to monitor the quality of their own services is to",
+    "output": "The correct answer is D: check in an objective manner their clients’ ability to cope with their problems\n\nChoices:\nA: attempt as dispassionately possible to estimate the success of their therapeutic efforts\nB: consult regularly with fellow therapists who provide mutual review of one another's cases\nC: engage the services of a consultant who reviews rape recordings of pical sessions conducted by the therapists\nD: check in an objective manner their clients’ ability to cope with their problems",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "If a Johansen \"trace\" test for a null hypothesis of 2 cointegrating vectors is applied to a system containing 4 variables is conducted, which eigenvalues would be used in the test?",
+    "output": "The correct answer is C: The smallest 2\n\nChoices:\nA: All of them\nB: The largest 2\nC: The smallest 2\nD: The second largest",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following is the best example of constant error",
+    "output": "The correct answer is B: A psychometrician consistently underestimates IQ scores by 10 points\n\nChoices:\nA: A subject consistently provides wrong answers to every test item\nB: A psychometrician consistently underestimates IQ scores by 10 points\nC: A test item is answered incorrectly by every student in a given class\nD: A test-retest reliability coefficient is low for several samples",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "All of the following are conditions sanctioned by the APA regarding the use of deception in a study EXCEPT",
+    "output": "The correct answer is D: the research must be conducted as a double-blind study\n\nChoices:\nA: the research is of great importance and cannot be conducted without the use of deception\nB: participants are expected to find the procedures reasonable upon being informed of them\nC: participants must be allowed to withdraw from the experiment at any time\nD: the research must be conducted as a double-blind study",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Sherif's Robbers Cave study indicated that which of the following principles best helps reduce tensions between groups?",
+    "output": "The correct answer is A: superordinate goals\n\nChoices:\nA: superordinate goals\nB: diffusion of responsibility\nC: group polarization\nD: deindividuation",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "An aspect of development that is more plastic is an aspect that is .",
+    "output": "The correct answer is C: Relatively malleable\n\nChoices:\nA: More or less fixed and difficult to change\nB: Not heavily influenced by the environment\nC: Relatively malleable\nD: Irrelevant to developmental processes",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Tonotopic processing of auditory stimuli occurs at which site:",
+    "output": "The correct answer is B: Heschel’s convolutions\n\nChoices:\nA: Striate cortex\nB: Heschel’s convolutions\nC: Calcarine sulcus\nD: Pre-central gyrus",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "\"\"\"Vicarious liability\"\" is most likely to be a concern when a psychologist is acting in the role of:\"",
+    "output": "The correct answer is A: supervisor.\n\nChoices:\nA: supervisor.\nB: advocate.\nC: faculty member.\nD: talk show host.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In a crisis, the adrenal glands of the body secrete \"emergency\" hormones, while the body prepares for fight-or-flight, directed by",
+    "output": "The correct answer is D: the sympathetic nervous system\n\nChoices:\nA: the central nervous system\nB: the somatic nervous system\nC: the sensorimotor nervous system\nD: the sympathetic nervous system",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The most common form of Down syndrome results during sex cell formation and fertilization from",
+    "output": "The correct answer is B: three copies of chromosome 21\n\nChoices:\nA: three copies of chromosome 19\nB: three copies of chromosome 21\nC: loss of a chromosome\nD: failure of the separation of XX",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Odette is nearing her 70th birthday. Over the last year, she has suffered a loss of appetite and began to experience difficulty sleeping. She has lost interest in her favorite pastimes, gardening and bridge. Odette is most likely to be diagnosed as having",
+    "output": "The correct answer is D: major depressive disorder.\n\nChoices:\nA: Alzheimer's disease.\nB: seasonal affective disorder.\nC: insomnia and bulimia.\nD: major depressive disorder.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A functional analysis is conducted in order to identify _______ variables.",
+    "output": "The correct answer is A: controlling\n\nChoices:\nA: controlling\nB: moderator\nC: dependent\nD: organismic",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The most common functional psychiatric disorder of later life is",
+    "output": "The correct answer is B: depression\n\nChoices:\nA: paranoia\nB: depression\nC: hypochondriasis\nD: agoraphobia",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A supervisor has declared, “My position gives me a great deal of authority, my subordinates know that I expect that my orders will be followed.” This supervisor's statement refers to",
+    "output": "The correct answer is B: legitimate power\n\nChoices:\nA: expert power\nB: legitimate power\nC: reward power\nD: referent power",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Historically, the world's major languages have spread by all of the following methods EXCEPT",
+    "output": "The correct answer is A: Sanskrit records.\n\nChoices:\nA: Sanskrit records.\nB: migration.\nC: trade.\nD: conquest.",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In personnel selection, the selection ratio is defined as the",
+    "output": "The correct answer is D: ratio of the number of workers needed to the number of applicants available\n\nChoices:\nA: ratio of successful co unsuccessful workers\nB: ratio of the number of successful selected workers to the difficulty level of the job\nC: percent of workers correctly placed in the group hired to do the job\nD: ratio of the number of workers needed to the number of applicants available",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Despite the introduction of a national curriculum in 1988, girls continued to face disadvantages in education because:",
+    "output": "The correct answer is D: all of the above\n\nChoices:\nA: subject choice remained gendered at A level and in higher education\nB: boys received more attention from teachers in the classroom\nC: the hidden curriculum ensures that subjects like science are taught in gendered styles\nD: all of the above",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Persons who have work-related accidents tend to",
+    "output": "The correct answer is C: have had more recent life stress than accident-free workers\n\nChoices:\nA: feel more dissatisfied with their work than accident-free workers\nB: be less likely to have had job promotions than accident-free workers\nC: have had more recent life stress than accident-free workers\nD: be, on the average, less intelligent than accident-free workers",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The brainstem is comprised of the",
+    "output": "The correct answer is B: hindbrain and midbrain.\n\nChoices:\nA: forebrain and RAS.\nB: hindbrain and midbrain.\nC: cerebellum and cerebrum.\nD: right and left hemispheres.",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "The primary function of the psychology licensing board is best described as:",
+    "output": "The correct answer is C: protecting the public welfare.\n\nChoices:\nA: developing laws that govern the practice of psychology.\nB: providing sanctions for unethical and illegal behavior on the part of psychologists.\nC: protecting the public welfare.\nD: accrediting graduate programs in psychology.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A comprehensive final examination in AP Psychology that consists of questions dealing solely with motivation and emotion, social psychology, and the biological basis of behavior units lacks",
+    "output": "The correct answer is A: content validity\n\nChoices:\nA: content validity\nB: predictive validity\nC: test–retest reliability\nD: alternate-forms reliability",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following statements concerning the regression population and sample is FALSE?",
+    "output": "The correct answer is C: In theory, the sample could be larger than the population\n\nChoices:\nA: The population is the total collection of all items of interest\nB: The population can be infinite\nC: In theory, the sample could be larger than the population\nD: A random sample is one where each individual item from the population is equally likely to be drawn.",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Comparison of an individual’s score with an inappropriate norm group affects all of the following except",
+    "output": "The correct answer is C: decisions about the subject\n\nChoices:\nA: relevance of the score\nB: reliably of the score\nC: decisions about the subject\nD: validity of the score",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following strategies would probably be least effective for reducing aggressiveness in children?",
+    "output": "The correct answer is B: opportunities for catharsis\n\nChoices:\nA: exposure to a nonaggressive model\nB: opportunities for catharsis\nC: social skills training\nD: a threat of retaliation from a high-status person",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Standardized tests are",
+    "output": "The correct answer is D: tests for which a person's performance can be compared with a pilot group\n\nChoices:\nA: any examination given by your state or country\nB: all examinations with exactly the same directions\nC: tests with norms, which indicate average, high, and low scores for the test\nD: tests for which a person's performance can be compared with a pilot group",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A stroke that affects the posterior region of the corpus callosum, thus disconnecting the visual centers of the brain from the language centers of the brain, may result in this syndrome:",
+    "output": "The correct answer is B: Alexia without agraphia\n\nChoices:\nA: Agraphia without alexia\nB: Alexia without agraphia\nC: Aphasia\nD: Apraxia",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which of the following would a researcher need to use to determine if the difference between the mean scores of experimental and control groups was significant?",
+    "output": "The correct answer is B: inferential statistics\n\nChoices:\nA: descriptive statistics\nB: inferential statistics\nC: field experiment\nD: standard deviation",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Margaret Mahler proposed that the development of a sense of self is the related to:",
+    "output": "The correct answer is A: separation-individuation.\n\nChoices:\nA: separation-individuation.\nB: projective identification.\nC: pseudomutuality.\nD: assimilation-accommodation.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "If, during a postexamination discussion with parents, a psychologist establishes that a child’s new pediatrician is apparently unaware of the child's history of brain damage. which is very important in understanding the problem situation, the psychologist should",
+    "output": "The correct answer is B: urge the parents to grant him/her permission to inform the pediatrician\n\nChoices:\nA: tell the parents that he/she will inform the pediatrician\nB: urge the parents to grant him/her permission to inform the pediatrician\nC: cell the parents char be/she is legally obligated to inform the pediatrician\nD: cell the parents that it is their responsibility to inform the pediatrician",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "If arrested for committing a crime, who of the following would be most likely to be declared legally insane?",
+    "output": "The correct answer is A: Aaron, who suffers symptoms of disorganized schizophrenia\n\nChoices:\nA: Aaron, who suffers symptoms of disorganized schizophrenia\nB: Brett, who has been diagnosed with obsessive-compulsive disorder\nC: Clara, who suffers symptoms of zoophobia\nD: Don, who has symptoms of hypochondriasis",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "There are specific research designs and strategies used to gain the desired information. From your knowledge about the research designs and strategies, in which case is the MULTIPLE BASELINE DESIGN used?",
+    "output": "The correct answer is A: when reversal is not possible\n\nChoices:\nA: when reversal is not possible\nB: when assignment is not possible\nC: when selection is not possible\nD: when there are not enough data available",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Which one of the following is a disadvantage of the general to specific or \"LSE\" (\"Hendry\") approach to building econometric models, relative to the specific to general approach?",
+    "output": "The correct answer is B: The final model may lack theoretical interpretation\n\nChoices:\nA: Some variables may be excluded at the first stage leading to coefficient biases\nB: The final model may lack theoretical interpretation\nC: The final model may be statistically inadequate\nD: If the initial model is mis-specified, all subsequent steps will be invalid.",
+    "context": "[Subject: econometrics]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A projective test with ambiguous pictures that are frequently used to assess achievement motivation is the",
+    "output": "The correct answer is A: Thematic Apperception Test\n\nChoices:\nA: Thematic Apperception Test\nB: Rorschach inkblot test\nC: WAIS-R\nD: MMPI-2",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "A person suffering from a skin rash finds her pain is temporarily relieved by vigorous scratching. She does not perceive the pain from the rash while she is scratching, but the pain returns soon after she stops scratching. Which concept best explains this temporary pain relief?",
+    "output": "The correct answer is D: gate-control theory\n\nChoices:\nA: opponent-process theory\nB: amplitude and frequency theories\nC: transduction theory\nD: gate-control theory",
+    "context": "[Subject: high_school_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "In the context of the labour movement in the nineteenth century, 'incorporation' meant:",
+    "output": "The correct answer is D: including working class organizations in political bargaining and representation\n\nChoices:\nA: including union representatives in processes of policy decision making\nB: creating links between the state and corporate organizations\nC: recruiting women into full time paid employment\nD: including working class organizations in political bargaining and representation",
+    "context": "[Subject: sociology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "When there is a conflict between ethical obligations and legal requirements, a psychologist should ordinarily:",
+    "output": "The correct answer is C: attempt to resolve the conflict but adhere to legal requirements when this is not possible.\n\nChoices:\nA: choose the course of action that adheres to ethical obligations.\nB: choose the course of action that adheres to legal requirements.\nC: attempt to resolve the conflict but adhere to legal requirements when this is not possible.\nD: attempt to resolve the conflict but adhere to ethical obligations when this is not possible.",
+    "context": "[Subject: professional_psychology]",
+    "func_type": "OTHER"
+  },
+  {
+    "domain": "SOC",
+    "instruction": "Walter Christaller developed central place theory as a tool to describe the spatial relationships between",
+    "output": "The correct answer is C: cities of different sizes and functions\n\nChoices:\nA: central business districts and suburbs\nB: a market and its sources for raw materials\nC: cities of different sizes and functions\nD: the hubs of airline transportation systems",
+    "context": "[Subject: high_school_geography]",
+    "func_type": "OTHER"
+  }
+]

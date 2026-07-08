@@ -1,0 +1,62 @@
+{
+  "Naive RAG 7B": {
+    "cross": {
+      "rouge_l": 24.95,
+      "bertscore": 88.64,
+      "n": 100
+    },
+    "single": {
+      "rouge_l": 25.19,
+      "bertscore": 88.16,
+      "n": 400
+    }
+  },
+  "Adaptive RAG 7B": {
+    "cross": {
+      "rouge_l": 24.25,
+      "bertscore": 88.44,
+      "n": 100
+    },
+    "single": {
+      "rouge_l": 24.67,
+      "bertscore": 88.13,
+      "n": 400
+    }
+  },
+  "HyDE 7B": {
+    "cross": {
+      "rouge_l": 24.57,
+      "bertscore": 88.64,
+      "n": 100
+    },
+    "single": {
+      "rouge_l": 24.98,
+      "bertscore": 88.16,
+      "n": 400
+    }
+  },
+  "CRAG 7B": {
+    "cross": {
+      "rouge_l": 21.63,
+      "bertscore": 88.02,
+      "n": 60
+    },
+    "single": {
+      "rouge_l": 24.74,
+      "bertscore": 88.15,
+      "n": 390
+    }
+  },
+  "NexRoute 7B": {
+    "cross": {
+      "rouge_l": 29.51,
+      "bertscore": 89.44,
+      "n": 119
+    },
+    "single": {
+      "rouge_l": 23.19,
+      "bertscore": 87.29,
+      "n": 381
+    }
+  }
+}

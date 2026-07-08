@@ -1,0 +1,128 @@
+{
+  "Naive RAG 7B": {
+    "cross": {
+      "rouge_l": 24.95,
+      "bertscore": 32.69,
+      "bleu4": 7.68,
+      "n": 100
+    },
+    "single": {
+      "rouge_l": 25.19,
+      "bertscore": 29.83,
+      "bleu4": 8.62,
+      "n": 400
+    }
+  },
+  "Adaptive RAG 7B": {
+    "cross": {
+      "rouge_l": 24.25,
+      "bertscore": 31.48,
+      "bleu4": 7.13,
+      "n": 100
+    },
+    "single": {
+      "rouge_l": 24.67,
+      "bertscore": 29.69,
+      "bleu4": 8.3,
+      "n": 400
+    }
+  },
+  "HyDE 7B": {
+    "cross": {
+      "rouge_l": 24.57,
+      "bertscore": 32.69,
+      "bleu4": 7.61,
+      "n": 100
+    },
+    "single": {
+      "rouge_l": 24.98,
+      "bertscore": 29.82,
+      "bleu4": 8.52,
+      "n": 400
+    }
+  },
+  "CRAG 7B": {
+    "cross": {
+      "rouge_l": 21.63,
+      "bertscore": 29.01,
+      "bleu4": 5.97,
+      "n": 60
+    },
+    "single": {
+      "rouge_l": 24.74,
+      "bertscore": 29.77,
+      "bleu4": 8.33,
+      "n": 390
+    }
+  },
+  "NexRoute 7B": {
+    "cross": {
+      "rouge_l": 29.6,
+      "bertscore": 37.98,
+      "bleu4": 10.54,
+      "n": 100
+    },
+    "single": {
+      "rouge_l": 25.38,
+      "bertscore": 30.24,
+      "bleu4": 7.56,
+      "n": 312
+    }
+  },
+  "Naive RAG 72B": {
+    "cross": {
+      "rouge_l": 24.01,
+      "bertscore": 30.96,
+      "bleu4": 7.68,
+      "n": 100
+    },
+    "single": {
+      "rouge_l": 25.29,
+      "bertscore": 31.31,
+      "bleu4": 8.83,
+      "n": 400
+    }
+  },
+  "Adaptive RAG 72B": {
+    "cross": {
+      "rouge_l": 23.73,
+      "bertscore": 30.83,
+      "bleu4": 7.8,
+      "n": 100
+    },
+    "single": {
+      "rouge_l": 24.88,
+      "bertscore": 31.0,
+      "bleu4": 8.67,
+      "n": 400
+    }
+  },
+  "HyDE 72B": {
+    "cross": {
+      "rouge_l": 23.99,
+      "bertscore": 30.68,
+      "bleu4": 7.52,
+      "n": 100
+    },
+    "single": {
+      "rouge_l": 25.27,
+      "bertscore": 31.38,
+      "bleu4": 8.95,
+      "n": 400
+    }
+  },
+  "CRAG 72B": {
+    "cross": {
+      "rouge_l": 24.16,
+      "bertscore": 31.41,
+      "bleu4": 8.23,
+      "n": 100
+    },
+    "single": {
+      "rouge_l": 24.96,
+      "bertscore": 30.99,
+      "bleu4": 8.89,
+      "n": 400
+    }
+  }
+}

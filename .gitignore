@@ -1,0 +1,19 @@
+# Model weights (too large for GitHub: 100MB limit)
+*.pt
+lora_weights*/
+routers/
+
+# Large data directories
+datasets/
+processed_v2/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs (large)
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

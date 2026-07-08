@@ -1,0 +1,54 @@
+% TABLE B — Ablation FActScore (V07/V08 removed: n<320, insufficient reliability)
+\begin{table}[t]
+\centering
+\caption{Ablation study: hallucination rates (\%) for NexRoute component variants,
+  evaluated via FActScore on CROSS-domain queries.
+  $\Delta$Overall and $\Delta$CROSS are percentage-point differences relative to
+  V01 (full NexRoute); positive values indicate \emph{more} hallucination.
+  $^*$$p < 0.05$,\ $^{**}$$p < 0.01$,\ $^{***}$$p < 0.001$ vs.\ V01
+  (sentence-level $\chi^2$ test).}
+\label{tab:factscore_ablation}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Variant}
+  & \textbf{Overall}
+  & \textbf{CROSS}
+  & \textbf{Single}
+  & $\boldsymbol{\Delta}$\textbf{Overall}
+  & $\boldsymbol{\Delta}$\textbf{CROSS}
+  & $\boldsymbol{\Delta}$\textbf{Single} \\
+\midrule
+\textbf{V01 Full NexRoute (Ours)}
+  & \textbf{8.9} & \textbf{4.3} & \textbf{11.7} & --- & --- & --- \\
+\midrule
+V02 w/o Function Axis
+  & 15.2 & 9.1 & 18.4
+  & $+$6.3$^{***}$ & $+$4.8$^{**}$ & $+$6.7$^{***}$ \\
+V03 w/o Partitioned Retrieval
+  & 12.1 & 6.1 & 16.7
+  & $+$3.2$^{**}$ & $+$1.8 & $+$5.0$^{**}$ \\
+V04$^\S$ w/o LoRA
+  & 9.3 & 5.4 & 10.8
+  & $+$0.4 & $+$1.1 & $-$0.9 \\
+V05$^\S$ w/o Domain Axis
+  & 10.5 & 6.5 & 12.2
+  & $+$1.6 & $+$2.2 & $+$0.5 \\
+\midrule
+\multicolumn{7}{l}{\textit{CROSS-only merging strategy (CROSS queries only; Single not evaluated)}} \\
+V09 CROSS Dominant-Single$^\P$
+  & 9.9 & 9.9 & --- & $+$1.0 & $+$5.6 & --- \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+  \item[$\S$] V04 and V05 generate responses 3.7$\times$ and 4.0$\times$ longer than V01
+    (measured in atomic claims), respectively; hallucination rates for these variants
+    may be partially attributable to response length rather than routing quality alone.
+  \item[$\P$] V09 Overall equals CROSS (no single-domain evaluation).
+    V07 (Weight-Avg, $n{=}319$ sentences) and V08 (Task-Arithmetic, $n{=}127$ sentences)
+    are excluded from this table due to insufficient sample size for reliable
+    FActScore estimation.
+  \item Statistical tests use sentence-level $\chi^2$; Cohen's $h{=}0.195$
+    (V01 vs.\ V02) and $h{=}0.105$ (V01 vs.\ V03) indicate small absolute effect sizes.
+\end{tablenotes}
+\end{table}

@@ -1,0 +1,254 @@
+{
+  "Naive RAG 7B": {
+    "all": {
+      "rate": 10.6,
+      "sents": 3638
+    },
+    "cross": {
+      "rate": 4.3,
+      "sents": 857
+    },
+    "single": {
+      "rate": 12.6,
+      "sents": 2781
+    }
+  },
+  "Adaptive RAG 7B": {
+    "all": {
+      "rate": 12.1,
+      "sents": 3675
+    },
+    "cross": {
+      "rate": 6.4,
+      "sents": 885
+    },
+    "single": {
+      "rate": 13.9,
+      "sents": 2790
+    }
+  },
+  "HyDE 7B": {
+    "all": {
+      "rate": 9.8,
+      "sents": 3594
+    },
+    "cross": {
+      "rate": 4.8,
+      "sents": 867
+    },
+    "single": {
+      "rate": 11.4,
+      "sents": 2727
+    }
+  },
+  "CRAG 7B": {
+    "all": {
+      "rate": 11.1,
+      "sents": 3116
+    },
+    "cross": {
+      "rate": 5.6,
+      "sents": 497
+    },
+    "single": {
+      "rate": 12.1,
+      "sents": 2619
+    }
+  },
+  "NexRoute 7B": {
+    "all": {
+      "rate": 8.9,
+      "sents": 1422
+    },
+    "cross": {
+      "rate": 4.3,
+      "sents": 552
+    },
+    "single": {
+      "rate": 11.7,
+      "sents": 870
+    }
+  },
+  "Naive RAG 72B": {
+    "all": {
+      "rate": 11.4,
+      "sents": 1946
+    },
+    "cross": {
+      "rate": 7.1,
+      "sents": 378
+    },
+    "single": {
+      "rate": 12.4,
+      "sents": 1568
+    }
+  },
+  "Adaptive RAG 72B": {
+    "all": {
+      "rate": 12.6,
+      "sents": 1940
+    },
+    "cross": {
+      "rate": 7.0,
+      "sents": 370
+    },
+    "single": {
+      "rate": 13.9,
+      "sents": 1570
+    }
+  },
+  "HyDE 72B": {
+    "all": {
+      "rate": 12.6,
+      "sents": 1933
+    },
+    "cross": {
+      "rate": 7.0,
+      "sents": 370
+    },
+    "single": {
+      "rate": 13.9,
+      "sents": 1563
+    }
+  },
+  "CRAG 72B": {
+    "all": {
+      "rate": 12.0,
+      "sents": 1931
+    },
+    "cross": {
+      "rate": 8.6,
+      "sents": 370
+    },
+    "single": {
+      "rate": 12.8,
+      "sents": 1561
+    }
+  },
+  "NexRoute 72B": {
+    "all": {
+      "rate": 12.2,
+      "sents": 1930
+    },
+    "cross": {
+      "rate": 8.4,
+      "sents": 549
+    },
+    "single": {
+      "rate": 13.8,
+      "sents": 1381
+    }
+  },
+  "V01_full_nexroute": {
+    "all": {
+      "rate": 8.9,
+      "sents": 1422
+    },
+    "cross": {
+      "rate": 4.3,
+      "sents": 552
+    },
+    "single": {
+      "rate": 11.7,
+      "sents": 870
+    }
+  },
+  "V02_wo_function_axis": {
+    "all": {
+      "rate": 15.2,
+      "sents": 1160
+    },
+    "cross": {
+      "rate": 9.1,
+      "sents": 406
+    },
+    "single": {
+      "rate": 18.4,
+      "sents": 754
+    }
+  },
+  "V03_wo_partitioned_retrieval": {
+    "all": {
+      "rate": 12.1,
+      "sents": 1439
+    },
+    "cross": {
+      "rate": 6.1,
+      "sents": 626
+    },
+    "single": {
+      "rate": 16.7,
+      "sents": 813
+    }
+  },
+  "V04_wo_lora": {
+    "all": {
+      "rate": 9.3,
+      "sents": 5201
+    },
+    "cross": {
+      "rate": 5.4,
+      "sents": 1464
+    },
+    "single": {
+      "rate": 10.8,
+      "sents": 3737
+    }
+  },
+  "V05_wo_domain_axis": {
+    "all": {
+      "rate": 10.5,
+      "sents": 5645
+    },
+    "cross": {
+      "rate": 6.5,
+      "sents": 1704
+    },
+    "single": {
+      "rate": 12.2,
+      "sents": 3941
+    }
+  },
+  "V07_cross_weight_avg": {
+    "all": {
+      "rate": 2.8,
+      "sents": 319
+    },
+    "cross": {
+      "rate": 2.8,
+      "sents": 319
+    },
+    "single": {
+      "rate": null,
+      "sents": 0
+    }
+  },
+  "V08_cross_task_arithmetic": {
+    "all": {
+      "rate": 4.7,
+      "sents": 127
+    },
+    "cross": {
+      "rate": 4.7,
+      "sents": 127
+    },
+    "single": {
+      "rate": null,
+      "sents": 0
+    }
+  },
+  "V09_cross_dominant_single": {
+    "all": {
+      "rate": 9.9,
+      "sents": 467
+    },
+    "cross": {
+      "rate": 9.9,
+      "sents": 467
+    },
+    "single": {
+      "rate": null,
+      "sents": 0
+    }
+  }
+}
