@@ -1,4 +1,4 @@
-# Model weights (too large for GitHub: 100MB limit)
+# Model weights (too large for GitHub)
 *.pt
 lora_weights*/
 routers/
@@ -12,8 +12,34 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Logs (large)
+# Logs
 *.log
 
-# Jupyter checkpoints
+# Result dumps (not needed in repo)
+*_checkpoint*.json
+*_buggy*.json
+llama_geval_*.json
+geval_*.json
+ablation_*.json
+eval_results*.json
+final_table3_*.json
+*_hallucination_results.json
+*_repro_*.json
+latency_*.json
+routing_ablation_results.json
+sensitivity_*.json
+heldout_*.json
+law_med_cross_generated.json
+nexroute_cross_halluc_analysis.json
+nexroute_real_confusion_matrix.json
+cross_repro_*.json
+
+# Backup/temp
+*.log.txt
+recalc_log.txt
+
+# Claude internal
+.claude/
+
+# Jupyter
 .ipynb_checkpoints/
