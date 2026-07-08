@@ -41,5 +41,9 @@ recalc_log.txt
 # Claude internal
 .claude/
 
+# Processed data / generated datasets (large)
+processed_v2/
+datasets/
+
 # Jupyter
 .ipynb_checkpoints/
