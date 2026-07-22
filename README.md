@@ -145,6 +145,16 @@ Removing the Function Axis (V02) and Partitioned Retrieval (V01) produce the lar
 
 ---
 
+## Dataset Version Note
+
+> **For reviewers and reproducibility:** The submitted manuscript reports **15,744 dual-annotated router training samples**. After submission, a post-hoc audit revealed that 178 queries from the GT-500 evaluation benchmark had been inadvertently included in the router training split (35.6% overlap), along with 125 duplicate entries — totaling 303 items removed from `router_train` and 60 items removed from `router_val`/`router_test`. The current repository reflects the **cleaned version** (`router_train`: 17,553 items; `router_val`: 2,199; `router_test`: 2,205).
+>
+> The contamination affected **router classification training only**. Generation quality metrics (ROUGE-L, BERTScore, BLEU-4) depend on the LoRA generator, which was trained on separate domain corpora and is not affected by this cleanup. The external validation on MedQuAD (n=200) has zero overlap with the router training data and is unaffected.
+>
+> The cleaned router splits are now tracked under `processed_v2/router_{train,val,test}.json`.
+
+---
+
 ## Repository Structure
 
 ```
