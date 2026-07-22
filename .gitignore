@@ -6,6 +6,10 @@ routers/
 # Large data directories
 datasets/
 processed_v2/
+# Router split files are tracked (see below)
+!processed_v2/router_train.json
+!processed_v2/router_val.json
+!processed_v2/router_test.json
 
 # Python cache
 __pycache__/
