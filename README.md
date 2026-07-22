@@ -1,4 +1,4 @@
-# NexRoute
+# NexRoute (Neurocomputing)
 
 > **NexRoute: A Dual-Axis Nexus Routing Framework for Adaptive Expert Selection in Cross-Domain Large Language Models**
 
