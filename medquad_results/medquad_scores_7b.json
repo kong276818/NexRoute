@@ -1,0 +1,40 @@
+{
+  "dataset": "MedQuAD (keivalya/MedQuad-MedicalQnADataset)",
+  "n_samples": 200,
+  "router": "DeBERTa-large (router_deberta_best.pt)",
+  "models": {
+    "Naive RAG 7B": {
+      "metrics": {
+        "rouge_l": 15.6,
+        "bertscore": 83.57,
+        "bleu4": 2.75,
+        "n": 200
+      },
+      "routing_acc": null
+    },
+    "Adaptive RAG 7B": {
+      "metrics": {
+        "rouge_l": 15.55,
+        "bertscore": 83.52,
+        "bleu4": 2.59,
+        "n": 200
+      },
+      "routing_acc": 40.0
+    },
+    "NexRoute 7B": {
+      "metrics": {
+        "rouge_l": 14.98,
+        "bertscore": 83.56,
+        "bleu4": 1.93,
+        "n": 200
+      },
+      "routing_acc": 90.5
+    }
+  },
+  "routing_breakdown_nexroute": {
+    "MED": 176,
+    "SOC": 5,
+    "STEM": 14,
+    "CROSS": 5
+  }
+}

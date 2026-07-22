@@ -1,0 +1,34 @@
+{
+  "dataset": "MedQuAD (keivalya/MedQuad-MedicalQnADataset)",
+  "n_samples": 200,
+  "models": {
+    "HyDE 7B": {
+      "metrics": {
+        "rouge_l": 16.02,
+        "bertscore": 83.73,
+        "bleu4": 2.93,
+        "n": 200
+      },
+      "routing_acc": null
+    },
+    "CRAG 7B": {
+      "metrics": {
+        "rouge_l": 16.4,
+        "bertscore": 83.74,
+        "bleu4": 3.03,
+        "n": 200
+      },
+      "routing_acc": null,
+      "crag_judgments": {
+        "correct": 200,
+        "ambiguous": 0,
+        "incorrect": 0
+      }
+    }
+  },
+  "crag_judgment_distribution": {
+    "correct": 200,
+    "ambiguous": 0,
+    "incorrect": 0
+  }
+}
