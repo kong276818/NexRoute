@@ -1,0 +1,413 @@
+{
+  "v01": {
+    "CROSS_full": {
+      "n": 100,
+      "rouge_l": 31.99,
+      "bertscore": 90.35,
+      "bleu4": 14.35
+    },
+    "Single_full": {
+      "n": 400,
+      "rouge_l": 26.79,
+      "bertscore": 87.36,
+      "bleu4": 9.72
+    },
+    "Overall_full": {
+      "n": 500,
+      "rouge_l": 27.83,
+      "bertscore": 87.96,
+      "bleu4": 10.64
+    },
+    "CROSS_c300": {
+      "n": 60,
+      "rouge_l": 33.58,
+      "bertscore": 90.4,
+      "bleu4": 16.27
+    },
+    "Single_c300": {
+      "n": 240,
+      "rouge_l": 28.24,
+      "bertscore": 87.84,
+      "bleu4": 11.03
+    },
+    "Overall_c300": {
+      "n": 300,
+      "rouge_l": 29.31,
+      "bertscore": 88.35,
+      "bleu4": 12.08
+    },
+    "dom_LAW": {
+      "n": 100,
+      "rouge_l": 19.53,
+      "bertscore": 82.73,
+      "bleu4": 3.37
+    },
+    "dom_MED": {
+      "n": 100,
+      "rouge_l": 30.68,
+      "bertscore": 88.77,
+      "bleu4": 14.65
+    },
+    "dom_SOC": {
+      "n": 100,
+      "rouge_l": 26.7,
+      "bertscore": 88.72,
+      "bleu4": 9.25
+    },
+    "dom_STEM": {
+      "n": 100,
+      "rouge_l": 30.25,
+      "bertscore": 89.23,
+      "bleu4": 11.6
+    },
+    "dom_CROSS": {
+      "n": 100,
+      "rouge_l": 31.99,
+      "bertscore": 90.35,
+      "bleu4": 14.35
+    }
+  },
+  "baselines": {
+    "naive_rag": {
+      "CROSS_full": {
+        "n": 100,
+        "rouge_l": 24.06,
+        "bertscore": 88.24,
+        "bleu4": 9.09
+      },
+      "Single_full": {
+        "n": 400,
+        "rouge_l": 23.96,
+        "bertscore": 87.89,
+        "bleu4": 9.68
+      },
+      "Overall_full": {
+        "n": 500,
+        "rouge_l": 23.98,
+        "bertscore": 87.96,
+        "bleu4": 9.56
+      },
+      "CROSS_c300": {
+        "n": 60,
+        "rouge_l": 21.76,
+        "bertscore": 87.75,
+        "bleu4": 7.36
+      },
+      "Single_c300": {
+        "n": 240,
+        "rouge_l": 21.61,
+        "bertscore": 87.55,
+        "bleu4": 7.84
+      },
+      "Overall_c300": {
+        "n": 300,
+        "rouge_l": 21.64,
+        "bertscore": 87.59,
+        "bleu4": 7.75
+      },
+      "dom_LAW": {
+        "n": 100,
+        "rouge_l": 26.0,
+        "bertscore": 87.87,
+        "bleu4": 11.33
+      },
+      "dom_MED": {
+        "n": 100,
+        "rouge_l": 22.56,
+        "bertscore": 87.24,
+        "bleu4": 9.21
+      },
+      "dom_SOC": {
+        "n": 100,
+        "rouge_l": 21.48,
+        "bertscore": 87.85,
+        "bleu4": 7.28
+      },
+      "dom_STEM": {
+        "n": 100,
+        "rouge_l": 25.8,
+        "bertscore": 88.58,
+        "bleu4": 10.88
+      },
+      "dom_CROSS": {
+        "n": 100,
+        "rouge_l": 24.06,
+        "bertscore": 88.24,
+        "bleu4": 9.09
+      }
+    },
+    "tfidf_router": {
+      "CROSS_full": {
+        "n": 100,
+        "rouge_l": 24.55,
+        "bertscore": 88.44,
+        "bleu4": 9.2
+      },
+      "Single_full": {
+        "n": 400,
+        "rouge_l": 23.04,
+        "bertscore": 87.42,
+        "bleu4": 9.11
+      },
+      "Overall_full": {
+        "n": 500,
+        "rouge_l": 23.34,
+        "bertscore": 87.62,
+        "bleu4": 9.13
+      },
+      "CROSS_c300": {
+        "n": 60,
+        "rouge_l": 22.17,
+        "bertscore": 87.84,
+        "bleu4": 7.4
+      },
+      "Single_c300": {
+        "n": 240,
+        "rouge_l": 20.95,
+        "bertscore": 87.35,
+        "bleu4": 7.5
+      },
+      "Overall_c300": {
+        "n": 300,
+        "rouge_l": 21.19,
+        "bertscore": 87.45,
+        "bleu4": 7.48
+      },
+      "dom_LAW": {
+        "n": 100,
+        "rouge_l": 25.88,
+        "bertscore": 87.77,
+        "bleu4": 11.49
+      },
+      "dom_MED": {
+        "n": 100,
+        "rouge_l": 23.72,
+        "bertscore": 87.47,
+        "bleu4": 10.06
+      },
+      "dom_SOC": {
+        "n": 100,
+        "rouge_l": 19.4,
+        "bertscore": 87.11,
+        "bleu4": 6.4
+      },
+      "dom_STEM": {
+        "n": 100,
+        "rouge_l": 23.16,
+        "bertscore": 87.3,
+        "bleu4": 8.48
+      },
+      "dom_CROSS": {
+        "n": 100,
+        "rouge_l": 24.55,
+        "bertscore": 88.44,
+        "bleu4": 9.2
+      }
+    },
+    "hyde": {
+      "CROSS_full": {
+        "n": 100,
+        "rouge_l": 23.27,
+        "bertscore": 88.15,
+        "bleu4": 8.69
+      },
+      "Single_full": {
+        "n": 400,
+        "rouge_l": 24.13,
+        "bertscore": 87.9,
+        "bleu4": 9.75
+      },
+      "Overall_full": {
+        "n": 500,
+        "rouge_l": 23.96,
+        "bertscore": 87.95,
+        "bleu4": 9.54
+      },
+      "CROSS_c300": {
+        "n": 60,
+        "rouge_l": 20.78,
+        "bertscore": 87.67,
+        "bleu4": 6.97
+      },
+      "Single_c300": {
+        "n": 240,
+        "rouge_l": 21.57,
+        "bertscore": 87.54,
+        "bleu4": 7.9
+      },
+      "Overall_c300": {
+        "n": 300,
+        "rouge_l": 21.41,
+        "bertscore": 87.57,
+        "bleu4": 7.72
+      },
+      "dom_LAW": {
+        "n": 100,
+        "rouge_l": 25.91,
+        "bertscore": 87.84,
+        "bleu4": 11.34
+      },
+      "dom_MED": {
+        "n": 100,
+        "rouge_l": 24.25,
+        "bertscore": 87.73,
+        "bleu4": 10.3
+      },
+      "dom_SOC": {
+        "n": 100,
+        "rouge_l": 20.83,
+        "bertscore": 87.84,
+        "bleu4": 6.97
+      },
+      "dom_STEM": {
+        "n": 100,
+        "rouge_l": 25.55,
+        "bertscore": 88.19,
+        "bleu4": 10.4
+      },
+      "dom_CROSS": {
+        "n": 100,
+        "rouge_l": 23.27,
+        "bertscore": 88.15,
+        "bleu4": 8.69
+      }
+    },
+    "crag": {
+      "CROSS_full": {
+        "n": 100,
+        "rouge_l": 23.69,
+        "bertscore": 88.3,
+        "bleu4": 8.75
+      },
+      "Single_full": {
+        "n": 400,
+        "rouge_l": 24.27,
+        "bertscore": 87.88,
+        "bleu4": 9.94
+      },
+      "Overall_full": {
+        "n": 500,
+        "rouge_l": 24.16,
+        "bertscore": 87.97,
+        "bleu4": 9.7
+      },
+      "CROSS_c300": {
+        "n": 60,
+        "rouge_l": 21.72,
+        "bertscore": 87.84,
+        "bleu4": 7.35
+      },
+      "Single_c300": {
+        "n": 240,
+        "rouge_l": 21.92,
+        "bertscore": 87.58,
+        "bleu4": 8.12
+      },
+      "Overall_c300": {
+        "n": 300,
+        "rouge_l": 21.88,
+        "bertscore": 87.63,
+        "bleu4": 7.96
+      },
+      "dom_LAW": {
+        "n": 100,
+        "rouge_l": 26.51,
+        "bertscore": 87.94,
+        "bleu4": 11.94
+      },
+      "dom_MED": {
+        "n": 100,
+        "rouge_l": 23.83,
+        "bertscore": 87.29,
+        "bleu4": 10.04
+      },
+      "dom_SOC": {
+        "n": 100,
+        "rouge_l": 21.58,
+        "bertscore": 87.89,
+        "bleu4": 7.38
+      },
+      "dom_STEM": {
+        "n": 100,
+        "rouge_l": 25.18,
+        "bertscore": 88.41,
+        "bleu4": 10.38
+      },
+      "dom_CROSS": {
+        "n": 100,
+        "rouge_l": 23.69,
+        "bertscore": 88.3,
+        "bleu4": 8.75
+      }
+    },
+    "nexroute_reinf": {
+      "CROSS_full": {
+        "n": 100,
+        "rouge_l": 28.47,
+        "bertscore": 89.87,
+        "bleu4": 12.55
+      },
+      "Single_full": {
+        "n": 400,
+        "rouge_l": 22.56,
+        "bertscore": 87.1,
+        "bleu4": 7.16
+      },
+      "Overall_full": {
+        "n": 500,
+        "rouge_l": 23.74,
+        "bertscore": 87.65,
+        "bleu4": 8.24
+      },
+      "CROSS_c300": {
+        "n": 60,
+        "rouge_l": 28.23,
+        "bertscore": 89.66,
+        "bleu4": 12.19
+      },
+      "Single_c300": {
+        "n": 240,
+        "rouge_l": 23.3,
+        "bertscore": 87.47,
+        "bleu4": 7.19
+      },
+      "Overall_c300": {
+        "n": 300,
+        "rouge_l": 24.29,
+        "bertscore": 87.91,
+        "bleu4": 8.19
+      },
+      "dom_LAW": {
+        "n": 100,
+        "rouge_l": 15.09,
+        "bertscore": 83.9,
+        "bleu4": 1.68
+      },
+      "dom_MED": {
+        "n": 100,
+        "rouge_l": 25.43,
+        "bertscore": 87.76,
+        "bleu4": 10.51
+      },
+      "dom_SOC": {
+        "n": 100,
+        "rouge_l": 24.02,
+        "bertscore": 88.14,
+        "bleu4": 7.36
+      },
+      "dom_STEM": {
+        "n": 100,
+        "rouge_l": 25.71,
+        "bertscore": 88.58,
+        "bleu4": 9.09
+      },
+      "dom_CROSS": {
+        "n": 100,
+        "rouge_l": 28.47,
+        "bertscore": 89.87,
+        "bleu4": 12.55
+      }
+    }
+  },
+  "note_baselines": "reinference_results \u2014 no function scaffold, different condition from v01"
+}
