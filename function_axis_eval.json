@@ -1,0 +1,49 @@
+{
+  "n_labeled": 300,
+  "n_total": 500,
+  "function_accuracy_strict": 38.0,
+  "function_accuracy_4cls_excl_other": 64.04,
+  "function_macro_f1_4cls": 0.423,
+  "joint_nexus_accuracy": 29.33,
+  "other_prediction_rate": 40.67,
+  "ece_10bin": 0.2313,
+  "confusion_matrix": {
+    "WHAT": {
+      "WHAT": 19,
+      "HOW": 10,
+      "WHY": 8,
+      "COMPARE": 2,
+      "OTHER": 36
+    },
+    "HOW": {
+      "WHAT": 17,
+      "HOW": 14,
+      "WHY": 4,
+      "COMPARE": 3,
+      "OTHER": 37
+    },
+    "WHY": {
+      "WHAT": 9,
+      "HOW": 4,
+      "WHY": 9,
+      "COMPARE": 4,
+      "OTHER": 49
+    },
+    "COMPARE": {
+      "WHAT": 1,
+      "HOW": 1,
+      "WHY": 1,
+      "COMPARE": 72,
+      "OTHER": 0
+    }
+  },
+  "per_class_accuracy": {
+    "WHAT": 25.33,
+    "HOW": 18.67,
+    "WHY": 12.0,
+    "COMPARE": 96.0
+  },
+  "router_model": "TF-IDF(1-2gram)+CalibratedLinearSVC  routers/func_router/pipeline.pkl",
+  "val_accuracy_from_config": 68.49,
+  "note": "Function router trained on 5 classes (WHAT/HOW/WHY/COMPARE/OTHER). 300 of 500 GT samples have function labels. 'OTHER' predictions counted as incorrect in 4-class evaluation. Joint nexus accuracy uses domain predictions from preds_500.csv (DeBERTa router)."
+}

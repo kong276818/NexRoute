@@ -1,0 +1,184 @@
+{
+  "summary_table": [
+    {
+      "group": "All-500",
+      "n": 500,
+      "unified_mismatch_rate": 0.379,
+      "partitioned_mismatch_rate": 0.09,
+      "unified_recall10": 0.7714,
+      "partitioned_recall10": 0.5766,
+      "unified_ndcg10": 0.8142,
+      "partitioned_ndcg10": 0.6312
+    },
+    {
+      "group": "Clean-300",
+      "n": 300,
+      "unified_mismatch_rate": 0.403,
+      "partitioned_mismatch_rate": 0.1333,
+      "unified_recall10": 0.8217,
+      "partitioned_recall10": 0.6243,
+      "unified_ndcg10": 0.8562,
+      "partitioned_ndcg10": 0.6739
+    },
+    {
+      "group": "Exposed-200",
+      "n": 200,
+      "unified_mismatch_rate": 0.343,
+      "partitioned_mismatch_rate": 0.025,
+      "unified_recall10": 0.696,
+      "partitioned_recall10": 0.505,
+      "unified_ndcg10": 0.7512,
+      "partitioned_ndcg10": 0.5673
+    },
+    {
+      "group": "CROSS",
+      "n": 100,
+      "unified_mismatch_rate": 0.973,
+      "partitioned_mismatch_rate": 0.0,
+      "unified_recall10": 0.903,
+      "partitioned_recall10": 0.142,
+      "unified_ndcg10": 0.9251,
+      "partitioned_ndcg10": 0.1877
+    },
+    {
+      "group": "Single",
+      "n": 400,
+      "unified_mismatch_rate": 0.2305,
+      "partitioned_mismatch_rate": 0.1125,
+      "unified_recall10": 0.7385,
+      "partitioned_recall10": 0.6853,
+      "unified_ndcg10": 0.7865,
+      "partitioned_ndcg10": 0.7421
+    },
+    {
+      "group": "Clean-CROSS",
+      "n": 60,
+      "unified_mismatch_rate": 0.965,
+      "partitioned_mismatch_rate": 0.0,
+      "unified_recall10": 0.9167,
+      "partitioned_recall10": 0.1683,
+      "unified_ndcg10": 0.9345,
+      "partitioned_ndcg10": 0.2183
+    },
+    {
+      "group": "Clean-Single",
+      "n": 240,
+      "unified_mismatch_rate": 0.2625,
+      "partitioned_mismatch_rate": 0.1667,
+      "unified_recall10": 0.7979,
+      "partitioned_recall10": 0.7383,
+      "unified_ndcg10": 0.8366,
+      "partitioned_ndcg10": 0.7878
+    },
+    {
+      "group": "Single-LAW",
+      "n": 100,
+      "unified_mismatch_rate": 0.086,
+      "partitioned_mismatch_rate": 0.0,
+      "unified_recall10": 0.714,
+      "partitioned_recall10": 0.724,
+      "unified_ndcg10": 0.7641,
+      "partitioned_ndcg10": 0.7723
+    },
+    {
+      "group": "Single-MED",
+      "n": 100,
+      "unified_mismatch_rate": 0.099,
+      "partitioned_mismatch_rate": 0.115,
+      "unified_recall10": 0.754,
+      "partitioned_recall10": 0.683,
+      "unified_ndcg10": 0.8018,
+      "partitioned_ndcg10": 0.7377
+    },
+    {
+      "group": "Single-SOC",
+      "n": 100,
+      "unified_mismatch_rate": 0.481,
+      "partitioned_mismatch_rate": 0.165,
+      "unified_recall10": 0.665,
+      "partitioned_recall10": 0.584,
+      "unified_ndcg10": 0.721,
+      "partitioned_ndcg10": 0.6545
+    },
+    {
+      "group": "Single-STEM",
+      "n": 100,
+      "unified_mismatch_rate": 0.256,
+      "partitioned_mismatch_rate": 0.17,
+      "unified_recall10": 0.821,
+      "partitioned_recall10": 0.75,
+      "unified_ndcg10": 0.859,
+      "partitioned_ndcg10": 0.804
+    },
+    {
+      "group": "Single-CROSS",
+      "n": 0,
+      "unified_mismatch_rate": null,
+      "partitioned_mismatch_rate": null,
+      "unified_recall10": null,
+      "partitioned_recall10": null,
+      "unified_ndcg10": null,
+      "partitioned_ndcg10": null
+    }
+  ],
+  "mismatch_histogram": {
+    "0": 175,
+    "1": 59,
+    "2": 32,
+    "3": 16,
+    "4": 19,
+    "5": 27,
+    "6": 25,
+    "7": 15,
+    "8": 17,
+    "9": 28,
+    "10": 87
+  },
+  "cross_unified_coverage": {
+    "LAW": 0.0,
+    "MED": 0.12,
+    "SOC": 0.18,
+    "STEM": 0.04,
+    "CROSS": 9.66
+  },
+  "cross_partitioned_coverage": {
+    "LAW": 0.95,
+    "MED": 1.15,
+    "SOC": 4.55,
+    "STEM": 3.35,
+    "CROSS": 0.0
+  },
+  "contamination_hallucination_corr": -0.2232075788299052,
+  "n_corr_pairs": 500,
+  "domain_contamination": {
+    "CROSS": {
+      "mean_mismatch_passages": 9.73,
+      "zero_mismatch_pct": 0.0,
+      "n": 100
+    },
+    "STEM": {
+      "mean_mismatch_passages": 2.56,
+      "zero_mismatch_pct": 23.0,
+      "n": 100
+    },
+    "LAW": {
+      "mean_mismatch_passages": 0.86,
+      "zero_mismatch_pct": 73.0,
+      "n": 100
+    },
+    "MED": {
+      "mean_mismatch_passages": 0.99,
+      "zero_mismatch_pct": 66.0,
+      "n": 100
+    },
+    "SOC": {
+      "mean_mismatch_passages": 4.81,
+      "zero_mismatch_pct": 13.0,
+      "n": 100
+    }
+  },
+  "embed_model": "intfloat/multilingual-e5-large",
+  "pseudo_k": 50,
+  "top_k": 10,
+  "note": "Recall and nDCG are proxy metrics based on gold-answer embedding similarity. Pseudo-relevant set = top-50 passages from unified corpus by gold-answer embedding. These are relative comparisons only; absolute values do not represent true relevance."
+}

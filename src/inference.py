@@ -1,6 +1,17 @@
 """
 inference.py — DualMoE 인퍼런스 + RAG + Ablation Study
 
+WARNING: This module is a development prototype and is NOT used for any result
+reported in the paper. The DualMoE class uses HybridRouter
+(routers/domain_router/pipeline.pkl), a TF-IDF + keyword + threshold-based
+CROSS detector that predates the DeBERTa dual-axis router. The class name
+"DualMoE" refers to this prototype, not the paper's dual-axis architecture.
+
+For paper experiments, see:
+  - Routing accuracy (Table 4):   train/train_deberta_router.py  +  preds_500.csv
+  - Generation quality (Table 5): run_reinference_500.py  +  eval/eval_all_metrics_paper.py
+  - Hallucination (Table 6):      eval/eval_factscore_hallucination.py
+
 모드:
   base        : 베이스 모델만 (라우팅 없음, LoRA 없음, RAG 없음)
   lora_only   : 도메인 고정 LoRA (라우팅 없음, 정답 도메인 LoRA + RAG)

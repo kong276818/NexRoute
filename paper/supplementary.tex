@@ -7,8 +7,8 @@
 \usepackage{booktabs}
 \usepackage{needspace}
 \usepackage{graphicx}
-\usepackage{algorithm}
-\usepackage{algpseudocode}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
 \usepackage{multirow}
 \usepackage{placeins}
 \usepackage{float}
@@ -371,9 +371,9 @@ estimated for 4-bit NF4 quantization on an equivalent setup.}
 \textbf{Model} & \textbf{Backbone} & \textbf{Peak VRAM (GB)} \\
 \midrule
 Naive RAG        & Qwen2.5-7B (NF4) &  9.4 \\
-Adaptive RAG     & Qwen2.5-7B (NF4) &  9.4 \\
+TF-IDF Router     & Qwen2.5-7B (NF4) &  9.4 \\
 HyDE             & Qwen2.5-7B (NF4) &  9.4 \\
-CRAG             & Qwen2.5-7B (NF4) &  9.4 \\
+Simplified CRAG             & Qwen2.5-7B (NF4) &  9.4 \\
 \midrule
 \textbf{NexRoute (Ours)} & Qwen2.5-7B (NF4) & \textbf{14.8} \\
 \midrule
@@ -400,14 +400,14 @@ and does not scale with query volume or conversation length.
 
 Both hyperparameters were determined via grid search
 ($\tau \in [0.1, 0.5]$, $\delta \in [0.1, 0.6]$) on the validation set,
-yielding a stable accuracy plateau of 96.8\%--97.5\% ($<0.7$\%p variation).
+yielding a stable accuracy plateau of 96.8\%--97.5\% ($<0.7$~pp variation).
 Within this plateau, we apply an asymmetric cost criterion
 ($w_{\text{FN}}=3$, $w_{\text{FP}}=1$) that minimizes the weighted error
 $w_{\text{FN}} \cdot \text{FN} + w_{\text{FP}} \cdot \text{FP}$, favoring
 reduced false negatives on \texttt{CROSS} detection. This selects
 $\tau = 0.30$, $\delta = 0.40$ (97.20\% validation accuracy), which widens
 the \texttt{CROSS} activation margin relative to the grid-search optimum
-($\tau = 0.50$, $\delta = 0.10$; 97.50\%) at a cost of 0.30\%p.
+($\tau = 0.50$, $\delta = 0.10$; 97.50\%) at a cost of 0.30~pp.
 Table~\ref{tab:cross_fn} reports the detection error rates for both
 configurations on the held-out test set: the adopted configuration reduces
 the false-negative rate from 5.0\% to 3.0\% at a corresponding increase in
@@ -446,11 +446,11 @@ fundamentally different tasks: validation accuracy is the binary
 \texttt{CROSS}-vs.-single-domain detection rate used for $\tau/\delta$ threshold
 selection, whereas test accuracy is the full five-way domain classification accuracy
 (\texttt{LAW}/\texttt{MED}/\texttt{SOC}/\texttt{STEM}/\texttt{CROSS}) on the
-500-sample held-out benchmark---a strictly harder task with four times as many
-decision boundaries. The $\approx$10\%p gap therefore reflects task complexity,
+500-sample evaluation benchmark---a strictly harder task with four times as many
+decision boundaries. The $\approx$10~pp gap therefore reflects task complexity,
 not overfitting to the validation split; the same gap magnitude appears
 regardless of which $(\tau, \delta)$ configuration is used
-(88.60\% vs.\ 87.40\%, a 1.2\%p range across configurations).
+(88.60\% vs.\ 87.40\%, a 1.2~pp range across configurations).
 
 As illustrated in Figure~\ref{fig:sensitivity}, routing accuracy remains
 consistently high across the full grid (96.8\%--97.5\%), confirming that
@@ -459,7 +459,7 @@ overfitting to a single grid point. To confirm that this plateau reflects
 genuine system-level robustness, we verified that substituting the global-optimum
 configuration ($\tau$=0.50, $\delta$=0.10) yields no meaningful change in
 downstream generation quality (BERTScore $\Delta < 0.3$) or hallucination
-rate ($\Delta < 0.5$\%p), while increasing the \texttt{CROSS}
+rate ($\Delta < 0.5$~pp), while increasing the \texttt{CROSS}
 false-negative rate due to the stricter gap constraint. The green marker
 ($\bullet$) in Figure~\ref{fig:sensitivity} denotes the adopted configuration
 ($\tau$=0.30, $\delta$=0.40).
@@ -482,7 +482,7 @@ marker~($\bullet$) denotes the configuration adopted for NexRoute
 ($\tau$=0.30, $\delta$=0.40, 97.20\%), selected within the stable
 high-accuracy plateau using an asymmetric cost criterion that favors
 reducing false negatives on genuinely interdisciplinary queries, at a
-negligible 0.30\%p accuracy cost. Accuracy remains above 96.8\% across all
+negligible 0.30~pp accuracy cost. Accuracy remains above 96.8\% across all
 evaluated configurations.}
 \label{fig:sensitivity}
 \endgroup
@@ -528,6 +528,21 @@ evaluation as all queries are routed to a single merged CROSS adapter.}
 \end{center}
 
 %%==============================================================================
+\subsection{B3 Training-Budget Ablation}
+\label{supp:ablation_v02_b3}
+%%==============================================================================
+
+\paragraph{B3 All-to-CROSS Adapter (Reviewer Concern).}
+The reviewer queried whether routing all queries through the CROSS adapter---which
+receives more training data than any single-domain adapter---would yield similar
+or better performance, suggesting the training budget may be unfairly distributed.
+B3 would route all 500 evaluation queries to the CROSS LoRA adapter with the CROSS
+knowledge partition, regardless of their ground-truth domain.
+NexRoute (V01) generation quality metrics are reported in Table~6 of the main paper.
+A controlled B3 comparison is left to future work, as the per-sample B3 inference
+outputs are not available for the current submission.
+
+%%==============================================================================
 \section{Per-Domain Generation Quality Breakdown}
 \label{supp:domain_breakdown}
 %%==============================================================================
@@ -549,7 +564,7 @@ LoRA specialization.
 \small
 \renewcommand{\arraystretch}{0.9}
 \captionof{table}{Per-domain generation quality breakdown.
-$\dagger$~CRAG 7B STEM: 90 samples.
+$\dagger$~Simplified CRAG 7B STEM: 90 samples.
 Standard deviations across three seeds are omitted for space
 (NexRoute 7B: std $<0.8$; other 7B models: std $<0.4$).}
 \label{tab:domain_breakdown}
@@ -564,7 +579,7 @@ Standard deviations across three seeds are omitted for space
   & SOC  & 100 & 23.28 & 88.13 &  7.60 \\
   & STEM & 100 & 27.21 & 88.64 &  9.87 \\
 \midrule
-\multirow{4}{*}{Adaptive RAG 7B}
+\multirow{4}{*}{TF-IDF Router 7B}
   & LAW  & 100 & 26.15 & 87.95 &  9.73 \\
   & MED  & 100 & 24.73 & 87.61 &  9.11 \\
   & SOC  & 100 & 22.50 & 88.13 &  6.91 \\
@@ -576,7 +591,7 @@ Standard deviations across three seeds are omitted for space
   & SOC  & 100 & 22.11 & 87.99 &  6.95 \\
   & STEM & 100 & 27.40 & 88.71 & 10.26 \\
 \midrule
-\multirow{4}{*}{CRAG 7B}
+\multirow{4}{*}{Simplified CRAG 7B}
   & LAW  & 100 & 26.90 & 88.13 & 10.41 \\
   & MED  & 100 & 24.88 & 87.74 &  9.05 \\
   & SOC  & 100 & 22.08 & 87.89 &  6.97 \\
@@ -611,7 +626,7 @@ Standard deviations across three seeds are omitted for space
   & SOC  & 100 & 28.22 & 89.06 & 10.29 \\
   & STEM & 100 & 31.67 & 89.38 & 13.35 \\
 \midrule
-\multirow{4}{*}{Adaptive RAG 72B}
+\multirow{4}{*}{TF-IDF Router 72B}
   & LAW  & 100 & 31.45 & 88.95 & 14.83 \\
   & MED  & 100 & 30.24 & 88.66 & 12.62 \\
   & SOC  & 100 & 27.99 & 89.04 &  9.95 \\
@@ -623,7 +638,7 @@ Standard deviations across three seeds are omitted for space
   & SOC  & 100 & 27.99 & 88.95 & 10.25 \\
   & STEM & 100 & 31.46 & 89.30 & 13.32 \\
 \midrule
-\multirow{4}{*}{CRAG 72B}
+\multirow{4}{*}{Simplified CRAG 72B}
   & LAW  & 100 & 31.92 & 89.01 & 15.04 \\
   & MED  & 100 & 30.03 & 88.66 & 12.83 \\
   & SOC  & 100 & 27.76 & 88.92 & 10.15 \\
@@ -731,7 +746,7 @@ threshold-based CROSS detection limitation.
 across all 7B-scale models. All systems use Qwen2.5-7B-Instruct backbone.
 Response length (tokens) is reported to support the token-efficiency
 discussion in the main paper (Section~5.3).
-$\dagger$~CRAG 7B output truncated at the 256-token generation limit applied
+$\dagger$~Simplified CRAG 7B output truncated at the 256-token generation limit applied
 uniformly across all 7B systems; the truncation point falls mid-sentence in
 item~5, and we report items~1--4 in full to preserve the system's intended
 argument structure without fabricating unobserved content.}
@@ -752,7 +767,7 @@ procedures. However, this does not absolve the physician of the duty to inform
 the patient of all known risks, especially those related to the specific use of
 the drug, such as the off-label use for weight loss. & 102 \\
 \midrule
-\textbf{Adaptive RAG 7B}
+\textbf{TF-IDF Router 7B}
 & The physician might be held legally liable despite the signed consent form:
 (1)~\textit{Failure to Warn About Known Risks} --- even though a general
 consent form was signed, the physician had knowledge of the potential liver
@@ -776,7 +791,7 @@ expected in the medical profession. This breach of duty, combined with the
 injury, could establish proximate causation of the patient's harm, thus
 satisfying the elements of negligence. & 116 \\
 \midrule
-\textbf{CRAG 7B}$^\dagger$
+\textbf{Simplified CRAG 7B}$^\dagger$
 & The physician might be held legally liable due to:
 (1)~\textit{Failure to Warn About Specific Risks} --- a general treatment
 consent form does not absolve the physician of the duty to inform the patient
@@ -830,7 +845,7 @@ general consent form prior to treatment. Medical consent forms are standard
 practice in clinical settings and typically cover general risks associated
 with treatment. The physician followed standard consent procedures. & 71 \\
 \midrule
-\textbf{Adaptive RAG 72B}
+\textbf{TF-IDF Router 72B}
 & Off-label drug use requires physicians to exercise caution and inform
 patients of potential risks. The doctor's use of Drug X for weight loss falls
 outside its approved indications. While the signed consent form demonstrates
@@ -859,7 +874,7 @@ validity, correctly identifying the disclosure gap but failing to anchor the
 argument to the off-label prescription context---the precise mechanism that
 shifts the legal burden of disclosure---and never arrives at a definitive legal
 conclusion.
-\textbf{Adaptive RAG 7B} produces a structured enumeration of relevant legal
+\textbf{TF-IDF Router 7B} produces a structured enumeration of relevant legal
 principles, correctly listing failure to warn and proximate causation.
 The enumeration, however, remains \emph{structurally disjoint}: the
 pharmacological specificity of off-label hepatotoxicity is never causally
@@ -871,12 +886,12 @@ stops short of applying the \textit{specific disclosure doctrine} to off-label
 prescriptions---the precise legal doctrine that definitively establishes
 liability in this scenario---rendering the conclusion legally incomplete despite
 its surface fluency.
-\textbf{CRAG 7B} compounds the enumeration problem further by introducing
+\textbf{Simplified CRAG 7B} compounds the enumeration problem further by introducing
 manufacturer liability as a fourth item, pulling the response away from the
 physician's disclosure obligation---the sole legal nexus of the query---and
 toward a peripheral causal chain that obfuscates rather than clarifies the
 core argument. The 256-token generation limit was applied uniformly across all
-7B systems for fair comparison; consequently, CRAG 7B's fifth item is truncated
+7B systems for fair comparison; consequently, Simplified CRAG 7B's fifth item is truncated
 mid-sentence. The analysis below is restricted to the four complete items.
 
 \paragraph{Naive RAG 72B.}
@@ -893,8 +908,8 @@ from a unified embedding space, lexical overlap between hepatotoxicity
 literature and general consent form guidelines may produce contextual
 pollution.
 
-\paragraph{Adaptive RAG 72B.}
-Adaptive RAG 72B correctly acknowledges that physicians must communicate
+\paragraph{TF-IDF Router 72B.}
+TF-IDF Router 72B correctly acknowledges that physicians must communicate
 risks specific to the prescribed indication, but suffers from functional
 mismatch: the retrieval module fetches documents for semantic similarity
 without awareness that the downstream reasoning task ($f^* = \texttt{Why}$)
@@ -905,27 +920,177 @@ decisively, leaving the causal connection between the omitted hepatotoxicity
 warning and the legal invalidation of the consent form unexplained.
 
 %%==============================================================================
+\section{Function Axis Routing Performance}
+\label{supp:function_axis}
+%%==============================================================================
+
+This section reports the function axis routing metrics for NexRoute,
+responding to Reviewer~B's request for held-out function classification accuracy
+(Concern~5). The function axis uses a TF-IDF ($n$-gram range 1--2,
+max\,50\,000 features) $+$ calibrated LinearSVC pipeline trained independently
+of the DeBERTa-large domain router; the two components together constitute the
+dual-axis routing system.
+
+\subsection*{Evaluation Setup}
+
+Of the 500 evaluation samples (none of which appear in the function router's
+training data), 300 carry gold function labels
+(\texttt{WHAT}, \texttt{HOW}, \texttt{WHY}, \texttt{COMPARE}; 75 per class)
+assigned via a question-stem keyword heuristic
+(``What\ldots''$\to$\texttt{WHAT}, ``How\ldots''$\to$\texttt{HOW}, etc.);
+the remaining 200 have no annotation.
+The function router was trained on 5 classes using a rule-based
+\texttt{label\_func\_type()} function (see Table~\ref{tab:func_axis_config});
+\texttt{OTHER} predictions on labeled queries are counted as incorrect.
+To address potential labelling-scheme mismatch (see \S\ref{supp:function_axis},
+Caveat~(i) below), we additionally re-label all 500 queries using the same
+\texttt{label\_func\_type()} rule used during training and recompute accuracy.
+
+\subsection*{Results}
+
+\vspace{4pt}
+\begin{center}
+\begingroup
+\captionof{table}{Function axis routing performance. \emph{Keyword gold}: 300
+samples labelled by question-stem keyword heuristic. \emph{Rule re-label}: all
+500 queries re-labelled with the training annotation function
+\texttt{label\_func\_type()}, removing the train/test label-scheme inconsistency.}
+\label{tab:func_axis}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metric} & \textbf{Keyword gold ($n{=}300$)} & \textbf{Rule re-label ($n{=}500$)} \\
+\midrule
+Accuracy (strict)                    & 38.00\% & 57.20\% \\
+Accuracy (4-class, excl.\ \texttt{OTHER}) & 64.04\%\;($n{=}178$) & 55.78\%\;($n{=}303$) \\
+Macro-F1 (4-class labels)            & 0.4230  & 0.5435  \\
+\texttt{OTHER} prediction rate       & 40.67\% & 38.80\% \\
+Joint nexus accuracy (domain + function, $n{=}300$) & 29.33\% & --- \\
+ECE (10-bin, confidence calibration) & 0.2313  & ---     \\
+\midrule
+\multicolumn{3}{l}{\textit{Per-class accuracy (keyword gold $\mid$ rule re-label):}} \\
+~~\texttt{WHAT}   & 25.3\% ($n{=}75$) & 59.5\% ($n{=}74$) \\
+~~\texttt{HOW}    & 18.7\% ($n{=}75$) & 25.2\% ($n{=}82$) \\
+~~\texttt{WHY}    & 12.0\% ($n{=}75$) & 39.7\% ($n{=}73$) \\
+~~\texttt{COMPARE}& 96.0\% ($n{=}75$) & 94.6\% ($n{=}74$) \\
+\bottomrule
+\end{tabular}
+\endgroup
+\end{center}
+\vspace{6pt}
+
+\subsection*{Interpretation and Limitations}
+
+The function router performs strongly on \texttt{COMPARE} queries (96.0\% /
+94.6\% under both evaluation schemes), which consistently contain comparative
+vocabulary (``compare'', ``difference between'', ``contrast'') across both
+training and test data.
+For \texttt{WHAT}, \texttt{HOW}, and \texttt{WHY} queries, keyword-gold
+accuracy is poor (12--25\%), and 40.7\% of labeled queries are assigned to
+\texttt{OTHER}.
+Under re-labelling with the training annotation function (removing the
+label-scheme inconsistency), per-class accuracy rises substantially for
+\texttt{WHAT} (25.3\%$\to$59.5\%), \texttt{WHY} (12.0\%$\to$39.7\%), and
+\texttt{HOW} (18.7\%$\to$25.2\%), and overall accuracy rises from 38.0\% to
+57.2\%.
+The residual gap to the in-distribution validation accuracy (68.5\%) reflects
+genuine distribution shift: the held-out queries are stylistically more complex
+than the MMLU-derived training queries (e.g., multi-clause embedded questions),
+not a label-coding error.
+The high ECE (0.23) further indicates poor probability calibration.
+
+We note four important caveats regarding the validity of this accuracy estimate.
+
+\paragraph{(i) Train/test label-scheme mismatch (primary cause of low accuracy).}
+The 38.0\% test accuracy primarily reflects an inconsistency between the
+training and test labelling protocols rather than pure model failure.
+Training labels (\texttt{func\_type} field) were assigned by
+\emph{reasoning-type annotation}: e.g., a medical question of the form
+``A 53-year-old man presents with fever\ldots for what reason?'' is
+labelled \texttt{WHY} because it demands causal explanation, even though it
+does not start with ``why''. Across all training domains, fewer than 1--8\%
+of \texttt{WHY}-labelled items begin with the word ``why''; the corresponding
+figures for \texttt{HOW} and \texttt{WHAT} are similarly varied across domains.
+Test labels (\texttt{expected\_func}), by contrast, were assigned by a
+\emph{question-stem keyword} heuristic: any question beginning with
+``What\ldots'' is labelled \texttt{WHAT}, ``Why\ldots'' is labelled
+\texttt{WHY}, etc.
+Because the TF-IDF router learnt to recognise reasoning-type patterns (not
+stem keywords), it systematically disagrees with keyword-based test labels
+for \texttt{WHAT}/\texttt{HOW}/\texttt{WHY} classes.
+The \texttt{COMPARE} class is the exception (96.0\%): training
+\texttt{COMPARE} items contain comparative vocabulary (``contrast'',
+``difference'', ``vs.'') that also appears in test items beginning with
+``Compare\ldots'', leading to fortuitous agreement.
+A permutation test over all 24 class-label remappings confirms no alternative
+mapping yields higher accuracy (all permutations $\leq 38.0\%$), ruling out a
+label-order coding error as an explanation.
+
+\paragraph{(ii) Distribution shift.}
+Even setting aside the labelling mismatch, the function router training set was
+drawn from a different query distribution than the held-out benchmark.
+The 68.5\% validation accuracy (Table~\ref{tab:func_axis_config}) reflects
+in-distribution performance on the same labelling protocol as training;
+the test accuracy of 38.0\% therefore represents a compound of distribution
+shift and label-scheme inconsistency.
+
+\paragraph{(iii) OTHER fallback.}
+When the router predicts \texttt{OTHER}, the system falls back to a neutral
+scaffold; this fallback applies to 40.7\% of labeled queries and is not
+explicitly documented in the main paper.
+
+\paragraph{(iv) Impact on generation quality.}
+The low strict accuracy observed under the keyword-gold protocol suggests that
+function-specific prompt scaffolding may not be consistently applied across all
+query types; the causal effect on generation quality was not evaluated through
+controlled ablation and remains an open question.
+A stronger function classifier trained with a consistent labelling protocol
+(e.g., jointly fine-tuned with the domain router on explicitly annotated
+function types) is an important direction for future work
+(Section~7.3 of the main paper).
+
+\begin{center}
+\begingroup
+\captionof{table}{Function router configuration.}
+\label{tab:func_axis_config}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{ll}
+\toprule
+\textbf{Parameter} & \textbf{Value} \\
+\midrule
+Model class & TF-IDF + Calibrated LinearSVC \\
+$n$-gram range & 1--2 \\
+Max features & 50\,000 \\
+Calibration & 3-fold cross-validation \\
+Training labels & 5 (\texttt{WHAT, HOW, WHY, COMPARE, OTHER}) \\
+Validation accuracy (in-distribution) & 68.5\% \\
+\bottomrule
+\end{tabular}
+\endgroup
+\end{center}
+
+%%==============================================================================
 \section{MedQuAD External Validation}
 \label{supp:medquad}
 %%==============================================================================
 
 To assess routing performance on a held-out single-domain benchmark, we
-evaluate NexRoute 7B and Adaptive RAG on the MedQuAD dataset
+evaluate NexRoute 7B and TF-IDF Router on the MedQuAD dataset
 \citep{ben2019question} ($n{=}200$, seed$=$42). All other experimental
 settings follow the main paper's experimental setup. Naive RAG, HyDE, and
-CRAG are excluded from this comparison as they contain no routing mechanism
+Simplified CRAG are excluded from this comparison as they contain no routing mechanism
 and thus achieve 0\% routing accuracy by definition.
 
 \begin{table}[h]
 \centering
 \caption{MedQuAD single-domain evaluation: routing accuracy and generation
-quality (NexRoute 7B v2 vs.\ Adaptive RAG 7B v2; $n{=}200$).}
+quality (NexRoute 7B v2 vs.\ TF-IDF Router 7B v2; $n{=}200$).}
 \label{tab:medquad}
 \begin{tabular}{lccccc}
 \toprule
 \textbf{Model} & \textbf{Routing Acc (\%)} & \textbf{ROUGE-L} & \textbf{BERTScore} & \textbf{BLEU-4} \\
 \midrule
-Adaptive RAG 7B & 40.0 & 15.29 & 83.19 & 2.82 \\
+TF-IDF Router 7B & 40.0 & 15.29 & 83.19 & 2.82 \\
 \textbf{NexRoute 7B (ours)} & \textbf{90.5} & \textbf{15.39} & \textbf{83.52} & 2.13 \\
 \bottomrule
 \end{tabular}

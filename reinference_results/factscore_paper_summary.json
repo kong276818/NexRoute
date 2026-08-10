@@ -1,0 +1,237 @@
+{
+  "naive_rag": {
+    "overall": {
+      "hal": 10.75,
+      "n_sents": 3871,
+      "n_contra": 416
+    },
+    "cross": {
+      "hal": 5.67,
+      "n_sents": 899,
+      "n_contra": 51
+    },
+    "single": {
+      "hal": 12.28,
+      "n_sents": 2972,
+      "n_contra": 365
+    },
+    "clean": {
+      "hal": 10.57,
+      "n_sents": 2385,
+      "n_contra": 252
+    },
+    "clean_cross": {
+      "hal": 5.31,
+      "n_sents": 527,
+      "n_contra": 28
+    },
+    "clean_single": {
+      "hal": 12.06,
+      "n_sents": 1858,
+      "n_contra": 224
+    },
+    "exposed": {
+      "hal": 11.04,
+      "n_sents": 1486,
+      "n_contra": 164
+    },
+    "exposed_cross": {
+      "hal": 6.18,
+      "n_sents": 372,
+      "n_contra": 23
+    },
+    "exposed_single": {
+      "hal": 12.66,
+      "n_sents": 1114,
+      "n_contra": 141
+    }
+  },
+  "tfidf_router": {
+    "overall": {
+      "hal": 11.67,
+      "n_sents": 3969,
+      "n_contra": 463
+    },
+    "cross": {
+      "hal": 4.68,
+      "n_sents": 854,
+      "n_contra": 40
+    },
+    "single": {
+      "hal": 13.58,
+      "n_sents": 3115,
+      "n_contra": 423
+    },
+    "clean": {
+      "hal": 11.57,
+      "n_sents": 2411,
+      "n_contra": 279
+    },
+    "clean_cross": {
+      "hal": 5.79,
+      "n_sents": 501,
+      "n_contra": 29
+    },
+    "clean_single": {
+      "hal": 13.09,
+      "n_sents": 1910,
+      "n_contra": 250
+    },
+    "exposed": {
+      "hal": 11.81,
+      "n_sents": 1558,
+      "n_contra": 184
+    },
+    "exposed_cross": {
+      "hal": 3.12,
+      "n_sents": 353,
+      "n_contra": 11
+    },
+    "exposed_single": {
+      "hal": 14.36,
+      "n_sents": 1205,
+      "n_contra": 173
+    }
+  },
+  "hyde": {
+    "overall": {
+      "hal": 11.02,
+      "n_sents": 3883,
+      "n_contra": 428
+    },
+    "cross": {
+      "hal": 6.02,
+      "n_sents": 897,
+      "n_contra": 54
+    },
+    "single": {
+      "hal": 12.53,
+      "n_sents": 2986,
+      "n_contra": 374
+    },
+    "clean": {
+      "hal": 11.53,
+      "n_sents": 2386,
+      "n_contra": 275
+    },
+    "clean_cross": {
+      "hal": 7.65,
+      "n_sents": 536,
+      "n_contra": 41
+    },
+    "clean_single": {
+      "hal": 12.65,
+      "n_sents": 1850,
+      "n_contra": 234
+    },
+    "exposed": {
+      "hal": 10.22,
+      "n_sents": 1497,
+      "n_contra": 153
+    },
+    "exposed_cross": {
+      "hal": 3.6,
+      "n_sents": 361,
+      "n_contra": 13
+    },
+    "exposed_single": {
+      "hal": 12.32,
+      "n_sents": 1136,
+      "n_contra": 140
+    }
+  },
+  "crag": {
+    "overall": {
+      "hal": 9.78,
+      "n_sents": 3866,
+      "n_contra": 378
+    },
+    "cross": {
+      "hal": 3.79,
+      "n_sents": 896,
+      "n_contra": 34
+    },
+    "single": {
+      "hal": 11.58,
+      "n_sents": 2970,
+      "n_contra": 344
+    },
+    "clean": {
+      "hal": 9.01,
+      "n_sents": 2365,
+      "n_contra": 213
+    },
+    "clean_cross": {
+      "hal": 3.75,
+      "n_sents": 533,
+      "n_contra": 20
+    },
+    "clean_single": {
+      "hal": 10.53,
+      "n_sents": 1832,
+      "n_contra": 193
+    },
+    "exposed": {
+      "hal": 10.99,
+      "n_sents": 1501,
+      "n_contra": 165
+    },
+    "exposed_cross": {
+      "hal": 3.86,
+      "n_sents": 363,
+      "n_contra": 14
+    },
+    "exposed_single": {
+      "hal": 13.27,
+      "n_sents": 1138,
+      "n_contra": 151
+    }
+  },
+  "nexroute": {
+    "overall": {
+      "hal": 10.11,
+      "n_sents": 1424,
+      "n_contra": 144
+    },
+    "cross": {
+      "hal": 3.64,
+      "n_sents": 495,
+      "n_contra": 18
+    },
+    "single": {
+      "hal": 13.56,
+      "n_sents": 929,
+      "n_contra": 126
+    },
+    "clean": {
+      "hal": 9.7,
+      "n_sents": 887,
+      "n_contra": 86
+    },
+    "clean_cross": {
+      "hal": 4.47,
+      "n_sents": 291,
+      "n_contra": 13
+    },
+    "clean_single": {
+      "hal": 12.25,
+      "n_sents": 596,
+      "n_contra": 73
+    },
+    "exposed": {
+      "hal": 10.8,
+      "n_sents": 537,
+      "n_contra": 58
+    },
+    "exposed_cross": {
+      "hal": 2.45,
+      "n_sents": 204,
+      "n_contra": 5
+    },
+    "exposed_single": {
+      "hal": 15.92,
+      "n_sents": 333,
+      "n_contra": 53
+    }
+  }
+}

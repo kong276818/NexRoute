@@ -1,0 +1,64 @@
+{
+  "bertscore": {
+    "nexroute_gap": {
+      "exposed": 87.263,
+      "clean": 87.9082,
+      "gap": -0.6452
+    },
+    "baseline_avg_gap": 0.7852,
+    "baseline_individual": {
+      "naive_rag": {
+        "exposed": 88.5072,
+        "clean": 87.5886,
+        "gap": 0.9186
+      },
+      "tfidf_router": {
+        "exposed": 87.8789,
+        "clean": 87.4476,
+        "gap": 0.4313
+      },
+      "hyde": {
+        "exposed": 88.5245,
+        "clean": 87.567,
+        "gap": 0.9575
+      },
+      "crag": {
+        "exposed": 88.4654,
+        "clean": 87.6322,
+        "gap": 0.8332
+      }
+    },
+    "net_memorization_effect": -1.4304
+  },
+  "rouge_l": {
+    "nexroute_gap": {
+      "exposed": 22.9222,
+      "clean": 24.2897,
+      "gap": -1.3675
+    },
+    "baseline_avg_gap": 5.824,
+    "baseline_individual": {
+      "naive_rag": {
+        "exposed": 27.489,
+        "clean": 21.6381,
+        "gap": 5.8509
+      },
+      "tfidf_router": {
+        "exposed": 26.5689,
+        "clean": 21.1908,
+        "gap": 5.3781
+      },
+      "hyde": {
+        "exposed": 27.7799,
+        "clean": 21.4124,
+        "gap": 6.3675
+      },
+      "crag": {
+        "exposed": 27.577,
+        "clean": 21.8774,
+        "gap": 5.6996
+      }
+    },
+    "net_memorization_effect": -7.1915
+  }
+}

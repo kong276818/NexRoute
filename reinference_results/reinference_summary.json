@@ -1,0 +1,657 @@
+{
+  "naive_rag": {
+    "overall": {
+      "rouge_l": {
+        "mean": 23.9784,
+        "n": 500
+      },
+      "bertscore": {
+        "mean": 87.956,
+        "n": 500
+      },
+      "bleu4": {
+        "mean": 9.5587,
+        "n": 500
+      }
+    },
+    "clean": {
+      "rouge_l": {
+        "mean": 21.6381,
+        "n": 300
+      },
+      "bertscore": {
+        "mean": 87.5886,
+        "n": 300
+      },
+      "bleu4": {
+        "mean": 7.7466,
+        "n": 300
+      }
+    },
+    "exposed": {
+      "rouge_l": {
+        "mean": 27.489,
+        "n": 200
+      },
+      "bertscore": {
+        "mean": 88.5072,
+        "n": 200
+      },
+      "bleu4": {
+        "mean": 12.2768,
+        "n": 200
+      }
+    },
+    "cross": {
+      "rouge_l": {
+        "mean": 24.0551,
+        "n": 100
+      },
+      "bertscore": {
+        "mean": 88.2364,
+        "n": 100
+      },
+      "bleu4": {
+        "mean": 9.0919,
+        "n": 100
+      }
+    },
+    "single": {
+      "rouge_l": {
+        "mean": 23.9593,
+        "n": 400
+      },
+      "bertscore": {
+        "mean": 87.8859,
+        "n": 400
+      },
+      "bleu4": {
+        "mean": 9.6754,
+        "n": 400
+      }
+    },
+    "clean_cross": {
+      "rouge_l": {
+        "mean": 21.7639,
+        "n": 60
+      },
+      "bertscore": {
+        "mean": 87.7454,
+        "n": 60
+      },
+      "bleu4": {
+        "mean": 7.3629,
+        "n": 60
+      }
+    },
+    "clean_single": {
+      "rouge_l": {
+        "mean": 21.6067,
+        "n": 240
+      },
+      "bertscore": {
+        "mean": 87.5493,
+        "n": 240
+      },
+      "bleu4": {
+        "mean": 7.8425,
+        "n": 240
+      }
+    },
+    "exposed_cross": {
+      "rouge_l": {
+        "mean": 27.4919,
+        "n": 40
+      },
+      "bertscore": {
+        "mean": 88.973,
+        "n": 40
+      },
+      "bleu4": {
+        "mean": 11.6854,
+        "n": 40
+      }
+    },
+    "exposed_single": {
+      "rouge_l": {
+        "mean": 27.4882,
+        "n": 160
+      },
+      "bertscore": {
+        "mean": 88.3907,
+        "n": 160
+      },
+      "bleu4": {
+        "mean": 12.4247,
+        "n": 160
+      }
+    },
+    "n_total": 500,
+    "n_valid": 500,
+    "n_failed": 0
+  },
+  "tfidf_router": {
+    "overall": {
+      "rouge_l": {
+        "mean": 23.342,
+        "n": 500
+      },
+      "bertscore": {
+        "mean": 87.6201,
+        "n": 500
+      },
+      "bleu4": {
+        "mean": 9.1265,
+        "n": 500
+      }
+    },
+    "clean": {
+      "rouge_l": {
+        "mean": 21.1908,
+        "n": 300
+      },
+      "bertscore": {
+        "mean": 87.4476,
+        "n": 300
+      },
+      "bleu4": {
+        "mean": 7.4829,
+        "n": 300
+      }
+    },
+    "exposed": {
+      "rouge_l": {
+        "mean": 26.5689,
+        "n": 200
+      },
+      "bertscore": {
+        "mean": 87.8789,
+        "n": 200
+      },
+      "bleu4": {
+        "mean": 11.592,
+        "n": 200
+      }
+    },
+    "cross": {
+      "rouge_l": {
+        "mean": 24.5494,
+        "n": 100
+      },
+      "bertscore": {
+        "mean": 88.4391,
+        "n": 100
+      },
+      "bleu4": {
+        "mean": 9.196,
+        "n": 100
+      }
+    },
+    "single": {
+      "rouge_l": {
+        "mean": 23.0402,
+        "n": 400
+      },
+      "bertscore": {
+        "mean": 87.4154,
+        "n": 400
+      },
+      "bleu4": {
+        "mean": 9.1092,
+        "n": 400
+      }
+    },
+    "clean_cross": {
+      "rouge_l": {
+        "mean": 22.1694,
+        "n": 60
+      },
+      "bertscore": {
+        "mean": 87.8381,
+        "n": 60
+      },
+      "bleu4": {
+        "mean": 7.3974,
+        "n": 60
+      }
+    },
+    "clean_single": {
+      "rouge_l": {
+        "mean": 20.9461,
+        "n": 240
+      },
+      "bertscore": {
+        "mean": 87.35,
+        "n": 240
+      },
+      "bleu4": {
+        "mean": 7.5042,
+        "n": 240
+      }
+    },
+    "exposed_cross": {
+      "rouge_l": {
+        "mean": 28.1193,
+        "n": 40
+      },
+      "bertscore": {
+        "mean": 89.3405,
+        "n": 40
+      },
+      "bleu4": {
+        "mean": 11.894,
+        "n": 40
+      }
+    },
+    "exposed_single": {
+      "rouge_l": {
+        "mean": 26.1813,
+        "n": 160
+      },
+      "bertscore": {
+        "mean": 87.5135,
+        "n": 160
+      },
+      "bleu4": {
+        "mean": 11.5165,
+        "n": 160
+      }
+    },
+    "n_total": 500,
+    "n_valid": 500,
+    "n_failed": 0
+  },
+  "hyde": {
+    "overall": {
+      "rouge_l": {
+        "mean": 23.9594,
+        "n": 500
+      },
+      "bertscore": {
+        "mean": 87.95,
+        "n": 500
+      },
+      "bleu4": {
+        "mean": 9.5407,
+        "n": 500
+      }
+    },
+    "clean": {
+      "rouge_l": {
+        "mean": 21.4124,
+        "n": 300
+      },
+      "bertscore": {
+        "mean": 87.567,
+        "n": 300
+      },
+      "bleu4": {
+        "mean": 7.7157,
+        "n": 300
+      }
+    },
+    "exposed": {
+      "rouge_l": {
+        "mean": 27.7799,
+        "n": 200
+      },
+      "bertscore": {
+        "mean": 88.5245,
+        "n": 200
+      },
+      "bleu4": {
+        "mean": 12.2782,
+        "n": 200
+      }
+    },
+    "cross": {
+      "rouge_l": {
+        "mean": 23.2704,
+        "n": 100
+      },
+      "bertscore": {
+        "mean": 88.1478,
+        "n": 100
+      },
+      "bleu4": {
+        "mean": 8.6893,
+        "n": 100
+      }
+    },
+    "single": {
+      "rouge_l": {
+        "mean": 24.1316,
+        "n": 400
+      },
+      "bertscore": {
+        "mean": 87.9005,
+        "n": 400
+      },
+      "bleu4": {
+        "mean": 9.7535,
+        "n": 400
+      }
+    },
+    "clean_cross": {
+      "rouge_l": {
+        "mean": 20.7832,
+        "n": 60
+      },
+      "bertscore": {
+        "mean": 87.667,
+        "n": 60
+      },
+      "bleu4": {
+        "mean": 6.9719,
+        "n": 60
+      }
+    },
+    "clean_single": {
+      "rouge_l": {
+        "mean": 21.5697,
+        "n": 240
+      },
+      "bertscore": {
+        "mean": 87.542,
+        "n": 240
+      },
+      "bleu4": {
+        "mean": 7.9016,
+        "n": 240
+      }
+    },
+    "exposed_cross": {
+      "rouge_l": {
+        "mean": 27.0011,
+        "n": 40
+      },
+      "bertscore": {
+        "mean": 88.8692,
+        "n": 40
+      },
+      "bleu4": {
+        "mean": 11.2655,
+        "n": 40
+      }
+    },
+    "exposed_single": {
+      "rouge_l": {
+        "mean": 27.9746,
+        "n": 160
+      },
+      "bertscore": {
+        "mean": 88.4383,
+        "n": 160
+      },
+      "bleu4": {
+        "mean": 12.5314,
+        "n": 160
+      }
+    },
+    "n_total": 500,
+    "n_valid": 500,
+    "n_failed": 0
+  },
+  "crag": {
+    "overall": {
+      "rouge_l": {
+        "mean": 24.1572,
+        "n": 500
+      },
+      "bertscore": {
+        "mean": 87.9655,
+        "n": 500
+      },
+      "bleu4": {
+        "mean": 9.6983,
+        "n": 500
+      }
+    },
+    "clean": {
+      "rouge_l": {
+        "mean": 21.8774,
+        "n": 300
+      },
+      "bertscore": {
+        "mean": 87.6322,
+        "n": 300
+      },
+      "bleu4": {
+        "mean": 7.9623,
+        "n": 300
+      }
+    },
+    "exposed": {
+      "rouge_l": {
+        "mean": 27.577,
+        "n": 200
+      },
+      "bertscore": {
+        "mean": 88.4654,
+        "n": 200
+      },
+      "bleu4": {
+        "mean": 12.3022,
+        "n": 200
+      }
+    },
+    "cross": {
+      "rouge_l": {
+        "mean": 23.6934,
+        "n": 100
+      },
+      "bertscore": {
+        "mean": 88.3002,
+        "n": 100
+      },
+      "bleu4": {
+        "mean": 8.7457,
+        "n": 100
+      }
+    },
+    "single": {
+      "rouge_l": {
+        "mean": 24.2732,
+        "n": 400
+      },
+      "bertscore": {
+        "mean": 87.8818,
+        "n": 400
+      },
+      "bleu4": {
+        "mean": 9.9364,
+        "n": 400
+      }
+    },
+    "clean_cross": {
+      "rouge_l": {
+        "mean": 21.7196,
+        "n": 60
+      },
+      "bertscore": {
+        "mean": 87.8363,
+        "n": 60
+      },
+      "bleu4": {
+        "mean": 7.3504,
+        "n": 60
+      }
+    },
+    "clean_single": {
+      "rouge_l": {
+        "mean": 21.9168,
+        "n": 240
+      },
+      "bertscore": {
+        "mean": 87.5812,
+        "n": 240
+      },
+      "bleu4": {
+        "mean": 8.1153,
+        "n": 240
+      }
+    },
+    "exposed_cross": {
+      "rouge_l": {
+        "mean": 26.6542,
+        "n": 40
+      },
+      "bertscore": {
+        "mean": 88.996,
+        "n": 40
+      },
+      "bleu4": {
+        "mean": 10.8386,
+        "n": 40
+      }
+    },
+    "exposed_single": {
+      "rouge_l": {
+        "mean": 27.8077,
+        "n": 160
+      },
+      "bertscore": {
+        "mean": 88.3328,
+        "n": 160
+      },
+      "bleu4": {
+        "mean": 12.6681,
+        "n": 160
+      }
+    },
+    "n_total": 500,
+    "n_valid": 500,
+    "n_failed": 0
+  },
+  "nexroute": {
+    "overall": {
+      "rouge_l": {
+        "mean": 23.7427,
+        "n": 500
+      },
+      "bertscore": {
+        "mean": 87.6501,
+        "n": 500
+      },
+      "bleu4": {
+        "mean": 8.2373,
+        "n": 500
+      }
+    },
+    "clean": {
+      "rouge_l": {
+        "mean": 24.2897,
+        "n": 300
+      },
+      "bertscore": {
+        "mean": 87.9082,
+        "n": 300
+      },
+      "bleu4": {
+        "mean": 8.1865,
+        "n": 300
+      }
+    },
+    "exposed": {
+      "rouge_l": {
+        "mean": 22.9222,
+        "n": 200
+      },
+      "bertscore": {
+        "mean": 87.263,
+        "n": 200
+      },
+      "bleu4": {
+        "mean": 8.3134,
+        "n": 200
+      }
+    },
+    "cross": {
+      "rouge_l": {
+        "mean": 28.4682,
+        "n": 100
+      },
+      "bertscore": {
+        "mean": 89.8683,
+        "n": 100
+      },
+      "bleu4": {
+        "mean": 12.5525,
+        "n": 100
+      }
+    },
+    "single": {
+      "rouge_l": {
+        "mean": 22.5613,
+        "n": 400
+      },
+      "bertscore": {
+        "mean": 87.0955,
+        "n": 400
+      },
+      "bleu4": {
+        "mean": 7.1585,
+        "n": 400
+      }
+    },
+    "clean_cross": {
+      "rouge_l": {
+        "mean": 28.2298,
+        "n": 60
+      },
+      "bertscore": {
+        "mean": 89.6648,
+        "n": 60
+      },
+      "bleu4": {
+        "mean": 12.191,
+        "n": 60
+      }
+    },
+    "clean_single": {
+      "rouge_l": {
+        "mean": 23.3047,
+        "n": 240
+      },
+      "bertscore": {
+        "mean": 87.469,
+        "n": 240
+      },
+      "bleu4": {
+        "mean": 7.1854,
+        "n": 240
+      }
+    },
+    "exposed_cross": {
+      "rouge_l": {
+        "mean": 28.8257,
+        "n": 40
+      },
+      "bertscore": {
+        "mean": 90.1736,
+        "n": 40
+      },
+      "bleu4": {
+        "mean": 13.0948,
+        "n": 40
+      }
+    },
+    "exposed_single": {
+      "rouge_l": {
+        "mean": 21.4463,
+        "n": 160
+      },
+      "bertscore": {
+        "mean": 86.5353,
+        "n": 160
+      },
+      "bleu4": {
+        "mean": 7.1181,
+        "n": 160
+      }
+    },
+    "n_total": 500,
+    "n_valid": 500,
+    "n_failed": 0
+  }
+}

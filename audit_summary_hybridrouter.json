@@ -1,0 +1,105 @@
+{
+  "nexroute_accuracy": 87.4,
+  "tfidf_accuracy": 80.80000000000001,
+  "nexroute_total_correct": 437,
+  "nexroute_total_wrong": 63,
+  "nexroute_domain_accuracy": {
+    "LAW": 100,
+    "MED": 85,
+    "SOC": 76,
+    "STEM": 79,
+    "CROSS": 97
+  },
+  "tfidf_domain_accuracy": {
+    "LAW": 99,
+    "MED": 97,
+    "SOC": 80,
+    "STEM": 91,
+    "CROSS": 37
+  },
+  "single_to_cross_nexroute": 33,
+  "nexr_cross_column": {
+    "LAW": 0,
+    "MED": 9,
+    "SOC": 15,
+    "STEM": 9
+  },
+  "nexr_cm": {
+    "LAW": {
+      "LAW": 100,
+      "MED": 0,
+      "SOC": 0,
+      "STEM": 0,
+      "CROSS": 0
+    },
+    "MED": {
+      "LAW": 0,
+      "MED": 85,
+      "SOC": 2,
+      "STEM": 9,
+      "CROSS": 2
+    },
+    "SOC": {
+      "LAW": 0,
+      "MED": 4,
+      "SOC": 76,
+      "STEM": 3,
+      "CROSS": 1
+    },
+    "STEM": {
+      "LAW": 0,
+      "MED": 2,
+      "SOC": 7,
+      "STEM": 79,
+      "CROSS": 0
+    },
+    "CROSS": {
+      "LAW": 0,
+      "MED": 9,
+      "SOC": 15,
+      "STEM": 9,
+      "CROSS": 97
+    }
+  },
+  "tfidf_cm": {
+    "LAW": {
+      "LAW": 99,
+      "MED": 0,
+      "SOC": 4,
+      "STEM": 0,
+      "CROSS": 16
+    },
+    "MED": {
+      "LAW": 0,
+      "MED": 97,
+      "SOC": 1,
+      "STEM": 6,
+      "CROSS": 36
+    },
+    "SOC": {
+      "LAW": 1,
+      "MED": 1,
+      "SOC": 80,
+      "STEM": 3,
+      "CROSS": 9
+    },
+    "STEM": {
+      "LAW": 0,
+      "MED": 2,
+      "SOC": 9,
+      "STEM": 91,
+      "CROSS": 2
+    },
+    "CROSS": {
+      "LAW": 0,
+      "MED": 0,
+      "SOC": 6,
+      "STEM": 0,
+      "CROSS": 37
+    }
+  },
+  "assert_failures": [
+    "FAIL: NexRoute LAW \uc815\ud655\ub3c4=100 vs \ub17c\ubb38=99",
+    "FAIL: NexRoute STEM \uc815\ud655\ub3c4=79 vs \ub17c\ubb38=80"
+  ]
+}
