@@ -1,0 +1,64 @@
+{
+  "overall": {
+    "hal": 9.69,
+    "n_sents": 9307,
+    "n_contra": 902
+  },
+  "cross": {
+    "hal": 6.43,
+    "n_sents": 1852,
+    "n_contra": 119
+  },
+  "single": {
+    "hal": 10.5,
+    "n_sents": 7455,
+    "n_contra": 783
+  },
+  "clean": {
+    "hal": 9.92,
+    "n_sents": 5463,
+    "n_contra": 542
+  },
+  "clean_cross": {
+    "hal": 7.64,
+    "n_sents": 1087,
+    "n_contra": 83
+  },
+  "clean_single": {
+    "hal": 10.49,
+    "n_sents": 4376,
+    "n_contra": 459
+  },
+  "excl_law": {
+    "hal": 10.02,
+    "n_sents": 7527,
+    "n_contra": 754
+  },
+  "by_domain": {
+    "LAW": {
+      "hal": 8.31,
+      "n_sents": 1780,
+      "n_contra": 148
+    },
+    "MED": {
+      "hal": 12.57,
+      "n_sents": 1694,
+      "n_contra": 213
+    },
+    "SOC": {
+      "hal": 9.88,
+      "n_sents": 2014,
+      "n_contra": 199
+    },
+    "STEM": {
+      "hal": 11.34,
+      "n_sents": 1967,
+      "n_contra": 223
+    },
+    "CROSS": {
+      "hal": 6.43,
+      "n_sents": 1852,
+      "n_contra": 119
+    }
+  }
+}
