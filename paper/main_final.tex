@@ -356,7 +356,7 @@ offline exclusivity:
     \quad \forall i \neq j \in \mathcal{D}_{\text{ret}}
     \label{eq:partition}
 \end{equation}
-The synthesized \texttt{CROSS} dataset (1,321 samples; Section~\ref{ssec:nexus}) is
+The synthesized \texttt{CROSS} dataset (1,321 samples; Section~\ref{ssec:loratrain}) is
 used exclusively for \texttt{CROSS}-adapter training and is \emph{not} a fifth
 retrieval partition.
 We define \emph{Inter-Domain Interference} ($\mathrm{IDI}(q)$) as the
@@ -903,7 +903,7 @@ the first-word-based gold label on the eval set.
 Second, the strict test accuracy on a held-out routing test set
 (Supplementary~S8) is 38.0\%; the gap between the two figures reflects
 a train/test labelling-scheme mismatch---the training labels were produced by the
-annotation pipeline described in Section~\ref{ssec:nexus} (rule-based heuristics,
+annotation pipeline described in Section~\ref{ssec:loratrain} (rule-based heuristics,
 Qwen2.5-72B judge, and human audit), whereas the evaluation labels followed a
 different annotation protocol.
 % TODO(author): Describe the specific guideline difference (2 sentences) — currently "mismatch" is stated without mechanistic detail.
@@ -1243,7 +1243,7 @@ The effect is consistent: excl-LAW $\Delta{=}{+2.13}$ ($p{<}0.0001$);
 full clean-300 $\Delta{=}{+1.92}$ ($p{=}0.0001$).
 
 \paragraph{Function-axis ablation: Gold-label, predicted, and alternative labels.}
-To assess the causal contribution of function classification accuracy,
+To assess the causal contribution of function-conditioned scaffold selection,
 we conducted a controlled 5-condition ablation on the clean-300 subset ($n{=}300$;
 Table~\ref{tab:funcaxis}), keeping all other components constant and varying only the function label supplied to the scaffold:
 (A)~Gold-label (gold function label from the evaluation set),
@@ -1835,8 +1835,10 @@ factor associated with cross-domain performance differences in this comparison.
 are from the full 100-sample \texttt{CROSS} partition, of which 40 samples (40\%)
 were seen by the \texttt{CROSS} LoRA adapter during training; the remaining 60
 adapter-unseen samples yield ROUGE-L 28.23 and BERTScore 89.66 (Table~\ref{tab:master_performance}),
-confirming a gap of $\geq$17~pp over Arrow and PHATGOOSE even on contamination-free
-queries. Arrow and PHATGOOSE were not fine-tuned on any evaluation data.}
+provided as a robustness reference. Because Arrow and PHATGOOSE figures are reported
+on the full \texttt{CROSS}-100 set, the clean-60 value is not a matched subset comparison
+and does not directly establish the gap under identical evaluation conditions.
+Arrow and PHATGOOSE were not fine-tuned on any evaluation data.}
 \label{tab:moe_routing}
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{lccc}
@@ -1877,8 +1879,9 @@ impact on cross-domain generation quality. In contrast, NexRoute achieves a
 ROUGE-L of \textbf{29.60} and BERTScore F1 of \textbf{89.53} (full 100-sample
 \texttt{CROSS} partition), representing gaps of approximately 18.1~pp and 6.5
 points over both LoRA-library baselines; on the adapter-unseen clean subset
-($n{=}60$), NexRoute achieves ROUGE-L 28.23 and BERTScore 89.66 (Table~\ref{tab:master_performance}),
-confirming $\geq$17~pp and $\geq$6.6-point gaps under contamination-free conditions.
+($n{=}60$), NexRoute achieves ROUGE-L 28.23 and BERTScore 89.66 (Table~\ref{tab:master_performance});
+because Arrow and PHATGOOSE figures are from the full \texttt{CROSS}-100 set, this value
+is a robustness reference rather than a matched subset comparison.
 These results indicate that domain-partitioned retrieval and function-aware
 prompt scaffolding---rather than routing probability optimisation---constitute
 the primary structural contributors to NexRoute's cross-domain performance,
