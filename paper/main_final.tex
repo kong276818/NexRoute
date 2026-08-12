@@ -59,7 +59,7 @@ Expert Selection in Cross-Domain Large Language Models}
 \begin{abstract}
 Existing RAG-based expert systems route queries by domain identity alone, ignoring the reasoning function required to process them. This structural limitation leads to cross-domain contamination and increased hallucination under unified retrieval. We propose \textbf{NexRoute}, a dual-axis routing framework that leverages a shared encoder to learn jointly trained multi-task representations of query intent along a domain axis (\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) and a function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}). Their intersection---the \textit{nexus point}---independently drives two decisions: the domain component activates the corresponding LoRA-based expert, while the function component applies a function-specific retrieval scaffold, structurally resolving both cross-domain contamination and functional mismatch.
 
-Trained on 15,744 dual-annotated samples, NexRoute 7B achieves \textbf{87.4\%} routing accuracy (+4.0~pp over the TF-IDF domain router baseline). Evaluated on a 500-sample interdisciplinary benchmark, NexRoute 7B achieves a cross-domain ROUGE-L of \textbf{28.23} and BERTScore of \textbf{89.66} on the contamination-free 300-sample subset (60 CROSS queries, never seen by any LoRA adapter), surpassing all 7B baselines by ${\geq}6.06$~pp ROUGE-L (paired bootstrap, Holm-corrected $p{<}0.001$); these results suggest that targeted domain specialization can partially compensate for parameter scale on cross-domain tasks. Furthermore, NexRoute achieves the lowest CROSS-domain hallucination rate among 7B-scale models (\textbf{3.6\%}), and a competitive overall rate of 10.1\% (vs.\ Naive RAG 10.8\%); the LAW domain is excluded from the primary comparison due to LAW adapter degeneration producing near-zero-sentence outputs (Section~\ref{ssec:law-degeneration}). When LAW is excluded, NexRoute achieves the lowest hallucination rate across four remaining domains (\textbf{7.6\%} vs.\ Simplified CRAG 8.9\%, Naive RAG 10.3\%). Operating within 14.8\,GB of VRAM, the system is highly suited for privacy-sensitive, on-device deployment. Finally, we delineate the scope of this study and the necessity of future licensed-expert evaluation for high-stakes deployment, establishing a foundational step toward reliable multi-domain expert systems.
+Trained on 15,744 dual-annotated samples, NexRoute 7B achieves \textbf{87.4\%} routing accuracy (+4.0~pp over the TF-IDF domain router baseline). Evaluated on a 500-sample interdisciplinary benchmark, NexRoute 7B achieves a cross-domain ROUGE-L of \textbf{28.23} and BERTScore of \textbf{89.66} on the contamination-free 300-sample subset (60 CROSS queries, never seen by any LoRA adapter), surpassing all 7B baselines by ${\geq}6.06$~pp ROUGE-L (paired bootstrap, Holm-corrected $p{<}0.001$); these results suggest that targeted domain specialization can partially compensate for parameter scale on cross-domain tasks. Furthermore, NexRoute achieves the lowest CROSS-domain hallucination rate among 7B-scale models (\textbf{3.6\%}), and a competitive overall rate of 10.1\% (vs.\ Naive RAG 10.8\%); the LAW domain is excluded from the primary comparison due to LAW adapter degeneration producing near-zero-sentence outputs (Section~\ref{ssec:law-degeneration}). When LAW is excluded, NexRoute achieves the lowest hallucination rate across four remaining domains (\textbf{7.6\%} vs.\ Simplified CRAG 8.9\%, Naive RAG 10.3\%). Ablation over five variants reveals a clear division of labour: the domain axis (LoRA adapters, partitioned retrieval) dominates generation quality (LoRA removal: ROUGE-L $-9.43$~pp, $p{<}0.001$, paired bootstrap), while CROSS-domain hallucination is specifically elevated by removing partitioned retrieval ($+3.20$~pp, $p{=}0.045$) or disabling the full domain axis ($+2.93$~pp, $p{=}0.008$); single-domain hallucination changes are not significant across any single-component removal. A controlled function-axis ablation further shows that the predicted function label yields ROUGE-L $+1.9$--$2.3$~pp higher than wrong, random, or no-scaffold conditions (Holm-corrected $p{<}0.001$ for all three contrasts). Operating within 14.8\,GB of VRAM, the system is highly suited for privacy-sensitive, on-device deployment. Finally, we delineate the scope of this study and the necessity of future licensed-expert evaluation for high-stakes deployment, establishing a foundational step toward reliable multi-domain expert systems.
 \end{abstract}
 
 \begin{highlights}
@@ -67,9 +67,12 @@ Trained on 15,744 dual-annotated samples, NexRoute 7B achieves \textbf{87.4\%} r
     functional mismatch in RAG.
     \item Four-way \{\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}\}
     function taxonomy aligns prompt scaffolding with the query's reasoning intent.
-    \item Domain-partitioned retrieval yields the lowest CROSS-domain hallucination
-    rate among 7B models (3.6\%); excluding the degenerated LAW adapter,
-    NexRoute achieves 7.6\% overall---lowest across four comparable domains.
+    \item Ablation reveals complementary axis roles: the domain axis drives
+    generation quality (LoRA removal degrades ROUGE-L by 9.4 points, $p{<}0.001$);
+    CROSS-domain hallucination is specifically elevated when partitioned retrieval
+    is removed ($+3.20$~pp, $p{=}0.045$) or the domain axis disabled ($+2.93$~pp, $p{=}0.008$).
+    \item NexRoute achieves the lowest CROSS-domain hallucination rate among
+    7B models (3.6\%); excluding the degenerated LAW adapter, 7.6\% overall.
     \item NexRoute 7B: 87.4\% routing accuracy (+4.0~pp over TF-IDF domain router baseline).
     \item System runs within 14.8\,GB VRAM, enabling privacy-sensitive
     on-device deployment.
@@ -113,10 +116,10 @@ A second, distinct failure mode arises in interdisciplinary queries, highlightin
 In contrast, when specific specialized experts are explicitly paired and
 their retrieval scopes kept separate, each expert draws only on its own
 domain-exclusive evidence rather than a contamination-prone merged pool;
-our ablation further shows that removing this partitioned retrieval alone
-raises hallucination by 5.0 percentage points on single-domain queries,
-with a smaller increase of 1.8 percentage points on cross-domain queries,
-yielding a 3.2 percentage point increase overall. However, in
+our ablation shows that removing partitioned retrieval specifically
+elevates CROSS-domain hallucination by 3.2~pp (3.50\%$\to$6.70\%; $p{=}0.045$,
+cluster bootstrap), while single-domain hallucination changes are not significant
+across any single-component removal. However, in
 multi-domain settings, unified retrieval over undifferentiated corpora
 further compounds this problem: lexical overlap between professional
 disciplines causes the retriever to mix evidence from unrelated domains
@@ -160,42 +163,52 @@ domain-partitioned retrieval (Section~\ref{sec:method}).}
 
 Our main contributions are as follows:
 \begin{itemize}
-    \item \textbf{Domain-partitioned retrieval:} A retrieval scheme that keeps
-    per-domain evidence corpora strictly separated, so that each expert draws only
-    on its own domain-exclusive evidence rather than a contamination-prone merged pool.
-    Our ablation shows that removing partitioned retrieval raises single-domain hallucination
-    by 5.0 percentage points, with a smaller CROSS-domain increase consistent with
-    CROSS queries distributing load across multiple partitions.
-
-    \item \textbf{Cross-domain expert module:} A dedicated LoRA adapter
-    trained on 1,321 high-quality, rigorously audited synthesized domain-pair samples,
-    enabling a compact 7B model to handle multidisciplinary queries without
-    merging single-domain adapters.
-
     \item \textbf{Dual-axis routing architecture:} A joint domain-and-function
-    classifier that independently drives two decisions---the domain axis activates
-    the appropriate LoRA expert, the function axis applies function-specific prompt
-    scaffolding---within a single synchronized step, advancing beyond standard
-    heuristic pipelines. The function axis (\texttt{What}, \texttt{How},
-    \texttt{Why}, \texttt{Compare}) serves as a structural design element
-    aligning the retrieval scaffold and generation prompt with query intent.
+    classifier that independently drives two decisions within a single synchronized
+    step: the domain axis activates the appropriate LoRA expert and retrieval partition,
+    while the function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare})
+    applies function-specific prompt scaffolding aligned with query intent.
+    Ablation shows that these two axes govern complementary aspects of output quality:
+    the domain axis is the primary driver of generation fidelity and CROSS-domain
+    factuality, while function-aware scaffolding provides targeted ROUGE-L gains
+    when the predicted label is used ($\Delta{+}1.9$--$2.3$~pp over wrong/random/none;
+    Holm-corrected $p{<}0.001$).
 
-    \item \textbf{Cross-domain benchmark:} A 500-sample interdisciplinary evaluation
-    set covering all five domain categories, including domain pairs absent from CROSS adapter
-    training. Of these, 300 samples (60 per domain) are fully independent of LoRA adapter
-    training; the remaining 200 (40 per domain, uniformly across all five domains including
-    CROSS) were seen by the domain adapters during training (Section~\ref{ssec:setup}).
-    Gold answers were generated by Qwen2.5-72B-Instruct via the quality-control pipeline
-    in Section~\ref{ssec:loratrain}; the 94.2\% human audit applies to cross-domain
-    \emph{training} samples, not to benchmark answers.
+    \item \textbf{Domain-specialised LoRA experts:} A suite of LoRA adapters---one
+    per domain plus a dedicated CROSS adapter trained on 1,321 rigorously audited
+    synthesized samples---enabling a compact 7B model to match or exceed larger
+    models on in-domain tasks. Ablation (V04, w/o LoRA) shows that removing the
+    adapters degrades ROUGE-L by 9.43 points and BERTScore by 2.87 points
+    ($p{<}0.001$, paired bootstrap), the largest single-component quality drop observed.
 
-    \item \textbf{Empirical validation:} Experiments against four RAG
-    baselines at 7B and 72B parameter scales suggest that targeted architectural
-    specialization can partially compensate for raw parameter scale. Our framework
-    yields improvements in routing accuracy, cross-domain generation quality, and hallucination
-    rate (Section~\ref{sec:experiments}), with factuality assessed
-    via sentence-level NLI against the domain-partitioned knowledge base,
-    avoiding reliance on same-family LLM judges.
+    \item \textbf{Cross-domain (CROSS) expert module:} A dedicated LoRA adapter
+    trained on 1,321 synthesized interdisciplinary samples paired with
+    domain-partitioned retrieval: each CROSS query draws evidence separately
+    from its two contributing domain partitions, preventing cross-domain
+    evidence contamination. Ablation (V03, w/o partitioned retrieval) specifically
+    elevates CROSS-domain hallucination by $+3.20$~pp ($p{=}0.045$, cluster bootstrap)
+    while leaving single-domain hallucination unchanged, confirming that
+    domain-partitioned retrieval primarily benefits factuality on cross-domain queries.
+
+    \item \textbf{Function-aware scaffolding:} A function-conditioned prompt
+    preamble aligned to the predicted query function (\texttt{What}/\texttt{How}/%
+    \texttt{Why}/\texttt{Compare}). A controlled 4-condition ablation (predicted vs.\
+    wrong-label, random-label, or no scaffold; $n{=}300$) shows that the predicted
+    label outperforms all alternatives by ROUGE-L $+1.9$--$2.3$~pp
+    (Holm-corrected $p{<}0.001$), confirming that accurate function classification
+    contributes meaningfully to generation quality. The oracle upper bound
+    (gold function labels) is left to future work (see Section~\ref{sec:limitations}).
+
+    \item \textbf{Cross-domain benchmark and empirical validation:}
+    A 500-sample interdisciplinary evaluation set covering all five domain categories,
+    including domain pairs absent from CROSS adapter training.
+    Of these, 300 samples (60 per domain) are fully independent of LoRA adapter
+    training; the remaining 200 were seen by the domain adapters during training
+    (Section~\ref{ssec:setup}).
+    Experiments against four RAG baselines at 7B and 72B parameter scales suggest
+    that targeted architectural specialization can partially compensate for raw
+    parameter scale, with factuality assessed via sentence-level NLI against the
+    domain-partitioned knowledge base, avoiding reliance on same-family LLM judges.
 \end{itemize}
 
 
@@ -702,8 +715,10 @@ BERTScore \citep{zhang2020bertscore} without baseline rescaling, and BLEU-4
 accuracy. Hallucination rate is measured via a sentence-level NLI-based factuality score inspired by FActScore~\citep{min2023factscore}: each sentence of the predicted answer (minimum 20 characters) is verified against the top-3 retrieved passages from the domain-partitioned knowledge base using \texttt{cross-encoder/nli-deberta-v3-large}. A sentence is counted as hallucinated if the NLI model predicts \textsc{Contradiction} without any co-occurring \textsc{Entailment}; otherwise it is classified as supported or neutral. Unlike the original FActScore, this approach does not perform atomic claim decomposition but operates directly on sentences. Baselines use a unified KB spanning all five domain partitions; NexRoute uses the predicted domain partition (union of the two predicted sub-partitions for CROSS queries).
 Additional evaluation dimensions include computational efficiency (inference
 latency and VRAM usage).
-No formal significance tests are reported for generation metrics;
-all comparisons are observational (see Section~\ref{sec:limitations}).
+Statistical significance for generation metrics is assessed via paired bootstrap
+(10,000 resamples) with Holm correction for multiple comparisons; hallucination
+differences use cluster bootstrap at the answer level. Details are in
+Section~\ref{ssec:comprehensive} and Section~\ref{sec:factuality}.
 
 %%------------------------------------------------------------------------------
 \subsection{Routing System Accuracy}
@@ -875,9 +890,13 @@ BERTScore computed using \texttt{roberta-large} without baseline rescaling~\cite
 $\dagger$~Simplified CRAG~7B: 10 STEM generation timeouts excluded (see Supplementary~S5).
 \textsuperscript{\S}~Overall = weighted mean ($w_{\text{CROSS}}{=}60$, $w_{\text{Single}}{=}240$).
 $^{***}$~Paired bootstrap, 10{,}000 iterations, Holm-corrected $p{<}0.001$ vs.\ all 7B baselines
-(ROUGE-L, BERTScore, BLEU-4; full results in Supplementary~S6).
-Full-500 results (including adapter-exposed indices 300--499) are reported in
-Supplementary~S4 for reference.
+(ROUGE-L, BERTScore, BLEU-4; CROSS-domain ROUGE-L $\Delta{+}6.06$--$+7.45$~pp;
+Clean-300 overall ROUGE-L $\Delta{+}2.41$--$+3.10$~pp, Cohen's $d{=}0.30$--$0.40$;
+full results in Supplementary~S6).
+\textbf{Full-500 note:} On the full 500-sample set (including adapter-exposed indices 300--499),
+overall ROUGE-L differences between NexRoute and all 7B baselines are not significant
+($p{>}0.37$, Holm-corrected $p{=}1.0$) due to LAW adapter degeneration depressing
+NexRoute's LAW outputs; full-500 results are in Supplementary~S4.
 \textbf{NexRoute LAW:} Clean-300 LAW ROUGE-L collapses to 18.27 (adapter degeneration;
 Section~\ref{ssec:law-degeneration}); all baselines score 23.66--24.75.
 Excluding LAW, NexRoute Clean-300 Single ROUGE-L = 25.79, BERTScore = 88.69.}
@@ -1011,10 +1030,15 @@ Table~\ref{tab:ablation} (V03 vs.\ V01).}
 (\texttt{nli-deberta-v3-large}, top-3 passages, domain-partitioned KB) across
 7B-backbone models. Lower hallucination rate is better.
 $n_{\text{sents}}$ is the total number of sentences evaluated per system.
-\textit{Rel.\ Reduction} is computed against Naive RAG as the reference baseline;
-positive values indicate lower hallucination than Naive RAG.
-All differences are observational; no formal significance tests are reported
-(see Section~\ref{sec:limitations}).
+\textit{Rel.\ Reduction} is computed against Naive RAG as the reference baseline.
+Differences relative to NexRoute (V01) were evaluated via cluster bootstrap
+(10,000 resamples): overall differences are not significant ($p{>}0.25$ for
+all baselines except TF-IDF $p{=}0.069$); on CROSS queries, the HyDE
+difference reaches significance ($\Delta{-}2.52$~pp, 95\%~CI $[-4.61,{-}0.38]$,
+$p{=}0.021$). All single-domain comparisons are non-significant ($p{>}0.25$).
+These statistics are based on the V01 ablation re-inference run (hallucination
+rate 9.95\% overall), which differs from the main evaluation run (10.1\%) by 0.15~pp
+due to separate inference runs; both are reported as measured (see caption note below).
 $\dagger$~NexRoute $n_{\text{sents}}$ is 2.7$\times$ lower than baselines
 due to LAW adapter degeneration (Section~\ref{ssec:law-degeneration}), which
 produces near-zero-sentence LAW outputs; the overall rate is therefore not
@@ -1039,28 +1063,51 @@ NexRoute (Ours)$^\dagger$ & 10.1 & \textbf{3.6} & 13.6 & $+6.0\%$ & 1{,}424$^\da
 \vspace{6pt plus 4pt minus 3pt}
 \begin{center}
 \begingroup
-\captionof{table}{Ablation study: hallucination rates (\%) for NexRoute component
-variants, evaluated via sentence-level NLI on all 500 queries.
-$\Delta$Overall, $\Delta$CROSS, and $\Delta$Single are percentage-point differences
-relative to V01 (full NexRoute); positive values indicate \textit{more} hallucination.
-All differences are observational; no formal significance tests are reported.
-$^\S$~V04 (w/o LoRA) restores analytical LAW outputs (${\sim}3.0$~sentences/response
-vs.\ ${\sim}1.0$ for V01), tripling the LAW sentence pool.
-The $+0.4$~pp increase reflects this denominator expansion, not evidence that LoRA
-contributes little to factuality; see Section~\ref{ssec:law-degeneration}.
-$^\P$~V05 (w/o Domain Axis) simultaneously removes domain routing, retrieval
-partitioning, and LoRA expert selection; the observed hallucination change
-cannot be attributed to any single component and is reported for reference only.
-V06 (Dominant-Single CROSS merging) results are in Supplementary Material~S4.}
+\captionof{table}{%
+Ablation study: generation quality (ROUGE-L, BERTScore~F1)
+and hallucination rate (\%) for NexRoute component variants, evaluated on all 500 queries.
+$\Delta_{\text{RL}}$ and $\Delta_{\text{BS}}$ are differences relative to V01 (negative = degradation).
+$p$ values from paired bootstrap (generation, 10{,}000 resamples) or cluster bootstrap
+(hallucination). Hallucination 95\% CIs: V02 overall $[-0.17,{+}4.27]$;
+V03 CROSS $[{+}0.09,{+}6.43]$; V05 CROSS $[{+}0.79,{+}5.00]$.
+Significance: $^{*}p{<}0.05$; $^{**}p{<}0.01$; $^{***}p{<}0.001$; \textsf{ns}~$p{\geq}0.05$.
+$^\dagger$~V04 (w/o LoRA) restores normal-length LAW outputs
+(${\sim}1.2$~qualifying sentences per response under V01 vs.\ ${\sim}13$~under V04),
+inflating V04's LAW sentence pool and suppressing the apparent overall
+hallucination change; this figure should not be interpreted as evidence that
+LoRA adapters have negligible factuality impact (Section~\ref{ssec:law-degeneration}).
+$^\ddagger$~V05 (w/o Domain Axis) simultaneously removes domain routing,
+adapter selection, and retrieval partitioning; its effects cannot be attributed
+to any single component and are reported for reference only.
+V06 (Dominant-Single CROSS merging) results are in Supplementary~S4.}
 \label{tab:ablation}
-\begin{tabular}{lcccccc}
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrrr|rrrr}
 \toprule
-\textbf{Variant} & \textbf{Overall} & \textbf{CROSS} & \textbf{Single} & $\boldsymbol{\Delta}$\textbf{Overall} & $\boldsymbol{\Delta}$\textbf{CROSS} & $\boldsymbol{\Delta}$\textbf{Single} \\
+ & \multicolumn{5}{c|}{\textbf{Generation Quality (500 queries)}} & \multicolumn{4}{c}{\textbf{Hallucination (\%)}} \\
+\cmidrule(lr){2-6}\cmidrule(l){7-10}
+\textbf{Variant}
+  & \textbf{ROUGE-L} & $\boldsymbol{\Delta_{\text{RL}}}$
+  & \textbf{BERTScore} & $\boldsymbol{\Delta_{\text{BS}}}$
+  & \textbf{$p$}
+  & \textbf{Overall} & \textbf{$p$}
+  & \textbf{CROSS} & \textbf{Single} \\
 \midrule
-V01 Full NexRoute (Ours)       &  8.9 & 4.3 & 11.7 & ---    & ---              & ---              \\
-V03 w/o Partitioned Retrieval  & 12.1 & 6.1 & 16.7 & $+3.2$ & $+1.8$           & $+5.0$           \\
-V04 w/o LoRA                   &  9.3 & 5.4 & 10.8 & $+0.4$ & $+1.1$           & $-0.9$           \\
-V05$^\P$ w/o Domain Axis       & 10.5 & 6.5 & 12.2 & $+1.6$ & $+2.2$           & $+0.5$           \\
+V01~~Full NexRoute (Ours)
+  & 27.83 & ---      & 87.96 & ---     & ---
+  &  9.95 & ---      & 3.50  & 12.23 \\
+V02~~w/o Function Scaffold
+  & 26.51 & $-1.32$  & 87.80 & $-0.16$ & $^{***}$
+  & 12.00 & \textsf{ns} & 6.27\textsuperscript{ns} & 14.27 \\
+V03~~w/o Partitioned Retrieval
+  & 26.26 & $-1.57$  & 87.64 & $-0.32$ & $^{***}$
+  & 10.31 & \textsf{ns} & 6.70$^{*}$  & 11.69 \\
+V04$^\dagger$~~w/o LoRA Adapters
+  & 18.40 & $-9.43$  & 85.09 & $-2.87$ & $^{***}$
+  &  9.57 & \textsf{ns} & 5.35\textsuperscript{ns} & 10.80 \\
+V05$^\ddagger$~~w/o Domain Axis
+  & 16.90 & $-10.93$ & 84.71 & $-3.25$ & $^{***}$
+  &  9.69 & \textsf{ns} & 6.43$^{**}$ & 10.50 \\
 \midrule
 \end{tabular}
 \endgroup
@@ -1076,39 +1123,119 @@ the LAW domain is severely underweighted in the NLI aggregate.
 Excluding LAW (Table~\ref{tab:hallucination-excl-law}), NexRoute achieves 7.6\%---the
 lowest rate across four comparable domains, 1.3~pp below Simplified CRAG (8.9\%) and
 2.7~pp below Naive RAG (10.3\%).
-All differences are observational; no formal significance tests are reported
-(see Section~\ref{sec:limitations}).
+Cluster bootstrap tests show that CROSS-domain hallucination is significantly lower
+for NexRoute vs.\ HyDE ($\Delta{-}2.52$~pp, 95\%~CI $[-4.61,{-}0.38]$, $p{=}0.021$);
+all other overall and single-domain comparisons are non-significant ($p{>}0.05$).
 
-The ablation study (Table~\ref{tab:ablation}) identifies
-\textbf{Partitioned Retrieval} as the largest observed contributor to
-hallucination control in single-domain settings.
-Removing Partitioned Retrieval (V03) raises single-domain hallucination by
-5.0\,pp (11.7\%$\to$16.7\%), while the CROSS-domain increase is smaller
-($+$1.8\,pp), consistent with CROSS queries distributing retrieval load
-across multiple partitions. All differences are observational.
-The small apparent LoRA effect ($+0.4$~pp for V04, w/o LoRA) must be interpreted
-in light of the LAW adapter degeneration: V01's LAW outputs average ${\sim}1.0$~sentence
-per response, severely underweighting LAW in the aggregate NLI computation;
-removing LoRA in V04 restores normal LAW output length, tripling the LAW sentence
-pool and adding measured contradictions even at the base model's lower per-sentence
-rate (${\sim}12\%$), yielding a near-zero net change.
-The $+0.4$~pp figure is a measurement artifact and should not be interpreted as
-evidence that domain-specialised LoRA adapters have negligible factuality impact
-(see also footnote $^\S$ in Table~\ref{tab:ablation}).
-\paragraph{Function scaffold effect.}
-To estimate the causal contribution of function-aware scaffolding, we compare
-V01 (function scaffold active; \texttt{pred\_function}~$\in$~\{What,~How,~Why,~Compare\})
-against V02 (scaffold disabled; all queries routed to a generic instruction).
-Both variants use identical domain routing, LoRA adapters, and partitioned retrieval;
-the only difference is the presence or absence of the function-specific preamble.
+The ablation results (Table~\ref{tab:ablation}) reveal a clear division of labour:
+the \textbf{domain axis} (LoRA adapters, partitioned retrieval) is the primary
+driver of both generation quality and CROSS-domain factuality, while
+the \textbf{function scaffold} provides a ROUGE-L boost when function labels are
+accurately predicted (see the function-axis ablation below).
+
+\paragraph{Hallucination.}
+Removing the function scaffold (V02) increases overall hallucination by $+2.05$~pp
+(9.95\%$\to$12.00\%; 95\%~CI $[-0.17,{+}4.27]$, $p{=}0.071$, \textsf{ns}).
+Neither V02's CROSS ($+2.77$~pp, $p{=}0.058$) nor single-domain ($+2.04$~pp,
+$p{=}0.156$) effect reaches significance.
+The function scaffold should \emph{not} be described as the ``primary hallucination
+suppressor'' based on these results.
+Removing partitioned retrieval (V03) has a small overall effect ($+0.36$~pp, \textsf{ns}),
+but specifically elevates CROSS-domain hallucination by $+3.20$~pp
+(3.50\%$\to$6.70\%; 95\%~CI $[{+}0.09,{+}6.43]$, $p{=}0.045^{*}$), confirming
+that domain-partitioned retrieval principally benefits factuality on cross-domain queries.
+Removing the full domain axis (V05) similarly elevates CROSS hallucination
+by $+2.93$~pp (95\%~CI $[{+}0.79,{+}5.00]$, $p{=}0.008^{**}$), while single-domain
+is non-significant ($p{=}0.160$).
+V04 (w/o LoRA) shows a \textit{negative} overall change ($-0.38$~pp, \textsf{ns}), which is
+a measurement artifact: V01's LAW adapter degeneration yields ${\sim}1.2$~qualifying
+sentences per LAW response, severely underweighting LAW in the NLI aggregate;
+removing LoRA in V04 restores normal output length, tripling the LAW sentence pool
+and offsetting any genuine factuality improvement in other domains
+(see footnote~$^\dagger$ in Table~\ref{tab:ablation} and Section~\ref{ssec:law-degeneration}).
+Single-domain hallucination changes are not significant across any single-component removal.
+
+\paragraph{Generation quality.}
+The domain axis is the dominant contributor to generation quality.
+Removing LoRA adapters (V04) degrades ROUGE-L by $-9.43$ points
+(27.83$\to$18.40) and BERTScore~F1 by $-2.87$ points (87.96$\to$85.09;
+both $p{<}0.001$, paired bootstrap)---the largest single-component drop observed.
+V05 (w/o Domain Axis, which simultaneously disables domain routing, adapter
+selection, and retrieval partitioning) produces a comparable decline:
+ROUGE-L $-10.93$, BERTScore $-3.25$ (both $p{<}0.001$).
+Because V05 removes three components at once, its effects cannot be attributed to
+any individual component; it establishes an approximate lower bound for the combined
+domain-axis contribution.
+Removing the function scaffold (V02) or partitioned retrieval (V03) alone causes
+only modest quality degradation ($-1.32$ and $-1.57$ ROUGE-L, respectively;
+both $p{<}0.001$), confirming that generation quality is primarily sustained by
+the domain axis.
+
+\paragraph{Function scaffold effect (V01 vs.\ V02).}
+To isolate whether a \emph{present} scaffold (V01) outperforms \emph{no scaffold}
+(V02), we compare both variants holding domain routing, LoRA adapters, and
+partitioned retrieval constant.
 On the Clean-300 CROSS subset ($n{=}88$), V01 achieves ROUGE-L~35.60 vs.\
-V02~32.76 ($\Delta{=}{+2.84}$~pp; paired bootstrap, $p{=}0.0006$).
-The effect is consistent across all clean subsets:
-excl-LAW $\Delta{=}{+2.13}$~pp ($p{<}0.0001$); full clean-300 $\Delta{=}{+1.92}$~pp ($p{=}0.0001$).
-These results provide controlled evidence that function-specific scaffolding
-contributes meaningfully to generation quality, particularly on cross-domain queries.
-An oracle-scaffold ablation (using gold function labels to construct the prompt preamble)
-is left for future work; preliminary infrastructure is described in Supplementary~S7.
+V02~32.76 ($\Delta{=}{+2.84}$; paired bootstrap, $p{=}0.0006$).
+The effect is consistent: excl-LAW $\Delta{=}{+2.13}$ ($p{<}0.0001$);
+full clean-300 $\Delta{=}{+1.92}$ ($p{=}0.0001$).
+
+\paragraph{Function-axis ablation: predicted vs.\ alternative labels.}
+To assess the causal contribution of \emph{accurate} function classification,
+we conducted a controlled 4-condition ablation on the clean-300 subset ($n{=}300$;
+Table~\ref{tab:funcaxis}), keeping all other components constant and varying only the function label supplied to the scaffold:
+(B)~Predicted (V01 DeBERTa router; 50.0\% label accuracy vs.\ gold),
+(C)~Wrong (cyclic shift: \texttt{WHAT}$\to$\texttt{HOW}$\to$\texttt{WHY}$\to$\texttt{COMPARE}),
+(D)~Random (seed-fixed),
+(E)~No scaffold (V02 re-use).
+The predicted label outperforms all three alternatives by ROUGE-L $+1.9$--$2.3$~pp
+(Holm-corrected $p{<}0.001$ for all contrasts; Table~\ref{tab:funcaxis}),
+confirming that accurate function routing contributes meaningfully to generation quality.
+An oracle condition using gold function labels is not included because the evaluation
+annotation scheme differs from the training labels, making oracle-rate estimation
+unreliable; this is left as future work (Section~\ref{sec:limitations}).
+
+\vspace{4pt}
+\begin{center}
+\begingroup
+\captionof{table}{Function-axis ablation: ROUGE-L, BERTScore, and BLEU-4 for
+four scaffold conditions on the clean-300 subset ($n{=}300$).
+$p$ values are from paired bootstrap vs.\ condition~B (Predicted), Holm-corrected
+over three contrasts; all corrected $p{<}0.001$.
+CROSS~($n{=}88$) and Single~($n{=}212$) subsets shown separately.}
+\label{tab:funcaxis}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrr|rrr|rrr}
+\toprule
+ & \multicolumn{3}{c|}{\textbf{Overall} ($n{=}300$)}
+ & \multicolumn{3}{c|}{\textbf{CROSS} ($n{=}88$)}
+ & \multicolumn{3}{c}{\textbf{Single} ($n{=}212$)} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(l){8-10}
+\textbf{Condition} & \textbf{RL} & \textbf{BS} & \textbf{B4}
+ & \textbf{RL} & \textbf{BS} & \textbf{B4}
+ & \textbf{RL} & \textbf{BS} & \textbf{B4} \\
+\midrule
+B~~Predicted (DeBERTa) & \textbf{29.31} & \textbf{88.35} & \textbf{11.79}
+ & \textbf{35.60} & \textbf{90.80} & \textbf{17.38}
+ & \textbf{26.70} & \textbf{87.33} & \textbf{9.47} \\
+C~~Wrong (cyclic)      & 27.00 & 87.87 & 10.50
+ & 31.80 & 89.91 & 14.77
+ & 25.01 & 87.02 & 8.73 \\
+D~~Random              & 27.37 & 88.01 & 10.60
+ & 31.62 & 90.02 & 14.03
+ & 25.60 & 87.18 & 9.18 \\
+E~~No scaffold (V02)   & 27.39 & 88.08 & 10.53
+ & 32.76 & 90.51 & 15.15
+ & 25.16 & 87.08 & 8.61 \\
+\midrule
+\multicolumn{10}{l}{\small $\Delta$(B$-$C): RL $+2.31$, 95\%~CI $[{+}1.41,{+}3.24]$, $p{<}0.001^{***}$;\quad
+  $\Delta$(B$-$D): RL $+1.94$, 95\%~CI $[{+}1.06,{+}2.88]$, $p{<}0.001^{***}$;\quad
+  $\Delta$(B$-$E): RL $+1.92$, 95\%~CI $[{+}1.11,{+}2.76]$, $p{<}0.001^{***}$.} \\
+\bottomrule
+\end{tabular}
+\endgroup
+\end{center}
+\vspace{4pt}
 
 V06 (Dominant-Single CROSS merging) and extended V03 analysis are detailed
 in Supplementary~S4.
@@ -1484,7 +1611,7 @@ factor associated with cross-domain performance differences in this comparison.
 \emph{Note:} NexRoute's \texttt{CROSS} figures (ROUGE-L 29.60, BERTScore 89.53)
 are from the full 100-sample \texttt{CROSS} partition, of which 40 samples (40\%)
 were seen by the \texttt{CROSS} LoRA adapter during training; the remaining 60
-adapter-unseen samples yield ROUGE-L 28.23 and BERTScore 89.66 (Table~\ref{tab:main_results}),
+adapter-unseen samples yield ROUGE-L 28.23 and BERTScore 89.66 (Table~\ref{tab:master_performance}),
 confirming a gap of $\geq$17~pp over Arrow and PHATGOOSE even on contamination-free
 queries. Arrow and PHATGOOSE were not fine-tuned on any evaluation data.}
 \label{tab:moe_routing}
@@ -1527,7 +1654,7 @@ impact on cross-domain generation quality. In contrast, NexRoute achieves a
 ROUGE-L of \textbf{29.60} and BERTScore F1 of \textbf{89.53} (full 100-sample
 \texttt{CROSS} partition), representing gaps of approximately 18.1~pp and 6.5
 points over both LoRA-library baselines; on the adapter-unseen clean subset
-($n{=}60$), NexRoute achieves ROUGE-L 28.23 and BERTScore 89.66 (Table~\ref{tab:main_results}),
+($n{=}60$), NexRoute achieves ROUGE-L 28.23 and BERTScore 89.66 (Table~\ref{tab:master_performance}),
 confirming $\geq$17~pp and $\geq$6.6-point gaps under contamination-free conditions.
 These results indicate that domain-partitioned retrieval and function-aware
 prompt scaffolding---rather than routing probability optimisation---constitute
@@ -1588,7 +1715,16 @@ as a post-hoc threshold rule rather than as part of a unified probabilistic mode
 $\mathcal{D} \cup \{\texttt{CROSS}\}$; replacing this with a learned posterior
 that assigns calibrated probability mass to the CROSS class directly
 is an important direction for future work.
-\item \textbf{Function axis evaluation.} Function axis routing accuracy is reported in Supplementary Material~S8, where the 38.0\% strict test accuracy is attributed primarily to a train/test labelling-scheme mismatch rather than model failure. However, the causal impact of function axis routing on generation quality was not evaluated through controlled ablation in this work and remains an important direction for future research.
+\item \textbf{Function axis evaluation.} Function axis routing accuracy is reported
+    in Supplementary Material~S8, where the 38.0\% strict test accuracy is attributed
+    primarily to a train/test labelling-scheme mismatch rather than model failure.
+    A controlled 4-condition ablation (Section~\ref{sec:factuality}, Table~\ref{tab:funcaxis})
+    confirms that the predicted function label yields ROUGE-L $+1.9$--$2.3$~pp above
+    wrong, random, or no-scaffold alternatives (Holm-corrected $p{<}0.001$).
+    An oracle upper bound using gold function labels is excluded because the evaluation
+    annotation scheme was assigned under different guidelines from the training labels,
+    making the oracle rate unreliable; characterising this discrepancy and providing
+    a properly matched oracle estimate is left to future work.
 \item \textbf{Multi-task representation learning.}
 The shared DeBERTa-large encoder is jointly trained for domain and function prediction,
 but formal disentanglement of the two axes is not guaranteed: the shared hidden state
@@ -1633,7 +1769,7 @@ also drawn. This overlap is uniformly distributed across all five domains:
 by the corresponding LoRA adapters during training; all baselines were trained
 without access to any of these 200 queries.
 To address this concern, we re-evaluated all five systems exclusively on the
-300 adapter-unseen samples (indices 0--299; Table~\ref{tab:main_results}).
+300 adapter-unseen samples (indices 0--299; Table~\ref{tab:master_performance}).
 On this contamination-free subset, NexRoute achieves ROUGE-L 28.23 and
 BERTScore 89.66 on \texttt{CROSS} ($n{=}60$), with advantages of 6.06~pp
 ROUGE-L ($p{<}0.001$, paired bootstrap, 10,000 iterations, Holm-corrected)
@@ -1644,9 +1780,12 @@ an artefact of training--evaluation overlap.
 \item \textbf{Statistical scope of significance testing.}
 Paired bootstrap significance tests (10,000 resamples, Holm-corrected) are
 reported for the primary CROSS-domain comparisons on the Clean-300 subset
-(Table~\ref{tab:main_results}). Single-domain and per-domain pairwise tests
-are not corrected for the full family of comparisons across metrics and domains;
-Holm correction covers only the four baseline contrasts within each metric.
+(Table~\ref{tab:master_performance}) and for all ablation generation-quality
+contrasts (Table~\ref{tab:ablation}). Hallucination differences use cluster
+bootstrap at the answer level, with 95\% CIs reported in captions and body text.
+Single-domain and per-domain pairwise tests are not corrected for the full family
+of comparisons across metrics and domains; Holm correction covers only the four
+baseline contrasts within each metric.
 Effect sizes (Cohen's $d$) and wider multi-domain significance tables are
 left to future work.
 
