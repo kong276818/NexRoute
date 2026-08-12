@@ -57,7 +57,7 @@ Expert Selection in Cross-Domain Large Language Models}
 
 
 \begin{abstract}
-Existing RAG-based expert systems route queries by domain identity alone, ignoring the reasoning function a query demands, which leads to cross-domain evidence contamination and functional mismatch. We propose \textbf{NexRoute}, a dual-axis routing framework that jointly binds each query to a domain axis (\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) selecting a LoRA-based expert and its retrieval partition, and a function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}) selecting a function-conditioned prompt scaffold---linking routing decisions directly to evidence scope and reasoning format. Trained on 15,744 dual-annotated samples, NexRoute 7B attains \textbf{87.4\%} routing accuracy. On a 300-sample benchmark fully independent of LoRA adapter training, NexRoute 7B reaches CROSS-domain ROUGE-L \textbf{28.23} and BERTScore \textbf{89.66}, exceeding all 7B baselines by at least 6.06~pp ROUGE-L (Holm-corrected $p{<}0.001$), and achieves the lowest CROSS-domain sentence-level NLI contradiction rate among 7B models (\textbf{3.6\%}). The system operates within 14.8~GB of VRAM, enabling single-GPU on-premise deployment. Controlled analyses further reveal that downstream quality is not monotonic in routing-label accuracy: oracle-domain routing and the Gold-label function condition both underperform predicted routing, while removing partitioned retrieval specifically elevates CROSS-domain NLI contradiction rate ($+3.20$~pp, $p{=}0.045$) and predicted function labels yield 1.9--2.3~pp higher ROUGE-L than wrong, random, or absent scaffolds ($p{<}0.001$). These results support the interpretation that the observed gains arise from structural coupling between routing decisions, retrieval scope, and function-conditioned prompting---not from routing-label accuracy alone. A LAW adapter degeneration failure under query-format shift and the scope of these findings are further delineated, including the need for licensed-expert evaluation before high-stakes use.
+Existing RAG-based expert systems route queries by domain identity alone, ignoring the reasoning function a query demands, which leads to cross-domain evidence contamination and functional mismatch. We propose \textbf{NexRoute}, a dual-axis routing framework that jointly binds each query to a domain axis (\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) selecting a LoRA-based expert and its retrieval partition, and a function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}) selecting a function-conditioned prompt scaffold---linking routing decisions directly to evidence scope and reasoning format. Trained on 15,744 dual-annotated samples, NexRoute 7B attains \textbf{87.4\%} routing accuracy. On a 300-sample benchmark fully independent of LoRA adapter training, NexRoute 7B reaches CROSS-domain ROUGE-L \textbf{28.23} and BERTScore \textbf{89.66}, exceeding all 7B baselines by at least 6.06~pp ROUGE-L (Holm-corrected $p{<}0.001$), and achieves the lowest CROSS-domain sentence-level NLI contradiction rate among 7B models (\textbf{3.6\%}). The system operates within 14.8~GB of VRAM, enabling single-GPU on-premise deployment. Controlled analyses further show that downstream quality is not monotonic in routing-label accuracy: oracle-domain routing underperforms predicted routing ($-1.72$~pp ROUGE-L, $p{<}0.001$), and removing partitioned retrieval specifically elevates CROSS-domain NLI contradiction rate ($+3.20$~pp, $p{=}0.045$). Separately, a controlled re-inference shows that predicted function labels yield 1.9--2.3~pp higher ROUGE-L than wrong, random, or absent scaffolds ($p{<}0.001$); the Gold-label condition underperforms predicted ($-1.47$~pp, $p{<}0.01$) because the evaluation and training function taxonomies are mismatched and therefore it does not constitute a valid performance upper bound. These results support the interpretation that the observed gains arise from structural coupling between routing decisions, retrieval scope, and function-conditioned prompting---not from routing-label accuracy alone. A LAW adapter degeneration failure under query-format shift and the scope of these findings are further delineated, including the need for licensed-expert evaluation before high-stakes use.
 \end{abstract}
 
 \begin{highlights}
@@ -179,8 +179,8 @@ Our main contributions are as follows:
 
     \item \textbf{Domain-specialized LoRA experts:} A suite of LoRA adapters---one
     per domain plus a dedicated CROSS adapter trained on 1,321 rigorously audited
-    synthesized samples---enabling a compact 7B model to match or exceed larger
-    models on in-domain tasks. Ablation (V04, w/o LoRA) on the Full-500 diagnostic
+    synthesized samples---contributing to strong CROSS-domain gains while retaining
+    a compact deployment footprint. Ablation (V04, w/o LoRA) on the Full-500 diagnostic
     set shows that removing the adapters degrades ROUGE-L by 9.43 points and
     BERTScore by 2.87 points ($p{<}0.001$, paired bootstrap), the largest
     single-component quality drop observed.
@@ -297,8 +297,8 @@ As illustrated in Figure~\ref{fig:archoverview}, NexRoute processes an incoming 
 \captionof{figure}{High-level architectural overview of NexRoute. A user
 query $q$ is jointly classified by the DeBERTa-large dual-axis router into
 a domain score and a function label. The resulting nexus point determines
-(1) the domain-exclusive retrieval partition (eliminating cross-domain
-contamination by construction) and (2) the function-specific prompt scaffold,
+(1) the domain-exclusive retrieval partition(s) (restricting retrieval to the
+selected domain(s) by construction) and (2) the function-specific prompt scaffold,
 which together condition the frozen Qwen2.5-7B-Instruct
 backbone~\citep{qwen2025qwen25}. The corresponding LoRA adapter
 ($e_{\texttt{LAW}}$, $e_{\texttt{MED}}$, $e_{\texttt{SOC}}$,
@@ -333,9 +333,10 @@ The inference pipeline proceeds in four synchronized stages
 \begin{enumerate}
     \item \textbf{Dual-axis routing}: $R_D$ and $R_F$ map $q$ to the nexus
     point $(d^*, f^*)$.
-    \item \textbf{Domain-partitioned retrieval}: NexRoute queries exclusively
-    the partition $\mathcal{K}_{d^*}$, fetching top-$K$ passages and
-    eliminating cross-domain contamination by construction.
+    \item \textbf{Domain-partitioned retrieval}: For $d^* \in \mathcal{D}_{\text{ret}}$,
+    NexRoute queries partition $\mathcal{K}_{d^*}$; for $d^*{=}\texttt{CROSS}$, it
+    independently queries the two predicted constituent partitions and concatenates their
+    contexts, restricting retrieval to the selected domain(s) by construction.
     \item \textbf{Function-aware prompt scaffolding}: The context
     $\mathcal{C}_{d^*}$ is restructured via scaffold $\mathcal{S}_{f^*}$,
     aligning the prompt with the required reasoning modality.
@@ -347,13 +348,17 @@ The inference pipeline proceeds in four synchronized stages
 \label{ssec:retrieval}
 %%------------------------------------------------------------------------------
 \paragraph{Corpus construction.}
-The full training corpus $\mathcal{K}$ is divided into five mutually exclusive
-domain partitions satisfying strict offline exclusivity:
+The retrieval knowledge base consists of four mutually exclusive single-domain
+partitions $\mathcal{K}_d$, $d \in \mathcal{D}_{\text{ret}}$, satisfying strict
+offline exclusivity:
 \begin{equation}
     \mathcal{K}_i \cap \mathcal{K}_j = \emptyset,
-    \quad \forall i \neq j \in \mathcal{D}
+    \quad \forall i \neq j \in \mathcal{D}_{\text{ret}}
     \label{eq:partition}
 \end{equation}
+The synthesized \texttt{CROSS} dataset (1,321 samples; Section~\ref{ssec:nexus}) is
+used exclusively for \texttt{CROSS}-adapter training and is \emph{not} a fifth
+retrieval partition.
 We define \emph{Inter-Domain Interference} ($\mathrm{IDI}(q)$) as the
 count of retrieved passages originating from a domain other than $d^*(q)$.
 By Eq.~\ref{eq:partition}, domain-partitioned retrieval guarantees
@@ -378,9 +383,9 @@ are in Supplementary Material~S1.
 \begin{center}
 \begingroup
 \renewcommand{\arraystretch}{1.3}
-\captionof{table}{Domain-pair distribution of the \texttt{CROSS} partition
-($n{=}1{,}321$). The \textsc{Law}--\textsc{Med} pair is \emph{absent} from
-training, making it the held-out pair used in the case study
+\captionof{table}{Domain-pair distribution of the \texttt{CROSS} adapter training set
+($n{=}1{,}321$; not a retrieval partition). The \textsc{Law}--\textsc{Med} pair is
+\emph{absent} from training, making it the held-out pair used in the case study
 (Section~\ref{sec:casestudy}).}
 \label{tab:cross_pairs_main}
 \begin{tabular}{lrr}
@@ -716,11 +721,11 @@ Section~\ref{ssec:router}, where applicable methodological details are provided.
 Text generation quality is measured using ROUGE-L \citep{lin2004rouge},
 BERTScore \citep{zhang2020bertscore} without baseline rescaling, and BLEU-4
 \citep{papineni2002bleu}. Routing performance is evaluated by exact-match
-accuracy. Sentence-level NLI contradiction rate is measured as a retrieval-grounded factuality proxy inspired by FActScore~\citep{min2023factscore}: each sentence of the predicted answer (minimum 20 characters) is verified against the top-3 retrieved passages from the domain-partitioned knowledge base using \texttt{cross-encoder/nli-deberta-v3-large}. A sentence is counted as a contradiction if the NLI model predicts \textsc{Contradiction} without any co-occurring \textsc{Entailment}; otherwise it is classified as supported or neutral. This metric should not be interpreted as a complete hallucination measure: neutral or unsupported statements are not counted as contradictions, and no atomic claim decomposition is performed. Baselines use a unified KB spanning all five domain partitions; NexRoute uses the predicted domain partition (union of the two predicted sub-partitions for CROSS queries).
+accuracy. Sentence-level NLI contradiction rate is measured as a retrieval-grounded factuality proxy inspired by FActScore~\citep{min2023factscore}: each sentence of the predicted answer (minimum 20 characters) is verified against the top-3 retrieved passages from the domain-partitioned knowledge base using \texttt{cross-encoder/nli-deberta-v3-large}. A sentence is counted as a contradiction if the NLI model predicts \textsc{Contradiction} without any co-occurring \textsc{Entailment}; otherwise it is classified as supported or neutral. This metric should not be interpreted as a complete hallucination measure: neutral or unsupported statements are not counted as contradictions, and no atomic claim decomposition is performed. Baselines use a unified KB spanning all four single-domain partitions; NexRoute uses the predicted domain partition(s) (independently querying the two predicted constituent partitions for CROSS queries).
 Additional evaluation dimensions include computational efficiency (inference
 latency and VRAM usage).
 Statistical significance for generation metrics is assessed via paired bootstrap
-(10,000 resamples) with Holm correction for multiple comparisons; hallucination
+(10,000 resamples) with Holm correction for multiple comparisons; NLI contradiction rate
 differences use cluster bootstrap at the answer level. Details are in
 Section~\ref{ssec:comprehensive} and Section~\ref{sec:factuality}.
 
@@ -735,7 +740,7 @@ retrieved passages, providing a downstream measure of the consequences of retrie
 evidence on generated claims, not a substitute for retrieval-quality metrics
 (e.g., Recall@$K$, nDCG) that characterize intermediate retrieval rankings.
 Partitioned retrieval's effect on factuality is further isolated by ablation
-(V03, w/o partitioned retrieval: CROSS hallucination $+3.20$~pp, $p{=}0.045$).
+(V03, w/o partitioned retrieval: CROSS NLI contradiction rate $+3.20$~pp, $p{=}0.045$).
 
 %%------------------------------------------------------------------------------
 \subsection{Routing System Accuracy}
@@ -918,6 +923,12 @@ predict generation quality.
 \label{ssec:comprehensive}
 %%------------------------------------------------------------------------------
 Table~\ref{tab:master_performance} presents generation quality and computational efficiency across all baselines at 7B and 72B scales, averaged over three seeds (NexRoute 7B: std\ $<0.8$; 72B-scale models: std\ $<0.4$).
+\emph{Evaluation protocol:} Table~\ref{tab:master_performance} evaluates the domain-routing,
+expert-adaptation, and partitioned-retrieval components of NexRoute without applying
+function-conditioned scaffolding. The incremental contribution of function-conditioned
+scaffolding is assessed separately under a controlled re-inference in
+Table~\ref{tab:funcaxis}; absolute scores across the two tables are therefore not
+directly comparable.
 
 \vspace{6pt plus 4pt minus 3pt}
 \begin{center}
@@ -940,7 +951,11 @@ overall ROUGE-L differences between NexRoute and all 7B baselines are not signif
 NexRoute's LAW outputs; full-500 results are in Supplementary~S4.
 \textbf{NexRoute LAW:} Clean-300 LAW ROUGE-L collapses to 18.27 (adapter degeneration;
 Section~\ref{ssec:law-degeneration}); all baselines score 23.66--24.75.
-Excluding LAW, NexRoute Clean-300 Single ROUGE-L = 25.79, BERTScore = 88.69.}
+Excluding LAW, NexRoute Clean-300 Single ROUGE-L = 25.79, BERTScore = 88.69.
+\textbf{Protocol note:} NexRoute results in this table are generated under a domain-specific
+few-shot prompting protocol \emph{without} function-conditioned scaffolding; the incremental
+contribution of function-conditioned scaffolding is evaluated separately under a controlled
+re-inference in Table~\ref{tab:funcaxis}.}
 \label{tab:master_performance}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lccccccccc}
@@ -1005,7 +1020,7 @@ Simplified CRAG 72B
 \vspace{6pt plus 4pt minus 3pt}
 
 \paragraph{Cross-domain performance: NexRoute 7B vs.\ 72B baselines.}
-NexRoute 7B leads all 7B baselines on all three CROSS-domain metrics on the contamination-free Clean-300 subset (Table~\ref{tab:master_performance}): ROUGE-L~28.23 (+6.06~pp vs.\ best 7B baseline; paired bootstrap, Holm-corrected $p{<}0.001$), BERTScore~89.66 (+1.82~pp; $p{<}0.001$), and BLEU-4~12.19 (+4.07~pp; $p{<}0.001$; 95\%~CI for ROUGE-L: [+4.80,~+8.11]~pp). NexRoute 7B also achieves the highest Clean-300 overall ROUGE-L~(24.29) and BERTScore~(87.91) among 7B models. These contamination-free results indicate that NexRoute's cross-domain advantage persists on adapter-unseen evaluation queries, suggesting it is not explained by direct adapter exposure to those samples. Numerically, NexRoute 7B is competitive with 72B-scale dense baselines on CROSS-domain ROUGE-L and BERTScore; because 7B and 72B results use different evaluation splits, this is a descriptive cross-scale reference and does not support a controlled parameter-scale superiority claim. The BLEU-4 pattern may partly reflect function-scaffolded output style (see Section~\ref{sssec:causal-density}).
+NexRoute 7B leads all 7B baselines on all three CROSS-domain metrics on the contamination-free Clean-300 subset (Table~\ref{tab:master_performance}): ROUGE-L~28.23 (+6.06~pp vs.\ best 7B baseline; paired bootstrap, Holm-corrected $p{<}0.001$), BERTScore~89.66 (+1.82~pp; $p{<}0.001$), and BLEU-4~12.19 (+4.07~pp; $p{<}0.001$; 95\%~CI for ROUGE-L: [+4.80,~+8.11]~pp). NexRoute 7B also achieves the highest Clean-300 overall ROUGE-L~(24.29) and BERTScore~(87.91) among 7B models. These contamination-free results indicate that NexRoute's cross-domain advantage persists on adapter-unseen evaluation queries, suggesting it is not explained by direct adapter exposure to those samples. Numerically, NexRoute 7B is competitive with 72B-scale dense baselines on CROSS-domain ROUGE-L and BERTScore; because 7B and 72B results use different evaluation splits, this is a descriptive cross-scale reference and does not support a controlled parameter-scale superiority claim. The BLEU-4 pattern may partly reflect function-scaffolded output style.
 Figure~\ref{fig:performance} visualizes these results across model scales.
 
 \begin{center}
@@ -1357,7 +1372,7 @@ during adapter training.
 This failure manifests in two measurable ways.
 First, LAW NexRoute outputs average 1.0~qualifying sentence per response
 (sentences $>$20 characters), compared to 7.3--7.6 for all four baselines
-on the same LAW queries; the inflated LAW hallucination rate of 43.0\% is
+on the same LAW queries; the inflated LAW NLI contradiction rate of 43.0\% is
 therefore a denominator-reduction artifact rather than a reflection of factual content.
 Second, NexRoute's LAW ROUGE-L collapses to 15.09, compared to 25.88--26.51
 for all baselines.
@@ -1370,7 +1385,7 @@ CROSS-domain queries are unaffected, as CROSS routing activates the
 \vspace{4pt}
 \begin{center}
 \begingroup
-\captionof{table}{Hallucination rates (\%) excluding the LAW domain
+\captionof{table}{Sentence-level NLI contradiction rates (\%) excluding the LAW domain
 (MED, SOC, STEM, CROSS only), unconfounded by LAW adapter degeneration.
 This is a secondary, diagnostic table; the primary comparison with all domains
 is Table~\ref{tab:hallucination}.
@@ -1640,7 +1655,7 @@ NexRoute processes the query as follows:
     independently fetching passages from the
     \textsc{Law} partition (malpractice case law, informed consent doctrine)
     and the \textsc{Med} partition (hepatotoxicity registries, off-label
-    pharmacology), eliminating inter-domain contamination by construction.
+    pharmacology), restricting retrieval to these two domain partitions by construction.
 
     \item \textbf{Function-Aware Prompt Scaffolding.} The \texttt{Why}-scaffold
     structures the retrieved context into a three-stage causal reasoning
@@ -1879,11 +1894,7 @@ that do not necessarily generalize across all settings.
 \begin{itemize}
 \item \textbf{Synthetic cross-domain data and pair coverage.}
 The \texttt{CROSS} domain partition relies on synthetic data generation via a
-larger teacher model (Qwen2.5-72B). Synthesizing cross-domain datasets via larger teacher models is the
-\emph{de facto} approach in contemporary LLM adaptation research.
-Human-authored interdisciplinary data at scale is practically unavailable:
-annotation costs are extreme and data-privacy regulations typically prohibit
-the necessary cross-domain collection. While we rigorously mitigated potential biases through
+larger teacher model (Qwen2.5-72B). Large-scale human-authored cross-domain supervision was not available in our experimental setting, so the \texttt{CROSS}-adapter training set was synthesized with a larger teacher model (Qwen2.5-72B) and subjected to automated filtering and a stratified human audit. While we rigorously mitigated potential biases through
 a stratified human audit (94.2\% inter-rater agreement;
 Section~\ref{ssec:loratrain}) transitioning toward a human-annotated cross-domain held-out benchmark
 of at least 100 samples spanning all evaluated domain pairs remains an
@@ -2122,9 +2133,7 @@ The LAW adapter degeneration failure (97\% citation-format output rate) is a con
 documented risk for LoRA-based deployment under query-format shift.
 Validation is bounded by MMLU-derived corpora and the Qwen2.5-7B backbone;
 broader evaluation across datasets, domains, and backbones is required.
-Within these bounds, the results support that single-GPU on-premise deployment
-(${\leq}14.8$~GB VRAM) can achieve cross-domain quality through structural alignment
-that would otherwise require much larger generalist models.
+Within these bounds, NexRoute demonstrates strong CROSS-domain performance while remaining within a 14.8~GB single-GPU memory envelope, with the structural coupling between routing, retrieval scope, and function-conditioned prompting identified as a key contributing factor.
 
 %%==============================================================================
 \printcredits
