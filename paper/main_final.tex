@@ -57,7 +57,7 @@ Expert Selection in Cross-Domain Large Language Models}
 
 
 \begin{abstract}
-Existing RAG-based expert systems route queries by domain identity alone, ignoring the reasoning function required to process them, which leads to cross-domain contamination and increased hallucination under unified retrieval. We propose \textbf{NexRoute}, a dual-axis routing framework in which a shared encoder produces two routing decisions: a domain axis (\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) selecting a LoRA-based expert and its retrieval partition, and a function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}) selecting a prompt scaffold. Their intersection---the \textit{nexus point}---is intended to address both cross-domain contamination and functional mismatch. Trained on 15,744 dual-annotated samples, NexRoute 7B attains \textbf{87.4\%} routing accuracy (+4.0~pp over a TF-IDF domain router). We evaluate on a 500-sample interdisciplinary benchmark; 300 samples are fully independent of LoRA adapter training, while the remaining 200 were seen by the adapters during training and are reported separately. On the 300 independent samples, NexRoute 7B reaches a cross-domain ROUGE-L of \textbf{28.23} and BERTScore of \textbf{89.66}, exceeding all 7B baselines by at least 6.06~pp ROUGE-L (paired bootstrap, Holm-corrected $p{<}0.001$). It also attains the lowest CROSS-domain hallucination rate among 7B models (\textbf{3.6\%}); its overall rate is 10.1\%, above Simplified CRAG (9.8\%). Ablation over five variants shows that removing the LoRA adapters costs 9.43~pp ROUGE-L ($p{<}0.001$), the largest single-component effect, while CROSS-domain hallucination rises specifically when partitioned retrieval is removed ($+3.20$~pp, $p{=}0.045$) or the domain axis is disabled ($+2.93$~pp, $p{=}0.008$); single-domain hallucination is unchanged across all single-component removals. A controlled function-axis ablation shows that predicted function labels yield 1.9--2.3~pp higher ROUGE-L than wrong, random, or absent scaffolds (Holm-corrected $p{<}0.001$), while oracle gold labels unexpectedly underperform predicted ($-1.47$~pp, $p{<}0.01$) due to label-taxonomy mismatch. A router-necessity experiment, however, finds that oracle domain labels do not improve over predicted routing ($-1.72$~pp ROUGE-L, $p{<}0.001$) and that routing every query through the CROSS adapter raises lexical scores on single-domain queries without reducing hallucination (16.51\% vs.\ 12.70\%, $p{=}0.953$); routing accuracy therefore does not by itself determine generation quality. The system operates within 14.8\,GB of VRAM, supporting privacy-sensitive on-device deployment. We further document a degeneration failure of the LAW adapter and delineate the scope of these findings, including the need for licensed-expert evaluation before high-stakes use.
+Existing RAG-based expert systems route queries by domain identity alone, ignoring the reasoning function required to process them, which leads to cross-domain contamination and increased hallucination under unified retrieval. We propose \textbf{NexRoute}, a dual-axis routing framework in which a shared encoder produces two routing decisions: a domain axis (\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) selecting a LoRA-based expert and its retrieval partition, and a function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}) selecting a prompt scaffold. Their intersection---the \textit{nexus point}---is intended to address both cross-domain contamination and functional mismatch. Trained on 15,744 dual-annotated samples, NexRoute 7B attains \textbf{87.4\%} routing accuracy (+4.0~pp over a TF-IDF domain router). We evaluate on a 500-sample interdisciplinary benchmark; 300 samples are fully independent of LoRA adapter training, while the remaining 200 were seen by the adapters during training and are reported separately. On the 300 independent samples, NexRoute 7B reaches a cross-domain ROUGE-L of \textbf{28.23} and BERTScore of \textbf{89.66}, exceeding all 7B baselines by at least 6.06~pp ROUGE-L (paired bootstrap, Holm-corrected $p{<}0.001$). It also attains the lowest CROSS-domain hallucination rate among 7B models (\textbf{3.6\%}); its overall rate is 10.1\%, above Simplified CRAG (9.8\%). Ablation over five variants shows that removing the LoRA adapters costs 9.43~pp ROUGE-L ($p{<}0.001$), the largest single-component effect, while CROSS-domain hallucination rises specifically when partitioned retrieval is removed ($+3.20$~pp, $p{=}0.045$) or the domain axis is disabled ($+2.93$~pp, $p{=}0.008$); single-domain hallucination is unchanged across all single-component removals. A controlled function-axis ablation shows that predicted function labels yield 1.9--2.3~pp higher ROUGE-L than wrong, random, or absent scaffolds (Holm-corrected $p{<}0.001$), while the Gold-label condition unexpectedly underperforms predicted ($-1.47$~pp, $p{<}0.01$) due to label-taxonomy mismatch. A router-necessity experiment, however, finds that oracle domain labels do not improve over predicted routing ($-1.72$~pp ROUGE-L, $p{<}0.001$) and that routing every query through the CROSS adapter raises lexical scores on single-domain queries without reducing hallucination (16.51\% vs.\ 12.70\%, $p{=}0.953$); routing accuracy therefore does not by itself determine generation quality. The system operates within 14.8\,GB of VRAM, supporting privacy-sensitive on-device deployment. We further document a degeneration failure of the LAW adapter and delineate the scope of these findings, including the need for licensed-expert evaluation before high-stakes use.
 \end{abstract}
 
 \begin{highlights}
@@ -66,7 +66,7 @@ Existing RAG-based expert systems route queries by domain identity alone, ignori
     \item Removing the LoRA adapters costs 9.4 ROUGE-L points ($p{<}0.001$),
     the largest single-component effect; predicted function labels outperform
     wrong, random, and absent scaffolds by 1.9--2.3 points ($p{<}0.001$);
-    oracle gold labels underperform predicted ($-1.47$~pp, $p{<}0.01$) due
+    Gold-label condition underperforms predicted ($-1.47$~pp, $p{<}0.01$) due
     to label-taxonomy mismatch.
     \item CROSS-domain hallucination rises when partitioned retrieval is removed
     ($+3.20$~pp) or the domain axis is disabled ($+2.93$~pp);
@@ -196,10 +196,10 @@ Our main contributions are as follows:
 
     \item \textbf{Function-aware scaffolding:} A function-conditioned prompt
     preamble aligned to the predicted query function (\texttt{What}/\texttt{How}/%
-    \texttt{Why}/\texttt{Compare}). A controlled 5-condition ablation (oracle,
+    \texttt{Why}/\texttt{Compare}). A controlled 5-condition ablation (Gold-label,
     predicted, wrong-label, random-label, no scaffold; $n{=}300$) shows that the
     predicted label outperforms wrong/random/none by ROUGE-L $+1.9$--$2.3$~pp
-    (Holm-corrected $p{<}0.001$); the oracle condition (gold labels) unexpectedly
+    (Holm-corrected $p{<}0.001$); the Gold-label condition unexpectedly
     underperforms predicted ($-1.47$~pp, $p{<}0.01$) due to label-taxonomy mismatch
     (28.7\% \texttt{OTHER} labels absent from the training vocabulary).
 
@@ -275,7 +275,7 @@ NexRoute's novelty lies in binding routing decisions to two distinct system reso
 Adaptive-RAG selects retrieval \emph{strategy} but operates on a unified corpus---cross-domain contamination persists.
 Typed-RAG classifies function type within a unified corpus---domain specialization is absent.
 LoRAMoE and Mixture-of-LoRAs \citep{dou2024loramoe,wu2024mixtureofloras} route to domain-specific adapters but provide no function-aware prompt structuring and no domain-partitioned retrieval.
-Arrow Routing~\citep{arrow2024routing} and PHATGOOSE~\citep{muqeeth2024phatgoose} optimise routing probability over a LoRA library but do not control retrieval scope or prompt format; on CROSS-domain queries they lag NexRoute by ${\geq}17$~pp ROUGE-L despite comparable adapter sets (Section~\ref{ssec:moe_routing}), with router entropy 3.8\% vs NexRoute's 1.0\%---indicating they spread probability mass rather than committing to a domain-partitioned evidence path.
+Arrow Routing~\citep{arrow2024routing} and PHATGOOSE~\citep{muqeeth2024phatgoose} optimise routing probability over a LoRA library but do not control retrieval scope or prompt format; on CROSS-domain queries they lag NexRoute by ${\geq}17$~pp ROUGE-L despite comparable adapter sets (Section~\ref{ssec:moe_routing}), and their routing entropy (91.5\% and 100.0\% of $\mathcal{H}_{\max}$, respectively; Table~\ref{tab:moe_routing}) is comparable to NexRoute's 92.5\%---indicating that adapter commitment alone is insufficient; domain-partitioned retrieval and function-conditioned scaffolding are the missing structural components.
 NexRoute's delta is the following wiring: the \emph{domain} routing decision determines which knowledge partition feeds the context (resolving contamination), and the \emph{function} routing decision determines which prompt scaffold structures the generation (resolving functional mismatch).
 Both decisions are made jointly from a shared encoder in one forward pass, ensuring consistent context--prompt alignment at each query.
 %%==============================================================================
@@ -449,13 +449,16 @@ heatmap (Figure~S3.1) is in Supplementary Material~S3.
 \begingroup
 \renewcommand{\arraystretch}{1.2}
 \captionof{table}{\texttt{CROSS} detection error trade-off between grid-search
-optimum and adopted configuration on the 500-sample evaluation set
-($n_{\texttt{CROSS}}{=}100$, $n_{\text{single}}{=}400$).
+optimum and adopted configuration.
 The domain router's training data shares no instruction-text overlap with any
-of these 500 samples (routing accuracy only; LoRA adapter overlap is described
+of the 500 evaluation samples (routing accuracy only; LoRA adapter overlap is described
 in Section~\ref{ssec:setup}).
-Val.\ Acc.\ is binary \texttt{CROSS}-vs.-single detection; Test Acc.\ is
-full five-way domain classification.}
+Val.\ Acc.\ is binary \texttt{CROSS}-vs.-single detection accuracy on the
+\emph{200-sample held-out validation set} (disjoint from GT-500; used for $\tau$/$\delta$
+grid search).
+Test Acc.\ is full five-way domain classification accuracy on the
+\emph{500-sample evaluation set} ($n_{\texttt{CROSS}}{=}100$, $n_{\text{single}}{=}400$).
+FN/FP rates are from the 500-sample evaluation set.}
 \label{tab:cross_fn_main}
 \begin{tabular}{lcccc}
 \toprule
@@ -898,7 +901,7 @@ and no-scaffold conditions by ROUGE-L $+1.9$--$2.3$~pp ($p{<}0.001$, Holm-correc
 Table~\ref{tab:funcaxis}), indicating that the scaffold's benefit arises from
 structural alignment between prompt format and query intent---not from classification
 accuracy per se.
-The oracle condition (gold labels) underperforms the predicted label by $-1.47$~pp
+The Gold-label condition underperforms the predicted label by $-1.47$~pp
 ROUGE-L ($p{<}0.01$, Holm-corrected), primarily because 28.7\% of gold labels are
 \texttt{OTHER}, a class absent from the training vocabulary, causing scaffold fallback.
 This result is consistent with the routing-accuracy paradox observed on the domain
@@ -1217,28 +1220,28 @@ V02~32.76 ($\Delta{=}{+2.84}$; paired bootstrap, $p{=}0.0006$).
 The effect is consistent: excl-LAW $\Delta{=}{+2.13}$ ($p{<}0.0001$);
 full clean-300 $\Delta{=}{+1.92}$ ($p{=}0.0001$).
 
-\paragraph{Function-axis ablation: oracle, predicted, and alternative labels.}
+\paragraph{Function-axis ablation: Gold-label, predicted, and alternative labels.}
 To assess the causal contribution of function classification accuracy,
 we conducted a controlled 5-condition ablation on the clean-300 subset ($n{=}300$;
 Table~\ref{tab:funcaxis}), keeping all other components constant and varying only the function label supplied to the scaffold:
-(A)~Oracle (gold function label from the evaluation set),
+(A)~Gold-label (gold function label from the evaluation set),
 (B)~Predicted (V01 DeBERTa router; 50.0\% label accuracy vs.\ gold),
 (C)~Wrong (cyclic shift: \texttt{WHAT}$\to$\texttt{HOW}$\to$\texttt{WHY}$\to$\texttt{COMPARE}),
 (D)~Random (seed-fixed),
 (E)~No scaffold (V02 re-use).
 The predicted label outperforms wrong, random, and no-scaffold alternatives by ROUGE-L $+1.9$--$2.3$~pp
 (Holm-corrected $p{<}0.001$ for all B-vs-C/D/E contrasts; Table~\ref{tab:funcaxis}),
-confirming that accurate function routing contributes meaningfully to generation quality.
-Unexpectedly, however, the oracle condition~(A) \emph{underperforms} the predicted
+confirming that the learned function-conditioned scaffold policy provides useful query-dependent structural alignment.
+Unexpectedly, however, the Gold-label condition~(A) \emph{underperforms} the predicted
 label~(B) by $-1.47$~pp ROUGE-L (95\%~CI [$-2.36$, $-0.55$]; Holm-corrected $p{<}0.01$).
-This mirrors the Oracle${<}$Predicted paradox observed on the domain axis
+This mirrors the analogous Gold-label${<}$Predicted pattern observed on the domain axis
 (Section~\ref{ssec:domainrouter}).
 The primary source of underperformance is a label-taxonomy mismatch:
 28.7\% of gold function labels ($n{=}86$/300) fall into an
 \texttt{OTHER} category absent from the four-class training vocabulary
 (\texttt{WHAT}/\texttt{HOW}/\texttt{WHY}/\texttt{COMPARE}), causing scaffold fallback
 and systematic quality degradation on those samples.
-Even among the 214 non-\texttt{OTHER} samples, oracle does not recover to the predicted
+Even among the 214 non-\texttt{OTHER} samples, the Gold-label condition does not recover to the predicted
 level, indicating a residual annotation-scheme discrepancy beyond the \texttt{OTHER}
 category; characterising this discrepancy fully is left to future work
 (Section~\ref{sec:limitations}).
@@ -1256,7 +1259,12 @@ Note: CROSS~$n{=}88$ differs from the gold-domain CROSS count ($n{=}60$) in
 Table~\ref{tab:domainrouter} because this table uses the router's predicted label.
 Condition~A uses gold function labels from the evaluation set; 28.7\% of those
 labels are \texttt{OTHER} (absent from the training taxonomy), causing scaffold
-fallback on those samples.}
+fallback on those samples.
+\textbf{Absolute scores in this table are not directly comparable to Table~\ref{tab:master_performance}
+(NexRoute Overall RL 24.29):} Table~\ref{tab:master_performance} uses a domain-specific
+few-shot prompt without function-conditioned scaffolding, whereas this controlled
+re-inference run applies function-conditioned scaffolding to all conditions identically.
+All within-table contrasts are paired on the same generation run.}
 \label{tab:funcaxis}
 \setlength{\tabcolsep}{3.5pt}
 \small
@@ -1270,7 +1278,7 @@ fallback on those samples.}
  & \textbf{RL} & \textbf{BS} & \textbf{B4}
  & \textbf{RL} & \textbf{BS} & \textbf{B4} \\
 \midrule
-A~~Oracle    & 27.84 & 88.07 & 10.62 & 32.26 & 90.14 & 14.49 & 26.01 & 87.21 & 9.02 \\
+A~~Gold-label & 27.84 & 88.07 & 10.62 & 32.26 & 90.14 & 14.49 & 26.01 & 87.21 & 9.02 \\
 B~~Predicted & \textbf{29.31} & \textbf{88.35} & \textbf{11.79}
  & \textbf{35.60} & \textbf{90.80} & \textbf{17.38}
  & \textbf{26.70} & \textbf{87.33} & \textbf{9.47} \\
@@ -1282,7 +1290,7 @@ E~~None      & 27.39 & 88.08 & 10.53 & 32.76 & 90.51 & 15.15 & 25.16 & 87.08 & 8
 
 \vspace{3pt}
 {\footnotesize\raggedright
-Conditions: A~=~oracle (gold label), B~=~predicted (DeBERTa), C~=~wrong (cyclic),
+Conditions: A~=~Gold-label (gold function label), B~=~predicted (DeBERTa), C~=~wrong (cyclic),
 D~=~random, E~=~no scaffold (V02).\quad
 $\Delta$(B$-$A): RL $-1.47$ $[-2.36,-0.55]$, $p{<}0.01$;\quad
 $\Delta$(B$-$C): RL $+2.31$ $[{+}1.41,{+}3.24]$;\quad
@@ -1936,16 +1944,19 @@ in single-domain contexts.
     Table~\ref{tab:funcaxis}) confirms that the predicted function label~(B)
     yields ROUGE-L $+1.9$--$2.3$~pp above wrong, random, or no-scaffold
     alternatives (Holm-corrected $p{<}0.001$).
-    The oracle condition~(A), which uses gold function labels from the evaluation
+    The Gold-label condition~(A), which uses gold function labels from the evaluation
     set, \emph{underperforms} the predicted label by $-1.47$~pp ROUGE-L
-    ($p{<}0.01$, Holm-corrected), mirroring the Oracle${<}$Predicted paradox
+    ($p{<}0.01$, Holm-corrected), mirroring the Gold-label${<}$Predicted paradox
     on the domain axis (Section~\ref{ssec:domainrouter}).
     The primary source is a label-taxonomy gap: 28.7\% of evaluation gold labels
     are \texttt{OTHER}, a class absent from the four-class training vocabulary,
     causing scaffold fallback.
-    Even on the 214 non-\texttt{OTHER} samples the oracle does not recover to the
+    Note that the Gold-label condition is \emph{not} a true upper bound on performance:
+    the mismatch between the evaluation annotation scheme and the training taxonomy means
+    these labels measure a different categorisation of query function.
+    Even on the 214 non-\texttt{OTHER} samples the Gold-label condition does not recover to the
     predicted level, indicating a residual annotation-guideline discrepancy.
-    Providing a matched oracle estimate under a consistent annotation scheme
+    Providing a matched upper-bound estimate under a consistent annotation scheme
     is left to future work.
 \item \textbf{Multi-task representation learning.}
 The shared DeBERTa-large encoder is jointly trained for domain and function prediction,
