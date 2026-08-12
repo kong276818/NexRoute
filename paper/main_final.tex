@@ -57,27 +57,26 @@ Expert Selection in Cross-Domain Large Language Models}
 
 
 \begin{abstract}
-Existing RAG-based expert systems route queries by domain identity alone, ignoring the reasoning function required to process them, which leads to cross-domain contamination and increased hallucination under unified retrieval. We propose \textbf{NexRoute}, a dual-axis routing framework in which a shared encoder produces two routing decisions: a domain axis (\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) selecting a LoRA-based expert and its retrieval partition, and a function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}) selecting a prompt scaffold. Their intersection---the \textit{nexus point}---is intended to address both cross-domain contamination and functional mismatch. Trained on 15,744 dual-annotated samples, NexRoute 7B attains \textbf{87.4\%} routing accuracy (+4.0~pp over a TF-IDF domain router). We evaluate on a 500-sample interdisciplinary benchmark; 300 samples are fully independent of LoRA adapter training, while the remaining 200 were seen by the adapters during training and are reported separately. On the 300 independent samples, NexRoute 7B reaches a cross-domain ROUGE-L of \textbf{28.23} and BERTScore of \textbf{89.66}, exceeding all 7B baselines by at least 6.06~pp ROUGE-L (paired bootstrap, Holm-corrected $p{<}0.001$). It also attains the lowest CROSS-domain hallucination rate among 7B models (\textbf{3.6\%}); its overall rate is 10.1\%, above Simplified CRAG (9.8\%). Ablation over five variants shows that removing the LoRA adapters costs 9.43~pp ROUGE-L ($p{<}0.001$), the largest single-component effect, while CROSS-domain hallucination rises specifically when partitioned retrieval is removed ($+3.20$~pp, $p{=}0.045$) or the domain axis is disabled ($+2.93$~pp, $p{=}0.008$); single-domain hallucination is unchanged across all single-component removals. A controlled function-axis ablation shows that predicted function labels yield 1.9--2.3~pp higher ROUGE-L than wrong, random, or absent scaffolds (Holm-corrected $p{<}0.001$), while the Gold-label condition unexpectedly underperforms predicted ($-1.47$~pp, $p{<}0.01$) due to label-taxonomy mismatch. A router-necessity experiment, however, finds that oracle domain labels do not improve over predicted routing ($-1.72$~pp ROUGE-L, $p{<}0.001$) and that routing every query through the CROSS adapter raises lexical scores on single-domain queries without reducing hallucination (16.51\% vs.\ 12.70\%, $p{=}0.953$); routing accuracy therefore does not by itself determine generation quality. The system operates within 14.8\,GB of VRAM, supporting privacy-sensitive on-device deployment. We further document a degeneration failure of the LAW adapter and delineate the scope of these findings, including the need for licensed-expert evaluation before high-stakes use.
+Existing RAG-based expert systems route queries by domain identity alone, ignoring the reasoning function a query demands, which leads to cross-domain evidence contamination and functional mismatch. We propose \textbf{NexRoute}, a dual-axis routing framework that jointly binds each query to a domain axis (\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) selecting a LoRA-based expert and its retrieval partition, and a function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}) selecting a function-conditioned prompt scaffold---linking routing decisions directly to evidence scope and reasoning format. Trained on 15,744 dual-annotated samples, NexRoute 7B attains \textbf{87.4\%} routing accuracy. On a 300-sample benchmark fully independent of LoRA adapter training, NexRoute 7B reaches CROSS-domain ROUGE-L \textbf{28.23} and BERTScore \textbf{89.66}, exceeding all 7B baselines by at least 6.06~pp ROUGE-L (Holm-corrected $p{<}0.001$), and achieves the lowest CROSS-domain sentence-level NLI contradiction rate among 7B models (\textbf{3.6\%}). The system operates within 14.8~GB of VRAM, enabling single-GPU on-premise deployment. Controlled analyses further reveal that downstream quality is not monotonic in routing-label accuracy: oracle-domain routing and the Gold-label function condition both underperform predicted routing, while removing partitioned retrieval specifically elevates CROSS-domain NLI contradiction rate ($+3.20$~pp, $p{=}0.045$) and predicted function labels yield 1.9--2.3~pp higher ROUGE-L than wrong, random, or absent scaffolds ($p{<}0.001$). These results support the interpretation that the observed gains arise from structural coupling between routing decisions, retrieval scope, and function-conditioned prompting---not from routing-label accuracy alone. A LAW adapter degeneration failure under query-format shift and the scope of these findings are further delineated, including the need for licensed-expert evaluation before high-stakes use.
 \end{abstract}
 
 \begin{highlights}
     \item Dual-axis routing decomposes query intent into a domain axis
     (LoRA expert and retrieval partition) and a function axis (prompt scaffold).
-    \item Removing the LoRA adapters costs 9.4 ROUGE-L points ($p{<}0.001$),
-    the largest single-component effect; predicted function labels outperform
-    wrong, random, and absent scaffolds by 1.9--2.3 points ($p{<}0.001$);
-    Gold-label condition underperforms predicted ($-1.47$~pp, $p{<}0.01$) due
-    to label-taxonomy mismatch.
-    \item CROSS-domain hallucination rises when partitioned retrieval is removed
+    \item Domain-partitioned retrieval reduces CROSS-domain NLI contradiction rate
+    by 3.20~pp ($p{=}0.045$); predicted function labels outperform wrong, random,
+    and absent scaffolds by 1.9--2.3 ROUGE-L pp ($p{<}0.001$); the Gold-label
+    condition underperforms predicted ($-1.47$~pp, $p{<}0.01$) due to label-taxonomy mismatch.
+    \item CROSS-domain NLI contradiction rate rises when partitioned retrieval is removed
     ($+3.20$~pp) or the domain axis is disabled ($+2.93$~pp);
-    single-domain rates are unchanged.
+    single-domain rates are unchanged across all single-component removals.
     \item Oracle domain labels do not outperform predicted routing, and
-    always-CROSS routing raises lexical scores without lowering hallucination---
+    always-CROSS routing raises lexical scores without lowering NLI contradiction rate---
     routing accuracy alone does not determine generation quality.
     \item NexRoute 7B attains 87.4\% routing accuracy and the lowest CROSS-domain
-    hallucination rate among 7B models (3.6\%); its overall rate is 10.1\%
-    (Simplified CRAG: 9.8\%).
-    \item Runs within 14.8\,GB VRAM, enabling privacy-sensitive on-device deployment.
+    NLI contradiction rate among 7B models (3.6\%); CROSS-domain ROUGE-L exceeds
+    all 7B baselines by $\geq$6.06~pp ($p{<}0.001$).
+    \item Operates within 14.8~GB VRAM, enabling single-GPU on-premise deployment.
 \end{highlights}
 \begin{keywords}
 Retrieval-Augmented Generation \sep
@@ -119,16 +118,16 @@ In contrast, when specific specialized experts are explicitly paired and
 their retrieval scopes kept separate, each expert draws only on its own
 domain-exclusive evidence rather than a contamination-prone merged pool;
 our ablation shows that removing partitioned retrieval specifically
-elevates CROSS-domain hallucination by 3.2~pp (3.50\%$\to$6.70\%; $p{=}0.045$,
-cluster bootstrap), while single-domain hallucination changes are not significant
-across any single-component removal. However, in
+elevates CROSS-domain NLI contradiction rate by 3.2~pp (3.50\%$\to$6.70\%; $p{=}0.045$,
+cluster bootstrap), while single-domain NLI contradiction rates are not significantly
+changed across any single-component removal. However, in
 multi-domain settings, unified retrieval over undifferentiated corpora
 further compounds this problem: lexical overlap between professional
 disciplines causes the retriever to mix evidence from unrelated domains
 (cross-domain contamination), as illustrated in
 Figure~\ref{fig:motivation}.
 
-To resolve both failure modes and bridge the gap between isolated model inference and true collaborative synthesis, we propose \textbf{NexRoute}, a dual-axis routing
+To address both failure modes and bridge the gap between isolated model inference and true collaborative synthesis, we propose \textbf{NexRoute}, a dual-axis routing
 architecture that leverages a shared encoder to learn jointly trained multi-task representations
 of query intent. First, an explicit \textbf{function axis} signals the
 reasoning modality a query demands---\texttt{What}, \texttt{How},
@@ -143,7 +142,7 @@ domain-pair samples and grounded in evidence retrieved separately from
 each contributing domain partition. This resolves the second failure mode by
 integrating---rather than merging into a single generalist pathway---the
 exclusive evidence of both contributing domains, structurally separating evidence from each contributing domain. Each query is decomposed
-along two orthogonal dimensions: (1) a \textbf{domain axis} (\texttt{LAW},
+along two complementary dimensions: (1) a \textbf{domain axis} (\texttt{LAW},
 \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) and (2) a
 \textbf{function axis} (\texttt{What}, \texttt{How}, \texttt{Why},
 \texttt{Compare}). Their intersection---the \textit{nexus point}---dynamically
@@ -158,7 +157,7 @@ reasoning strategy the query demands.
 \captionof{figure}{Cross-domain contamination in unified-retrieval RAG
 systems. Lexical ambiguity causes the retriever to fetch documents from an
 unrelated domain (e.g., STEM passages for a MED query), polluting the
-context window and inducing hallucination. NexRoute prevents this via
+context window and inducing hallucination. NexRoute restricts cross-domain retrieval mixing via
 domain-partitioned retrieval (Section~\ref{sec:method}).}
 \label{fig:motivation}
 \endgroup
@@ -171,28 +170,30 @@ Our main contributions are as follows:
     while the function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare})
     applies function-specific prompt scaffolding aligned with query intent.
     Ablation shows that these two axes govern complementary aspects of output quality:
-    LoRA adapter removal causes the largest single-component quality drop
-    ($-9.43$ ROUGE-L points, $p{<}0.001$), while function-aware scaffolding provides
-    targeted ROUGE-L gains when the predicted label is used
-    ($\Delta{+}1.9$--$2.3$~pp over wrong/random/none; Holm-corrected $p{<}0.001$);
-    routing accuracy alone does not determine generation quality
-    (Section~\ref{ssec:domainrouter}).
+    LoRA adapter removal causes the largest single-component quality drop on the
+    Full-500 diagnostic set ($-9.43$ ROUGE-L points, $p{<}0.001$),
+    while function-aware scaffolding provides targeted ROUGE-L gains when the
+    predicted label is used ($\Delta{+}1.9$--$2.3$~pp over wrong/random/none;
+    Holm-corrected $p{<}0.001$); routing accuracy alone does not determine
+    generation quality (Section~\ref{ssec:domainrouter}).
 
     \item \textbf{Domain-specialized LoRA experts:} A suite of LoRA adapters---one
     per domain plus a dedicated CROSS adapter trained on 1,321 rigorously audited
     synthesized samples---enabling a compact 7B model to match or exceed larger
-    models on in-domain tasks. Ablation (V04, w/o LoRA) shows that removing the
-    adapters degrades ROUGE-L by 9.43 points and BERTScore by 2.87 points
-    ($p{<}0.001$, paired bootstrap), the largest single-component quality drop observed.
+    models on in-domain tasks. Ablation (V04, w/o LoRA) on the Full-500 diagnostic
+    set shows that removing the adapters degrades ROUGE-L by 9.43 points and
+    BERTScore by 2.87 points ($p{<}0.001$, paired bootstrap), the largest
+    single-component quality drop observed.
 
     \item \textbf{Cross-domain (CROSS) expert module:} A dedicated LoRA adapter
     trained on 1,321 synthesized interdisciplinary samples paired with
     domain-partitioned retrieval: each CROSS query draws evidence separately
-    from its two contributing domain partitions, preventing cross-domain
-    evidence contamination. Ablation (V03, w/o partitioned retrieval) specifically
-    elevates CROSS-domain hallucination by $+3.20$~pp ($p{=}0.045$, cluster bootstrap)
-    while leaving single-domain hallucination unchanged, confirming that
-    domain-partitioned retrieval primarily benefits factuality on cross-domain queries.
+    from its two contributing domain partitions, restricting cross-domain
+    evidence mixing. Ablation (V03, w/o partitioned retrieval) specifically
+    elevates CROSS-domain NLI contradiction rate by $+3.20$~pp ($p{=}0.045$,
+    cluster bootstrap) while leaving single-domain NLI contradiction rates unchanged,
+    supporting the interpretation that domain-partitioned retrieval primarily
+    benefits factuality on cross-domain queries.
 
     \item \textbf{Function-aware scaffolding:} A function-conditioned prompt
     preamble aligned to the predicted query function (\texttt{What}/\texttt{How}/%
@@ -236,8 +237,8 @@ without any explicit signal for the reasoning function the query demands.
 A definitional query and a causal-analysis query in the same domain require
 structurally distinct processing strategies; single-axis routing is blind to
 this functional heterogeneity.
-NexRoute introduces an orthogonal function axis that makes the reasoning operation
-an explicit routing dimension, independent of domain assignment.
+NexRoute introduces a distinct function axis that makes the reasoning operation
+an explicit routing dimension, complementary to domain assignment.
 
 %%------------------------------------------------------------------------------
 \subsection{Parameter-Efficient Fine-Tuning for Domain Specialization}
@@ -247,11 +248,12 @@ matrices into frozen backbones at a fraction of full fine-tuning cost.
 LoRA-MoE frameworks~\citep{dou2024loramoe,wu2024mixtureofloras} partition a
 shared backbone into domain-specific adapters; domain-specialized variants like
 MedMoE-LoRA~\citep{yang2025medmoelora} demonstrate strong single-domain performance.
-However, all existing LoRA-MoE systems remain single-domain and provide no
-cross-domain routing mechanism---a gap NexRoute is designed to close.
-Privacy regulations (e.g., HIPAA, GDPR) that preclude cloud-API deployment
-further motivate compact 7B on-device expert systems with genuine
-multi-domain coverage.
+Representative LoRA-MoE systems considered here remain oriented toward single-domain
+or task-specialized routing and provide no cross-domain routing mechanism---a gap
+NexRoute is designed to close.
+The ability to run inference locally on a single GPU further motivates compact 7B
+expert systems with multi-domain coverage in settings where external API calls
+are undesirable.
 
 %%------------------------------------------------------------------------------
 \subsection{Retrieval-Augmented Generation and Multi-Domain Limitations}
@@ -263,7 +265,7 @@ when professional corpora are co-indexed.
 
 Despite these advances, standard RAG frameworks face major structural bottlenecks in multi-domain settings where a single, universal semantic space cannot capture distinct professional disciplines. When disparate corpora are indexed in an undifferentiated space, surface-level lexical overlaps often generate spurious similarity scores \citep{wang2024multilingual}. For example, a medical query with terms like ``liability'' or ``consent'' might erroneously retrieve legal statutes instead of clinical guidelines—a phenomenon we define as \emph{cross-domain contamination}.
 
-Furthermore, existing RAG-MoE pipelines~\citep{jeong2024adaptiverag,dou2024loramoe} decouple retrieval from routing, causing \emph{functional mismatch}~\citep{hu2024routerbench}: contexts are fetched without regard to the reasoning strategy the expert requires. NexRoute resolves both failure modes through synchronized joint routing over domain-partitioned evidence.
+Furthermore, existing RAG-MoE pipelines~\citep{jeong2024adaptiverag,dou2024loramoe} decouple retrieval from routing, causing \emph{functional mismatch}~\citep{hu2024routerbench}: contexts are fetched without regard to the reasoning strategy the expert requires. NexRoute addresses both failure modes through synchronized joint routing over domain-partitioned evidence.
 
 %%------------------------------------------------------------------------------
 \subsection{Query Routing for Expert System Deployment}
@@ -307,11 +309,13 @@ the final response.
 Section~\ref{ssec:retrieval}.)}
 \label{fig:archoverview}
 \endgroup
-Let $q$ denote an input query. We define the \textbf{domain axis} as the
-discrete set $\mathcal{D} = \{\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}\}$
+Let $q$ denote an input query. We define the \textbf{domain routing state set} as
+$\mathcal{D}_{\text{route}} = \{\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}\}$
 and the \textbf{function axis} as
 $\mathcal{F} = \{\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}\}$.
-NexRoute maintains domain-specialized LoRA adapters $\{e_d\}_{d \in \mathcal{D}}$
+The \textbf{retrieval partition set} is $\mathcal{D}_{\text{ret}} = \{\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}\}$; \texttt{CROSS} is a routing and adapter state, not a standalone retrieval partition---a CROSS-routed query retrieves independently from its two predicted constituent domain partitions under a fixed total retrieval budget.
+For brevity we write $\mathcal{D}$ when referring to $\mathcal{D}_{\text{route}}$ in the routing context.
+NexRoute maintains domain-specialized LoRA adapters $\{e_d\}_{d \in \mathcal{D}_{\text{route}}}$
 mounted on a shared frozen backbone. The routing problem is to identify the
 \textit{nexus point} $(d^*, f^*)$ via a two-stage decision procedure:
 \begin{equation}
@@ -712,7 +716,7 @@ Section~\ref{ssec:router}, where applicable methodological details are provided.
 Text generation quality is measured using ROUGE-L \citep{lin2004rouge},
 BERTScore \citep{zhang2020bertscore} without baseline rescaling, and BLEU-4
 \citep{papineni2002bleu}. Routing performance is evaluated by exact-match
-accuracy. Hallucination rate is measured via a sentence-level NLI-based factuality score inspired by FActScore~\citep{min2023factscore}: each sentence of the predicted answer (minimum 20 characters) is verified against the top-3 retrieved passages from the domain-partitioned knowledge base using \texttt{cross-encoder/nli-deberta-v3-large}. A sentence is counted as hallucinated if the NLI model predicts \textsc{Contradiction} without any co-occurring \textsc{Entailment}; otherwise it is classified as supported or neutral. Unlike the original FActScore, this approach does not perform atomic claim decomposition but operates directly on sentences. Baselines use a unified KB spanning all five domain partitions; NexRoute uses the predicted domain partition (union of the two predicted sub-partitions for CROSS queries).
+accuracy. Sentence-level NLI contradiction rate is measured as a retrieval-grounded factuality proxy inspired by FActScore~\citep{min2023factscore}: each sentence of the predicted answer (minimum 20 characters) is verified against the top-3 retrieved passages from the domain-partitioned knowledge base using \texttt{cross-encoder/nli-deberta-v3-large}. A sentence is counted as a contradiction if the NLI model predicts \textsc{Contradiction} without any co-occurring \textsc{Entailment}; otherwise it is classified as supported or neutral. This metric should not be interpreted as a complete hallucination measure: neutral or unsupported statements are not counted as contradictions, and no atomic claim decomposition is performed. Baselines use a unified KB spanning all five domain partitions; NexRoute uses the predicted domain partition (union of the two predicted sub-partitions for CROSS queries).
 Additional evaluation dimensions include computational efficiency (inference
 latency and VRAM usage).
 Statistical significance for generation metrics is assessed via paired bootstrap
@@ -725,11 +729,11 @@ Recall@$K$ and nDCG are not reported because the benchmark does not include
 gold-evidence passage annotations---computing these metrics would require a
 separate relevance-labelling effort beyond the scope of this work
 (see Section~\ref{sec:limitations}).
-The factuality evaluation substitutes for retrieval quality assessment in the
-following sense: the sentence-level NLI pipeline verifies whether each generated
-sentence is entailed by the domain-partitioned retrieved passages, providing a
-downstream proxy for retrieval quality that directly measures the consequence of
-retrieval scope decisions rather than intermediate retrieval rankings.
+The sentence-level NLI pipeline does not replace retrieval-level evaluation:
+it verifies whether each generated sentence is entailed by the domain-partitioned
+retrieved passages, providing a downstream measure of the consequences of retrieved
+evidence on generated claims, not a substitute for retrieval-quality metrics
+(e.g., Recall@$K$, nDCG) that characterize intermediate retrieval rankings.
 Partitioned retrieval's effect on factuality is further isolated by ablation
 (V03, w/o partitioned retrieval: CROSS hallucination $+3.20$~pp, $p{=}0.045$).
 
@@ -749,10 +753,10 @@ same cross-domain supervision signal as NexRoute's DeBERTa router.
 \begingroup
 \captionof{table}{Routing accuracy (exact match, \%) on 500 evaluation samples
 ($n{=}100$ per domain). $\Delta$ denotes percentage point improvement of
-NexRoute over TF-IDF Domain Router. Naive RAG, HyDE, and Simplified CRAG achieve 0\% routing
-accuracy as they contain no routing mechanism. TF-IDF Domain Router employs
-TF-IDF$+$LR keyword-based routing; NexRoute employs a fine-tuned DeBERTa-large
-dual-axis router.}
+NexRoute over TF-IDF Domain Router. Naive RAG, HyDE, and Simplified CRAG perform
+no explicit domain routing; routing accuracy is not applicable (N/A) for these systems.
+TF-IDF Domain Router employs TF-IDF$+$LR keyword-based routing; NexRoute employs
+a fine-tuned DeBERTa-large dual-axis router.}
 \label{tab:router_acc}
 \begin{tabular}{lccr}
 \toprule
@@ -806,10 +810,11 @@ Table~\ref{tab:misrouted} reports the results.
 \begin{center}
 \begingroup
 \captionof{table}{Generation quality for correctly routed vs.\ misrouted
-samples under NexRoute 7B. Misrouted samples exhibit marginally higher
-lexical scores, attributable to the majority (33/63) being
-single$\to$\texttt{CROSS} misdirections that retrieve broader multi-domain
-evidence from two domain partitions simultaneously.}
+samples under NexRoute 7B (descriptive; correctly and misrouted queries are
+different subsets so causal inference is not warranted). Misrouted samples
+exhibit marginally higher lexical scores, consistent with the majority (33/63)
+being single$\to$\texttt{CROSS} misdirections that retrieve from two domain
+partitions simultaneously.}
 \label{tab:misrouted}
 \begin{tabular}{lcccc}
 \toprule
@@ -829,10 +834,10 @@ misdirected to the \texttt{CROSS} expert (MED$\to$\texttt{CROSS}: 9;
 SOC$\to$\texttt{CROSS}: 15; STEM$\to$\texttt{CROSS}: 9), which retrieve
 evidence from two partitions
 simultaneously. The broader retrieval context increases lexical overlap with
-the gold reference. This indicates that even under incorrect routing to
-\texttt{CROSS}, domain-partitioned retrieval preserves access to the primary
-domain evidence, preventing quality degradation, consistent with the robustness
-of domain-partitioned retrieval to moderate routing errors.
+the gold reference. This descriptive pattern is consistent with the hypothesis
+that single$\to$\texttt{CROSS} fallback can preserve access to primary domain evidence;
+however, because correctly and incorrectly routed queries are different subsets,
+this comparison does not establish a causal benefit of misrouting.
 
 We note an important nuance in interpreting Table~\ref{tab:misrouted}: the
 marginal quality advantage of misrouted samples does not imply that routing
@@ -871,8 +876,8 @@ interdisciplinary queries (Section~\ref{ssec:domainrouter}).}
 \label{fig:confusion}
 \endgroup
 
-\paragraph{Router Calibration.}
-To verify that routing decisions reflect genuine distributional uncertainty,
+\paragraph{Routing Entropy and Output Uncertainty.}
+To characterize how routing probability mass is distributed on \texttt{CROSS}-domain queries,
 we compute the Shannon entropy $\mathcal{H}$ of each router's output over
 \texttt{CROSS}-domain queries. NexRoute's router yields $\mathcal{H}{=}0.667$~nats
 (48.1\% of $\mathcal{H}_{\max}{=}1.386$~nats for a 4-class distribution), consistent
@@ -1000,7 +1005,7 @@ Simplified CRAG 72B
 \vspace{6pt plus 4pt minus 3pt}
 
 \paragraph{Cross-domain performance: NexRoute 7B vs.\ 72B baselines.}
-NexRoute 7B leads all 7B baselines on all three CROSS-domain metrics on the contamination-free Clean-300 subset (Table~\ref{tab:master_performance}): ROUGE-L~28.23 (+6.06~pp vs.\ best 7B baseline; paired bootstrap, Holm-corrected $p{<}0.001$), BERTScore~89.66 (+1.82~pp; $p{<}0.001$), and BLEU-4~12.19 (+4.07~pp; $p{<}0.001$; 95\%~CI for ROUGE-L: [+4.80,~+8.11]~pp). NexRoute 7B also achieves the highest Clean-300 overall ROUGE-L~(24.29) and BERTScore~(87.91) among 7B models. These contamination-free results confirm that NexRoute's cross-domain advantage reflects genuine architectural benefit, not adapter memorisation. NexRoute 7B further surpasses all 72B-scale dense baselines on CROSS-domain ROUGE-L and BERTScore (72B results evaluated on full 500 samples; direct comparison is indicative only), suggesting that structural specialization may partially substitute for raw parameter scale in cross-domain generation. The BLEU-4 pattern may partly reflect function-scaffolded output style (see Section~\ref{sssec:causal-density}).
+NexRoute 7B leads all 7B baselines on all three CROSS-domain metrics on the contamination-free Clean-300 subset (Table~\ref{tab:master_performance}): ROUGE-L~28.23 (+6.06~pp vs.\ best 7B baseline; paired bootstrap, Holm-corrected $p{<}0.001$), BERTScore~89.66 (+1.82~pp; $p{<}0.001$), and BLEU-4~12.19 (+4.07~pp; $p{<}0.001$; 95\%~CI for ROUGE-L: [+4.80,~+8.11]~pp). NexRoute 7B also achieves the highest Clean-300 overall ROUGE-L~(24.29) and BERTScore~(87.91) among 7B models. These contamination-free results indicate that NexRoute's cross-domain advantage persists on adapter-unseen evaluation queries, suggesting it is not explained by direct adapter exposure to those samples. Numerically, NexRoute 7B is competitive with 72B-scale dense baselines on CROSS-domain ROUGE-L and BERTScore; because 7B and 72B results use different evaluation splits, this is a descriptive cross-scale reference and does not support a controlled parameter-scale superiority claim. The BLEU-4 pattern may partly reflect function-scaffolded output style (see Section~\ref{sssec:causal-density}).
 Figure~\ref{fig:performance} visualizes these results across model scales.
 
 \begin{center}
@@ -1009,9 +1014,8 @@ Figure~\ref{fig:performance} visualizes these results across model scales.
 \begingroup
 \captionof{figure}{CROSS-domain generation quality (BERTScore, ROUGE-L)
 across 7B and 72B model scales. NexRoute 7B leads all 7B baselines on
-ROUGE-L and BERTScore, and surpasses all 72B-scale dense baselines,
-suggesting that architectural specialization can compensate for parameter
-scale on these cross-domain tasks (see caveat in text).}
+ROUGE-L and BERTScore. 72B rows use a different evaluation split; the
+cross-scale comparison is a descriptive reference only (see caveat in text).}
 \label{fig:performance}
 \endgroup
 
@@ -1027,29 +1031,28 @@ NexRoute 7B's dynamic adapter switching maintains peak VRAM usage at
 72B-scale baselines require approximately 36--40~GB of VRAM and incur
 substantially higher inference latency (full profile in Supplementary Material~S2).
 
-\paragraph{Factuality and hallucination rate.}
-As a secondary diagnostic on the Clean-300 subset excluding LAW, NexRoute 7B achieves a hallucination rate of \textbf{7.62\%} (CRAG:~8.22\%, Naive~RAG:~9.97\%; Table~\ref{tab:hallucination-excl-law}); this LAW-excluded comparison is post-hoc and not a primary overall-best result.
-NexRoute's CROSS-domain hallucination rate is 4.47\% on Clean-300 (3.64\% on the full 500 samples; Table~\ref{tab:hallucination}).
+\paragraph{Factuality and NLI contradiction rate.}
+As a secondary diagnostic on the Clean-300 subset excluding LAW, NexRoute 7B achieves an NLI contradiction rate of \textbf{7.62\%} (CRAG:~8.22\%, Naive~RAG:~9.97\%; Table~\ref{tab:hallucination-excl-law}); this LAW-excluded comparison is post-hoc and not a primary overall-best result.
+NexRoute's CROSS-domain NLI contradiction rate is 4.47\% on Clean-300 (3.64\% on the full 500 samples; Table~\ref{tab:hallucination}).
 The difference between Clean-300 and full-500 CROSS rates reflects the 40 adapter-exposed CROSS samples, which produce longer outputs with more verifiable claims.
 Cluster bootstrap tests on Clean-300 excl-LAW confirm NexRoute is significantly lower than TF-IDF Router ($p{=}0.017$, Holm-corrected) and HyDE ($p{=}0.010$); the difference vs.\ CRAG ($-0.60$~pp) is not statistically significant ($p{=}0.32$).
 All comparisons are confounded by sentence-count disparities (NexRoute: 827 sentences vs.\ 1,910--1,952 for baselines on clean excl-LAW), as shorter responses yield fewer verifiable claims.
 Domain-partitioned retrieval, by restricting evidence to domain-exclusive
 passages, may reduce the introduction of domain-incongruent claims associated
 with unified retrieval.
-Figure~\ref{fig:hallucination} illustrates the hallucination suppression effect.
+Figure~\ref{fig:hallucination} illustrates this observational association.
 
 \begin{center}
 \includegraphics[width=\textwidth, height=0.85\textheight, keepaspectratio=true]{figure6.png}
 \end{center}
 \begingroup
-\captionof{figure}{Impact of domain-partitioned retrieval on hallucination
-rate. (Left) Hallucination rates across all 7B baselines; Simplified CRAG
+\captionof{figure}{Sentence-level NLI contradiction rates (used as a retrieval-grounded
+factuality proxy). (Left) NLI contradiction rates across all 7B baselines; Simplified CRAG
 achieves the lowest overall rate (9.8\%); NexRoute 7B achieves 10.1\%
-overall and the lowest CROSS-domain rate (3.6\%), measured via sentence-level
-NLI against the domain-partitioned knowledge base. (Right)
-Hallucination rates for NexRoute 7B vs.\ Naive RAG 7B, illustrating the
+overall and the lowest CROSS-domain rate (3.6\%). (Right)
+NLI contradiction rates for NexRoute 7B vs.\ Naive RAG 7B, illustrating an
 observational association between domain-partitioned retrieval and lower
-hallucination. Causal attribution is not warranted here, as these two
+NLI contradiction. Causal attribution is not warranted: these two
 systems differ in retrieval scope, adapter specialization, and prompt
 scaffolding simultaneously; the controlled ablation is reported in
 Table~\ref{tab:ablation} (V03 vs.\ V01).}
@@ -1063,9 +1066,8 @@ Table~\ref{tab:ablation} (V03 vs.\ V01).}
 \vspace{6pt plus 4pt minus 3pt}
 \begin{center}
 \begingroup
-\captionof{table}{Hallucination rates (\%) evaluated via sentence-level NLI
-(\texttt{nli-deberta-v3-large}, top-3 passages, domain-partitioned KB) across
-7B-backbone models. Lower hallucination rate is better.
+\captionof{table}{Sentence-level NLI contradiction rates (\%) used as a retrieval-grounded factuality proxy (\texttt{nli-deberta-v3-large}, top-3 passages, domain-partitioned KB) across
+7B-backbone models. Lower is better. Note: neutral and unsupported sentences are not counted as contradictions (see Section~\ref{sec:experiments}).
 $n_{\text{sents}}$ is the total number of sentences evaluated per system.
 \textit{Rel.\ Reduction} is computed against Naive RAG as the reference baseline.
 Differences relative to NexRoute (V01) were evaluated via cluster bootstrap
@@ -1073,7 +1075,7 @@ Differences relative to NexRoute (V01) were evaluated via cluster bootstrap
 all baselines except TF-IDF $p{=}0.069$); on CROSS queries, the HyDE
 difference reaches significance ($\Delta{-}2.52$~pp, 95\%~CI $[-4.61,{-}0.38]$,
 $p{=}0.021$). All single-domain comparisons are non-significant ($p{>}0.25$).
-These statistics are based on the V01 ablation re-inference run (hallucination
+These statistics are based on the V01 ablation re-inference run (NLI contradiction
 rate 9.95\% overall), which differs from the main evaluation run (10.1\%) by 0.15~pp
 due to separate inference runs; both are reported as measured (see caption note below).
 $\dagger$~NexRoute $n_{\text{sents}}$ is 2.7$\times$ lower than baselines
@@ -1102,16 +1104,16 @@ NexRoute (Ours)$^\dagger$ & 10.1 & \textbf{3.6} & 13.6 & $+6.0\%$ & 1{,}424$^\da
 \begingroup
 \captionof{table}{%
 Ablation study: generation quality (ROUGE-L, BERTScore~F1)
-and hallucination rate (\%) for NexRoute component variants, evaluated on all 500 queries.
+and NLI contradiction rate (\%) for NexRoute component variants, evaluated on all 500 queries.
 $\Delta_{\text{RL}}$ and $\Delta_{\text{BS}}$ are differences relative to V01 (negative = degradation).
 $p$ values from paired bootstrap (generation, 10{,}000 resamples) or cluster bootstrap
-(hallucination). Hallucination 95\% CIs: V02 overall $[-0.17,{+}4.27]$;
+(NLI contradiction rate). NLI contradiction rate 95\% CIs: V02 overall $[-0.17,{+}4.27]$;
 V03 CROSS $[{+}0.09,{+}6.43]$; V05 CROSS $[{+}0.79,{+}5.00]$.
 Significance: $^{*}p{<}0.05$; $^{**}p{<}0.01$; $^{***}p{<}0.001$; \textsf{ns}~$p{\geq}0.05$.
 $^\dagger$~V04 (w/o LoRA) restores normal-length LAW outputs
 (${\sim}1.2$~qualifying sentences per response under V01 vs.\ ${\sim}13$~under V04),
 inflating V04's LAW sentence pool and suppressing the apparent overall
-hallucination change; this figure should not be interpreted as evidence that
+NLI contradiction rate change; this figure should not be interpreted as evidence that
 LoRA adapters have negligible factuality impact (Section~\ref{ssec:law-degeneration}).
 $^\ddagger$~V05 (w/o Domain Axis) simultaneously removes domain routing,
 adapter selection, and retrieval partitioning; its effects cannot be attributed
@@ -1121,7 +1123,7 @@ V06 (Dominant-Single CROSS merging) results are in Supplementary~S4.}
 \setlength{\tabcolsep}{3.5pt}
 \begin{tabular}{lrrrrr|rrrr}
 \toprule
- & \multicolumn{5}{c|}{\textbf{Generation Quality (500 queries)}} & \multicolumn{4}{c}{\textbf{Hallucination (\%)}} \\
+ & \multicolumn{5}{c|}{\textbf{Generation Quality (500 queries)}} & \multicolumn{4}{c}{\textbf{NLI Contr. Rate (\%)}} \\
 \cmidrule(lr){2-6}\cmidrule(l){7-10}
 \textbf{Variant}
   & \textbf{ROUGE-L} & $\boldsymbol{\Delta_{\text{RL}}}$
@@ -1151,7 +1153,7 @@ V05$^\ddagger$~~w/o Domain Axis
 \end{center}
 \vspace{6pt plus 4pt minus 3pt}
 
-Table~\ref{tab:hallucination} presents NLI-based hallucination rates for all 7B models.
+Table~\ref{tab:hallucination} presents NLI-based contradiction rates for all 7B models.
 Simplified CRAG achieves the lowest overall rate (9.8\%), while NexRoute achieves the
 lowest CROSS-domain rate (3.6\%).
 NexRoute's overall rate (10.1\%) is confounded by LAW adapter degeneration
@@ -1161,7 +1163,7 @@ As a secondary diagnostic, excluding LAW (Table~\ref{tab:hallucination-excl-law}
 reduces NexRoute's aggregate to 7.6\%, below Simplified CRAG (8.9\%) and Naive RAG
 (10.3\%) on the same four-domain subset; this is a post-hoc exclusion and should
 not be interpreted as a primary overall-best claim.
-Cluster bootstrap tests show that CROSS-domain hallucination is significantly lower
+Cluster bootstrap tests show that CROSS-domain NLI contradiction rate is significantly lower
 for NexRoute vs.\ HyDE ($\Delta{-}2.52$~pp, 95\%~CI $[-4.61,{-}0.38]$, $p{=}0.021$);
 all other overall and single-domain comparisons are non-significant ($p{>}0.05$).
 
@@ -1173,18 +1175,19 @@ accurately predicted (see the function-axis ablation below).
 The relationship between routing accuracy and generation quality is examined
 separately in Section~\ref{ssec:domainrouter}.
 
-\paragraph{Hallucination.}
-Removing the function scaffold (V02) increases overall hallucination by $+2.05$~pp
+\paragraph{NLI Contradiction Rate.}
+Removing the function scaffold (V02) increases overall NLI contradiction rate by $+2.05$~pp
 (9.95\%$\to$12.00\%; 95\%~CI $[-0.17,{+}4.27]$, $p{=}0.071$, \textsf{ns}).
 Neither V02's CROSS ($+2.77$~pp, $p{=}0.058$) nor single-domain ($+2.04$~pp,
 $p{=}0.156$) effect reaches significance.
 The function scaffold should \emph{not} be described as the ``primary hallucination
 suppressor'' based on these results.
 Removing partitioned retrieval (V03) has a small overall effect ($+0.36$~pp, \textsf{ns}),
-but specifically elevates CROSS-domain hallucination by $+3.20$~pp
-(3.50\%$\to$6.70\%; 95\%~CI $[{+}0.09,{+}6.43]$, $p{=}0.045^{*}$), confirming
-that domain-partitioned retrieval principally benefits factuality on cross-domain queries.
-Removing the full domain axis (V05) similarly elevates CROSS hallucination
+but specifically elevates CROSS-domain NLI contradiction rate by $+3.20$~pp
+(3.50\%$\to$6.70\%; 95\%~CI $[{+}0.09,{+}6.43]$, $p{=}0.045^{*}$), supporting
+the interpretation that domain-partitioned retrieval principally benefits factuality
+on cross-domain queries.
+Removing the full domain axis (V05) similarly elevates CROSS NLI contradiction rate
 by $+2.93$~pp (95\%~CI $[{+}0.79,{+}5.00]$, $p{=}0.008^{**}$), while single-domain
 is non-significant ($p{=}0.160$).
 V04 (w/o LoRA) shows a \textit{negative} overall change ($-0.38$~pp, \textsf{ns}), which is
@@ -1193,7 +1196,7 @@ sentences per LAW response, severely underweighting LAW in the NLI aggregate;
 removing LoRA in V04 restores normal output length, tripling the LAW sentence pool
 and offsetting any genuine factuality improvement in other domains
 (see footnote~$^\dagger$ in Table~\ref{tab:ablation} and Section~\ref{ssec:law-degeneration}).
-Single-domain hallucination changes are not significant across any single-component removal.
+Single-domain NLI contradiction rate changes are not significant across any single-component removal.
 
 \paragraph{Generation quality.}
 LoRA adapter removal causes the largest single-component quality drop.
@@ -1208,8 +1211,11 @@ any individual component; it establishes an approximate lower bound for the comb
 domain-axis contribution.
 Removing the function scaffold (V02) or partitioned retrieval (V03) alone causes
 only modest quality degradation ($-1.32$ and $-1.57$ ROUGE-L, respectively;
-both $p{<}0.001$), confirming that LoRA adapters are the largest single-component
-contributor to generation quality among the ablated variants.
+both $p{<}0.001$), indicating that LoRA adapters are the largest single-component
+contributor to generation quality among the ablated variants on the Full-500 set.
+Because Full-500 includes 200 adapter-exposed samples, the LoRA-removal effect size
+should be treated as a diagnostic upper bound rather than a contamination-free estimate
+of adapter benefit.
 
 \paragraph{Function scaffold effect (V01 vs.\ V02).}
 To isolate whether a \emph{present} scaffold (V01) outperforms \emph{no scaffold}
@@ -1314,9 +1320,9 @@ Weight-averaging and task-arithmetic CROSS adapter variants were excluded from t
 This section documents a reproducible failure mode of domain-specific LoRA adapters:
 a trained adapter can generate systematically degraded outputs when evaluation query
 phrasing differs structurally from the training distribution.
-This finding applies beyond NexRoute: any system that routes queries to LoRA adapters
-trained on domain corpora may be vulnerable to query-format shifts of this kind,
-and we document it here as a concrete, quantified warning for LoRA-based expert deployment.
+This failure mode may also be relevant to other systems that route structurally shifted
+queries to domain-specific LoRA adapters trained on domain corpora, and we document it
+here as a concrete, quantified caution for LoRA-based expert deployment.
 
 Post-hoc inspection reveals that the LAW LoRA adapter produces citation-format
 outputs on 97\% of LAW evaluation queries (re-inference run; 88\% in the original
@@ -1418,18 +1424,18 @@ Table~\ref{tab:domainrouter} reports the results.
 \begin{center}
 \begingroup
 \captionof{table}{Domain router necessity: ROUGE-L, BERTScore~F1 (roberta-large),
-sentence-level hallucination rate (\%), and cost for four routing conditions
+sentence-level NLI contradiction rate (\%), and cost for four routing conditions
 on the clean-300 subset ($N{=}300$).
 $\Delta$ and $p$ are vs.\ Predicted (paired bootstrap, 5{,}000 resamples;
 $^{*}p{<}0.05$; $^{**}p{<}0.01$; $^{***}p{<}0.001$; \textsf{ns}\,$p{\geq}0.05$).
-Hallucination $p$ values from per-sample-rate bootstrap; displayed rates are
+NLI contradiction rate $p$ values from per-sample-rate bootstrap; displayed rates are
 corpus-level ($n_{\text{contra}}/n_{\text{sents}}$).
 95\% CIs (ROUGE-L Overall/Single): Oracle $[-2.70,{-}0.78]$/$[-3.08,{-}0.86]$;
 Always-CROSS $[{+}4.93,{+}7.75]$/$[{+}6.53,{+}9.79]$;
 Always-Single $[-4.46,{-}2.28]$/$[-3.69,{-}1.28]$; Always-Single CROSS $[-9.42,{-}4.57]$.
 BERTScore CIs (Overall): Oracle $[-0.58,{-}0.07]$; Always-CROSS $[{+}1.75,{+}2.57]$;
 Always-Single $[-0.93,{-}0.32]$.
-Single Always-CROSS hallucination 95\% CI: $[-5.54,{+}5.10]$~pp.
+Single Always-CROSS NLI contradiction rate 95\% CI: $[-5.54,{+}5.10]$~pp.
 Cost: Predicted not recorded (V01 reuse); Oracle-Domain costs serve as reference.}
 \label{tab:domainrouter}
 \setlength{\tabcolsep}{3pt}
@@ -1438,7 +1444,7 @@ Cost: Predicted not recorded (V01 reuse); Oracle-Domain costs serve as reference
 \toprule
  & \multicolumn{3}{c|}{\textbf{ROUGE-L}}
  & \multicolumn{1}{c|}{\textbf{BERTSc.}}
- & \multicolumn{3}{c|}{\textbf{Hallucination (\%)}}
+ & \multicolumn{3}{c|}{\textbf{NLI Contr. Rate (\%)}}
  & \multicolumn{2}{c}{\textbf{Cost}} \\
 \cmidrule(lr){2-4}\cmidrule(lr){5-5}\cmidrule(lr){6-8}\cmidrule(l){9-10}
 \textbf{Condition}
@@ -1488,25 +1494,25 @@ across MED, SOC, and STEM ($n{=}180$), Always-CROSS outperforms Predicted by
 $+3.93$~pp (95\%~CI $[{+}2.41,{+}5.48]$, $p{<}0.001$; MED $+4.63$, $p{=}0.002$;
 SOC $+4.27$, $p{=}0.001$; STEM $+2.91$, $p{=}0.023$).
 This residual advantage is statistically significant and may reflect the CROSS
-adapter's broader multi-domain training distribution, though hallucination rates
+adapter's broader multi-domain training distribution, though NLI contradiction rates
 do not improve correspondingly (Section below).
 On CROSS queries, routing condition does not significantly affect ROUGE-L
 (all pairwise contrasts \textsf{ns}), consistent with cross-domain retrieval
 being the dominant factor regardless of adapter identity.
 
-\paragraph{Hallucination: direction but no significance.}
-Always-CROSS single-domain hallucination is directionally \emph{higher}
+\paragraph{NLI Contradiction Rate: direction but no significance.}
+Always-CROSS single-domain NLI contradiction rate is directionally \emph{higher}
 than Predicted (16.51\% vs.\ 12.70\%, $\Delta{=}{+}3.81$~pp,
 $p{=}0.953$, \textsf{ns}; 95\%~CI $[-5.54,{+}5.10]$~pp).
 This non-significance \emph{does not} support a claim that the CROSS adapter
-suppresses hallucination on single-domain queries; the confidence interval
+suppresses NLI contradiction rate on single-domain queries; the confidence interval
 is wide and consistent with both benefit and harm.
 Oracle-Domain and Always-CROSS both significantly reduce CROSS-domain
-hallucination compared to Predicted ($\Delta{=}{-}4.95$~pp, $p{=}0.015^{*}$
+NLI contradiction rate compared to Predicted ($\Delta{=}{-}4.95$~pp, $p{=}0.015^{*}$
 and $\Delta{=}{-}4.26$~pp, $p{=}0.023^{*}$, respectively),
 consistent with the ablation finding that matched retrieval partitions
 reduce CROSS-query contradiction rates.
-Overall hallucination differences are not significant for any condition
+Overall NLI contradiction rate differences are not significant for any condition
 ($p{>}0.07$).
 
 \paragraph{Oracle-Domain $<$ Predicted: routing accuracy and quality are not monotonically linked.}
@@ -1536,7 +1542,7 @@ Always-CROSS requires marginally more prompt tokens than Oracle-Domain
 (8.69\,s vs.\ 11.50\,s/sample, $-24.5$\%), likely due to fewer adapter-switching
 operations.
 These cost differences do not constitute a practical advantage that would justify
-routing all queries through CROSS given the absence of hallucination benefit
+routing all queries through CROSS given the absence of NLI contradiction rate reduction
 in single-domain contexts.
 
 \paragraph{Interpretation: structural alignment, not routing optimisation.}
@@ -1682,19 +1688,20 @@ In contrast, Naive RAG 72B---despite $10\times$ the parameter count---enumerated
 it illustrates how the architectural components interact on this query and
 should not be interpreted as statistical evidence of generalizability.}
 
-NexRoute 7B produces the most legally and medically integrated response among
-the evaluated systems on this example, at one-tenth the parameter count of the
-72B baselines and with the shortest output (78 tokens vs.\ 89--256 for baselines;
-Supplementary Material~S7).
+NexRoute 7B produces the response most closely aligned with the causal structure
+encoded in the reference answer among the evaluated systems on this example,
+at one-tenth the parameter count of the 72B baselines and with the shortest output
+(78 tokens vs.\ 89--256 for baselines; Supplementary Material~S7).
 Three components contribute to this outcome.
 \textbf{Domain-partitioned retrieval} fetches medical and legal evidence from
 isolated partitions; baselines using unified retrieval omit the off-label
 disclosure obligation in this case, though we cannot rule out that retrieval
 content rather than routing architecture accounts for the difference.
 The \textbf{\texttt{Why}-scaffold} (Section~\ref{sec:method}) directs the model
-to construct a causal chain, producing the key inferential step that baselines miss:
-that off-label use shifts the legal burden of disclosure, invalidating the general
-consent form.
+to construct a causal chain, producing a key inferential step emphasized in the
+reference answer but absent from compared baseline outputs: the connection between
+off-label use, the shifted disclosure obligation, and the invalidation of the
+general consent form.
 The \textbf{\texttt{CROSS} LoRA adapter}, trained on other cross-domain pairs
 but not on \textsc{Law}--\textsc{Med} itself, appears to provide transferable
 cross-domain reasoning patterns.
@@ -1754,10 +1761,10 @@ and function-aware scaffolding---can provide a strong inductive bias for
 cross-domain expert reasoning in compact models, under the evaluated setting. \emph{The discussion below is
 bounded by the evaluation conditions described in Section~\ref{sec:experiments};
 broader validation across datasets, domains, and backbones is needed before
-individual findings can be generalized.} The architecture operates on
-a 7B backbone within 14.8~GB of GPU memory, making it practical for
-privacy-sensitive on-device deployment in settings where API-based 72B-scale
-systems are precluded by data regulations (e.g., HIPAA, GDPR).
+individual findings can be generalized.} The architecture operates on a 7B backbone within 14.8~GB of GPU memory,
+enabling single-GPU on-premise deployment in settings where organizations
+prefer to keep inference workloads on premises or where the overhead of
+external API calls is undesirable.
 
 We note that the 7B-vs.-72B comparison contrasts \emph{architectural specialization} against \emph{raw parameter scale}: NexRoute 7B incorporates domain-partitioned retrieval, function-aware scaffolding, and dedicated LoRA experts, whereas 72B baselines are generic dense RAG pipelines. Isolating the contribution of individual structural components at the 72B scale is left to future work.
 
@@ -1892,7 +1899,7 @@ evidence of generalization beyond the trained distribution. Furthermore, while t
 two simultaneous domains, extending this causal synthesis to three or more
 disciplines represents a natural next step for advancing complex
 multi-domain reasoning.
-Comparison against weight-averaging and task-arithmetic CROSS adapter variants --- on both lexical/semantic metrics and NLI-based hallucination rate --- is left to future work, as the current sample sizes ($n$=319 and $n$=127 sentences, respectively) are insufficient for reliable estimation across all metrics.
+Comparison against weight-averaging and task-arithmetic CROSS adapter variants --- on both lexical/semantic metrics and NLI-based contradiction rate --- is left to future work, as the current sample sizes ($n$=319 and $n$=127 sentences, respectively) are insufficient for reliable estimation across all metrics.
 \item \textbf{Threshold-based CROSS detection.} The domain axis router relies on hard thresholds ($\tau, \delta$) to detect
 interdisciplinary queries. The sensitivity analysis (Supplementary Material~S3)
 indicates that the architecture operates within a stable plateau ($< 0.7$~pp
@@ -1925,7 +1932,7 @@ and query phrasing also contributes.
 The apparent Always-CROSS advantage ($+6.35$~pp Overall ROUGE-L) is driven primarily
 by LAW adapter degeneration (64\% of the single-domain gap) rather than universal
 CROSS-adapter superiority.
-Hallucination on single-domain queries is directionally higher under Always-CROSS
+NLI contradiction rate on single-domain queries is directionally higher under Always-CROSS
 but not statistically distinguishable (16.51\% vs.\ 12.70\%, $p{=}0.953$\,\textsf{ns};
 95\%~CI $[-5.54,{+}5.10]$~pp).
 These findings indicate that: (a)~the generation quality advantage of the domain
@@ -1933,7 +1940,7 @@ axis should be attributed to LoRA adapters and retrieval partitioning, not routi
 accuracy; (b)~larger samples and human evaluation are needed to determine whether
 NexRoute's routing accuracy confers reliable quality benefits beyond adapter and
 retrieval selection; and (c)~routing all queries through the CROSS adapter cannot
-be recommended as a general strategy given the absence of hallucination suppression
+be recommended as a general strategy given the absence of NLI contradiction rate reduction
 in single-domain contexts.
 
 \item \textbf{Function axis evaluation and annotation-scheme mismatch.}
@@ -1971,7 +1978,7 @@ left to future work.
 used for corpus construction, introducing potential stylistic circularity in
 lexical overlap metrics that cannot be fully eliminated without human-authored
 references.
-The \textbf{sentence-level NLI hallucination metric} is used as the primary factuality metric precisely because
+The \textbf{sentence-level NLI contradiction rate} is used as the primary factuality proxy precisely because
 it evaluates factual precision against the domain-partitioned knowledge base
 via sentence-level entailment checking---a retrieval-grounded pipeline that operates
 independently of the gold-answer generator and is therefore less sensitive to
@@ -2014,7 +2021,7 @@ an artefact of training--evaluation overlap.
 Paired bootstrap significance tests (10,000 resamples, Holm-corrected) are
 reported for the primary CROSS-domain comparisons on the Clean-300 subset
 (Table~\ref{tab:master_performance}) and for all ablation generation-quality
-contrasts (Table~\ref{tab:ablation}). Hallucination differences use cluster
+contrasts (Table~\ref{tab:ablation}). NLI contradiction rate differences use cluster
 bootstrap at the answer level, with 95\% CIs reported in captions and body text.
 Single-domain and per-domain pairwise tests are not corrected for the full family
 of comparisons across metrics and domains; Holm correction covers only the four
@@ -2088,8 +2095,10 @@ NexRoute addresses both failure modes by jointly routing over a domain axis
 a single synchronized step---the nexus point.
 On the contamination-free 300-sample benchmark, this structural alignment enables a
 7B model to surpass all 7B baselines by ${\geq}6.06$~pp CROSS-domain ROUGE-L
-(Holm-corrected $p{<}0.001$), achieve the lowest CROSS-domain hallucination rate
-among 7B models (3.6\%), and match or exceed 72B-scale dense baselines on CROSS-domain quality.
+(Holm-corrected $p{<}0.001$) and achieve the lowest CROSS-domain NLI contradiction rate
+among 7B models (3.6\%). Numerically, NexRoute 7B is also competitive with 72B-scale
+dense baselines on CROSS-domain quality; this cross-scale comparison is descriptive only
+as the two scales use different evaluation splits.
 
 The central empirical finding of this work---confirmed by ablation, routing error
 analysis, and the domain-router necessity experiment---is that these quality gains
@@ -2107,15 +2116,15 @@ expert to activate, the critical question is which evidence scope and reasoning 
 to apply---and these must be determined jointly.
 
 Limitations remain.
-Overall hallucination (10.1\%) does not outperform all baselines (Simplified CRAG: 9.8\%),
+Overall NLI contradiction rate (10.1\%) does not outperform all baselines (Simplified CRAG: 9.8\%),
 so no overall-best factuality claim is made.
 The LAW adapter degeneration failure (97\% citation-format output rate) is a concrete,
 documented risk for LoRA-based deployment under query-format shift.
 Validation is bounded by MMLU-derived corpora and the Qwen2.5-7B backbone;
 broader evaluation across datasets, domains, and backbones is required.
-Within these bounds, the results demonstrate that privacy-preserving on-device
-expert systems (${\leq}14.8$~GB VRAM) can achieve cross-domain quality competitive
-with much larger generalist models through structural alignment alone.
+Within these bounds, the results support that single-GPU on-premise deployment
+(${\leq}14.8$~GB VRAM) can achieve cross-domain quality through structural alignment
+that would otherwise require much larger generalist models.
 
 %%==============================================================================
 \printcredits
