@@ -452,40 +452,15 @@ not overfitting to the validation split; the same gap magnitude appears
 regardless of which $(\tau, \delta)$ configuration is used
 (88.60\% vs.\ 87.40\%, a 1.2~pp range across configurations).
 
-As illustrated in Figure~\ref{fig:sensitivity}, routing accuracy remains
-consistently high across the full grid (96.8\%--97.5\%), confirming that
-the adopted configuration operates within a stable plateau rather than
-overfitting to a single grid point. To confirm that this plateau reflects
-genuine system-level robustness, we verified that substituting the global-optimum
-configuration ($\tau$=0.50, $\delta$=0.10) yields no meaningful change in
-downstream generation quality (BERTScore $\Delta < 0.3$) or hallucination
-rate ($\Delta < 0.5$~pp), while increasing the \texttt{CROSS}
-false-negative rate due to the stricter gap constraint. The green marker
-($\bullet$) in Figure~\ref{fig:sensitivity} denotes the adopted configuration
-($\tau$=0.30, $\delta$=0.40).
-
-\begin{center}
-\includegraphics[width=\textwidth, height=0.28\textheight, keepaspectratio=false]{figure2_1.png}
-\end{center}
-\vspace{-4pt}
-\begin{center}
-\includegraphics[width=\textwidth, height=0.28\textheight, keepaspectratio=false]{figure2_2.png}
-\end{center}
-\begingroup
-\captionof{figure}{Hyperparameter sensitivity analysis for \texttt{CROSS}
-detection thresholds $\tau$ and $\delta$.
-\textbf{(Top)} Sensitivity curves with the complementary parameter fixed.
-\textbf{(Bottom)} Joint grid search heatmap over $\tau \in [0.1, 0.5]$ and
-$\delta \in [0.1, 0.6]$. The red star~($\bigstar$) denotes the grid-search
-global optimum ($\tau$=0.50, $\delta$=0.10, 97.50\%); the green
-marker~($\bullet$) denotes the configuration adopted for NexRoute
-($\tau$=0.30, $\delta$=0.40, 97.20\%), selected within the stable
-high-accuracy plateau using an asymmetric cost criterion that favors
-reducing false negatives on genuinely interdisciplinary queries, at a
-negligible 0.30~pp accuracy cost. Accuracy remains above 96.8\% across all
-evaluated configurations.}
-\label{fig:sensitivity}
-\endgroup
+Routing accuracy remains consistently high across the full grid
+(96.8\%--97.5\%), confirming that the adopted configuration operates within
+a stable plateau rather than overfitting to a single grid point. To confirm
+that this plateau reflects genuine system-level robustness, we verified that
+substituting the global-optimum configuration ($\tau$=0.50, $\delta$=0.10)
+yields no meaningful change in downstream generation quality
+(BERTScore $\Delta < 0.3$) or hallucination rate ($\Delta < 0.5$~pp),
+while increasing the \texttt{CROSS} false-negative rate due to the stricter
+gap constraint. The adopted configuration is ($\tau$=0.30, $\delta$=0.40).
 
 %%==============================================================================
 \section{Extended Ablation Results (V03 and V06)}
@@ -706,7 +681,7 @@ regulatory or disciplinary term, causing the soft-activation criterion to
 underestimate the genuine cross-domain intent. Reducing $\tau$ or increasing
 $\delta$ beyond the adopted values ($\tau{=}0.30$, $\delta{=}0.40$) would
 widen the \texttt{CROSS} activation margin; however, the sensitivity analysis
-(Figure~\ref{fig:sensitivity}) indicates that doing so simultaneously raises the
+(Table~\ref{tab:cross_fn}) indicates that doing so simultaneously raises the
 false-positive rate---single-domain queries incorrectly routed to
 \texttt{CROSS}---which already stands at 8.2\% under the adopted
 configuration. The fundamental tension between reducing lexical-imbalance false
