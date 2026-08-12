@@ -57,7 +57,7 @@ Expert Selection in Cross-Domain Large Language Models}
 
 
 \begin{abstract}
-Existing RAG-based expert systems route queries by domain identity alone, ignoring the reasoning function a query demands, which leads to cross-domain evidence contamination and functional mismatch. We propose \textbf{NexRoute}, a dual-axis routing framework that jointly binds each query to a domain axis (\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) selecting a LoRA-based expert and its retrieval partition, and a function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}) selecting a function-conditioned prompt scaffold---linking routing decisions directly to evidence scope and reasoning format. Trained on 15,744 dual-annotated samples, NexRoute 7B attains \textbf{87.4\%} routing accuracy. On a 300-sample benchmark fully independent of LoRA adapter training, NexRoute 7B reaches CROSS-domain ROUGE-L \textbf{28.23} and BERTScore \textbf{89.66}, exceeding all 7B baselines by at least 6.06~pp ROUGE-L (Holm-corrected $p{<}0.001$), and achieves the lowest CROSS-domain sentence-level NLI contradiction rate among 7B models (\textbf{3.6\%}). The system operates within 14.8~GB of VRAM, enabling single-GPU on-premise deployment. Controlled analyses further show that downstream quality is not monotonic in routing-label accuracy: oracle-domain routing underperforms predicted routing ($-1.72$~pp ROUGE-L, $p{<}0.001$), and removing partitioned retrieval specifically elevates CROSS-domain NLI contradiction rate ($+3.20$~pp, $p{=}0.045$). Separately, a controlled re-inference shows that predicted function labels yield 1.9--2.3~pp higher ROUGE-L than wrong, random, or absent scaffolds ($p{<}0.001$); the Gold-label condition underperforms predicted ($-1.47$~pp, $p{<}0.01$) because the evaluation and training function taxonomies are mismatched and therefore it does not constitute a valid performance upper bound. These results support the interpretation that the observed gains arise from structural coupling between routing decisions, retrieval scope, and function-conditioned prompting---not from routing-label accuracy alone. A LAW adapter degeneration failure under query-format shift and the scope of these findings are further delineated, including the need for licensed-expert evaluation before high-stakes use.
+Existing RAG-based expert systems route queries by domain identity alone, ignoring the reasoning function a query demands, which leads to cross-domain evidence contamination and functional mismatch. We propose \textbf{NexRoute}, a dual-axis routing framework that jointly binds each query to a domain axis (\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) selecting a LoRA-based expert and its retrieval partition, and a function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}) selecting a function-conditioned prompt scaffold---linking routing decisions directly to evidence scope and reasoning format. Trained on 15,744 dual-annotated samples, NexRoute 7B attains \textbf{87.4\%} routing accuracy. On a 300-sample benchmark fully independent of LoRA adapter training, NexRoute 7B reaches CROSS-domain ROUGE-L \textbf{28.23} and BERTScore \textbf{89.66}, exceeding all 7B baselines by at least 6.06~pp ROUGE-L (Holm-corrected $p{<}0.001$), and achieves the lowest CROSS-domain sentence-level NLI contradiction rate among 7B models (\textbf{3.6\%}). The system operates within 14.8~GB of VRAM, enabling single-GPU on-premise deployment. Controlled analyses further show that downstream quality is not monotonic in routing-label accuracy: oracle-domain routing underperforms predicted routing ($-1.72$~pp ROUGE-L, $p{<}0.001$), and removing partitioned retrieval specifically elevates CROSS-domain NLI contradiction rate ($+3.20$~pp, $p{=}0.045$). Separately, a controlled re-inference shows that predicted function labels yield 1.9--2.3~pp higher ROUGE-L than wrong, random, or absent scaffolds ($p{<}0.001$); the Gold-label condition underperforms predicted ($-1.47$~pp, $p{<}0.01$) because the evaluation and training function taxonomies are mismatched and therefore it does not constitute a valid performance upper bound. Taken together, the main benchmark (domain axis, without function scaffold) and the controlled re-inference (function axis) support structural coupling between routing decisions, retrieval scope, and function-conditioned prompting as a productive design principle---distinct from routing-label accuracy. A LAW adapter degeneration failure under query-format shift and the scope of these findings are further delineated, including the need for licensed-expert evaluation before high-stakes use.
 \end{abstract}
 
 \begin{highlights}
@@ -902,8 +902,9 @@ condition~B caption); this measures how often the router's prediction matches
 the first-word-based gold label on the eval set.
 Second, the strict test accuracy on a held-out routing test set
 (Supplementary~S8) is 38.0\%; the gap between the two figures reflects
-a train/test labelling-scheme mismatch---the training labels were assigned under
-DeBERTa-large joint training, while the test-set labels were assigned under a
+a train/test labelling-scheme mismatch---the training labels were produced by the
+annotation pipeline described in Section~\ref{ssec:nexus} (rule-based heuristics,
+Qwen2.5-72B judge, and human audit), whereas the evaluation labels followed a
 different annotation protocol.
 % TODO(author): Describe the specific guideline difference (2 sentences) — currently "mismatch" is stated without mechanistic detail.
 Despite the 38.0\% strict accuracy, the predicted label outperforms wrong, random,
@@ -1020,7 +1021,7 @@ Simplified CRAG 72B
 \vspace{6pt plus 4pt minus 3pt}
 
 \paragraph{Cross-domain performance: NexRoute 7B vs.\ 72B baselines.}
-NexRoute 7B leads all 7B baselines on all three CROSS-domain metrics on the contamination-free Clean-300 subset (Table~\ref{tab:master_performance}): ROUGE-L~28.23 (+6.06~pp vs.\ best 7B baseline; paired bootstrap, Holm-corrected $p{<}0.001$), BERTScore~89.66 (+1.82~pp; $p{<}0.001$), and BLEU-4~12.19 (+4.07~pp; $p{<}0.001$; 95\%~CI for ROUGE-L: [+4.80,~+8.11]~pp). NexRoute 7B also achieves the highest Clean-300 overall ROUGE-L~(24.29) and BERTScore~(87.91) among 7B models. These contamination-free results indicate that NexRoute's cross-domain advantage persists on adapter-unseen evaluation queries, suggesting it is not explained by direct adapter exposure to those samples. Numerically, NexRoute 7B is competitive with 72B-scale dense baselines on CROSS-domain ROUGE-L and BERTScore; because 7B and 72B results use different evaluation splits, this is a descriptive cross-scale reference and does not support a controlled parameter-scale superiority claim. The BLEU-4 pattern may partly reflect function-scaffolded output style.
+NexRoute 7B leads all 7B baselines on all three CROSS-domain metrics on the contamination-free Clean-300 subset (Table~\ref{tab:master_performance}): ROUGE-L~28.23 (+6.06~pp vs.\ best 7B baseline; paired bootstrap, Holm-corrected $p{<}0.001$), BERTScore~89.66 (+1.82~pp; $p{<}0.001$), and BLEU-4~12.19 (+4.07~pp; $p{<}0.001$; 95\%~CI for ROUGE-L: [+4.80,~+8.11]~pp). NexRoute 7B also achieves the highest Clean-300 overall ROUGE-L~(24.29) and BERTScore~(87.91) among 7B models. These contamination-free results indicate that NexRoute's cross-domain advantage persists on adapter-unseen evaluation queries, suggesting it is not explained by direct adapter exposure to those samples. Numerically, NexRoute 7B is competitive with 72B-scale dense baselines on CROSS-domain ROUGE-L and BERTScore; because 7B and 72B results use different evaluation splits, this is a descriptive cross-scale reference and does not support a controlled parameter-scale superiority claim. The BLEU-4 pattern may partly reflect domain-specific few-shot prompting and output-format effects.
 Figure~\ref{fig:performance} visualizes these results across model scales.
 
 \begin{center}
@@ -1422,7 +1423,7 @@ The answer, as shown below, is \textbf{no}: quality gains arise from structural
 alignment of adapters and retrieval partitions, not from routing accuracy per se.
 This finding is consistent with the routing error analysis (Section~\ref{ssec:comprehensive})
 and with the ${\geq}17$~pp ROUGE-L advantage over LoRA-library routing methods
-(Section~\ref{ssec:moe_routing}), which achieve high routing accuracy but do not
+(Section~\ref{ssec:moe_routing}), which apply routing mechanisms but do not
 control retrieval scope or prompt structure.
 
 We compare four routing conditions on the Clean-300 subset
@@ -1568,11 +1569,12 @@ which that contribution operates.
 Three converging lines of evidence support this conclusion:
 (i)~increasing routing accuracy to its oracle upper bound degrades quality (this section);
 (ii)~misrouted queries under NexRoute show marginally \emph{higher} generation quality
-than correctly routed ones because CROSS fallback retrieval preserves domain evidence
+than correctly routed ones---a descriptive pattern consistent with CROSS fallback
+retrieval preserving domain evidence
 (Section~\ref{ssec:comprehensive}, Table~\ref{tab:misrouted});
-(iii)~LoRA-library routing methods (Arrow, PHATGOOSE) achieve high routing accuracy
-but lag NexRoute by ${\geq}17$~pp ROUGE-L on CROSS queries because they do not control
-retrieval scope or prompt structure (Section~\ref{ssec:moe_routing}).
+(iii)~LoRA-library routing methods (Arrow, PHATGOOSE) lag NexRoute by ${\geq}17$~pp
+ROUGE-L on CROSS queries despite applying routing mechanisms, because they do not
+control retrieval scope or prompt structure (Section~\ref{ssec:moe_routing}).
 NexRoute's routing therefore functions to \emph{select} the appropriate adapter and
 retrieval partition per query; the quality benefits arise from those components,
 not from the routing decision itself.
@@ -1893,7 +1895,7 @@ that do not necessarily generalize across all settings.
 %%------------------------------------------------------------------------------
 \begin{itemize}
 \item \textbf{Synthetic cross-domain data and pair coverage.}
-The \texttt{CROSS} domain partition relies on synthetic data generation via a
+The \texttt{CROSS}-adapter training set relies on synthetic data generation via a
 larger teacher model (Qwen2.5-72B). Large-scale human-authored cross-domain supervision was not available in our experimental setting, so the \texttt{CROSS}-adapter training set was synthesized with a larger teacher model (Qwen2.5-72B) and subjected to automated filtering and a stratified human audit. While we rigorously mitigated potential biases through
 a stratified human audit (94.2\% inter-rater agreement;
 Section~\ref{ssec:loratrain}) transitioning toward a human-annotated cross-domain held-out benchmark
@@ -2112,14 +2114,16 @@ dense baselines on CROSS-domain quality; this cross-scale comparison is descript
 as the two scales use different evaluation splits.
 
 The central empirical finding of this work---confirmed by ablation, routing error
-analysis, and the domain-router necessity experiment---is that these quality gains
-arise from structural alignment of retrieval scope and prompt format, not from
+analysis, and the domain-router necessity experiment---is that the domain-axis gains
+arise from structural alignment of retrieval scope and adapter selection, not from
 routing accuracy per se.
 Oracle-domain routing (the accuracy upper bound) degrades ROUGE-L relative to
-predicted routing; misrouted queries achieve marginally higher quality than
+predicted routing; misrouted queries descriptively show marginally higher quality than
 correctly routed ones; and LoRA-library routing methods (Arrow, PHATGOOSE), which
-optimise routing probability without controlling retrieval scope or prompt structure,
+apply routing mechanisms without controlling retrieval scope or prompt structure,
 lag NexRoute by ${\geq}17$~pp ROUGE-L on CROSS queries (Section~\ref{ssec:moe_routing}).
+A separate controlled re-inference further shows that function-conditioned scaffolding
+contributes an incremental 1.9--2.3~pp ROUGE-L gain beyond the domain-axis protocol.
 The productive design choice, therefore, is not routing optimisation but the
 structural wiring that binds routing decisions to retrieval partitions and prompt scaffolds.
 This reframes the contribution of expert system design: rather than asking which
@@ -2133,7 +2137,7 @@ The LAW adapter degeneration failure (97\% citation-format output rate) is a con
 documented risk for LoRA-based deployment under query-format shift.
 Validation is bounded by MMLU-derived corpora and the Qwen2.5-7B backbone;
 broader evaluation across datasets, domains, and backbones is required.
-Within these bounds, NexRoute demonstrates strong CROSS-domain performance while remaining within a 14.8~GB single-GPU memory envelope, with the structural coupling between routing, retrieval scope, and function-conditioned prompting identified as a key contributing factor.
+Within these bounds, NexRoute demonstrates strong CROSS-domain performance while remaining within a 14.8~GB single-GPU memory envelope, with domain-partitioned retrieval and adapter selection identified as the primary contributing structural factors.
 
 %%==============================================================================
 \printcredits
