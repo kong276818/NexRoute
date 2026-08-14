@@ -346,8 +346,8 @@ python src/inference.py \
 
 | Name | Affiliation | Role |
 |------|------------|------|
-| **Junyoung Kong** | Konkuk University | First Author |
-| **Youngguk Ha** | Konkuk University | Corresponding Author |
+| **Jun-young Kong** | Konkuk University | First Author |
+| **Young-guk Ha** | Konkuk University | Corresponding Author |
 
 ---
 
