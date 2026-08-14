@@ -47,7 +47,7 @@ Existing RAG-based expert systems route queries by domain identity alone, ignori
 
 \begin{highlights}
     \item Dual-axis routing decomposes query intent into a domain axis and a function axis.
-    \item Removing LoRA adapters costs 9.4 ROUGE-L points, the largest single-component effect.
+    \item LoRA removal causes the largest diagnostic quality drop ($-$9.4 ROUGE-L).
     \item Predicted function labels outperform wrong, random, and absent scaffolds ($p{<}0.001$).
     \item Oracle domain labels do not outperform predicted routing on generation quality.
     \item NexRoute 7B runs within 14.8~GB VRAM with the lowest CROSS-domain contradiction rate.
@@ -86,21 +86,9 @@ which a domain-correct expert nonetheless fails because the architecture provide
 no explicit signal for the required reasoning operation---factual recall,
 procedural explanation, causal justification, or comparison.
 
-A second, distinct failure mode arises in interdisciplinary queries, highlighting a critical gap between real-world collaborative ideals and current architectural realities. In professional environments, complex multidisciplinary problems are inherently solved through collaboration among specialists---for instance, a clinician and a legal expert exchanging domain-specific evidence to reach a joint conclusion, exhibiting high performance through synergy. However, traditional MoE architectures force a single expert module to operate in isolation, independently extracting sparse contextual hints from a large, undifferentiated pool of domain knowledge. This isolates the expert and provides no explicit signal for where domain-specific reasoning should transition within a query.
-In contrast, when specific specialized experts are explicitly paired and
-their retrieval scopes kept separate, each expert draws only on its own
-domain-exclusive evidence rather than a contamination-prone merged pool;
-our ablation shows that removing partitioned retrieval specifically
-elevates CROSS-domain NLI contradiction rate by 3.2~pp (3.50\%$\to$6.70\%; $p{=}0.045$,
-cluster bootstrap), while single-domain NLI contradiction rates are not significantly
-changed across any single-component removal. However, in
-multi-domain settings, unified retrieval over undifferentiated corpora
-further compounds this problem: lexical overlap between professional
-disciplines causes the retriever to mix evidence from unrelated domains
-(cross-domain contamination), as illustrated in
-Figure~\ref{fig:motivation}.
+A second, distinct failure mode arises in interdisciplinary queries. Such queries require evidence from multiple professional domains simultaneously, but unified retrieval over an undifferentiated corpus can mix domain-incongruent evidence because professional disciplines share lexical cues---a form of cross-domain contamination illustrated in Figure~\ref{fig:motivation}. Our ablation supports the importance of explicit retrieval scope separation: removing partitioned retrieval specifically elevates CROSS-domain NLI contradiction rate by 3.2~pp (3.50\%$\to$6.70\%; $p{=}0.045$, cluster bootstrap), while single-domain NLI contradiction rates are not significantly changed across any single-component removal.
 
-To address both failure modes and bridge the gap between isolated model inference and true collaborative synthesis, we propose \textbf{NexRoute}, a dual-axis routing
+To address both failure modes, we propose \textbf{NexRoute}, a dual-axis routing
 architecture that leverages a shared encoder to learn jointly trained multi-task representations
 of query intent. First, an explicit \textbf{function axis} signals the
 reasoning modality a query demands---\texttt{What}, \texttt{How},
@@ -824,7 +812,7 @@ mechanism that determines which evidence partition(s) are accessed. Under the
 fail-safe threshold configuration, even ``incorrect'' routing to \texttt{CROSS}
 preserves access to the primary domain partition, explaining why generation
 quality remains robust to moderate routing errors.
-A controlled domain-router necessity experiment confirms and extends this finding:
+A controlled domain-router necessity experiment provides complementary evidence for this interpretation:
 oracle-domain routing (upper bound on routing accuracy) does not improve ROUGE-L
 over NexRoute predicted routing (Section~\ref{ssec:domainrouter}).
 
@@ -1006,7 +994,7 @@ cross-scale comparison is a descriptive reference only (see caveat in text).}
 On the Clean-300 subset, NexRoute 7B leads all 7B baselines on MED (ROUGE-L~25.45), SOC (ROUGE-L~24.16), and STEM (ROUGE-L~25.34). Excluding LAW, NexRoute 7B achieves a Clean-300 Single-domain ROUGE-L of 25.79 and BERTScore of 88.69, both the highest among 7B models. LAW, however, is not competitive: NexRoute's Clean-300 LAW ROUGE-L collapses to 18.27, compared to 23.66--24.75 for all 7B baselines, a direct consequence of LAW adapter degeneration (Section~\ref{ssec:law-degeneration}). Full per-domain breakdowns for all models and scales are in Supplementary~S5.
 
 \paragraph{Single-domain trade-off.}
-On Clean-300, NexRoute 7B achieves the highest Single-domain ROUGE-L (23.30 vs.\ 21.92 for CRAG, 21.61 for Naive RAG). The Single-domain figure is depressed by LAW adapter degeneration (Clean-300 LAW ROUGE-L: 18.27); excluding LAW, NexRoute's Clean-300 Single ROUGE-L rises to 25.79, 4.63~pp above the best 7B baseline. CROSS-domain gains (ROUGE-L +6.06 over TF-IDF Router, the second-best 7B system) are achieved on a fully uncontaminated test partition (full per-domain breakdown in Supplementary~S5).
+On Clean-300, NexRoute 7B achieves the highest Single-domain ROUGE-L (23.30 vs.\ 21.92 for CRAG, 21.61 for Naive RAG). The Single-domain figure is depressed by LAW adapter degeneration (Clean-300 LAW ROUGE-L: 18.27); excluding LAW, NexRoute's Clean-300 Single ROUGE-L rises to 25.79, 4.63~pp above the best 7B baseline. CROSS-domain gains (ROUGE-L +6.06 over TF-IDF Router, the second-best 7B system) are achieved on the adapter-unseen Clean-300 test partition (full per-domain breakdown in Supplementary~S5).
 
 \paragraph{Computational efficiency and deployment feasibility.}
 NexRoute 7B's dynamic adapter switching maintains peak VRAM usage at
@@ -1282,7 +1270,7 @@ Brackets are 95\% CIs (Holm-corrected over three contrasts; $p{<}0.001$ for all)
 V06 (Dominant-Single CROSS merging) and extended V03 analysis are detailed
 in Supplementary~S4.
 
-Weight-averaging and task-arithmetic CROSS adapter variants were excluded from the NLI hallucination comparison due to insufficient sentence counts ($n$=319 and $n$=127, respectively) for reliable estimation; a full quantitative comparison including ROUGE-L, BERTScore, and BLEU-4 for these variants is left to future work (Section~7.2).
+Weight-averaging and task-arithmetic CROSS adapter variants were excluded from the NLI contradiction-rate comparison due to insufficient sentence counts ($n$=319 and $n$=127, respectively) for reliable estimation; a full quantitative comparison including ROUGE-L, BERTScore, and BLEU-4 for these variants is left to future work (Section~7.2).
 
 %%------------------------------------------------------------------------------
 \subsection{Failure Analysis: LAW Adapter Degeneration under Query-Format Shift}
@@ -1837,10 +1825,10 @@ points over both LoRA-library baselines; on the adapter-unseen clean subset
 ($n{=}60$), NexRoute achieves ROUGE-L 28.23 and BERTScore 89.66 (Table~\ref{tab:master_performance});
 because Arrow and PHATGOOSE figures are from the full \texttt{CROSS}-100 set, this value
 is a robustness reference rather than a matched subset comparison.
-These results indicate that domain-partitioned retrieval and function-aware
-prompt scaffolding---rather than routing probability optimisation---constitute
-the primary structural contributors to NexRoute's cross-domain performance,
-suggesting that the dual-axis design provides structural benefits
+These results suggest that domain-partitioned retrieval and function-aware
+prompt scaffolding---rather than routing probability optimisation---may be
+the primary structural contributors to NexRoute's cross-domain performance
+in this comparison, and are consistent with the dual-axis design providing structural benefits
 beyond those achievable by routing optimisation alone within existing LoRA-library methods.
 We note that this comparison involves architecturally distinct paradigms
 (LoRA-library routing vs.\ query-level dual-axis routing with retrieval
