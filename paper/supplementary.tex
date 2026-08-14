@@ -1,4 +1,4 @@
-\documentclass[a4paper,fleql]{cas-sc}
+\documentclass[a4paper,fleql,doubleblind]{cas-sc}
 \usepackage[numbers,sort&compress]{natbib}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -34,16 +34,9 @@
 
 \title[mode=title]{NexRoute: Supplementary Material}
 
-\author[1]{Junyoung Kong}
-\author[1]{Youngguk Ha}
+\author[1]{}
 
-\affiliation[1]{%
-    organization={Department of Computer Science and Engineering, Konkuk University},
-    addressline={120 Neungdong-ro},
-    city={Gwangjin-gu, Seoul},
-    postcode={05029},
-    country={Republic of Korea}
-}
+\affiliation[1]{organization={}}
 
 \maketitle
 
@@ -458,7 +451,7 @@ a stable plateau rather than overfitting to a single grid point. To confirm
 that this plateau reflects genuine system-level robustness, we verified that
 substituting the global-optimum configuration ($\tau$=0.50, $\delta$=0.10)
 yields no meaningful change in downstream generation quality
-(BERTScore $\Delta < 0.3$) or hallucination rate ($\Delta < 0.5$~pp),
+(BERTScore $\Delta < 0.3$) or NLI contradiction rate ($\Delta < 0.5$~pp),
 while increasing the \texttt{CROSS} false-negative rate due to the stricter
 gap constraint. The adopted configuration is ($\tau$=0.30, $\delta$=0.40).
 
@@ -468,7 +461,7 @@ gap constraint. The adopted configuration is ($\tau$=0.30, $\delta$=0.40).
 %%==============================================================================
 
 Removing Partitioned Retrieval (V03) is associated with a single-domain
-hallucination increase of 5.0~pp (11.7\%$\to$16.7\%; $p{=}0.003$,
+NLI contradiction rate increase of 5.0~pp (11.7\%$\to$16.7\%; $p{=}0.003$,
 $h{=}0.16$), suggesting that domain-partitioned indexing may be an important
 structural contributor to factual precision in specialized single-domain
 contexts. The corresponding CROSS-domain increase is smaller ($+$1.8~pp,
@@ -479,7 +472,7 @@ $p{=}0.19$ result should be interpreted as inconclusive rather than as
 evidence of no effect.
 
 Among CROSS-domain merging strategies, the Dominant-Single approach (V06)
-yields a CROSS hallucination rate of 9.9\%---a 5.6~pp increase over V01
+yields a CROSS NLI contradiction rate of 9.9\%---a 5.6~pp increase over V01
 (4.3\%; $p{<}0.05$). This pattern is consistent with the interpretation that
 collapsing cross-domain evidence onto a single-domain expert may reduce
 factual precision on interdisciplinary queries, though the mechanism

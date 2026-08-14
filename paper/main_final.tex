@@ -1,4 +1,4 @@
-\documentclass[a4paper,fleql]{cas-sc}
+\documentclass[a4paper,fleql,doubleblind]{cas-sc}
 \usepackage[numbers,sort&compress]{natbib}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -106,13 +106,13 @@ of query intent. First, an explicit \textbf{function axis} signals the
 reasoning modality a query demands---\texttt{What}, \texttt{How},
 \texttt{Why}, or \texttt{Compare}---so that the retrieval scaffold and
 generation prompt are structurally aligned with the query's intent,
-directly resolving the functional mismatch without relying on the activated
+directly addressing the functional mismatch without relying on the activated
 expert's uncontrolled inference. Second, rather than
 forcing a single domain expert to reason over an undifferentiated,
 interdisciplinary evidence pool, NexRoute activates a dedicated
 \textbf{cross-domain (\texttt{CROSS}) expert}, trained on high-fidelity synthesized
 domain-pair samples and grounded in evidence retrieved separately from
-each contributing domain partition. This resolves the second failure mode by
+each contributing domain partition. This addresses the second failure mode by
 integrating---rather than merging into a single generalist pathway---the
 exclusive evidence of both contributing domains, structurally separating evidence from each contributing domain. Each query is decomposed
 along two complementary dimensions: (1) a \textbf{domain axis} (\texttt{LAW},
@@ -241,7 +241,7 @@ Furthermore, existing RAG-MoE pipelines~\citep{jeong2024adaptiverag,dou2024loram
 %%------------------------------------------------------------------------------
 \subsection{Query Routing for Expert System Deployment}
 %%------------------------------------------------------------------------------
-Adaptive-RAG~\citep{jeong2024adaptiverag} and Typed-RAG~\citep{typedrag} demonstrate that query intent is a learnable routing signal, yet both treat routing as single-axis. Adaptive-RAG predicts query complexity to select a retrieval strategy (no retrieval, single-step, or iterative), operating on a unified corpus without domain partitioning; Typed-RAG classifies function type within a unified corpus. NexRoute formalizes routing as a \emph{joint dual-axis} decomposition---jointly training domain and function classifiers over a shared DeBERTa-large encoder (Eq.~\ref{eq:joint_loss}) and applying function-specific scaffolds to domain-partitioned evidence, resolving both cross-domain contamination and functional mismatch simultaneously.
+Adaptive-RAG~\citep{jeong2024adaptiverag} and Typed-RAG~\citep{typedrag} demonstrate that query intent is a learnable routing signal, yet both treat routing as single-axis. Adaptive-RAG predicts query complexity to select a retrieval strategy (no retrieval, single-step, or iterative), operating on a unified corpus without domain partitioning; Typed-RAG classifies function type within a unified corpus. NexRoute formalizes routing as a \emph{joint dual-axis} decomposition---jointly training domain and function classifiers over a shared DeBERTa-large encoder (Eq.~\ref{eq:joint_loss}) and applying function-specific scaffolds to domain-partitioned evidence, addressing both cross-domain contamination and functional mismatch simultaneously.
 
 \paragraph{Structural delta from prior work.}
 NexRoute's novelty lies in binding routing decisions to two distinct system resources simultaneously.
@@ -249,7 +249,7 @@ Adaptive-RAG selects retrieval \emph{strategy} but operates on a unified corpus-
 Typed-RAG classifies function type within a unified corpus---domain specialization is absent.
 LoRAMoE and Mixture-of-LoRAs \citep{dou2024loramoe,wu2024mixtureofloras} route to domain-specific adapters but provide no function-aware prompt structuring and no domain-partitioned retrieval.
 Arrow Routing~\citep{arrow2024routing} and PHATGOOSE~\citep{muqeeth2024phatgoose} optimise routing probability over a LoRA library but do not control retrieval scope or prompt format; on CROSS-domain queries they lag NexRoute by ${\geq}17$~pp ROUGE-L despite comparable adapter sets (Section~\ref{ssec:moe_routing}), and their routing entropy (91.5\% and 100.0\% of $\mathcal{H}_{\max}$, respectively; Table~\ref{tab:moe_routing}) is comparable to NexRoute's 92.5\%---indicating that adapter commitment alone is insufficient; domain-partitioned retrieval and function-conditioned scaffolding are the missing structural components.
-NexRoute's delta is the following wiring: the \emph{domain} routing decision determines which knowledge partition feeds the context (resolving contamination), and the \emph{function} routing decision determines which prompt scaffold structures the generation (resolving functional mismatch).
+NexRoute's delta is the following wiring: the \emph{domain} routing decision determines which knowledge partition feeds the context (addressing contamination), and the \emph{function} routing decision determines which prompt scaffold structures the generation (addressing functional mismatch).
 Both decisions are made jointly from a shared encoder in one forward pass, ensuring consistent context--prompt alignment at each query.
 %%==============================================================================
 \section{Methodology}
@@ -379,7 +379,7 @@ LAW--MED   &   0 & \textbf{Held-out} \\
 
 %%------------------------------------------------------------------------------
 \subsection{Dual-Axis Joint Router}
-\label{ssec:domainrouter}
+\label{ssec:joint_router}
 %%------------------------------------------------------------------------------
 The domain axis router ($R_D$) and function axis classifier ($R_F$) share
 a single pre-trained DeBERTa-large encoder---a bidirectional Transformer
@@ -877,7 +877,6 @@ a train/test labelling-scheme mismatch---the training labels were produced by th
 annotation pipeline described in Section~\ref{ssec:loratrain} (rule-based heuristics,
 Qwen2.5-72B judge, and human audit), whereas the evaluation labels followed a
 different annotation protocol.
-% TODO(author): Describe the specific guideline difference (2 sentences) — currently "mismatch" is stated without mechanistic detail.
 Despite the 38.0\% strict accuracy, the predicted label outperforms wrong, random,
 and no-scaffold conditions by ROUGE-L $+1.9$--$2.3$~pp ($p{<}0.001$, Holm-corrected;
 Table~\ref{tab:funcaxis}), indicating that the scaffold's benefit arises from
