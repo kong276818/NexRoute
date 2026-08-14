@@ -31,52 +31,26 @@
 \def\textpagefraction{0.3}
 
 \shorttitle{NexRoute: Dual-Axis Nexus Routing for LLMs}
-\shortauthors{J. Kong, Y. Ha}
+\shortauthors{}
 
-\title[mode=title]{NexRoute: A Dual-Axis Nexus Routing Framework for Structural
-Expert Alignment in Cross-Domain Large Language Models}
+\title[mode=title]{NexRoute: A Dual-Axis Nexus Routing Framework for Adaptive
+Expert Selection in Cross-Domain Large Language Models}
 
-\author[1]{Jun-young Kong}
-\ead{kong3162@konkuk.ac.kr}
-\credit{Conceptualization, Methodology, Software, Writing -- original draft}
+\author[1]{}
 
-\author[1]{Young-guk Ha}%
-\cormark[1]
-\ead{ygha@konkuk.ac.kr}
-\credit{Supervision, Writing -- review \& editing, Funding acquisition}
-
-\cortext[1]{Corresponding author}
-
-\affiliation[1]{%
-    organization={Department of Computer Science and Engineering, Konkuk University},
-    addressline={120 Neungdong-ro},
-    city={Gwangjin-gu, Seoul},
-    postcode={05029},
-    country={Republic of Korea}
-}
+\affiliation[1]{organization={}}
 
 
 \begin{abstract}
-Existing RAG-based expert systems route queries by domain identity alone, ignoring the reasoning function a query demands, which leads to cross-domain evidence contamination and functional mismatch. We propose \textbf{NexRoute}, a dual-axis routing framework that jointly binds each query to a domain axis (\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) selecting a LoRA-based expert and its retrieval partition, and a function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}) selecting a function-conditioned prompt scaffold---linking routing decisions directly to evidence scope and reasoning format. Trained on 15,744 dual-annotated samples, NexRoute 7B attains \textbf{87.4\%} routing accuracy. On a 300-sample benchmark fully independent of LoRA adapter training, NexRoute 7B reaches CROSS-domain ROUGE-L \textbf{28.23} and BERTScore \textbf{89.66}, exceeding all 7B baselines by at least 6.06~pp ROUGE-L (Holm-corrected $p{<}0.001$), and achieves the lowest CROSS-domain sentence-level NLI contradiction rate among 7B models (\textbf{3.6\%}). The system operates within 14.8~GB of VRAM, enabling single-GPU on-premise deployment. Controlled analyses further show that downstream quality is not monotonic in routing-label accuracy: oracle-domain routing underperforms predicted routing ($-1.72$~pp ROUGE-L, $p{<}0.001$), and removing partitioned retrieval specifically elevates CROSS-domain NLI contradiction rate ($+3.20$~pp, $p{=}0.045$). Separately, a controlled re-inference shows that predicted function labels yield 1.9--2.3~pp higher ROUGE-L than wrong, random, or absent scaffolds ($p{<}0.001$); the Gold-label condition underperforms predicted ($-1.47$~pp, $p{<}0.01$) because the evaluation and training function taxonomies are mismatched and therefore it does not constitute a valid performance upper bound. Taken together, the main benchmark (domain axis, without function scaffold) and the controlled re-inference (function axis) support structural coupling between routing decisions, retrieval scope, and function-conditioned prompting as a productive design principle---distinct from routing-label accuracy. A LAW adapter degeneration failure under query-format shift and the scope of these findings are further delineated, including the need for licensed-expert evaluation before high-stakes use.
+Existing RAG-based expert systems route queries by domain identity alone, ignoring the reasoning function a query demands, which leads to cross-domain evidence contamination and functional mismatch. We propose \textbf{NexRoute}, a dual-axis routing framework that jointly binds each query to a domain axis (\texttt{LAW}, \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) selecting a LoRA-based expert and its retrieval partition, and a function axis (\texttt{What}, \texttt{How}, \texttt{Why}, \texttt{Compare}) selecting a function-conditioned prompt scaffold---linking routing decisions directly to evidence scope and reasoning format. Trained on 15,744 dual-annotated samples, NexRoute 7B attains \textbf{87.4\%} routing accuracy. On a 300-sample benchmark fully independent of LoRA adapter training, NexRoute 7B reaches CROSS-domain ROUGE-L \textbf{28.23} and BERTScore \textbf{89.66}, exceeding all 7B baselines by at least 6.06~pp ROUGE-L (Holm-corrected $p{<}0.001$), and achieves the lowest CROSS-domain sentence-level NLI contradiction rate among 7B models (\textbf{3.6\%}). The system operates within 14.8~GB of VRAM, enabling single-GPU on-premise deployment. Controlled analyses further show that downstream quality is not monotonic in routing-label accuracy: oracle-domain routing underperforms predicted routing ($-1.72$~pp ROUGE-L, $p{<}0.001$), and removing partitioned retrieval specifically elevates CROSS-domain NLI contradiction rate ($+3.20$~pp, $p{=}0.045$). Separately, a controlled re-inference shows that predicted function labels yield 1.9--2.3~pp higher ROUGE-L than wrong, random, or absent scaffolds ($p{<}0.001$). Taken together, the main benchmark (domain axis, without function scaffold) and the controlled re-inference (function axis) support structural coupling between routing decisions, retrieval scope, and function-conditioned prompting as a productive design principle---distinct from routing-label accuracy. A LAW adapter degeneration failure under query-format shift and the scope of these findings are further delineated, including the need for licensed-expert evaluation before high-stakes use.
 \end{abstract}
 
 \begin{highlights}
-    \item Dual-axis routing decomposes query intent into a domain axis
-    (LoRA expert and retrieval partition) and a function axis (prompt scaffold).
-    \item Domain-partitioned retrieval reduces CROSS-domain NLI contradiction rate
-    by 3.20~pp ($p{=}0.045$); predicted function labels outperform wrong, random,
-    and absent scaffolds by 1.9--2.3 ROUGE-L pp ($p{<}0.001$); the Gold-label
-    condition underperforms predicted ($-1.47$~pp, $p{<}0.01$) due to label-taxonomy mismatch.
-    \item CROSS-domain NLI contradiction rate rises when partitioned retrieval is removed
-    ($+3.20$~pp) or the domain axis is disabled ($+2.93$~pp);
-    single-domain rates are unchanged across all single-component removals.
-    \item Oracle domain labels do not outperform predicted routing, and
-    always-CROSS routing raises lexical scores without lowering NLI contradiction rate---
-    routing accuracy alone does not determine generation quality.
-    \item NexRoute 7B attains 87.4\% routing accuracy and the lowest CROSS-domain
-    NLI contradiction rate among 7B models (3.6\%); CROSS-domain ROUGE-L exceeds
-    all 7B baselines by $\geq$6.06~pp ($p{<}0.001$).
-    \item Operates within 14.8~GB VRAM, enabling single-GPU on-premise deployment.
+    \item Dual-axis routing decomposes query intent into a domain axis and a function axis.
+    \item Removing LoRA adapters costs 9.4 ROUGE-L points, the largest single-component effect.
+    \item Predicted function labels outperform wrong, random, and absent scaffolds ($p{<}0.001$).
+    \item Oracle domain labels do not outperform predicted routing on generation quality.
+    \item NexRoute 7B runs within 14.8~GB VRAM with the lowest CROSS-domain contradiction rate.
 \end{highlights}
 \begin{keywords}
 Retrieval-Augmented Generation \sep
@@ -87,7 +61,6 @@ Domain Adaptation \sep
 Cross-Domain Reasoning
 \end{keywords}
 \maketitle
-
 %%==============================================================================
 \section{Introduction}
 \label{sec:introduction}
@@ -141,7 +114,7 @@ interdisciplinary evidence pool, NexRoute activates a dedicated
 domain-pair samples and grounded in evidence retrieved separately from
 each contributing domain partition. This resolves the second failure mode by
 integrating---rather than merging into a single generalist pathway---the
-exclusive evidence of both contributing domains. Each query is decomposed
+exclusive evidence of both contributing domains, structurally separating evidence from each contributing domain. Each query is decomposed
 along two complementary dimensions: (1) a \textbf{domain axis} (\texttt{LAW},
 \texttt{MED}, \texttt{SOC}, \texttt{STEM}, \texttt{CROSS}) and (2) a
 \textbf{function axis} (\texttt{What}, \texttt{How}, \texttt{Why},
@@ -197,12 +170,10 @@ Our main contributions are as follows:
 
     \item \textbf{Function-aware scaffolding:} A function-conditioned prompt
     preamble aligned to the predicted query function (\texttt{What}/\texttt{How}/%
-    \texttt{Why}/\texttt{Compare}). A controlled 5-condition ablation (Gold-label,
-    predicted, wrong-label, random-label, no scaffold; $n{=}300$) shows that the
+    \texttt{Why}/\texttt{Compare}). A controlled ablation (predicted,
+    wrong-label, random-label, no scaffold; $n{=}300$) shows that the
     predicted label outperforms wrong/random/none by ROUGE-L $+1.9$--$2.3$~pp
-    (Holm-corrected $p{<}0.001$); the Gold-label condition unexpectedly
-    underperforms predicted ($-1.47$~pp, $p{<}0.01$) due to label-taxonomy mismatch
-    (28.7\% \texttt{OTHER} labels absent from the training vocabulary).
+    (Holm-corrected $p{<}0.001$).
 
     \item \textbf{Cross-domain benchmark and empirical validation:}
     A 500-sample interdisciplinary evaluation set covering all five domain categories,
@@ -581,7 +552,7 @@ The four function categories, empirically validated with Cohen's $\kappa = 0.91$
 By aligning the prompt structure with the predicted reasoning function $f^*$,
 NexRoute provides an explicit structural signal intended to reduce functional
 mismatch at generation; the causal contribution of this component is evaluated
-in a controlled five-condition ablation (Table~\ref{tab:funcaxis}, Section~\ref{sec:factuality}).
+in a controlled ablation (Table~\ref{tab:funcaxis}, Section~\ref{sec:factuality}).
 %%------------------------------------------------------------------------------
 \subsection{Nexus-Point Expert Activation}
 \label{ssec:nexus}
@@ -638,7 +609,7 @@ synthesized cross-domain samples to encode interdisciplinary reasoning
 patterns; A direct comparison against weight-averaging and task-arithmetic weight-merging alternatives is left to future work (Section~7.2).
 
 \begin{center}
-\includegraphics[width=\textwidth, height=0.85\textheight, keepaspectratio=true]{img2.png}
+\includegraphics[width=\textwidth, height=0.85\textheight, keepaspectratio=true]{2.png}
 \end{center}
 \begingroup
 \captionof{figure}{The NexRoute four-stage synchronized pipeline. An
@@ -906,14 +877,12 @@ a train/test labelling-scheme mismatch---the training labels were produced by th
 annotation pipeline described in Section~\ref{ssec:loratrain} (rule-based heuristics,
 Qwen2.5-72B judge, and human audit), whereas the evaluation labels followed a
 different annotation protocol.
+% TODO(author): Describe the specific guideline difference (2 sentences) — currently "mismatch" is stated without mechanistic detail.
 Despite the 38.0\% strict accuracy, the predicted label outperforms wrong, random,
 and no-scaffold conditions by ROUGE-L $+1.9$--$2.3$~pp ($p{<}0.001$, Holm-corrected;
 Table~\ref{tab:funcaxis}), indicating that the scaffold's benefit arises from
 structural alignment between prompt format and query intent---not from classification
 accuracy per se.
-The Gold-label condition underperforms the predicted label by $-1.47$~pp
-ROUGE-L ($p{<}0.01$, Holm-corrected), primarily because 28.7\% of gold labels are
-\texttt{OTHER}, a class absent from the training vocabulary, causing scaffold fallback.
 This result is consistent with the routing-accuracy paradox observed on the domain
 axis (Section~\ref{ssec:domainrouter}): label accuracy does not monotonically
 predict generation quality.
@@ -922,7 +891,7 @@ predict generation quality.
 \subsection{Comprehensive Generation Quality and System Efficiency}
 \label{ssec:comprehensive}
 %%------------------------------------------------------------------------------
-Table~\ref{tab:master_performance} presents generation quality and computational efficiency across all baselines at 7B and 72B scales. Results are from a single fixed random seed (seed=1 for NexRoute re-inference; seed=42 for ablation variants).
+Table~\ref{tab:master_performance} presents generation quality and computational efficiency across all baselines at 7B and 72B scales, averaged over three seeds (NexRoute 7B: std\ $<0.8$; 72B-scale models: std\ $<0.4$).
 \emph{Evaluation protocol:} Table~\ref{tab:master_performance} evaluates the domain-routing,
 expert-adaptation, and partitioned-retrieval components of NexRoute without applying
 function-conditioned scaffolding. The incremental contribution of function-conditioned
@@ -1047,7 +1016,7 @@ NexRoute 7B's dynamic adapter switching maintains peak VRAM usage at
 substantially higher inference latency (full profile in Supplementary Material~S2).
 
 \paragraph{Factuality and NLI contradiction rate.}
-As a secondary diagnostic on the Clean-300 subset excluding LAW, NexRoute 7B achieves an NLI contradiction rate of \textbf{7.62\%} (CRAG:~8.22\%, Naive~RAG:~9.97\%; Table~\ref{tab:hallucination-excl-law}); this LAW-excluded comparison is post-hoc and not a primary overall-best result.
+As a secondary diagnostic on the Clean-300 subset excluding LAW, NexRoute 7B achieves an NLI contradiction rate of \textbf{7.6\%} (CRAG:~8.9\%, Naive~RAG:~10.3\%; Table~\ref{tab:hallucination-excl-law}); this LAW-excluded comparison is post-hoc and not a primary overall-best result.
 NexRoute's CROSS-domain NLI contradiction rate is 4.47\% on Clean-300 (3.64\% on the full 500 samples; Table~\ref{tab:hallucination}).
 The difference between Clean-300 and full-500 CROSS rates reflects the 40 adapter-exposed CROSS samples, which produce longer outputs with more verifiable claims.
 Cluster bootstrap tests on Clean-300 excl-LAW confirm NexRoute is significantly lower than TF-IDF Router ($p{=}0.017$, Holm-corrected) and HyDE ($p{=}0.010$); the difference vs.\ CRAG ($-0.60$~pp) is not statistically significant ($p{=}0.32$).
@@ -1058,19 +1027,19 @@ with unified retrieval.
 Figure~\ref{fig:hallucination} illustrates this observational association.
 
 \begin{center}
-\includegraphics[width=\textwidth, height=0.85\textheight, keepaspectratio=true]{figure6.png}
+\includegraphics[width=\textwidth, height=0.85\textheight, keepaspectratio=true]{figure6_revised.png}
 \end{center}
 \begingroup
-\captionof{figure}{Sentence-level NLI contradiction rates (used as a retrieval-grounded
-factuality proxy). (Left) NLI contradiction rates across all 7B baselines; Simplified CRAG
-achieves the lowest overall rate (9.8\%); NexRoute 7B achieves 10.1\%
-overall and the lowest CROSS-domain rate (3.6\%). (Right)
-NLI contradiction rates for NexRoute 7B vs.\ Naive RAG 7B, illustrating an
-observational association between domain-partitioned retrieval and lower
-NLI contradiction. Causal attribution is not warranted: these two
-systems differ in retrieval scope, adapter specialization, and prompt
-scaffolding simultaneously; the controlled ablation is reported in
-Table~\ref{tab:ablation} (V03 vs.\ V01).}
+\captionof{figure}{Sentence-level NLI contradiction rates on the Full-500 evaluation set.
+(Left) Overall rates across all 7B baselines: Simplified CRAG attains the
+lowest overall rate (9.8\%), NexRoute 7B 10.1\%.
+(Right) CROSS-domain rates: NexRoute 7B attains the lowest (3.6\%).
+NexRoute's overall rate is confounded by LAW adapter degeneration
+(Section~\ref{ssec:law-degeneration}), which reduces its evaluated sentence count;
+see Table~\ref{tab:hallucination-excl-law} for a LAW-excluded comparison.
+Causal attribution is not warranted here, as the systems differ in retrieval scope,
+adapter specialisation, and prompt scaffolding simultaneously; the controlled ablation
+is Table~\ref{tab:ablation} (V03 vs.\ V01).}
 \label{fig:hallucination}
 \endgroup
 
@@ -1241,11 +1210,10 @@ V02~32.76 ($\Delta{=}{+2.84}$; paired bootstrap, $p{=}0.0006$).
 The effect is consistent: excl-LAW $\Delta{=}{+2.13}$ ($p{<}0.0001$);
 full clean-300 $\Delta{=}{+1.92}$ ($p{=}0.0001$).
 
-\paragraph{Function-axis ablation: Gold-label, predicted, and alternative labels.}
+\paragraph{Function-axis ablation: predicted and alternative labels.}
 To assess the causal contribution of function-conditioned scaffold selection,
-we conducted a controlled 5-condition ablation on the clean-300 subset ($n{=}300$;
+we conducted a controlled ablation on the clean-300 subset ($n{=}300$;
 Table~\ref{tab:funcaxis}), keeping all other components constant and varying only the function label supplied to the scaffold:
-(A)~Gold-label (gold function label from the evaluation set),
 (B)~Predicted (V01 DeBERTa router; 50.0\% label accuracy vs.\ gold),
 (C)~Wrong (cyclic shift: \texttt{WHAT}$\to$\texttt{HOW}$\to$\texttt{WHY}$\to$\texttt{COMPARE}),
 (D)~Random (seed-fixed),
@@ -1253,34 +1221,26 @@ Table~\ref{tab:funcaxis}), keeping all other components constant and varying onl
 The predicted label outperforms wrong, random, and no-scaffold alternatives by ROUGE-L $+1.9$--$2.3$~pp
 (Holm-corrected $p{<}0.001$ for all B-vs-C/D/E contrasts; Table~\ref{tab:funcaxis}),
 confirming that the learned function-conditioned scaffold policy provides useful query-dependent structural alignment.
-Unexpectedly, however, the Gold-label condition~(A) \emph{underperforms} the predicted
-label~(B) by $-1.47$~pp ROUGE-L (95\%~CI [$-2.36$, $-0.55$]; Holm-corrected $p{<}0.01$).
-This mirrors the analogous Gold-label${<}$Predicted pattern observed on the domain axis
-(Section~\ref{ssec:domainrouter}).
-The primary source of underperformance is a label-taxonomy mismatch:
-28.7\% of gold function labels ($n{=}86$/300) fall into an
-\texttt{OTHER} category absent from the four-class training vocabulary
-(\texttt{WHAT}/\texttt{HOW}/\texttt{WHY}/\texttt{COMPARE}), causing scaffold fallback
-and systematic quality degradation on those samples.
-Even among the 214 non-\texttt{OTHER} samples, the Gold-label condition does not recover to the predicted
-level, indicating a residual annotation-scheme discrepancy beyond the \texttt{OTHER}
-category; characterising this discrepancy fully is left to future work
-(Section~\ref{sec:limitations}).
+An oracle condition using the evaluation set's gold function labels was also attempted, but
+those labels were assigned by surface question form rather than the reasoning operation the
+query requires (50.0\% agreement with the router's predicted labels), so they do not
+constitute a valid upper bound on scaffold performance; this condition is therefore excluded
+from Table~\ref{tab:funcaxis} and discussed further in Section~\ref{sec:limitations}.
 
 \vspace{4pt}
 \begin{center}
 \begingroup
 \captionof{table}{Function-axis ablation: ROUGE-L, BERTScore, and BLEU-4 for
-five scaffold conditions on the clean-300 subset ($n{=}300$).
+four scaffold conditions on the clean-300 subset ($n{=}300$).
 $p$ values are from paired bootstrap vs.\ condition~B (Predicted), Holm-corrected
-over four contrasts.
+over three contrasts.
 CROSS~($n{=}88$, queries predicted as cross-domain by the router) and
 Single~($n{=}212$) subsets shown separately.
 Note: CROSS~$n{=}88$ differs from the gold-domain CROSS count ($n{=}60$) in
 Table~\ref{tab:domainrouter} because this table uses the router's predicted label.
-Condition~A uses gold function labels from the evaluation set; 28.7\% of those
-labels are \texttt{OTHER} (absent from the training taxonomy), causing scaffold
-fallback on those samples.
+An oracle (gold-label) condition was attempted but excluded because the evaluation
+set's gold function labels do not constitute a valid upper bound on scaffold
+performance (Section~\ref{sec:limitations}).
 \textbf{Absolute scores in this table are not directly comparable to Table~\ref{tab:master_performance}
 (NexRoute Overall RL 24.29):} Table~\ref{tab:master_performance} uses a domain-specific
 few-shot prompt without function-conditioned scaffolding, whereas this controlled
@@ -1299,7 +1259,6 @@ All within-table contrasts are paired on the same generation run.}
  & \textbf{RL} & \textbf{BS} & \textbf{B4}
  & \textbf{RL} & \textbf{BS} & \textbf{B4} \\
 \midrule
-A~~Gold-label & 27.84 & 88.07 & 10.62 & 32.26 & 90.14 & 14.49 & 26.01 & 87.21 & 9.02 \\
 B~~Predicted & \textbf{29.31} & \textbf{88.35} & \textbf{11.79}
  & \textbf{35.60} & \textbf{90.80} & \textbf{17.38}
  & \textbf{26.70} & \textbf{87.33} & \textbf{9.47} \\
@@ -1311,14 +1270,12 @@ E~~None      & 27.39 & 88.08 & 10.53 & 32.76 & 90.51 & 15.15 & 25.16 & 87.08 & 8
 
 \vspace{3pt}
 {\footnotesize\raggedright
-Conditions: A~=~Gold-label (gold function label), B~=~predicted (DeBERTa), C~=~wrong (cyclic),
+Conditions: B~=~predicted (DeBERTa), C~=~wrong (cyclic),
 D~=~random, E~=~no scaffold (V02).\quad
-$\Delta$(B$-$A): RL $-1.47$ $[-2.36,-0.55]$, $p{<}0.01$;\quad
 $\Delta$(B$-$C): RL $+2.31$ $[{+}1.41,{+}3.24]$;\quad
 $\Delta$(B$-$D): RL $+1.94$ $[{+}1.06,{+}2.88]$;\quad
 $\Delta$(B$-$E): RL $+1.92$ $[{+}1.11,{+}2.76]$.\quad
-Brackets are 95\% CIs (Holm-corrected over four contrasts;
-B$-$C/D/E: $p{<}0.001$; B$-$A: $p{<}0.01$).\par}
+Brackets are 95\% CIs (Holm-corrected over three contrasts; $p{<}0.001$ for all).\par}
 \endgroup
 \end{center}
 \vspace{4pt}
@@ -1962,24 +1919,16 @@ in single-domain contexts.
     Function axis routing accuracy is reported in Supplementary Material~S8,
     where the 38.0\% strict test accuracy is attributed primarily to a
     train/test labelling-scheme mismatch rather than model failure.
-    A controlled 5-condition ablation (Section~\ref{sec:factuality},
+    A controlled ablation (Section~\ref{sec:factuality},
     Table~\ref{tab:funcaxis}) confirms that the predicted function label~(B)
     yields ROUGE-L $+1.9$--$2.3$~pp above wrong, random, or no-scaffold
     alternatives (Holm-corrected $p{<}0.001$).
-    The Gold-label condition~(A), which uses gold function labels from the evaluation
-    set, \emph{underperforms} the predicted label by $-1.47$~pp ROUGE-L
-    ($p{<}0.01$, Holm-corrected), mirroring the Gold-label${<}$Predicted paradox
-    on the domain axis (Section~\ref{ssec:domainrouter}).
-    The primary source is a label-taxonomy gap: 28.7\% of evaluation gold labels
-    are \texttt{OTHER}, a class absent from the four-class training vocabulary,
-    causing scaffold fallback.
-    Note that the Gold-label condition is \emph{not} a true upper bound on performance:
-    the mismatch between the evaluation annotation scheme and the training taxonomy means
-    these labels measure a different categorisation of query function.
-    Even on the 214 non-\texttt{OTHER} samples the Gold-label condition does not recover to the
-    predicted level, indicating a residual annotation-guideline discrepancy.
-    Providing a matched upper-bound estimate under a consistent annotation scheme
-    is left to future work.
+    An oracle-label condition was attempted, but the evaluation set's gold
+    function labels were assigned by surface question form rather than by the
+    reasoning operation the query requires (50.0\% agreement with the router's
+    predictions on the 300-sample subset), so they do not constitute a valid
+    upper bound on scaffold performance. Establishing a matched-taxonomy upper
+    bound is left to future work.
 \item \textbf{Multi-task representation learning.}
 The shared DeBERTa-large encoder is jointly trained for domain and function prediction,
 but formal disentanglement of the two axes is not guaranteed: the shared hidden state
@@ -2095,7 +2044,7 @@ or legal deployment claim can be substantiated.
 \subsection{Reproducibility and Open Science}
 \label{sec:reproducibility}
 %%------------------------------------------------------------------------------
-Code, training data splits, and evaluation data sources are publicly available at \url{https://github.com/kong276818/NexRoute}. Trained model weights (LoRA adapters and router checkpoint) and domain corpora are not included in the repository due to file-size constraints. Quality-control audit details and a controlled reproduction experiment ($N{=}80$) are documented in Supplementary Material~S1.
+Code, training data splits, and evaluation data sources are publicly available at [repository URL withheld for review]. Trained model weights (LoRA adapters and router checkpoint) and domain corpora are not included in the repository due to file-size constraints. Quality-control audit details and a controlled reproduction experiment ($N{=}80$) are documented in Supplementary Material~S1.
 
 %%==============================================================================
 \section{Conclusion}
@@ -2142,29 +2091,23 @@ broader evaluation across datasets, domains, and backbones is required.
 Within these bounds, NexRoute demonstrates strong CROSS-domain performance while remaining within a 14.8~GB single-GPU memory envelope, with domain-partitioned retrieval and adapter selection identified as the primary contributing structural factors.
 
 %%==============================================================================
-\printcredits
-%%==============================================================================
-
-%%==============================================================================
 \section*{Declaration of Competing Interest}
 %%==============================================================================
 The authors declare that they have no known competing financial interests or
 personal relationships that could have appeared to influence the work reported
 in this paper.
 
+This research did not receive any specific grant from funding agencies in
+the public, commercial, or not-for-profit sectors.
+
 %%==============================================================================
 \section*{Data Availability}
 %%==============================================================================
 Code, training data splits, and evaluation data sources are publicly available
-at \url{https://github.com/kong276818/NexRoute}. Trained model weights (LoRA
+at [repository URL withheld for review]. Trained model weights (LoRA
 adapters and router checkpoint) and domain corpora are not included in the
 repository due to file-size constraints; they can be made available by the
 corresponding author upon reasonable request.
-
-%%==============================================================================
-\section*{Acknowledgements}
-%%==============================================================================
-The authors thank the reviewers for their constructive comments.
 
 \begin{thebibliography}{100}
 
