@@ -51,3 +51,16 @@ datasets/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.abs
+*.toc
+paper/thumbnails/
+
+# Large cache / wrong-run data
+results/ablation/kb_cache/
+results/ablation/*.WRONG_*.csv

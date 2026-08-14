@@ -1,0 +1,7574 @@
+{
+  "partial": false,
+  "n": 300,
+  "summary": {
+    "overall": {
+      "predicted": {
+        "n_sents": 781,
+        "n_contra": 94,
+        "hal_rate": 12.04
+      },
+      "oracle_domain": {
+        "n_sents": 884,
+        "n_contra": 92,
+        "hal_rate": 10.41
+      },
+      "always_cross": {
+        "n_sents": 963,
+        "n_contra": 134,
+        "hal_rate": 13.91
+      },
+      "always_single_best": {
+        "n_sents": 834,
+        "n_contra": 106,
+        "hal_rate": 12.71
+      }
+    },
+    "cross": {
+      "predicted": {
+        "n_sents": 206,
+        "n_contra": 21,
+        "hal_rate": 10.19
+      },
+      "oracle_domain": {
+        "n_sents": 248,
+        "n_contra": 13,
+        "hal_rate": 5.24
+      },
+      "always_cross": {
+        "n_sents": 236,
+        "n_contra": 14,
+        "hal_rate": 5.93
+      },
+      "always_single_best": {
+        "n_sents": 205,
+        "n_contra": 11,
+        "hal_rate": 5.37
+      }
+    },
+    "single": {
+      "predicted": {
+        "n_sents": 575,
+        "n_contra": 73,
+        "hal_rate": 12.7
+      },
+      "oracle_domain": {
+        "n_sents": 636,
+        "n_contra": 79,
+        "hal_rate": 12.42
+      },
+      "always_cross": {
+        "n_sents": 727,
+        "n_contra": 120,
+        "hal_rate": 16.51
+      },
+      "always_single_best": {
+        "n_sents": 629,
+        "n_contra": 95,
+        "hal_rate": 15.1
+      }
+    }
+  },
+  "per_sample": [
+    {
+      "sample_id": 0,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 1,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 2,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 3,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      }
+    },
+    {
+      "sample_id": 4,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 5,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 6,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      }
+    },
+    {
+      "sample_id": 7,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 8,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 2,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 9,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 10,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 3,
+        "hal_rate": 100.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 11,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 12,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 13,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 14,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 15,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 16,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 17,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 18,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 19,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 20,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 21,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 22,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 23,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 2,
+        "hal_rate": 40.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 24,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 25,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 26,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      }
+    },
+    {
+      "sample_id": 27,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 2,
+        "hal_rate": 40.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      }
+    },
+    {
+      "sample_id": 28,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 29,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 2,
+        "hal_rate": 100.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 30,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 31,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 32,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 33,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      }
+    },
+    {
+      "sample_id": 34,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 35,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 36,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      }
+    },
+    {
+      "sample_id": 37,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 38,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 39,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      }
+    },
+    {
+      "sample_id": 40,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 41,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 42,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      }
+    },
+    {
+      "sample_id": 43,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 6,
+        "n_contra": 1,
+        "hal_rate": 16.67
+      },
+      "always_cross": {
+        "n_sents": 7,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 44,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 45,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 46,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 47,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 48,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      }
+    },
+    {
+      "sample_id": 49,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 50,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 51,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 52,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 53,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 54,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 55,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 56,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 57,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 58,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 59,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 60,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 61,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 62,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 63,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "always_single_best": {
+        "n_sents": 8,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 64,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 65,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 66,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 67,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 6,
+        "n_contra": 1,
+        "hal_rate": 16.67
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      }
+    },
+    {
+      "sample_id": 68,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 69,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 70,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 71,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 72,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 73,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 74,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 75,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 76,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 77,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 78,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 3,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 79,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 80,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 81,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 82,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 83,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 84,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 85,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 86,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 87,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 6,
+        "n_contra": 1,
+        "hal_rate": 16.67
+      }
+    },
+    {
+      "sample_id": 88,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 89,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 90,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 91,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 92,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 93,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 94,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 95,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 96,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 97,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 98,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 99,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 100,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 101,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 102,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      }
+    },
+    {
+      "sample_id": 103,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 104,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 105,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 106,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 107,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 108,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 109,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 110,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 111,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      }
+    },
+    {
+      "sample_id": 112,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 113,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 114,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 115,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 6,
+        "n_contra": 1,
+        "hal_rate": 16.67
+      },
+      "always_cross": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 116,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 117,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 118,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 119,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 120,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 121,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 122,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 123,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 124,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 125,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 126,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 127,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      }
+    },
+    {
+      "sample_id": 128,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 3,
+        "hal_rate": 75.0
+      }
+    },
+    {
+      "sample_id": 129,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 130,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 131,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      }
+    },
+    {
+      "sample_id": 132,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 133,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 134,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      }
+    },
+    {
+      "sample_id": 135,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 136,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 137,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 138,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 139,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 140,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 141,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 142,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 143,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 144,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 145,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 146,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 147,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 148,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 149,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 150,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      }
+    },
+    {
+      "sample_id": 151,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 152,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 153,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 154,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 155,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 156,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 157,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 158,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 159,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 160,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 161,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 162,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      }
+    },
+    {
+      "sample_id": 163,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 164,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 165,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 166,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 167,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 168,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      }
+    },
+    {
+      "sample_id": 169,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 170,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 171,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 172,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 173,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 174,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 175,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 3,
+        "hal_rate": 60.0
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      }
+    },
+    {
+      "sample_id": 176,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 177,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 178,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 179,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 6,
+        "n_contra": 2,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 180,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 181,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 182,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 3,
+        "hal_rate": 75.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 183,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 184,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 185,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 186,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 187,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 188,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 189,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      }
+    },
+    {
+      "sample_id": 190,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 191,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 192,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 193,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 194,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 195,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 2,
+        "hal_rate": 40.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 196,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 3,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 2,
+        "hal_rate": 100.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 3,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 197,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 198,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 199,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 200,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 201,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 7,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 202,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 6,
+        "n_contra": 1,
+        "hal_rate": 16.67
+      },
+      "always_cross": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 6,
+        "n_contra": 1,
+        "hal_rate": 16.67
+      }
+    },
+    {
+      "sample_id": 203,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 204,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 2,
+        "hal_rate": 100.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 205,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 206,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 207,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 208,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 209,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 210,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 211,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      }
+    },
+    {
+      "sample_id": 212,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 213,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 214,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 215,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 216,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 217,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 218,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 219,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 220,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 221,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 222,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 223,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 224,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 225,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 226,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 227,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 228,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 229,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 230,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 231,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 232,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 233,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 234,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 2,
+        "hal_rate": 40.0
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 235,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 236,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 237,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 2,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 238,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 239,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 240,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 241,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 242,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 243,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      }
+    },
+    {
+      "sample_id": 244,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 245,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 246,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 247,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 248,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 249,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 250,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 251,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 252,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 253,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 254,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 2,
+        "hal_rate": 40.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 255,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 256,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 7,
+        "n_contra": 1,
+        "hal_rate": 14.29
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 257,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 258,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 259,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 260,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 261,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 262,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 1,
+        "hal_rate": 20.0
+      }
+    },
+    {
+      "sample_id": 263,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 264,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 265,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 266,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 267,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 268,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 269,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 270,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 271,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "oracle_domain": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 6,
+        "n_contra": 1,
+        "hal_rate": 16.67
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 272,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 273,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 6,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 274,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 275,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 276,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 277,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 278,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      }
+    },
+    {
+      "sample_id": 279,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 280,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 281,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 282,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 283,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 284,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 285,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 286,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 287,
+      "gold_domain": "SOC",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 7,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 288,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_cross": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      }
+    },
+    {
+      "sample_id": 289,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 1,
+        "hal_rate": 33.33
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 290,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 2,
+        "hal_rate": 66.67
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 291,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 1,
+        "hal_rate": 25.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 292,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 293,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 294,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 295,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 5,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 296,
+      "gold_domain": "CROSS",
+      "is_cross": true,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 297,
+      "gold_domain": "LAW",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "oracle_domain": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      },
+      "always_cross": {
+        "n_sents": 2,
+        "n_contra": 1,
+        "hal_rate": 50.0
+      },
+      "always_single_best": {
+        "n_sents": 1,
+        "n_contra": 1,
+        "hal_rate": 100.0
+      }
+    },
+    {
+      "sample_id": 298,
+      "gold_domain": "STEM",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_cross": {
+        "n_sents": 3,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    },
+    {
+      "sample_id": 299,
+      "gold_domain": "MED",
+      "is_cross": false,
+      "predicted": {
+        "n_sents": 6,
+        "n_contra": 1,
+        "hal_rate": 16.67
+      },
+      "oracle_domain": {
+        "n_sents": 4,
+        "n_contra": 2,
+        "hal_rate": 50.0
+      },
+      "always_cross": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      },
+      "always_single_best": {
+        "n_sents": 4,
+        "n_contra": 0,
+        "hal_rate": 0.0
+      }
+    }
+  ]
+}
