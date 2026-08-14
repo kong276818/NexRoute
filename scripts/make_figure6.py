@@ -1,7 +1,7 @@
 """make_figure6.py — Generate Figure 6 (NLI contradiction rate comparison).
 
 Reads source data from reinference_results/factscore_paper_per_sample_*.csv.
-Outputs figure6_revised.png/.pdf (300 dpi) and copies them to paper/.
+Outputs figure/figure6_revised.png/.pdf (300 dpi) and copies them to paper/.
 """
 
 from __future__ import annotations
@@ -15,7 +15,7 @@ import numpy as np
 import pandas as pd
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-ROOT = pathlib.Path(__file__).parent.resolve()
+ROOT = pathlib.Path(__file__).parent.parent.resolve()   # repo root (scripts/../)
 DATA_DIR = ROOT / "reinference_results"
 PAPER_DIR = ROOT / "paper"
 
@@ -231,8 +231,8 @@ if __name__ == "__main__":
 
     fig = make_figure(records)
 
-    out_png = ROOT / "figure6_revised.png"
-    out_pdf = ROOT / "figure6_revised.pdf"
+    out_png = ROOT / "figure" / "figure6_revised.png"
+    out_pdf = ROOT / "figure" / "figure6_revised.pdf"
     fig.savefig(out_png, dpi=300, bbox_inches="tight")
     fig.savefig(out_pdf, dpi=300, bbox_inches="tight")
     print(f"\nSaved: {out_png}")
