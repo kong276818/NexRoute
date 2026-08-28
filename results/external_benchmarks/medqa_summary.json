@@ -1,0 +1,19 @@
+{
+  "benchmark": "medqa",
+  "n_samples": 200,
+  "nexroute": {
+    "rouge_l": 0.04020237196105527,
+    "bert_score": 0.8233128190040588,
+    "accuracy": 0.25
+  },
+  "naive_rag": {
+    "rouge_l": 0.02945724004212054,
+    "bert_score": 0.813118577003479,
+    "accuracy": 0.28
+  },
+  "delta": {
+    "rouge_l": 0.010745131918934732,
+    "bert_score": 0.010194242000579834,
+    "accuracy": -0.030000000000000027
+  }
+}

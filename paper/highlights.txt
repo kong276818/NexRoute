@@ -1,0 +1,5 @@
+Oracle domain labels reduce ROUGE-L by 1.72 points versus predicted routing.
+Routing jointly selects evidence scope, LoRA adapter, and reasoning scaffold.
+Partition removal raises CROSS NLI contradiction rate by 3.20 points.
+Clean-300 CROSS ROUGE-L improves by at least 6.06 points over 7B baselines.
+NexRoute runs within 14.8 GB on a single GPU for on-premise deployment.

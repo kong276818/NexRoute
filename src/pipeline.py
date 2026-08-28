@@ -17,6 +17,9 @@ from sentence_transformers import SentenceTransformer
 # ── 설정 ────────────────────────────────────────
 BASE_MODEL       = "Qwen/Qwen2.5-7B-Instruct"
 LORA_DIR         = "/home/sclab/moe_model/lora_weights_7b_v3"
+# LAW v4: lora_law_v4가 있으면 우선 사용 (MCQ degeneration 수정 버전)
+_LAW_V4_PATH = os.path.join(LORA_DIR, "lora_law_v4")
+_LAW_ADAPTER = "lora_law_v4" if os.path.isdir(_LAW_V4_PATH) else "lora_law"
 DATA_DIR         = "/home/sclab/moe_model/processed_v2"
 EMBED_MODEL      = "intfloat/multilingual-e5-large"
 ROUTER_PATH      = "/home/sclab/moe_model/router_multilabel.pt"
@@ -202,7 +205,7 @@ class DualMoEPipeline:
             return
         print(f"[*] Switching LoRA → {domain}")
         lora_map = {
-            "LAW":   "lora_law",
+            "LAW":   _LAW_ADAPTER,
             "MED":   "lora_med",
             "STEM":  "lora_stem",
             "SOC":   "lora_soc",

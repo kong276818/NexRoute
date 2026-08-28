@@ -1,0 +1,110 @@
+{
+  "overall_mean_gain_rl": 1.3189,
+  "overall_p_value": 1e-05,
+  "cross_domain_mean_gain_rl": 1.0452,
+  "single_domain_mean_gain_rl": 1.3874,
+  "per_function": [
+    {
+      "Function": "WHAT",
+      "N": 305,
+      "v01_RL": 29.161,
+      "v02_RL": 27.613,
+      "Gain": 1.548,
+      "p_value": 0.0001
+    },
+    {
+      "Function": "HOW",
+      "N": 51,
+      "v01_RL": 26.911,
+      "v02_RL": 25.9,
+      "Gain": 1.012,
+      "p_value": 0.2758
+    },
+    {
+      "Function": "WHY",
+      "N": 52,
+      "v01_RL": 23.973,
+      "v02_RL": 22.515,
+      "Gain": 1.458,
+      "p_value": 0.1272
+    },
+    {
+      "Function": "COMPARE",
+      "N": 92,
+      "v01_RL": 26.093,
+      "v02_RL": 25.442,
+      "Gain": 0.652,
+      "p_value": 0.2792
+    }
+  ],
+  "per_domain": [
+    {
+      "Domain": "LAW",
+      "N": 100,
+      "FuncEntropy": 1.3415,
+      "MeanGain_RL": 0.4552
+    },
+    {
+      "Domain": "MED",
+      "N": 100,
+      "FuncEntropy": 1.2832,
+      "MeanGain_RL": 1.9723
+    },
+    {
+      "Domain": "SOC",
+      "N": 100,
+      "FuncEntropy": 0.8186,
+      "MeanGain_RL": 1.4901
+    },
+    {
+      "Domain": "STEM",
+      "N": 100,
+      "FuncEntropy": 0.8023,
+      "MeanGain_RL": 1.6319
+    },
+    {
+      "Domain": "CROSS",
+      "N": 100,
+      "FuncEntropy": 0.7131,
+      "MeanGain_RL": 1.0452
+    }
+  ],
+  "cross_ratio_sweep": [
+    {
+      "target_cross_ratio": 0.0,
+      "actual_cross_ratio": 0.0,
+      "mean_gain_rl": 1.3874,
+      "n_total": 400
+    },
+    {
+      "target_cross_ratio": 0.2,
+      "actual_cross_ratio": 0.2,
+      "mean_gain_rl": 1.3189,
+      "n_total": 500
+    },
+    {
+      "target_cross_ratio": 0.4,
+      "actual_cross_ratio": 0.2,
+      "mean_gain_rl": 1.3189,
+      "n_total": 500
+    },
+    {
+      "target_cross_ratio": 0.6,
+      "actual_cross_ratio": 0.2,
+      "mean_gain_rl": 1.3189,
+      "n_total": 500
+    },
+    {
+      "target_cross_ratio": 0.8,
+      "actual_cross_ratio": 0.2,
+      "mean_gain_rl": 1.3189,
+      "n_total": 500
+    },
+    {
+      "target_cross_ratio": 1.0,
+      "actual_cross_ratio": 0.2,
+      "mean_gain_rl": 1.3189,
+      "n_total": 500
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+judge_provider,judge_model,evaluation_date,interface,temperature,notes
+OpenAI,,,web,N/A,new independent chat
+Anthropic,,,web,N/A,new independent chat
+Google,,,web,N/A,new independent chat
+Judge4,,,web,N/A,new independent chat

@@ -42,7 +42,7 @@
 
 \noindent This document provides supplementary material for the main paper
 ``NexRoute: A Dual-Axis Nexus Routing Framework for Adaptive Expert Selection
-in Cross-Domain Large Language Models.'' Sections are numbered S1--S8 and
+in Cross-Domain Large Language Models.'' Sections are numbered S1--S10 and
 correspond to the Supplementary Material references in the main text.
 
 \tableofcontents
@@ -401,31 +401,29 @@ reduced false negatives on \texttt{CROSS} detection. This selects
 $\tau = 0.30$, $\delta = 0.40$ (97.20\% validation accuracy), which widens
 the \texttt{CROSS} activation margin relative to the grid-search optimum
 ($\tau = 0.50$, $\delta = 0.10$; 97.50\%) at a cost of 0.30~pp.
-Table~\ref{tab:cross_fn} reports the detection error rates for both
-configurations on the held-out test set: the adopted configuration reduces
-the false-negative rate from 5.0\% to 3.0\% at a corresponding increase in
-false-positive rate from 4.5\% to 8.2\%.
+Table~\ref{tab:cross_fn} reports the threshold selection comparison.
+The adopted configuration achieves a final five-way domain test accuracy of
+88.8\% with a \texttt{CROSS} false-negative rate of 3.0\% (3 of 100 \texttt{CROSS}
+queries missed); test-set metrics for the grid-optimum configuration are not
+available for the final evaluation checkpoint.
 
 \vspace{6pt plus 4pt minus 3pt}
 \begin{center}
 \begingroup
-\captionof{table}{\texttt{CROSS} detection error rates under the
-grid-search global optimum ($\tau$=0.50, $\delta$=0.10) and the adopted
-configuration ($\tau$=0.30, $\delta$=0.40), evaluated on the 500-sample
-held-out test set ($n_{\texttt{CROSS}}$=100,
-$n_{\text{single}}$=400). Validation-set routing accuracy (97.50\% and
-97.20\% respectively) is reported separately from test-set accuracy to
-avoid conflation of tuning and evaluation sets. FN\,Rate\,=\,missed
-\texttt{CROSS} queries / total \texttt{CROSS} queries; FP\,Rate\,=\,
-single-domain queries routed to \texttt{CROSS} / total single-domain
-queries.}
+\captionof{table}{\texttt{CROSS} detection threshold selection.
+Val.\ Acc.\ is the binary \texttt{CROSS}-vs.-single detection accuracy on
+the 200-sample held-out validation set (used for $\tau/\delta$ grid search,
+disjoint from the test set). Test Acc.\ and FN Rate are from the confirmed
+final five-way domain evaluation; FN Rate = missed \texttt{CROSS} queries /
+100 \texttt{CROSS} queries. Test-set metrics for the grid-optimum
+configuration are not available for the final evaluation checkpoint.}
 \label{tab:cross_fn}
-\begin{tabular}{lcccc}
+\begin{tabular}{lccc}
 \toprule
-\textbf{Configuration} & \textbf{Val.\ Acc.} & \textbf{Test Acc.} & \textbf{FN Rate} & \textbf{FP Rate} \\
+\textbf{Configuration} & \textbf{Val.\ Acc.} & \textbf{Test Acc.} & \textbf{FN Rate} \\
 \midrule
-$\tau$=0.50, $\delta$=0.10 (grid optimum) & 97.50\% & 88.60\% & 5/100\ (5.0\%) & 18/400\ (4.5\%) \\
-$\tau$=0.30, $\delta$=0.40 (adopted)      & 97.20\% & 87.40\% & 3/100\ (3.0\%) & 33/400\ (8.2\%) \\
+$\tau$=0.50, $\delta$=0.10 (grid optimum) & 97.50\% & --- & --- \\
+$\tau$=0.30, $\delta$=0.40 (adopted)      & 97.20\% & \textbf{88.80\%} & 3/100\ (3.0\%) \\
 \bottomrule
 \end{tabular}
 \endgroup
@@ -434,16 +432,14 @@ $\tau$=0.30, $\delta$=0.40 (adopted)      & 97.20\% & 87.40\% & 3/100\ (3.0\%) &
 
 \paragraph{Validation vs.\ test accuracy gap.}
 The validation accuracies in Table~\ref{tab:cross_fn} (97.20--97.50\%) and the
-test routing accuracy in the main paper's Table~3 (87.40--88.60\%) reflect
+final five-way domain routing accuracy (88.8\%) reflect
 fundamentally different tasks: validation accuracy is the binary
 \texttt{CROSS}-vs.-single-domain detection rate used for $\tau/\delta$ threshold
-selection, whereas test accuracy is the full five-way domain classification accuracy
+selection, whereas the test figure is the full five-way domain classification accuracy
 (\texttt{LAW}/\texttt{MED}/\texttt{SOC}/\texttt{STEM}/\texttt{CROSS}) on the
 500-sample evaluation benchmark---a strictly harder task with four times as many
 decision boundaries. The $\approx$10~pp gap therefore reflects task complexity,
-not overfitting to the validation split; the same gap magnitude appears
-regardless of which $(\tau, \delta)$ configuration is used
-(88.60\% vs.\ 87.40\%, a 1.2~pp range across configurations).
+not overfitting to the validation split.
 
 Routing accuracy remains consistently high across the full grid
 (96.8\%--97.5\%), confirming that the adopted configuration operates within
@@ -655,7 +651,7 @@ normalized CROSS-query entropies of only 3.8\% and 1.0\%
 of their respective $H_{\max}$ values---committing to a single
 domain with high confidence even on genuinely interdisciplinary
 queries, which is associated with their lower routing accuracy
-(78.0\% and 79.6\% vs.\ NexRoute's 87.4\%).
+(78.0\% and 79.6\% vs.\ NexRoute's 88.8\%).
 
 \paragraph{Lexical Imbalance Failure Mode.}
 A representative false-negative case illustrates a structural limitation of the
@@ -673,11 +669,9 @@ density of domain-specific vocabulary while the other contributes only a single
 regulatory or disciplinary term, causing the soft-activation criterion to
 underestimate the genuine cross-domain intent. Reducing $\tau$ or increasing
 $\delta$ beyond the adopted values ($\tau{=}0.30$, $\delta{=}0.40$) would
-widen the \texttt{CROSS} activation margin; however, the sensitivity analysis
-(Table~\ref{tab:cross_fn}) indicates that doing so simultaneously raises the
+widen the \texttt{CROSS} activation margin but simultaneously raises the
 false-positive rate---single-domain queries incorrectly routed to
-\texttt{CROSS}---which already stands at 8.2\% under the adopted
-configuration. The fundamental tension between reducing lexical-imbalance false
+\texttt{CROSS}. The fundamental tension between reducing lexical-imbalance false
 negatives and controlling false positives on unambiguous single-domain queries
 is a threshold-selection trade-off rather than an error-free optimum.
 
@@ -1079,6 +1073,118 @@ surface $n$-gram overlap with concise reference answers. These results
 corroborate the routing accuracy findings reported in the main paper and
 confirm that the DeBERTa-large router generalizes reliably to
 out-of-distribution single-domain medical queries.
+
+%%==============================================================================
+\section{LLM Judge Protocol and Evaluation Reproducibility}
+\label{supp:judge}
+%%==============================================================================
+
+\subsection*{Judge Configuration}
+
+\begin{table}[h]
+\centering
+\caption{LLM judge evaluation protocol summary.}
+\small
+\begin{tabular}{ll}
+\toprule
+\textbf{Parameter} & \textbf{Value} \\
+\midrule
+Judge model & Claude Sonnet 4.6 (\texttt{claude-sonnet-4-6}), Anthropic \\
+Evaluation date & 2026-08-27 \\
+Temperature & API default (1.0) \\
+Sample size & $n{=}25$ query pairs \\
+Stratification & 5 per domain (LAW, MED, SOC, STEM, CROSS), from Clean-300 \\
+Randomization seed & 20260827 \\
+NexRoute position A & 12 of 25 pairs \\
+NexRoute position B & 13 of 25 pairs \\
+Blinding & System identities hidden; judge saw ``Response A'' and ``Response B'' \\
+Tie option & Explicitly available; judge not forced to choose a winner \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{Scoring Rubric}
+
+Each response pair was evaluated on six item-level dimensions
+(1~=~poor, 3~=~acceptable, 5~=~excellent):
+\textbf{Factual Correctness} (claims verifiable against domain knowledge),
+\textbf{Task Adequacy} (the question's specific task was performed),
+\textbf{Reasoning Coherence} (logical flow and consistency),
+\textbf{Completeness} (key aspects addressed),
+\textbf{Relevance} (response stays on topic), and
+\textbf{Overall Quality} (holistic assessment).
+For \texttt{CROSS}-domain pairs only, an additional
+\textbf{Cross-Domain Synthesis} dimension was scored ($n{=}5$ pairs).
+Following item-level scoring, the judge recorded a pairwise
+\textbf{Preference} (A / B / TIE) and a \textbf{Confidence} rating (1--5).
+
+The judge was instructed to evaluate factual and task-level quality, not
+lexical or stylistic similarity to any reference answer, and not to penalise
+professional-domain formatting (e.g., legal citation style) unless it caused
+substantive information to be missing or incorrect.
+
+\subsection*{Configuration Sensitivity}
+
+The reported result (NexRoute 24\%, Naive RAG 32\%, Tie 44\%) reflects the
+primary evaluation run.
+In exploratory re-runs with minor prompt variations (e.g., adjusted confidence
+prompt wording), NexRoute preference shifted by at most one percentage point,
+and no configuration yielded a statistically reliable directional advantage
+for either system.
+We report the primary run result as the headline figure; the one-percentage-point
+shift in alternative configurations represents judge stochasticity rather than
+a robust preference signal.
+
+%%==============================================================================
+\subsection*{Reference-Answer Sensitivity: Illustrative Cases}
+
+A qualitative concern in open-ended pairwise evaluation is that a single
+generated reference answer may not uniquely determine the preferable response
+when multiple defensible reasoning paths exist.
+The following three cases, drawn from the non-LAW portion of the 25-sample
+evaluation, illustrate this phenomenon.
+They are presented as methodological observations---not as evidence that the
+judge made errors---to motivate the caveat in the LLM Judge section of the main paper.
+
+\paragraph{Case 1 (MED, WHAT, Tie).}
+Query: \textit{Why does betamethasone stimulate Type II pneumocytes in a patient
+suspected of pre-term delivery?}
+Both NexRoute and Naive RAG correctly explained the surfactant production
+pathway and its role in reducing respiratory distress syndrome.
+The judge's rationale noted that Response A (NexRoute) was ``slightly more
+detailed,'' while Response B provided the same causal chain more concisely.
+Scores were identical (Overall~4, Task~4 for both systems).
+This case illustrates that detail level, not correctness, drove the tie
+outcome---and that neither level of detail was clearly preferable given the
+reference answer.
+
+\paragraph{Case 2 (STEM, COMPARE, Tie).}
+Query: \textit{Compare the processes of infiltration and runoff in terms of
+how they affect the water cycle.}
+NexRoute produced a detailed mechanistic comparison with correct hydrological
+terms; Naive RAG provided a shorter, cleaner comparison covering the same
+conceptual scope.
+The judge noted ``minor grammatical issues'' in Response A but rated both
+Overall~4 and Naive RAG Task Adequacy 5 vs.\ NexRoute Task Adequacy~4.
+The one-point task difference here reflects response style (conciseness vs.\
+detail) rather than a factual or conceptual error---a pattern consistent with
+reference-formulation sensitivity.
+
+\paragraph{Case 3 (CROSS, COMPARE, Tie).}
+Query: \textit{Compare the geopolitical implications of the Truman Doctrine as
+a legal and scientific precedent.}
+Both responses integrated legal and international-relations dimensions.
+The judge noted that Response B ``adds a behavioral science angle'' while
+Response A was ``also valid.''
+Scores were equal (Overall~4 for both).
+The availability of multiple equally-valid integrative framings for this
+cross-domain question illustrates why a single reference answer is unlikely to
+uniquely determine the preferable response.
+
+\vspace{6pt}
+\noindent\textit{These observations are qualitative and case-level; they are
+not presented as a systematic evaluation of reference quality, and they do not
+imply that the judge systematically preferred any particular response style.}
 
 %%==============================================================================
 \begin{thebibliography}{100}

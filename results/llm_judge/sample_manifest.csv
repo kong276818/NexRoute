@@ -1,0 +1,26 @@
+sample_id,raw_sample_id,domain,function,is_cross,nexroute_position,query_preview
+S001,74,LAW,HOW,0,B,How might a court determine whether a police chase resulting in a fatal accident
+S002,198,LAW,WHY,0,A,How might a court determine whether state common-law claims seeking relief ident
+S003,208,LAW,WHAT,0,B,What legal principle does the War Crimes Act of 1996 seek to enforce through its
+S004,217,LAW,HOW,0,A,Why does the court in Happ v. State hold that the requirements of Rule 252 apply
+S005,259,LAW,COMPARE,0,A,Compare the requirements for establishing a claim under the Uniform Trade Practi
+S006,3,MED,COMPARE,0,A,Compare the evidence for progressive structural brain abnormalities in schizophr
+S007,69,MED,WHAT,0,B,Why does betamethasone stimulate Type II pneumocytes in a patient suspected of p
+S008,134,MED,HOW,1,A,How would the catheter be navigated during a coil embolization procedure to reac
+S009,165,MED,WHAT,0,A,Why would hormone B utilize the adenylyl cyclase-cyclic AMP second messenger sys
+S010,194,MED,HOW,1,B,How might the abnormal expression of the homeobox gene lead to the clinical pres
+S011,12,SOC,WHAT,1,B,What cultural and ecological significance does the kiwi hold as New Zealand's na
+S012,119,SOC,COMPARE,1,B,Compare the characteristics and purposes of a public amphitheatre located in a c
+S013,124,SOC,WHAT,0,A,What is the diaphragm and what role does it play in the respiratory system?
+S014,157,SOC,WHAT,0,A,Why might an investor who insists on spending money from a client's account be c
+S015,193,SOC,WHAT,0,B,Why would someone consider getting an organ from a music store instead of other 
+S016,15,STEM,COMPARE,0,A,Compare the processes of infiltration and runoff in terms of how they affect the
+S017,50,STEM,WHAT,0,A,How does water on the ground transition from its liquid state to become water va
+S018,65,STEM,WHAT,0,B,"Why do plant cells have larger vacuoles compared to animal cells, and what is th"
+S019,77,STEM,WHAT,0,B,Why would a powered toaster pose the worst consequences if accidentally placed i
+S020,218,STEM,WHAT,0,A,"How does the formation of the penumbra occur during an eclipse, and what role do"
+S021,14,CROSS,WHAT,1,B,How might the integration of advanced genetic engineering techniques in agricult
+S022,16,CROSS,WHAT,0,B,WHAT social and medical factors contribute to the least frequent phase of retire
+S023,53,CROSS,WHAT,1,B,"Why did the Chinese, despite inventing gunpowder, fail to lead in the innovation"
+S024,145,CROSS,HOW,1,A,Why might a combination of orteronel and prednisone be more effective than a pla
+S025,179,CROSS,COMPARE,1,B,Compare the geopolitical implications of the Truman Doctrine as a legal and scie
