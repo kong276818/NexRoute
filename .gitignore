@@ -52,6 +52,9 @@ datasets/
 # Jupyter
 .ipynb_checkpoints/
 
+# Paper (not included in code release)
+paper/
+
 # LaTeX build artifacts
 *.aux
 *.bbl
@@ -59,7 +62,6 @@ datasets/
 *.out
 *.abs
 *.toc
-paper/thumbnails/
 
 # Large cache / wrong-run data
 results/ablation/kb_cache/
