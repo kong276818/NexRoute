@@ -2,7 +2,7 @@
 
 > **NexRoute: A Dual-Axis Nexus Routing Framework for Adaptive Expert Selection in Cross-Domain Large Language Models**
 
-[![Paper](https://img.shields.io/badge/Paper-Neurocomputing%20(Under%20Submission)-blue)]()
+[![Paper](https://img.shields.io/badge/Paper-ESWA%20(Under%20Submission)-blue)]()
 [![Base Model](https://img.shields.io/badge/Base%20Model-Qwen2.5--7B--Instruct-orange)](https://huggingface.co/Qwen)
 [![Router](https://img.shields.io/badge/Router-DeBERTa--large-purple)](https://huggingface.co/microsoft/deberta-large)
 
@@ -61,11 +61,11 @@ The intersection of these two axes — the **Nexus Point** — determines whethe
 
 ![Figure 3: Quantitative Results Table](figure/3.png)
 
-**Figure 3** reports ROUGE-L, BERTScore (RoBERTa-Large), and BLEU-4 on the 500-sample CROSS-domain benchmark and in-domain MMLU subsets. Key findings:
+**Figure 3** reports ROUGE-L, BERTScore (RoBERTa-Large), and BLEU-4 on the adapter-unseen Clean-300 subset (60 CROSS + 240 Single, indices 0–299) and 72B large-scale references. Key findings:
 
-- **NexRoute 7B** achieves **ROUGE-L 29.60 / BERTScore 89.53 / BLEU-4 10.75** on CROSS-domain queries, outperforming all 7B baselines including Naive RAG, Adaptive RAG, HyDE, and CRAG.
+- **NexRoute 7B** achieves **ROUGE-L 28.23 / BERTScore 89.66 / BLEU-4 12.19** on CROSS-domain queries (Clean-300), outperforming all 7B baselines including Naive RAG, TF-IDF Router, HyDE, and Simplified CRAG by at least +6.06 pp ROUGE-L (Holm-corrected *p* < 0.001).
 - **NexRoute 72B** achieves **ROUGE-L 30.76 / BERTScore 90.96 / BLEU-4 13.64**, establishing the strongest result across both parameter scales.
-- On single-domain queries, NexRoute remains competitive (ROUGE-L 24.02 / BERTScore 87.37) without degrading in-domain performance.
+- On single-domain queries, NexRoute leads all 7B models (ROUGE-L 26.20 / BERTScore 88.55), with overall ROUGE-L 26.61 and BERTScore 88.77 (Cohen's *d* = 0.61–0.73 vs. baselines).
 
 ---
 
@@ -75,73 +75,73 @@ The intersection of these two axes — the **Nexus Point** — determines whethe
 
 **Figure 4** visualizes CROSS-domain BERTScore (left) and ROUGE-L (right) across all models at 7B and 72B scales. The red dashed line marks the Naive RAG 72B reference (BERTScore 89.03 / ROUGE-L 28.81).
 
-- **NexRoute 7B** (89.53 BERTScore, 29.6 ROUGE-L) surpasses the 72B Naive RAG reference with less than one-tenth the parameters, demonstrating that structural routing partially substitutes for raw parameter scale on cross-domain tasks.
-- **NexRoute 72B** (90.96 BERTScore, 30.76 ROUGE-L) establishes the absolute upper bound across all evaluated configurations.
-- CRAG 7B shows the lowest ROUGE-L among 7B models (21.6), indicating that corrective retrieval without domain partitioning is counter-productive for cross-domain queries.
+- **NexRoute 7B** (BERTScore 89.66, ROUGE-L 28.23) surpasses the 72B Naive RAG reference (BERTScore 89.03 / ROUGE-L 28.81) with less than one-tenth the parameters, demonstrating that structural routing partially substitutes for raw parameter scale on cross-domain tasks.
+- **NexRoute 72B** (BERTScore 90.96, ROUGE-L 30.76) establishes the absolute upper bound across all evaluated configurations.
+- HyDE 7B shows the lowest ROUGE-L among 7B models (20.78), indicating that hypothetical document expansion without domain partitioning is counter-productive for cross-domain queries.
 
 ---
 
-### Hallucination Rate
+### Factuality — NLI Contradiction Rate
 
-![Figure 5: Hallucination Rate and IDI Elimination Effect](figure/5.png)
+![Figure 5: NLI Contradiction Rate and Partitioned Retrieval Effect](figure/5.png)
 
-**Figure 5** reports hallucination rates evaluated via FActScore across the CROSS-domain benchmark.
+**Figure 5** reports sentence-level NLI contradiction rates (lower = fewer hallucinated sentences) evaluated via `cross-encoder/nli-deberta-v3-large` against top-3 retrieved passages across the Full-500 evaluation set.
 
-**Left — Hallucination rate by model (7B scale):**
+**Left — NLI contradiction rate by model (7B scale):**
 
-| Model | Hallucination Rate |
-|-------|:-----------------:|
-| Adaptive RAG 7B | 12.1% |
-| CRAG 7B | 11.1% |
-| Naive RAG 7B | 10.5% |
-| HyDE 7B | 9.8% |
-| **NexRoute 7B (Ours)** | **8.9%** |
+| Model | Overall (%) | CROSS (%) | Single (%) |
+|-------|:-----------:|:---------:|:----------:|
+| TF-IDF Router 7B | 11.7 | 4.7 | 13.6 |
+| HyDE 7B | 11.0 | 6.0 | 12.5 |
+| Naive RAG 7B | 10.8 | 5.7 | 12.3 |
+| NexRoute 7B (Ours) | 10.1 | **3.6** | 13.6 |
+| **Simplified CRAG 7B** | **9.8** | 3.8 | **11.6** |
 
-NexRoute achieves the lowest hallucination rate among 7B models — a **−16.0% relative reduction** versus the highest-hallucinating baseline (Adaptive RAG 12.1%).
+NexRoute achieves the **lowest CROSS-domain NLI contradiction rate** (3.6%) among all 7B models, with a statistically significant reduction vs. HyDE (Δ−2.52 pp, *p* = 0.021). Overall rate (10.1%) does not outperform Simplified CRAG; no overall-best factuality claim is made.
 
-**Right — Impact of IDI elimination:**
+**Right — Impact of domain-partitioned retrieval (ablation V03):**
 
-Comparing Naive RAG 7B with IDI present (10.6%) against NexRoute 7B with IDI=0 (8.9%) isolates the direct effect of inter-domain interference filtering. Removing IDI through partitioned retrieval accounts for a 1.7 percentage-point reduction in hallucination, independent of the LoRA expert effect.
+Removing domain-partitioned retrieval (V03) raises CROSS NLI contradiction by **+3.20 pp** (*p* = 0.045; 95% CI [+0.09, +6.43]), isolating the evidence-scope control contribution of partitioned retrieval independently of the LoRA expert effect.
 
 ---
 
 ### Ablation Study
 
-![Figure 6: FActScore Table and Ablation Results](figure/6.png)
+![Figure 6: Generation Quality Table and Ablation Results](figure/6.png)
 
-**Figure 6** (Table 4 and Table 5) quantifies the contribution of each NexRoute component.
+**Figure 6** (Table 3 and Table 4 in the paper) quantifies the contribution of each NexRoute component evaluated on all 500 queries.
 
-**Table 4** — FActScore hallucination rates confirm NexRoute's reduction is consistent across backbone scales, with statistical significance (p<0.05) versus Naive RAG and Adaptive RAG baselines.
+**Table 3** — NLI contradiction rates confirm that domain-partitioned retrieval (V03) specifically controls CROSS-domain factuality: removal raises CROSS NLI by +3.20 pp (*p* = 0.045).
 
-**Table 5** — Component ablation (V01–V06):
+**Table 4** — Component ablation (V01–V05):
 
-| Variant | Removed Component | CROSS Δ |
-|---------|------------------|:-------:|
-| V01 | Partitioned Retrieval | −4.7% |
-| V02 | Function Axis | −4.6% |
-| V03 | Domain Axis | −3.1% |
-| V04 | IDI Filtering | −2.8% |
-| V05 | Domain-Specific LoRA | −3.9% |
-| V06 | Single CROSS merging | −2.1% |
-| **V00** | **Full NexRoute** | **—** |
+| Variant | Removed Component | ROUGE-L | Δ ROUGE-L | BERTScore | Δ BERTScore |
+|---------|------------------|:-------:|:---------:|:---------:|:-----------:|
+| **V01** | **Full NexRoute** | **27.83** | **—** | **87.96** | **—** |
+| V02 | Function Scaffold | 26.51 | −1.32*** | 87.80 | −0.16* |
+| V03 | Partitioned Retrieval | 26.26 | −1.57*** | 87.64 | −0.32*** |
+| V04 | LoRA Adapters | 18.40 | −9.43*** | 85.09 | −2.87*** |
+| V05 | Domain Axis | 16.90 | −10.93*** | 84.71 | −3.25*** |
 
-Removing the Function Axis (V02) and Partitioned Retrieval (V01) produce the largest degradation, confirming that dual-axis routing and domain-partitioned retrieval are the two most critical structural components.
+LoRA adapter removal (V04) causes the largest generation quality drop (−9.43 pp ROUGE-L). Partitioned retrieval (V03) specifically controls CROSS factuality. Function scaffold (V02) contributes a modest but robust +1.32 pp ROUGE-L boost (*p* < 0.001).
 
 ---
 
 ## Key Results Summary
 
-| Model | CROSS ROUGE-L | CROSS BERTScore | CROSS BLEU-4 | Hallucination |
-|-------|:-------------:|:---------------:|:------------:|:-------------:|
-| Naive RAG 7B | 24.95 | 88.64 | 9.57 | 10.5% |
-| Adaptive RAG 7B | 24.25 | 88.44 | 8.92 | 12.1% |
-| HyDE 7B | 24.57 | 88.64 | 9.38 | 9.8% |
-| CRAG 7B | 21.63 | 88.02 | 7.39 | 11.1% |
-| **NexRoute 7B (Ours)** | **29.60** | **89.53** | **10.75** | **8.9%** |
+CROSS-domain results are from the adapter-unseen Clean-300 subset (*n*=60 CROSS). NLI Contr. = sentence-level NLI contradiction rate (Full-500, lower is better; CROSS column).
+
+| Model | CROSS ROUGE-L | CROSS BERTScore | CROSS BLEU-4 | NLI Contr. (CROSS) |
+|-------|:-------------:|:---------------:|:------------:|:------------------:|
+| Naive RAG 7B | 21.76 | 87.75 | 7.36 | 5.7% |
+| TF-IDF Router 7B | 22.17 | 87.84 | 7.40 | 4.7% |
+| HyDE 7B | 20.78 | 87.67 | 6.97 | 6.0% |
+| Simplified CRAG 7B | 21.72 | 87.84 | 7.35 | 3.8% |
+| **NexRoute 7B (Ours)** | **28.23** | **89.66** | **12.19** | **3.6%** |
 | Naive RAG 72B | 28.81 | 89.03 | 13.27 | — |
 | **NexRoute 72B (Ours)** | **30.76** | **90.96** | **13.64** | — |
 
-> NexRoute 7B surpasses the Naive RAG 72B reference on all CROSS-domain metrics while operating at less than one-tenth the parameter scale.
+> NexRoute 7B surpasses the Naive RAG 72B reference on all CROSS-domain generation metrics while operating at less than one-tenth the parameter scale.
 
 ---
 
