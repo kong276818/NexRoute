@@ -2,10 +2,6 @@
 
 > **NexRoute: A Dual-Axis Nexus Routing Framework for Adaptive Expert Selection in Cross-Domain Large Language Models**
 
-[![Paper](https://img.shields.io/badge/Paper-ESWA%20(Under%20Submission)-blue)]()
-[![Base Model](https://img.shields.io/badge/Base%20Model-Qwen2.5--7B--Instruct-orange)](https://huggingface.co/Qwen)
-[![Router](https://img.shields.io/badge/Router-DeBERTa--large-purple)](https://huggingface.co/microsoft/deberta-large)
-
 ---
 
 ## Overview
